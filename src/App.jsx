@@ -1,12 +1,15 @@
-import { useState } from 'react'
-import Navbar from './components/Navbar';
+import Home from './components/Home'
+import { Routes, Route } from 'react-router-dom'
+import Nomatch from './components/Nomatch'
 
 function App() {
-
   return (
-    <>
-    <Navbar />
-    </>
+    <Routes>
+      <Route path="/" element={<Home />} />
+
+
+     /* <Route path="*" element ={<Nomatch />}/> */
+    </Routes>
   )
 }
 

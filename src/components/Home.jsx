@@ -4,6 +4,7 @@ import SecondaryNavbar from './SecondaryNavbar'
 import DesignedLinks from './DesignedLinks'
 import DownloadApp from './DownloadApp'
 import CalculateBenefit from './CalculateBenefit'
+import Footer from './Footer'
 
 const Home = () => {
   return (
@@ -13,6 +14,8 @@ const Home = () => {
       <DesignedLinks />
       <DownloadApp />
       <CalculateBenefit />
+      <Footer />
+
     </>
   )
 }

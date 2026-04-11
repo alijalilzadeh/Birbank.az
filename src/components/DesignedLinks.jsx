@@ -7,7 +7,7 @@ import Birbankcashback from '../assets/Cards/birbankcashback.webp'
 const DesignedLinks = () => {
   return (
     <>
-      <div className="flex items-center justify-center w-full ">
+      <div className="flex items-center justify-center w-full  selection:bg-[#B3D4FC] ">
         <div className="flex items-center justify-center w-[75%] bg-[#f3f3f5] rounded-[12px] p-[24px]">
           <div className="grid grid-cols-6  gap-6  w-full items-center ">
             <div className="col-span-3 row-span-3 bg-white rounded-[10px] w-full h-[180px] transition duration-300 hover:shadow-[0_6px_20px_0_rgba(19,22,60,0.06)] cursor-pointer">

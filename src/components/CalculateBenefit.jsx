@@ -30,7 +30,7 @@ const CalculateBenefit = () => {
   }, [amount, percent, time]);
   return (
     <>
-      <div className="flex items-center justify-center w-full my-[24px]">
+      <div className="flex items-center justify-center w-full my-[24px] selection:bg-[#B3D4FC]">
         <div className="flex flex-col gap-[32px] w-[75%]">
           <div className="flex items-center justify-between w-full">
             <h2 className='text-[30px] text-[#222222] font-[550]'>Faydasını hesabla</h2>

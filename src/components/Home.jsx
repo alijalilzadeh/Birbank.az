@@ -8,6 +8,7 @@ import Footer from './Footer'
 import LinkToCards from './LinkToCards'
 import Credits from './Credits'
 import HomeNews from './HomeNews'
+import Services from './Services'
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
         <LinkToCards />
         <Credits />
         <HomeNews />
+        <Services />
         <Footer />
     </>
   )

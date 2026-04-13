@@ -13,8 +13,8 @@
                 }
             },
             {
-                "buy": 0.0199,
-                "sell": 0.0229,
+                "buy": 1.9901,
+                "sell": 2.2902,
                 "type": "CASH",
                 "currency": {
                     "num": 643,
@@ -68,8 +68,8 @@
                 }
             },
             {
-                "buy": 0.021931,
-                "sell": 0.021931,
+                "buy": 	2.1931,
+                "sell": 2.1931,
                 "type": "CENTRAL_BANK",
                 "currency": {
                     "num": 643,
@@ -145,8 +145,8 @@
                 }
             },
             {
-                "buy": 1.7,
-                "sell": 1.7,
+                "buy": 1.7001,
+                "sell": 1.7001,
                 "type": "CENTRAL_BANK",
                 "currency": {
                     "num": 840,
@@ -167,8 +167,8 @@
                 }
             },
             {
-                "buy": 1.697,
-                "sell": 1.702,
+                "buy": 1.6971,
+                "sell": 1.7021,
                 "type": "CASH",
                 "currency": {
                     "num": 840,
@@ -190,7 +190,7 @@
             },
             {
                 "buy": 1.699,
-                "sell": 1.72,
+                "sell": 1.7201,
                 "type": "NON_CASH",
                 "currency": {
                     "num": 840,
@@ -211,7 +211,7 @@
                 }
             },
             {
-                "buy": 0.0173,
+                "buy": 1.7302,
                 "sell": 0.0255,
                 "type": "NON_CASH",
                 "currency": {
@@ -3165,9 +3165,9 @@
                     {
                         "id": 2,
                         "cur": "840",
-                        "buy": "1.6970",
+                        "buy": "1.6971",
                         "bP": "0",
-                        "sell": "1.7020",
+                        "sell": "1.7021",
                         "sP": "0",
                         "code": "USD",
                         "curId": 840,
@@ -4687,8 +4687,8 @@
                         }
                     },
                     {
-                        "buy": 0.0199,
-                        "sell": 0.0229,
+                        "buy": 1.9900,
+                        "sell": 2.2900,
                         "type": "CASH",
                         "currency": {
                             "num": 643,
@@ -4841,8 +4841,8 @@
                         }
                     },
                     {
-                        "buy": 1.697,
-                        "sell": 1.702,
+                        "buy": 1.6971,
+                        "sell": 1.7021,
                         "type": "CASH",
                         "currency": {
                             "num": 840,
@@ -4864,7 +4864,7 @@
                     },
                     {
                         "buy": 1.699,
-                        "sell": 1.72,
+                        "sell": 1.7201,
                         "type": "NON_CASH",
                         "currency": {
                             "num": 840,

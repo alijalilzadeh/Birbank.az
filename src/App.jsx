@@ -3,7 +3,7 @@ import { Routes, Route } from 'react-router-dom'
 import Nomatch from './components/Nomatch'
 import News from './components/News'
 import Footer from './components/Footer'
-import Cards from './Cards'
+import Cards from './components/Cards'
 import CurrencyRates from './components/CurrencyRates'
 import HowTo from './components/HowTo'
 function App() {

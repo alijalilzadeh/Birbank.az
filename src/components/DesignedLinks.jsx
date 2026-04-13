@@ -1,5 +1,5 @@
 import React from 'react'
-import BirbankStar from '../assets/Cards/birbank-star.webp'
+import BirbankStar from '../assets/Cards/birbank-star-multiple.webp'
 import CashCredit from '../assets/Cards/nagd-pul-krediti.webp'
 import Istiqraz from '../assets/Cards/istiqraz.webp'
 import Depozit from '../assets/Cards/depozit.webp'

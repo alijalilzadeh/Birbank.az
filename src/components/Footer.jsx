@@ -15,12 +15,14 @@ const Footer = () => {
         <div className="w-[75%] ">
           <div className="flex items-start  py-[40px] justify-between gap-12 border-b-2 border-b-[#3B3F43]">
             <div>
-              <img src={BirbankLogo} className="w-[220px]" />
+              <Link to="/">
+                <img src={BirbankLogo} className="w-[220px]" />
+              </Link>
             </div>
 
             <div className="grid grid-cols-3 gap-10 flex-1">
               <div className="flex flex-col gap-3">
-                <Link className="text-white text-[16px] hover:underline">Kartlar</Link>
+                <Link to="/cards/all" className="text-white text-[16px] hover:underline">Kartlar</Link>
                 <Link className="text-white text-[16px] hover:underline">Avtomobil krediti</Link>
                 <Link className="text-white text-[16px] hover:underline">Xəbər</Link>
                 <Link className="text-white text-[16px] hover:underline">Ninja</Link>
@@ -69,18 +71,18 @@ const Footer = () => {
             </div>
           </div>
           <div className="flex items-center justify-between w-full py-[16px]">
-              <span className='text-[12px] text-white'>© 2026 «Kapital Bank» ASC. Bütün hüquqlar qorunur.</span>
-              <div className="flex gap-6 items-center justify-center">
-                <Link className='text-[12px] text-white underline font-normal'>Məxfilik sənədi</Link>
-                <p className='flex gap-2 items-center justify-center'>
-                  <img src={PhoneLogo} className='w-[20px] object-fit' />
-                  <span className='text-[24px] text-[#EC3432] font-bold'>196</span>
-                </p>
-                <Link to="https://www.facebook.com/birbank"><FaFacebook className='text-[24px] text-white'/></Link>
-                <Link to="https://www.instagram.com/birbank.az/"><FaInstagram className='text-[24px] text-white'/></Link>
-                <Link to="https://www.youtube.com/channel/UC1p5TDF6qfzUm4sPqSYSGUA"> <FaYoutube className='text-[24px] text-white'/></Link>
-               
-              </div>
+            <span className='text-[12px] text-white'>© 2026 «Kapital Bank» ASC. Bütün hüquqlar qorunur.</span>
+            <div className="flex gap-6 items-center justify-center">
+              <Link className='text-[12px] text-white underline font-normal'>Məxfilik sənədi</Link>
+              <p className='flex gap-2 items-center justify-center'>
+                <img src={PhoneLogo} className='w-[20px] object-fit' />
+                <span className='text-[24px] text-[#EC3432] font-bold'>196</span>
+              </p>
+              <Link to="https://www.facebook.com/birbank"><FaFacebook className='text-[24px] text-white' /></Link>
+              <Link to="https://www.instagram.com/birbank.az/"><FaInstagram className='text-[24px] text-white' /></Link>
+              <Link to="https://www.youtube.com/channel/UC1p5TDF6qfzUm4sPqSYSGUA"> <FaYoutube className='text-[24px] text-white' /></Link>
+
+            </div>
           </div>
         </div>
       </div>

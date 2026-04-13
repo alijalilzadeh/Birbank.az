@@ -1,18 +1,18 @@
 import React from 'react'
 import Navbar from './Navbar'
 import SecondaryNavbar from './SecondaryNavbar'
-import HowToPage from './HowToPage'
+import CardsBlock from './CardsBlock'
 import Footer from './Footer'
 
-const HowTo = () => {
+const Cards = () => {
   return (
     <>
-      <Navbar />
-      <SecondaryNavbar />
-      <HowToPage />
-      <Footer />
+     <Navbar />
+     <SecondaryNavbar />
+     <CardsBlock />
+     <Footer />
     </>
   )
 }
 
-export default HowTo
+export default Cards

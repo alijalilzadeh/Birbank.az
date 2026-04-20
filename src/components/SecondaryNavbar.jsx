@@ -10,14 +10,14 @@ const SecondaryNavbar = () => {
             <img src={BirbankLogo} className='w-[120px]  object-cover' />
           </Link>
           <div className="flex gap-5 items-center justify-center">
-            <NavLink to="cards/all" className={'text-[14px] border-b-2 border-transparent hover:border-[#EC3342] text-[#9496AC] font-normal'}>Kartlar</NavLink>
+            <NavLink to="/cards/all" className={'text-[14px] border-b-2 border-transparent hover:border-[#EC3342] text-[#9496AC] font-normal'}>Kartlar</NavLink>
             <NavLink className={'text-[14px] border-b-2 border-transparent hover:border-[#EC3342] text-[#9496AC] font-normal'}>Kreditlər</NavLink>
             <NavLink className={'text-[14px] border-b-2 border-transparent hover:border-[#EC3342] text-[#9496AC] font-normal'}>Əmanətlər</NavLink>
             <NavLink className={'text-[14px] border-b-2 border-transparent hover:border-[#EC3342] text-[#9496AC] font-normal'}>İstiqraz</NavLink>
             <NavLink className={'text-[14px] border-b-2 border-transparent hover:border-[#EC3342] text-[#9496AC] font-normal'}>Pul köçürmələri</NavLink>
             <NavLink className={'text-[14px] border-b-2 border-transparent hover:border-[#EC3342] text-[#9496AC] font-normal'}>Partnyorlar</NavLink>
             <NavLink className={'text-[14px] border-b-2 border-transparent hover:border-[#EC3342] text-[#9496AC] font-normal'}>Kampaniyalar</NavLink>
-            <NavLink className={'text-[14px] border-b-2 border-transparent hover:border-[#EC3342] text-[#9496AC] font-normal'}>Xəbərlər</NavLink>
+            <NavLink to='/news' className={'text-[14px] border-b-2 border-transparent hover:border-[#EC3342] text-[#9496AC] font-normal'}>Xəbərlər</NavLink>
           </div>
         </div>
       </div>

@@ -1,9 +1,9 @@
- {
+{
     "pageProps": {
         "data": [
             {
-                "buy": 2.2368,
-                "sell": 2.3418,
+                "buy": 2.2538,
+                "sell": 2.3588,
                 "type": "NON_CASH",
                 "currency": {
                     "num": 826,
@@ -13,8 +13,8 @@
                 }
             },
             {
-                "buy": 1.9901,
-                "sell": 2.2902,
+                "buy": 0.0203,
+                "sell": 0.0233,
                 "type": "CASH",
                 "currency": {
                     "num": 643,
@@ -24,8 +24,8 @@
                 }
             },
             {
-                "buy": 2.2818,
-                "sell": 2.2818,
+                "buy": 2.2988,
+                "sell": 2.2988,
                 "type": "CENTRAL_BANK",
                 "currency": {
                     "num": 826,
@@ -35,8 +35,8 @@
                 }
             },
             {
-                "buy": 0.0281,
-                "sell": 0.0401,
+                "buy": 0.0279,
+                "sell": 0.0399,
                 "type": "CASH",
                 "currency": {
                     "num": 949,
@@ -46,8 +46,8 @@
                 }
             },
             {
-                "buy": 2.1209,
-                "sell": 2.1909,
+                "buy": 2.1402,
+                "sell": 2.2102,
                 "type": "CASH",
                 "currency": {
                     "num": 756,
@@ -57,8 +57,8 @@
                 }
             },
             {
-                "buy": 2.2368,
-                "sell": 2.3068,
+                "buy": 2.2538,
+                "sell": 2.3238,
                 "type": "CASH",
                 "currency": {
                     "num": 826,
@@ -68,8 +68,8 @@
                 }
             },
             {
-                "buy": 	2.1931,
-                "sell": 2.1931,
+                "buy": 0.022257,
+                "sell": 0.022257,
                 "type": "CENTRAL_BANK",
                 "currency": {
                     "num": 643,
@@ -79,8 +79,8 @@
                 }
             },
             {
-                "buy": 0.0381,
-                "sell": 0.0381,
+                "buy": 0.0379,
+                "sell": 0.0379,
                 "type": "CENTRAL_BANK",
                 "currency": {
                     "num": 949,
@@ -90,8 +90,8 @@
                 }
             },
             {
-                "buy": 2.1509,
-                "sell": 2.1509,
+                "buy": 2.1702,
+                "sell": 2.1702,
                 "type": "CENTRAL_BANK",
                 "currency": {
                     "num": 756,
@@ -145,8 +145,8 @@
                 }
             },
             {
-                "buy": 1.7001,
-                "sell": 1.7001,
+                "buy": 1.7,
+                "sell": 1.7,
                 "type": "CENTRAL_BANK",
                 "currency": {
                     "num": 840,
@@ -156,8 +156,8 @@
                 }
             },
             {
-                "buy": 1.9877,
-                "sell": 1.9877,
+                "buy": 2.003,
+                "sell": 2.003,
                 "type": "CENTRAL_BANK",
                 "currency": {
                     "num": 978,
@@ -167,8 +167,8 @@
                 }
             },
             {
-                "buy": 1.6971,
-                "sell": 1.7021,
+                "buy": 1.697,
+                "sell": 1.702,
                 "type": "CASH",
                 "currency": {
                     "num": 840,
@@ -178,8 +178,8 @@
                 }
             },
             {
-                "buy": 1.9627,
-                "sell": 2.0127,
+                "buy": 1.978,
+                "sell": 2.028,
                 "type": "CASH",
                 "currency": {
                     "num": 978,
@@ -190,7 +190,7 @@
             },
             {
                 "buy": 1.699,
-                "sell": 1.7201,
+                "sell": 1.72,
                 "type": "NON_CASH",
                 "currency": {
                     "num": 840,
@@ -200,8 +200,8 @@
                 }
             },
             {
-                "buy": 1.9427,
-                "sell": 2.0777,
+                "buy": 1.958,
+                "sell": 2.093,
                 "type": "NON_CASH",
                 "currency": {
                     "num": 978,
@@ -211,8 +211,8 @@
                 }
             },
             {
-                "buy": 1.7302,
-                "sell": 0.0255,
+                "buy": 0.0177,
+                "sell": 0.0259,
                 "type": "NON_CASH",
                 "currency": {
                     "num": 643,
@@ -222,8 +222,8 @@
                 }
             },
             {
-                "buy": 0.0249,
-                "sell": 0.0471,
+                "buy": 0.0247,
+                "sell": 0.0469,
                 "type": "NON_CASH",
                 "currency": {
                     "num": 949,
@@ -233,8 +233,8 @@
                 }
             },
             {
-                "buy": 2.1009,
-                "sell": 2.2109,
+                "buy": 2.1202,
+                "sell": 2.2302,
                 "type": "NON_CASH",
                 "currency": {
                     "num": 756,
@@ -491,10 +491,16 @@
                 "totalInterestIncome": "Ümumi faiz gəliri",
                 "amountAZN": "Məbləğ (AZN)",
                 "amountUSD": "Məbləğ (USD)",
+                "depositCurrencyTitle": "Depoziti hansı valyutada yerləşdirəcəksən?",
+                "amountRange": "Məbləğ aralığı",
+                "calcTierLow": "5 000 {currency}-ə qədər",
+                "calcTierHigh": "5 000 {currency}-dən çox",
                 "calculatorInfoText": "Hesablama zamanı faiz gəlirindən 10% vergi ilə bağlı şərtlər nəzərə alınmayıb.",
+                "offer": "Təklif",
                 "retryAgainPlease": "Xəta baş verdi, zəhmət olmasa yenidən cəhd edin.",
                 "required": "Bu xana mütləq doldurulmalıdır",
-                "phoneNumberError": "Nömrə tam daxil edilməyib"
+                "phoneNumberError": "Nömrə tam daxil edilməyib",
+                "interestRate": "Faiz dərəcəsi"
             },
             "bond": {
                 "title": "İstiqraz",
@@ -796,6 +802,64 @@
                 "share": "Paylaş",
                 "similarBlogs": "Oxşar mətnlər",
                 "more": "Daha çox"
+            },
+            "onlineQueue": {
+                "pageTitle": "Onlayn növbə",
+                "bannerTitle": "Onlayn növbə",
+                "bannerDescription": "Fiziki şəxslər üçün onlayn növbə",
+                "metaTitle": "Onlayn növbə | Birbank",
+                "metaDescription": "Fiziki şəxslər üçün onlayn növbə",
+                "newReservation": "Yeni rezervasiya",
+                "reservationCancel": "Rezervasiyanın ləğvi",
+                "branch": "Filial",
+                "serviceType": "Xidmət növü",
+                "dateAndTime": "Tarix və saat",
+                "date": "Tarix",
+                "time": "Saat",
+                "calPrevMonth": "Əvvəlki ay",
+                "calNextMonth": "Növbəti ay",
+                "timeScrollUp": "Əvvəlki saatlar",
+                "bookQueue": "Növbə götür",
+                "cancelQueue": "Rezervasiyanı ləğv edin",
+                "cancelCodePlaceholder": "Rezervasiya kodunu daxil edin",
+                "cancelSuccess": "Rezervasiya uğurla ləğv edildi.",
+                "cancelTooClose": "Rezervasiya vaxtı çox yaxın olduğundan ləğv etmək mümkün deyil.",
+                "cancelError": "Xəta baş verdi. Yenidən cəhd edin.",
+                "reservationCode": "Rezervasiya kodu",
+                "intervals": "İntervallar",
+                "confirm": "Təsdiqlə",
+                "back": "Geri",
+                "successTitle": "Təşəkkür edirik!",
+                "errorModalTitle": "Diqqət!",
+                "successSubtitle": "Sizin rezervasiyanız təsdiqləndi",
+                "cancelSuccessSubtitle": "Sizin rezervasiyanız ləğv edildi",
+                "reservationTime": "Rezervasiya vaxtı",
+                "activationCode": "Rezervasiya kodu",
+                "otpModalTitle": "Xahiş edirik nömrəni təsdiqləyin",
+                "otpCode": "Təsdiləmə kodu",
+                "resendSms": "SMS-i yenidən göndər",
+                "otpResendCooldownHint": "Yenidən göndərmək üçün {time} gözləyin",
+                "resendLimitReached": "SMS göndərmə limiti bitdi",
+                "contactModalTitle": "Xahiş edirik əlaqə məlumatları daxil edin",
+                "contactModalNote": "Onlayn növbənin rəsmiləşdirilməsi zamanı məlumatlarınızı tam və dəqiq şəkildə daxil etməniz tövsiyə olunur. Əks halda filiala xidmət göstərilməsi mümkün olmayacaqdır.",
+                "firstName": "Adınız",
+                "lastName": "Soyadınız",
+                "finCode": "Şəxsiyyət vəsiqəsinin FİN kodu",
+                "finCodeLengthError": "FİN kodu 7 simvoldan ibarət olmalıdır",
+                "finCodeError": "FİN kodu həm hərf, həm rəqəm ehtiva etməlidir",
+                "fieldRequired": "Bu sahə boş ola bilməz",
+                "phoneIncomplete": "Mobil nömrə tam daxil edilməyib",
+                "otpIncomplete": "Düzgün OTP kodu daxil edin",
+                "onlyLettersAllowed": "Bu sahədə yalnız hərf daxil edilə bilər",
+                "email": "E-poçt",
+                "phone": "Mobil nömrə",
+                "timeLoading": "Yüklənir...",
+                "timeNotFound": "Bu gün üçün boş saat tapılmadı.",
+                "closeModal": "Bağla",
+                "createReservationErrorMinus1": "Rezervasiya rəsmiləşdirilərkən xəta baş verdi. Zəhmət olmasa məlumatları yoxlayıb yenidən cəhd edin.",
+                "createReservationErrorUnknown": "Əməliyyat tamamlanmadı. Yenidən cəhd edin.",
+                "slotBusy": "Bu vaxt artıq tutulub. Başqa vaxt seçin.",
+                "countdownHint": "Rezervasiya <strong>{time}</strong> sonra avtomatik ləğv ediləcək"
             }
         },
         "initialState": {
@@ -828,8 +892,82 @@
                 },
                 "campaigns": [
                     {
-                        "id": 120,
+                        "id": 123,
                         "order": 1,
+                        "title": "Yığım hesabı ilə 5000 AZN səyahət kuponu",
+                        "content": "\"Səyahət\" hədəfinə ən çox yığım edən qazanacaq",
+                        "isActive": true,
+                        "author": null,
+                        "photo": {
+                            "data": {
+                                "id": 3278,
+                                "attributes": {
+                                    "name": "480x304_.png",
+                                    "alternativeText": null,
+                                    "caption": null,
+                                    "width": 960,
+                                    "height": 608,
+                                    "formats": {
+                                        "small": {
+                                            "ext": ".png",
+                                            "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/small_480x304_213f363b1a.png",
+                                            "hash": "small_480x304_213f363b1a",
+                                            "mime": "image/png",
+                                            "name": "small_480x304_.png",
+                                            "path": null,
+                                            "size": 180.34,
+                                            "width": 500,
+                                            "height": 317,
+                                            "sizeInBytes": 180340
+                                        },
+                                        "medium": {
+                                            "ext": ".png",
+                                            "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/medium_480x304_213f363b1a.png",
+                                            "hash": "medium_480x304_213f363b1a",
+                                            "mime": "image/png",
+                                            "name": "medium_480x304_.png",
+                                            "path": null,
+                                            "size": 391.5,
+                                            "width": 750,
+                                            "height": 475,
+                                            "sizeInBytes": 391500
+                                        },
+                                        "thumbnail": {
+                                            "ext": ".png",
+                                            "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/thumbnail_480x304_213f363b1a.png",
+                                            "hash": "thumbnail_480x304_213f363b1a",
+                                            "mime": "image/png",
+                                            "name": "thumbnail_480x304_.png",
+                                            "path": null,
+                                            "size": 48.26,
+                                            "width": 245,
+                                            "height": 155,
+                                            "sizeInBytes": 48257
+                                        }
+                                    },
+                                    "hash": "480x304_213f363b1a",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "size": 143.45,
+                                    "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/480x304_213f363b1a.png",
+                                    "previewUrl": null,
+                                    "provider": "aws-s3",
+                                    "provider_metadata": null,
+                                    "createdAt": "2026-04-16T05:05:16.724Z",
+                                    "updatedAt": "2026-04-16T05:05:16.724Z"
+                                }
+                            }
+                        },
+                        "firstLink": {
+                            "id": 264,
+                            "text": "Ətraflı",
+                            "href": "https://birbank.az/campaigns/yigim-hesabi-ac-seyahete-yollan?utm_medium=slider&utm_source=birbank.az&utm_campaign=0-CNV-saving-account-seyahet-kampaniyasi-AZ&utm_content=kv"
+                        },
+                        "secondLink": null
+                    },
+                    {
+                        "id": 120,
+                        "order": 2,
                         "title": "Az faizli yaz krediti",
                         "content": "Cari faizlərimizə 6%-dək endirim",
                         "isActive": true,
@@ -919,7 +1057,7 @@
                     },
                     {
                         "id": 122,
-                        "order": 2,
+                        "order": 3,
                         "title": "Qazandıran bahar kampaniyası",
                         "content": "Birbank taksit kartı ilə 50-dək bonus qazan!",
                         "isActive": true,
@@ -996,8 +1134,58 @@
                         }
                     },
                     {
+                        "id": 54,
+                        "order": 4,
+                        "title": "Qarşınızda yeni Birbank Platinum kartlarımız",
+                        "content": "Üstünlüklərdən yararlan",
+                        "isActive": true,
+                        "author": null,
+                        "photo": {
+                            "data": {
+                                "id": 3217,
+                                "attributes": {
+                                    "name": "BB_Platinum-Launch_480x304.png",
+                                    "alternativeText": null,
+                                    "caption": null,
+                                    "width": 480,
+                                    "height": 304,
+                                    "formats": {
+                                        "thumbnail": {
+                                            "ext": ".png",
+                                            "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/thumbnail_BB_Platinum_Launch_480x304_c007954a74.png",
+                                            "hash": "thumbnail_BB_Platinum_Launch_480x304_c007954a74",
+                                            "mime": "image/png",
+                                            "name": "thumbnail_BB_Platinum-Launch_480x304.png",
+                                            "path": null,
+                                            "size": 14.11,
+                                            "width": 245,
+                                            "height": 155,
+                                            "sizeInBytes": 14105
+                                        }
+                                    },
+                                    "hash": "BB_Platinum_Launch_480x304_c007954a74",
+                                    "ext": ".png",
+                                    "mime": "image/png",
+                                    "size": 10.49,
+                                    "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/BB_Platinum_Launch_480x304_c007954a74.png",
+                                    "previewUrl": null,
+                                    "provider": "aws-s3",
+                                    "provider_metadata": null,
+                                    "createdAt": "2026-03-16T12:21:02.283Z",
+                                    "updatedAt": "2026-03-17T15:13:56.382Z"
+                                }
+                            }
+                        },
+                        "firstLink": {
+                            "id": 100,
+                            "text": "Ətraflı",
+                            "href": "https://birbank.az/cards/all"
+                        },
+                        "secondLink": null
+                    },
+                    {
                         "id": 119,
-                        "order": 3,
+                        "order": 5,
                         "title": "Onlayn kredit 5%-dək daha sərfəli",
                         "content": "50 000  ₼-dək nağd pulu indi əldə et",
                         "isActive": true,
@@ -1082,17 +1270,17 @@
                         "secondLink": null
                     },
                     {
-                        "id": 54,
-                        "order": 4,
-                        "title": "Qarşınızda yeni Birbank Platinum kartlarımız",
-                        "content": "Üstünlüklərdən yararlan",
+                        "id": 124,
+                        "order": 6,
+                        "title": "Rahat və komissiyasız köçür",
+                        "content": "Birbank debet kartları arasında pul köçürərkən əlavə xərcin çıxmayacaq",
                         "isActive": true,
-                        "author": null,
+                        "author": "Qaratel",
                         "photo": {
                             "data": {
-                                "id": 3217,
+                                "id": 3281,
                                 "attributes": {
-                                    "name": "BB_Platinum-Launch_480x304.png",
+                                    "name": "480x304.png",
                                     "alternativeText": null,
                                     "caption": null,
                                     "width": 480,
@@ -1100,32 +1288,32 @@
                                     "formats": {
                                         "thumbnail": {
                                             "ext": ".png",
-                                            "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/thumbnail_BB_Platinum_Launch_480x304_c007954a74.png",
-                                            "hash": "thumbnail_BB_Platinum_Launch_480x304_c007954a74",
+                                            "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/thumbnail_480x304_2618235c2f.png",
+                                            "hash": "thumbnail_480x304_2618235c2f",
                                             "mime": "image/png",
-                                            "name": "thumbnail_BB_Platinum-Launch_480x304.png",
+                                            "name": "thumbnail_480x304.png",
                                             "path": null,
-                                            "size": 14.11,
+                                            "size": 48.33,
                                             "width": 245,
                                             "height": 155,
-                                            "sizeInBytes": 14105
+                                            "sizeInBytes": 48333
                                         }
                                     },
-                                    "hash": "BB_Platinum_Launch_480x304_c007954a74",
+                                    "hash": "480x304_2618235c2f",
                                     "ext": ".png",
                                     "mime": "image/png",
-                                    "size": 10.49,
-                                    "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/BB_Platinum_Launch_480x304_c007954a74.png",
+                                    "size": 34.01,
+                                    "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/480x304_2618235c2f.png",
                                     "previewUrl": null,
                                     "provider": "aws-s3",
                                     "provider_metadata": null,
-                                    "createdAt": "2026-03-16T12:21:02.283Z",
-                                    "updatedAt": "2026-03-17T15:13:56.382Z"
+                                    "createdAt": "2026-04-17T10:04:25.676Z",
+                                    "updatedAt": "2026-04-17T10:04:25.676Z"
                                 }
                             }
                         },
                         "firstLink": {
-                            "id": 100,
+                            "id": 265,
                             "text": "Ətraflı",
                             "href": "https://birbank.az/cards/all"
                         },
@@ -1133,10 +1321,10 @@
                     },
                     {
                         "id": 22,
-                        "order": 5,
+                        "order": 7,
                         "title": "Birbank Star ilə",
                         "content": "çətin hesablamalara son qoy",
-                        "isActive": true,
+                        "isActive": false,
                         "author": null,
                         "photo": {
                             "data": {
@@ -1219,7 +1407,7 @@
                     },
                     {
                         "id": 56,
-                        "order": 6,
+                        "order": 7,
                         "title": "Qafqazın ilk tam inteqrasiyalı rəqəmsal platforması",
                         "content": " ",
                         "isActive": true,
@@ -1293,7 +1481,7 @@
                     },
                     {
                         "id": 48,
-                        "order": 7,
+                        "order": 8,
                         "title": "Dələduzu necə tanımaq olar?",
                         "content": "  ",
                         "isActive": true,
@@ -2442,96 +2630,6 @@
                         "secondLink": null
                     },
                     {
-                        "id": 52,
-                        "order": 2,
-                        "title": "Onlayn nağd kreditdə 100 bonus hədiyyə",
-                        "content": "Hər 100-cü müştəri qalib olacaq",
-                        "isActive": false,
-                        "author": null,
-                        "photo": {
-                            "data": {
-                                "id": 2147,
-                                "attributes": {
-                                    "name": "BB_100_Bonus_480x304_1_0b565dbb38.webp",
-                                    "alternativeText": null,
-                                    "caption": null,
-                                    "width": 1440,
-                                    "height": 912,
-                                    "formats": {
-                                        "large": {
-                                            "ext": ".webp",
-                                            "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/large_BB_100_Bonus_480x304_1_0b565dbb38_6b6f1e13a1.webp",
-                                            "hash": "large_BB_100_Bonus_480x304_1_0b565dbb38_6b6f1e13a1",
-                                            "mime": "image/webp",
-                                            "name": "large_BB_100_Bonus_480x304_1_0b565dbb38.webp",
-                                            "path": null,
-                                            "size": 54.59,
-                                            "width": 1000,
-                                            "height": 633,
-                                            "sizeInBytes": 54588
-                                        },
-                                        "small": {
-                                            "ext": ".webp",
-                                            "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/small_BB_100_Bonus_480x304_1_0b565dbb38_6b6f1e13a1.webp",
-                                            "hash": "small_BB_100_Bonus_480x304_1_0b565dbb38_6b6f1e13a1",
-                                            "mime": "image/webp",
-                                            "name": "small_BB_100_Bonus_480x304_1_0b565dbb38.webp",
-                                            "path": null,
-                                            "size": 18.08,
-                                            "width": 500,
-                                            "height": 317,
-                                            "sizeInBytes": 18080
-                                        },
-                                        "medium": {
-                                            "ext": ".webp",
-                                            "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/medium_BB_100_Bonus_480x304_1_0b565dbb38_6b6f1e13a1.webp",
-                                            "hash": "medium_BB_100_Bonus_480x304_1_0b565dbb38_6b6f1e13a1",
-                                            "mime": "image/webp",
-                                            "name": "medium_BB_100_Bonus_480x304_1_0b565dbb38.webp",
-                                            "path": null,
-                                            "size": 33.9,
-                                            "width": 750,
-                                            "height": 475,
-                                            "sizeInBytes": 33904
-                                        },
-                                        "thumbnail": {
-                                            "ext": ".webp",
-                                            "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/thumbnail_BB_100_Bonus_480x304_1_0b565dbb38_6b6f1e13a1.webp",
-                                            "hash": "thumbnail_BB_100_Bonus_480x304_1_0b565dbb38_6b6f1e13a1",
-                                            "mime": "image/webp",
-                                            "name": "thumbnail_BB_100_Bonus_480x304_1_0b565dbb38.webp",
-                                            "path": null,
-                                            "size": 6.78,
-                                            "width": 245,
-                                            "height": 155,
-                                            "sizeInBytes": 6778
-                                        }
-                                    },
-                                    "hash": "BB_100_Bonus_480x304_1_0b565dbb38_6b6f1e13a1",
-                                    "ext": ".webp",
-                                    "mime": "image/webp",
-                                    "size": 99.9,
-                                    "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/BB_100_Bonus_480x304_1_0b565dbb38_6b6f1e13a1.webp",
-                                    "previewUrl": null,
-                                    "provider": "aws-s3",
-                                    "provider_metadata": null,
-                                    "createdAt": "2025-11-25T11:13:26.888Z",
-                                    "updatedAt": "2025-11-25T11:13:26.888Z"
-                                }
-                            }
-                        },
-                        "firstLink": {
-                            "id": 72,
-                            "text": "Ətraflı",
-                            "href": "https://birbank.az/campaigns/her-100-musteriye-100-bonus-hediyye?id=484?utm_medium=slider&utm_source=bb&utm_campaign=0-CNV-nagd-kredit-100-de-100-kampaniyasi-AZ&utm_content=kv"
-                        },
-                        "secondLink": {
-                            "id": 73,
-                            "text": "Kredit götür",
-                            "href": "https://ccl.birbank.az/az/order/GTKR?t=bb&utm_medium=slider&utm_source=bb&utm_campaign=0-CNV-nagd-kredit-100-de-100-kampaniyasi-AZ&utm_content=kv"
-                        }
-                    },
-                    {
                         "id": 53,
                         "order": 1,
                         "title": "Bayram günlərində xidmətindəyik",
@@ -3165,9 +3263,9 @@
                     {
                         "id": 2,
                         "cur": "840",
-                        "buy": "1.6971",
+                        "buy": "1.6970",
                         "bP": "0",
-                        "sell": "1.7021",
+                        "sell": "1.7020",
                         "sP": "0",
                         "code": "USD",
                         "curId": 840,
@@ -4676,8 +4774,8 @@
             "currencyRates": {
                 "data": [
                     {
-                        "buy": 2.2368,
-                        "sell": 2.3418,
+                        "buy": 2.2538,
+                        "sell": 2.3588,
                         "type": "NON_CASH",
                         "currency": {
                             "num": 826,
@@ -4687,8 +4785,8 @@
                         }
                     },
                     {
-                        "buy": 1.9900,
-                        "sell": 2.2900,
+                        "buy": 0.0203,
+                        "sell": 0.0233,
                         "type": "CASH",
                         "currency": {
                             "num": 643,
@@ -4698,8 +4796,8 @@
                         }
                     },
                     {
-                        "buy": 2.2818,
-                        "sell": 2.2818,
+                        "buy": 2.2988,
+                        "sell": 2.2988,
                         "type": "CENTRAL_BANK",
                         "currency": {
                             "num": 826,
@@ -4709,8 +4807,8 @@
                         }
                     },
                     {
-                        "buy": 0.0281,
-                        "sell": 0.0401,
+                        "buy": 0.0279,
+                        "sell": 0.0399,
                         "type": "CASH",
                         "currency": {
                             "num": 949,
@@ -4720,8 +4818,8 @@
                         }
                     },
                     {
-                        "buy": 2.1209,
-                        "sell": 2.1909,
+                        "buy": 2.1402,
+                        "sell": 2.2102,
                         "type": "CASH",
                         "currency": {
                             "num": 756,
@@ -4731,8 +4829,8 @@
                         }
                     },
                     {
-                        "buy": 2.2368,
-                        "sell": 2.3068,
+                        "buy": 2.2538,
+                        "sell": 2.3238,
                         "type": "CASH",
                         "currency": {
                             "num": 826,
@@ -4742,8 +4840,8 @@
                         }
                     },
                     {
-                        "buy": 0.021931,
-                        "sell": 0.021931,
+                        "buy": 0.022257,
+                        "sell": 0.022257,
                         "type": "CENTRAL_BANK",
                         "currency": {
                             "num": 643,
@@ -4753,8 +4851,8 @@
                         }
                     },
                     {
-                        "buy": 0.0381,
-                        "sell": 0.0381,
+                        "buy": 0.0379,
+                        "sell": 0.0379,
                         "type": "CENTRAL_BANK",
                         "currency": {
                             "num": 949,
@@ -4764,8 +4862,8 @@
                         }
                     },
                     {
-                        "buy": 2.1509,
-                        "sell": 2.1509,
+                        "buy": 2.1702,
+                        "sell": 2.1702,
                         "type": "CENTRAL_BANK",
                         "currency": {
                             "num": 756,
@@ -4830,8 +4928,8 @@
                         }
                     },
                     {
-                        "buy": 1.9877,
-                        "sell": 1.9877,
+                        "buy": 2.003,
+                        "sell": 2.003,
                         "type": "CENTRAL_BANK",
                         "currency": {
                             "num": 978,
@@ -4841,8 +4939,8 @@
                         }
                     },
                     {
-                        "buy": 1.6971,
-                        "sell": 1.7021,
+                        "buy": 1.697,
+                        "sell": 1.702,
                         "type": "CASH",
                         "currency": {
                             "num": 840,
@@ -4852,8 +4950,8 @@
                         }
                     },
                     {
-                        "buy": 1.9627,
-                        "sell": 2.0127,
+                        "buy": 1.978,
+                        "sell": 2.028,
                         "type": "CASH",
                         "currency": {
                             "num": 978,
@@ -4864,7 +4962,7 @@
                     },
                     {
                         "buy": 1.699,
-                        "sell": 1.7201,
+                        "sell": 1.72,
                         "type": "NON_CASH",
                         "currency": {
                             "num": 840,
@@ -4874,8 +4972,8 @@
                         }
                     },
                     {
-                        "buy": 1.9427,
-                        "sell": 2.0777,
+                        "buy": 1.958,
+                        "sell": 2.093,
                         "type": "NON_CASH",
                         "currency": {
                             "num": 978,
@@ -4885,8 +4983,8 @@
                         }
                     },
                     {
-                        "buy": 0.0173,
-                        "sell": 0.0255,
+                        "buy": 0.0177,
+                        "sell": 0.0259,
                         "type": "NON_CASH",
                         "currency": {
                             "num": 643,
@@ -4896,8 +4994,8 @@
                         }
                     },
                     {
-                        "buy": 0.0249,
-                        "sell": 0.0471,
+                        "buy": 0.0247,
+                        "sell": 0.0469,
                         "type": "NON_CASH",
                         "currency": {
                             "num": 949,
@@ -4907,8 +5005,8 @@
                         }
                     },
                     {
-                        "buy": 2.1009,
-                        "sell": 2.2109,
+                        "buy": 2.1202,
+                        "sell": 2.2302,
                         "type": "NON_CASH",
                         "currency": {
                             "num": 756,
@@ -4962,9 +5060,172 @@
             "news": {
                 "newsData": [
                     {
+                        "id": 131,
+                        "attributes": {
+                            "title": "Birbank-ın “Səyahət marafonu” kampaniyası ilə dünyanı kəşf edin",
+                            "content": "<p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"color:#151515;\"><span lang=\"AZ-LATIN\">Ölkənin ilk rəqəmsal bankı Birbank&nbsp;</span></span><span lang=\"AZ-LATIN\">müştəriləri üçün “Səyahət marafonu” kampaniyasına start verib. 08 aprel - 08 may 2026-cı il tarixlərini əhatə edən kampaniya Birbanklılara yığım edərək dəyərli hədiyyələr qazanmaq imkanı yaradır.</span></p><p style=\"text-align:justify;\"><span lang=\"AZ-LATIN\">Kampaniya çərçivəsində Birbank tətbiqində “Səyahət” hədəfini seçərək ən yüksək məbləği toplayan 1 nəfərə 5 000 AZN dəyərində, növbəti 6 iştirakçıya isə hər biri 500 AZN dəyərində olmaqla səyahət kuponu təqdim olunacaq.</span></p><p style=\"text-align:justify;\"><span lang=\"AZ-LATIN\">“Səyahət marafonu” kampaniyası həm mövcud, həm də yeni Birbank müştəriləri üçün keçərlidir.&nbsp;</span></p><p style=\"background-color:white;line-height:normal;margin-bottom:12.0pt;text-align:justify;\"><span style=\"color:#151515;font-family:&quot;Times New Roman&quot;,serif;\"><span lang=\"AZ-LATIN\"><strong>Ətraflı məlumat üçün</strong>:&nbsp;</span></span><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://www.b-b.az/syh\"><span style=\"color:black;font-family:&quot;Times New Roman&quot;,serif;\"><span lang=\"AZ-LATIN\">www.b-b.az/syh</span></span></a><span style=\"color:#151515;font-family:&quot;Times New Roman&quot;,serif;\"><span lang=\"AZ-LATIN\">&nbsp;</span></span></p><p style=\"background-color:white;line-height:normal;margin-bottom:12.0pt;text-align:justify;\"><span style=\"color:#151515;font-family:&quot;Times New Roman&quot;,serif;\"><span lang=\"AZ-LATIN\">Daim ən son rəqəmsal yeniliklər və bank məhsulları təqdim edən Kapital Bank-ın əmtəə nişanı olan Birbank, 3 milyondan çox aktiv istifadəçisi olan mobil tətbiqi, 114 filial və 53 şöbədən ibarət Azərbaycanda ən böyük filial şəbəkəsi ilə müştərilərinin xidmətindədir. Bank 2025-ci ilədək ölkənin birinci bankı Kapital Bank adı altında müştərilərinə xidmət göstərib və PAŞA Holding-ə daxildir. Kapital Bank isə hazırda maliyyə institutu olaraq fəaliyyətini davam etdirir. Bankın məhsul və xidmətləri barədə daha ətraflı məlumat almaq üçün&nbsp;</span></span><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://birbank.az/\"><span style=\"color:black;font-family:&quot;Times New Roman&quot;,serif;\"><span lang=\"AZ-LATIN\">birbank.az&nbsp;</span></span></a><span style=\"color:#151515;font-family:&quot;Times New Roman&quot;,serif;\"><span lang=\"AZ-LATIN\">saytına, 196 Əlaqə Mərkəzinə və ya Bankın müxtəlif sosial şəbəkələrdə olan səhifələrinə müraciət edə bilərsiniz.&nbsp;</span></span></p>",
+                            "order": null,
+                            "slug": "birbank-in-s-yah-t-marafonu-kampaniyasi-il-duenyani-k-sf-edin",
+                            "createdAt": "2026-04-14T13:14:16.445Z",
+                            "updatedAt": "2026-04-14T13:15:47.787Z",
+                            "publishedAt": "2026-04-14T13:15:47.778Z",
+                            "locale": "az",
+                            "date": "2026-04-14",
+                            "imageUrl": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/Yigim_hesabi_s_yah_t_kampaniyasi_1x1_6e4daa0ef7.png",
+                            "image": {
+                                "data": {
+                                    "id": 3274,
+                                    "attributes": {
+                                        "name": "Yığım hesabı səyahət kampaniyası 1x1.png",
+                                        "alternativeText": null,
+                                        "caption": null,
+                                        "width": 1000,
+                                        "height": 1000,
+                                        "formats": {
+                                            "small": {
+                                                "ext": ".png",
+                                                "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/small_Yigim_hesabi_s_yah_t_kampaniyasi_1x1_6e4daa0ef7.png",
+                                                "hash": "small_Yigim_hesabi_s_yah_t_kampaniyasi_1x1_6e4daa0ef7",
+                                                "mime": "image/png",
+                                                "name": "small_Yığım hesabı səyahət kampaniyası 1x1.png",
+                                                "path": null,
+                                                "size": 419.41,
+                                                "width": 500,
+                                                "height": 500,
+                                                "sizeInBytes": 419409
+                                            },
+                                            "medium": {
+                                                "ext": ".png",
+                                                "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/medium_Yigim_hesabi_s_yah_t_kampaniyasi_1x1_6e4daa0ef7.png",
+                                                "hash": "medium_Yigim_hesabi_s_yah_t_kampaniyasi_1x1_6e4daa0ef7",
+                                                "mime": "image/png",
+                                                "name": "medium_Yığım hesabı səyahət kampaniyası 1x1.png",
+                                                "path": null,
+                                                "size": 922.16,
+                                                "width": 750,
+                                                "height": 750,
+                                                "sizeInBytes": 922161
+                                            },
+                                            "thumbnail": {
+                                                "ext": ".png",
+                                                "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/thumbnail_Yigim_hesabi_s_yah_t_kampaniyasi_1x1_6e4daa0ef7.png",
+                                                "hash": "thumbnail_Yigim_hesabi_s_yah_t_kampaniyasi_1x1_6e4daa0ef7",
+                                                "mime": "image/png",
+                                                "name": "thumbnail_Yığım hesabı səyahət kampaniyası 1x1.png",
+                                                "path": null,
+                                                "size": 51.34,
+                                                "width": 156,
+                                                "height": 156,
+                                                "sizeInBytes": 51341
+                                            }
+                                        },
+                                        "hash": "Yigim_hesabi_s_yah_t_kampaniyasi_1x1_6e4daa0ef7",
+                                        "ext": ".png",
+                                        "mime": "image/png",
+                                        "size": 366.74,
+                                        "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/Yigim_hesabi_s_yah_t_kampaniyasi_1x1_6e4daa0ef7.png",
+                                        "previewUrl": null,
+                                        "provider": "aws-s3",
+                                        "provider_metadata": null,
+                                        "createdAt": "2026-04-14T13:13:30.141Z",
+                                        "updatedAt": "2026-04-14T13:13:30.141Z"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": 128,
+                        "attributes": {
+                            "title": "Birbank Invest-lə PAŞA Bank səhmdarı ol",
+                            "content": "<p style=\"line-height:107%;text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\" lang=\"AZ-LATIN\">Birbank Invest istifadəçilərinə yeni investisiya fürsəti yaradır. Belə ki, bu gündən etibarən Birbank Invest istifadəçiləri birbaşa PAŞA Bankın səhmdarı olmaq imkanını əldə edirlər. Bu yenilik istifadəçilərə mobil tətbiq vasitəsilə birbaşa İlkin Kütləvi Təklif (IPO) prosesinə qoşulmaq və yerli kapital bazarında yaranan bu şansı dərəyərləndirmək imkanı verir.</span></span></p><p style=\"line-height:107%;text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\" lang=\"AZ-LATIN\">PAŞA Bank tərəfindən həyata keçirilən IPO çərçivəsində abunə yazılışı 12 may 2026-cı il tarixinədək həm fiziki, həm də hüquqi şəxslər üçün açıq olacaq.&nbsp;</span></span></p><p style=\"line-height:107%;text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\" lang=\"AZ-LATIN\">Bu çərçivədə PAŞA Bank kapitalının 5%-ni təşkil edən 932 926 ədəd adi, adlı səhm investorlara təqdim olunur. Səhmin ilkin ticari qiyməti 55 AZN olaraq müəyyən edilib, minimal alış 1 səhmdir və maksimum limit tətbiq edilmir. Abunə dövründə əvvəlcədən ödənilmiş məbləğlərə illik 5% faiz gəlir hesablanacaq. Səhm alışı üzrə bütün komissiyalar PAŞA Bank tərəfindən qarşılanır və müştərilər üçün əlavə komissiya tətbiq olunmur. Səhmlərin yerləşdirilməsi Bakı Fond Birjası vasitəsilə həyata keçiriləcək.&nbsp;</span></span></p><p style=\"line-height:107%;text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\" lang=\"AZ-LATIN\">Yerləşdirmə emissiya prospektində göstərilən ardıcıllığa uyğun olaraq icra edilir. Ətraflı məlumat əldə etmək üçün:&nbsp;</span></span><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.b-b.az/ipo-deeplink\"><span style=\"color:#0563C1;font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\" lang=\"AZ-LATIN\">www.b-b.az/ipo-deeplink</span></span></a></p><p style=\"line-height:107%;text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\" lang=\"AZ-LATIN\">Qeyd edək ki, bu IPO Azərbaycan tarixində özəl təşkilat tərəfindən həyata keçirilən ilk bank IPO-su olmaqla yanaşı, ölkənin kapital bazarlarının inkişafında mühüm mərhələ hesab olunur.</span></span></p><p style=\"line-height:107%;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\" lang=\"AZ-LATIN\"><strong>Birbank Invest tətbiqini yükləmək üçün:&nbsp;</strong></span></span><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.b-b.az/vHdRj4\"><span style=\"color:blue;font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\" lang=\"AZ-LATIN\">https://www.b-b.az/vHdRj4</span></span></a><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\" lang=\"AZ-LATIN\">&nbsp;&nbsp;</span></span></p><p style=\"line-height:107%;text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\" lang=\"AZ-LATIN\">2025-ci ilin iyun ayında müştərilərə təqdim olunan&nbsp;<strong>Birbank Invest&nbsp;</strong>–<strong>&nbsp;</strong>Birbank brendinin və bazarda bank tərəfindən təqdim olunan ilk müstəqil investisiya tətbiqidir. Platforma istifadəçilərə yerli və beynəlxalq maliyyə bazarlarına rahat və təhlükəsiz çıxış imkanı yaradır.</span></span></p><p style=\"line-height:107%;text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\" lang=\"AZ-LATIN\">Daha ətraflı məlumat üçün&nbsp;</span></span><span style=\"color:#0563C1;font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\" lang=\"AZ-LATIN\"><u>birbankinvest.az,</u></span></span><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\" lang=\"AZ-LATIN\">&nbsp;saytına daxil ola, onlayn çat və yaxud&nbsp;</span></span><span style=\"color:#0563C1;font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\" lang=\"AZ-LATIN\"><u>sosial media kanalları</u></span></span><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\" lang=\"AZ-LATIN\">&nbsp;vasitəsilə sorğu ünvanlaya və ya&nbsp;<strong>196 Əlaqə Mərkəzi&nbsp;</strong>ilə əlaqə saxlaya bilərsiniz. Xidmət “PAŞA Kapital İnvestisiya Şirkəti” ilə birgə təqdim olunur.&nbsp;</span></span></p>",
+                            "order": null,
+                            "slug": "birbank-invest-l-pasa-bank-s-hmdari-ol",
+                            "createdAt": "2026-04-13T10:19:51.234Z",
+                            "updatedAt": "2026-04-13T10:22:21.723Z",
+                            "publishedAt": "2026-04-13T10:19:54.569Z",
+                            "locale": "az",
+                            "date": "2026-04-13",
+                            "imageUrl": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/Birbank_Invest_PASHA_Bank_IPO_1000x1000_14a033008e.png",
+                            "image": {
+                                "data": {
+                                    "id": 3268,
+                                    "attributes": {
+                                        "name": "Birbank Invest - PASHA Bank IPO 1000x1000.png",
+                                        "alternativeText": null,
+                                        "caption": null,
+                                        "width": 2160,
+                                        "height": 2160,
+                                        "formats": {
+                                            "large": {
+                                                "ext": ".png",
+                                                "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/large_Birbank_Invest_PASHA_Bank_IPO_1000x1000_14a033008e.png",
+                                                "hash": "large_Birbank_Invest_PASHA_Bank_IPO_1000x1000_14a033008e",
+                                                "mime": "image/png",
+                                                "name": "large_Birbank Invest - PASHA Bank IPO 1000x1000.png",
+                                                "path": null,
+                                                "size": 1195.02,
+                                                "width": 1000,
+                                                "height": 1000,
+                                                "sizeInBytes": 1195022
+                                            },
+                                            "small": {
+                                                "ext": ".png",
+                                                "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/small_Birbank_Invest_PASHA_Bank_IPO_1000x1000_14a033008e.png",
+                                                "hash": "small_Birbank_Invest_PASHA_Bank_IPO_1000x1000_14a033008e",
+                                                "mime": "image/png",
+                                                "name": "small_Birbank Invest - PASHA Bank IPO 1000x1000.png",
+                                                "path": null,
+                                                "size": 334,
+                                                "width": 500,
+                                                "height": 500,
+                                                "sizeInBytes": 334002
+                                            },
+                                            "medium": {
+                                                "ext": ".png",
+                                                "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/medium_Birbank_Invest_PASHA_Bank_IPO_1000x1000_14a033008e.png",
+                                                "hash": "medium_Birbank_Invest_PASHA_Bank_IPO_1000x1000_14a033008e",
+                                                "mime": "image/png",
+                                                "name": "medium_Birbank Invest - PASHA Bank IPO 1000x1000.png",
+                                                "path": null,
+                                                "size": 684.88,
+                                                "width": 750,
+                                                "height": 750,
+                                                "sizeInBytes": 684878
+                                            },
+                                            "thumbnail": {
+                                                "ext": ".png",
+                                                "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/thumbnail_Birbank_Invest_PASHA_Bank_IPO_1000x1000_14a033008e.png",
+                                                "hash": "thumbnail_Birbank_Invest_PASHA_Bank_IPO_1000x1000_14a033008e",
+                                                "mime": "image/png",
+                                                "name": "thumbnail_Birbank Invest - PASHA Bank IPO 1000x1000.png",
+                                                "path": null,
+                                                "size": 49.19,
+                                                "width": 156,
+                                                "height": 156,
+                                                "sizeInBytes": 49192
+                                            }
+                                        },
+                                        "hash": "Birbank_Invest_PASHA_Bank_IPO_1000x1000_14a033008e",
+                                        "ext": ".png",
+                                        "mime": "image/png",
+                                        "size": 1064.37,
+                                        "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/Birbank_Invest_PASHA_Bank_IPO_1000x1000_14a033008e.png",
+                                        "previewUrl": null,
+                                        "provider": "aws-s3",
+                                        "provider_metadata": null,
+                                        "createdAt": "2026-04-13T10:08:18.832Z",
+                                        "updatedAt": "2026-04-13T10:08:18.832Z"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
                         "id": 125,
                         "attributes": {
                             "title": "Birbank-ın “Qazandıran bahar” kampaniyası ilə əlavə bonuslar qazanın ",
+                            "content": "<p style=\"line-height:normal;margin:5.0pt 0in;text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\">Ölkənin ilk rəqəmsal bankı Birbank “Qazandıran bahar” kampaniyasına start verir. Yeni kampaniya bankdan kredit kartı əldə edən müştərilər üçündür. Belə ki, 17 mart-20 aprel tarixlərini əhatə edən kampaniya çərçivəsində aktiv Birbank kartı olmayan hər kəs kredit kartı əldə etdikdə 50 bonus qazanır.&nbsp;</span></p><ul style=\"padding-left:48px;\"><li><p style=\"line-height:normal;margin-bottom:5.0pt;margin-right:0in;margin-top:5.0pt;tab-stops:.5in;text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\">Onlayn alış-veriş zamanı ilk 50 AZN ödənişə 10 Bonus</span></p></li><li><p style=\"line-height:normal;margin-bottom:5.0pt;margin-right:0in;margin-top:5.0pt;tab-stops:.5in;text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\">Taksitli ödənişlərdə ilk 150 AZN əməliyyata 15 Bonus</span></p></li><li><p style=\"line-height:normal;margin-bottom:5.0pt;margin-right:0in;margin-top:5.0pt;tab-stops:.5in;text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\">Kartdan-karta köçürmə və ya məxaric əməliyyatarında ilk 300 AZN əməliyyata 25 Bonus</span></p></li></ul><p style=\"line-height:normal;margin:5.0pt 0in;text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\">Kampaniya müddətində kredit kartını rəsmiləşdirən müştərilər 30 aprel tarixinədək alış-veriş edib bonus qazana bilərlər. Yeni taksit kartını Birbank mobil tətbiqindən sifariş etmək və ya Kapital Bank/Birbank filiallarından əldə etmək mümkündür.&nbsp;</span></p><p style=\"line-height:normal;margin:5.0pt 0in;text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\">Ətraflı məlumat üçün<strong>:&nbsp;</strong></span><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://www.b-b.az/pt\"><span style=\"color:#467886;font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><strong>www.b-b.az/pt</strong></span></a></p><p style=\"line-height:115%;margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:115%;\">Daim ən son rəqəmsal yeniliklər və bank məhsulları təqdim edən Kapital Bank-ın əmtəə nişanı olan Birbank, 3 milyondan çox aktiv istifadəçisi olan mobil tətbiqi, 114 filial və 53 şöbədən ibarət Azərbaycanda ən böyük filial şəbəkəsi ilə müştərilərinin xidmətindədir. Bank 2025-ci ilədək ölkənin birinci bankı Kapital Bank adı altında müştərilərinə xidmət göstərib və PAŞA Holding-ə daxildir. Kapital Bank isə hazırda maliyyə institutu olaraq fəaliyyətini davam etdirir. Bankın məhsul və xidmətləri barədə daha ətraflı məlumat almaq üçün </span></span><span style=\"color:#467886;font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:115%;\"><u>birbank.az</u></span></span><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:115%;\"> saytına, 196 Əlaqə Mərkəzinə və ya Bankın müxtəlif sosial şəbəkələrdə olan səhifələrinə müraciət edə bilərsiniz.&nbsp;</span></span></p>",
                             "order": null,
                             "slug": "birbank-in-qazandiran-bahar-kampaniyasi-il-lav-bonuslar-qazanin",
                             "createdAt": "2026-04-02T08:40:10.893Z",
@@ -5297,81 +5558,6 @@
                         }
                     },
                     {
-                        "id": 107,
-                        "attributes": {
-                            "title": "Birbank Biznes-in “Hər işdə birinci qadınlar” yarmarkası uğurla yekunlaşıb",
-                            "content": "<p style=\"line-height:107%;text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\">8 Mart Beynəlxalq Qadınlar Günü ərəfəsində Birbank Biznes-in təşəbbüsü ilə həyata keçirilən “Hər işdə birinci qadınlar” yarmarkası başa çatıb. Artıq ənənə halını alan yarmarka PASHA Malls-un dəstəyi ilə Crescent Mall-da baş tutub. Ümumilikdə 50 sahibkar qadının iştirak etdiyi tədbir ziyarətçilər tərəfindən də maraqla qarşılanıb.&nbsp;</span></span></p><p style=\"line-height:107%;text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\">Yarmarka çərçivəsində unikal əl işləri, kreativ hədiyyələr və müxtəlif məhsullar layihəyə özəl endirimli qiymətlərlə satışa çıxarılıb. Tədbir qadın sahibkarlar üçün satış imkanlarının genişləndirilməsi, yeni müştərilərlə tanışlıq və potensial tərəfdaşlıqların qurulması baxımından effektiv platforma rolunu oynayıb.&nbsp;</span></span></p><p style=\"line-height:107%;text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\">Layihənin davamı olaraq qadın sahibkarlar üçün xüsusi kampaniyaya da start verilib. Belə ki, xanımların biznesinə dəstək məqsədi ilə təqdim olunan “She’s Next” kartı 15 mart 2026-cı il tarixinədək xanımlara ödənişzsiz olaraq hədiyyə edilir. Kart sahibinə manat, dollar və avro valyutalarında istifadə imkanı ilə yanaşı, müxtəlif bonuslar və əlavə imtiyazlar da təklif edir. “She’s Next” biznes kartını əldə etmək istəyənlər&nbsp;</span></span><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://birbank.business/\"><span style=\"color:#0563C1;font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\">Birbank Biznes</span></span></a><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\">-in rəsmi internet saytı və ya mobil tətbiqi vasitəsilə onlayn müraciət edə bilərlər. Həmçinin, 16 mart tarixinədək&nbsp; xanımların Birbank Biznes mobil tətbiqindən onlayn rəsmiləşdirdikləri kreditlərə heç bir komissiya tətbiq edilmir.&nbsp;</span></span></p><p style=\"line-height:107%;text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\">Birbank Biznes bu təşəbbüslərlə qadın sahibkarların fəaliyyətini dəstəkləməyi, onların bizneslərinin tanıdılması və inkişafı üçün yeni imkanlar yaratmağı hədəfləyir.&nbsp; &nbsp;</span></span></p><p style=\"line-height:107%;text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\">Sahibkarlığın inkişafına önəm verən Birbank Biznes Kapital Bank-ın əmtəə nişanı olaraq həm sahibkarların, həm də onların bizneslərinin inkişafına dəstək olur, biznes sahiblərinə innovativ və rahat məhsullar təqdim edir. Birbank Biznes müştərilərində suallar yaranarsa, onlara istənilən vaxt canlı çat vasitəsilə də dəstək göstərilir. Sahibkarlara vaxta qənaət etmək imkanı verən Birbank Biznes sistemi haqqında ətraflı məlumat üçün&nbsp;</span></span><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://birbank.business/\"><span style=\"color:blue;font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\">https://birbank.business/</span></span></a><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\"> saytına keçid edin və ya 896 məlumat mərkəzinə zəng edin.&nbsp;</span></span></p>",
-                            "order": null,
-                            "slug": "birbank-biznes-in-h-r-isd-birinci-qadinlar-yarmarkasi-ugurla-yekunlasib",
-                            "createdAt": "2026-03-03T12:08:36.944Z",
-                            "updatedAt": "2026-03-03T12:10:19.198Z",
-                            "publishedAt": "2026-03-03T12:08:44.545Z",
-                            "locale": "az",
-                            "date": "2026-03-03",
-                            "imageUrl": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/BBB_Press_1x1_efe404ff11.jpg",
-                            "image": {
-                                "data": {
-                                    "id": 3137,
-                                    "attributes": {
-                                        "name": "BBB_Press 1x1.jpg",
-                                        "alternativeText": null,
-                                        "caption": null,
-                                        "width": 1000,
-                                        "height": 1000,
-                                        "formats": {
-                                            "small": {
-                                                "ext": ".jpg",
-                                                "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/small_BBB_Press_1x1_efe404ff11.jpg",
-                                                "hash": "small_BBB_Press_1x1_efe404ff11",
-                                                "mime": "image/jpeg",
-                                                "name": "small_BBB_Press 1x1.jpg",
-                                                "path": null,
-                                                "size": 50.44,
-                                                "width": 500,
-                                                "height": 500,
-                                                "sizeInBytes": 50443
-                                            },
-                                            "medium": {
-                                                "ext": ".jpg",
-                                                "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/medium_BBB_Press_1x1_efe404ff11.jpg",
-                                                "hash": "medium_BBB_Press_1x1_efe404ff11",
-                                                "mime": "image/jpeg",
-                                                "name": "medium_BBB_Press 1x1.jpg",
-                                                "path": null,
-                                                "size": 96.34,
-                                                "width": 750,
-                                                "height": 750,
-                                                "sizeInBytes": 96343
-                                            },
-                                            "thumbnail": {
-                                                "ext": ".jpg",
-                                                "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/thumbnail_BBB_Press_1x1_efe404ff11.jpg",
-                                                "hash": "thumbnail_BBB_Press_1x1_efe404ff11",
-                                                "mime": "image/jpeg",
-                                                "name": "thumbnail_BBB_Press 1x1.jpg",
-                                                "path": null,
-                                                "size": 7.09,
-                                                "width": 156,
-                                                "height": 156,
-                                                "sizeInBytes": 7088
-                                            }
-                                        },
-                                        "hash": "BBB_Press_1x1_efe404ff11",
-                                        "ext": ".jpg",
-                                        "mime": "image/jpeg",
-                                        "size": 152.06,
-                                        "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/BBB_Press_1x1_efe404ff11.jpg",
-                                        "previewUrl": null,
-                                        "provider": "aws-s3",
-                                        "provider_metadata": null,
-                                        "createdAt": "2026-03-03T12:08:25.566Z",
-                                        "updatedAt": "2026-03-03T12:08:25.566Z"
-                                    }
-                                }
-                            }
-                        }
-                    },
-                    {
                         "id": 104,
                         "attributes": {
                             "title": "Birbank-ın Yeni il lotereyasında mənzilin sahibi bəlli oldu",
@@ -5441,6 +5627,81 @@
                                         "provider_metadata": null,
                                         "createdAt": "2026-03-03T10:02:06.302Z",
                                         "updatedAt": "2026-03-03T10:02:06.302Z"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": 107,
+                        "attributes": {
+                            "title": "Birbank Biznes-in “Hər işdə birinci qadınlar” yarmarkası uğurla yekunlaşıb",
+                            "content": "<p style=\"line-height:107%;text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\">8 Mart Beynəlxalq Qadınlar Günü ərəfəsində Birbank Biznes-in təşəbbüsü ilə həyata keçirilən “Hər işdə birinci qadınlar” yarmarkası başa çatıb. Artıq ənənə halını alan yarmarka PASHA Malls-un dəstəyi ilə Crescent Mall-da baş tutub. Ümumilikdə 50 sahibkar qadının iştirak etdiyi tədbir ziyarətçilər tərəfindən də maraqla qarşılanıb.&nbsp;</span></span></p><p style=\"line-height:107%;text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\">Yarmarka çərçivəsində unikal əl işləri, kreativ hədiyyələr və müxtəlif məhsullar layihəyə özəl endirimli qiymətlərlə satışa çıxarılıb. Tədbir qadın sahibkarlar üçün satış imkanlarının genişləndirilməsi, yeni müştərilərlə tanışlıq və potensial tərəfdaşlıqların qurulması baxımından effektiv platforma rolunu oynayıb.&nbsp;</span></span></p><p style=\"line-height:107%;text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\">Layihənin davamı olaraq qadın sahibkarlar üçün xüsusi kampaniyaya da start verilib. Belə ki, xanımların biznesinə dəstək məqsədi ilə təqdim olunan “She’s Next” kartı 15 mart 2026-cı il tarixinədək xanımlara ödənişzsiz olaraq hədiyyə edilir. Kart sahibinə manat, dollar və avro valyutalarında istifadə imkanı ilə yanaşı, müxtəlif bonuslar və əlavə imtiyazlar da təklif edir. “She’s Next” biznes kartını əldə etmək istəyənlər&nbsp;</span></span><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://birbank.business/\"><span style=\"color:#0563C1;font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\">Birbank Biznes</span></span></a><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\">-in rəsmi internet saytı və ya mobil tətbiqi vasitəsilə onlayn müraciət edə bilərlər. Həmçinin, 16 mart tarixinədək&nbsp; xanımların Birbank Biznes mobil tətbiqindən onlayn rəsmiləşdirdikləri kreditlərə heç bir komissiya tətbiq edilmir.&nbsp;</span></span></p><p style=\"line-height:107%;text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\">Birbank Biznes bu təşəbbüslərlə qadın sahibkarların fəaliyyətini dəstəkləməyi, onların bizneslərinin tanıdılması və inkişafı üçün yeni imkanlar yaratmağı hədəfləyir.&nbsp; &nbsp;</span></span></p><p style=\"line-height:107%;text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\">Sahibkarlığın inkişafına önəm verən Birbank Biznes Kapital Bank-ın əmtəə nişanı olaraq həm sahibkarların, həm də onların bizneslərinin inkişafına dəstək olur, biznes sahiblərinə innovativ və rahat məhsullar təqdim edir. Birbank Biznes müştərilərində suallar yaranarsa, onlara istənilən vaxt canlı çat vasitəsilə də dəstək göstərilir. Sahibkarlara vaxta qənaət etmək imkanı verən Birbank Biznes sistemi haqqında ətraflı məlumat üçün&nbsp;</span></span><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://birbank.business/\"><span style=\"color:blue;font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\">https://birbank.business/</span></span></a><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\"> saytına keçid edin və ya 896 məlumat mərkəzinə zəng edin.&nbsp;</span></span></p>",
+                            "order": null,
+                            "slug": "birbank-biznes-in-h-r-isd-birinci-qadinlar-yarmarkasi-ugurla-yekunlasib",
+                            "createdAt": "2026-03-03T12:08:36.944Z",
+                            "updatedAt": "2026-03-03T12:10:19.198Z",
+                            "publishedAt": "2026-03-03T12:08:44.545Z",
+                            "locale": "az",
+                            "date": "2026-03-03",
+                            "imageUrl": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/BBB_Press_1x1_efe404ff11.jpg",
+                            "image": {
+                                "data": {
+                                    "id": 3137,
+                                    "attributes": {
+                                        "name": "BBB_Press 1x1.jpg",
+                                        "alternativeText": null,
+                                        "caption": null,
+                                        "width": 1000,
+                                        "height": 1000,
+                                        "formats": {
+                                            "small": {
+                                                "ext": ".jpg",
+                                                "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/small_BBB_Press_1x1_efe404ff11.jpg",
+                                                "hash": "small_BBB_Press_1x1_efe404ff11",
+                                                "mime": "image/jpeg",
+                                                "name": "small_BBB_Press 1x1.jpg",
+                                                "path": null,
+                                                "size": 50.44,
+                                                "width": 500,
+                                                "height": 500,
+                                                "sizeInBytes": 50443
+                                            },
+                                            "medium": {
+                                                "ext": ".jpg",
+                                                "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/medium_BBB_Press_1x1_efe404ff11.jpg",
+                                                "hash": "medium_BBB_Press_1x1_efe404ff11",
+                                                "mime": "image/jpeg",
+                                                "name": "medium_BBB_Press 1x1.jpg",
+                                                "path": null,
+                                                "size": 96.34,
+                                                "width": 750,
+                                                "height": 750,
+                                                "sizeInBytes": 96343
+                                            },
+                                            "thumbnail": {
+                                                "ext": ".jpg",
+                                                "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/thumbnail_BBB_Press_1x1_efe404ff11.jpg",
+                                                "hash": "thumbnail_BBB_Press_1x1_efe404ff11",
+                                                "mime": "image/jpeg",
+                                                "name": "thumbnail_BBB_Press 1x1.jpg",
+                                                "path": null,
+                                                "size": 7.09,
+                                                "width": 156,
+                                                "height": 156,
+                                                "sizeInBytes": 7088
+                                            }
+                                        },
+                                        "hash": "BBB_Press_1x1_efe404ff11",
+                                        "ext": ".jpg",
+                                        "mime": "image/jpeg",
+                                        "size": 152.06,
+                                        "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/BBB_Press_1x1_efe404ff11.jpg",
+                                        "previewUrl": null,
+                                        "provider": "aws-s3",
+                                        "provider_metadata": null,
+                                        "createdAt": "2026-03-03T12:08:25.566Z",
+                                        "updatedAt": "2026-03-03T12:08:25.566Z"
                                     }
                                 }
                             }
@@ -5769,168 +6030,6 @@
                                 }
                             }
                         }
-                    },
-                    {
-                        "id": 89,
-                        "attributes": {
-                            "title": "Birbank-ın “Böl-ödə” krediti ilə alış-veriş imkanlarınızı genişləndirin ",
-                            "content": "<p style=\"text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:115%;\">Rahat və çevik maliyyə həlləri təqdim edən Birbank, müştərilərinə “Böl-ödə” krediti vasitəsilə məhsul və xidmətləri hissə-hissə ödəmək imkanı yaradır.&nbsp;</span></span></p><p style=\"text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:115%;\">“Böl-ödə” krediti ilə Birbank müştəriləri partnyor mağaza və xidmət nöqtələrində bəyəndikləri məhsul və ya xidməti dərhal əldə edərək, ödənişi hissə-hissə həyata keçirə bilərlər. Xidmətin əsas üstünlüklərindən biri də alış-verişin birbaşa partnyor nöqtələrində&nbsp; qısa zaman ərzində, tək şəxsiyyət vəsiqəsi ilə tamamlanmasıdır. Həmçinin onlayn alış-veriş zamanı da müraciət prosesi rahat və sürətli şəkildə həyata keçirilir.&nbsp;</span></span></p><p style=\"text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:115%;\">“Böl-ödə” krediti 100 AZN-dən 15 000 AZN-ə qədər təklif olunur. Məhsul və xidmətlərin ödənişini 2 aydan 35 aya qədər aylıq hissələrlə həyata keçirmək mümkündür. Müxtəlif müddət seçimləri isə Birbanklılara ödənişlərini öz büdcələrinə uyğun tənzimləməyə və rahat şəkildə həyata keçirməyə şərait yaradır.&nbsp;</span></span></p><p style=\"text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:115%;\">“Böl-ödə” kreditinin geniş partnyor ticarət və xidmət nöqtələrinin siyahısı linkdə təqdim olunur:&nbsp;</span></span><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://www.b-b.az/QUnmlb\"><span style=\"color:#467886;font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:115%;\">www.b-b.az/QUnmlb</span></span></a><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:115%;\">.</span></span></p><p style=\"text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:115%;\">Daim ən son rəqəmsal yeniliklər və bank məhsulları təqdim edən Kapital Bank-ın əmtəə nişanı olan Birbank, 3 milyondan çox aktiv istifadəçisi olan mobil tətbiqi, 115 filial və 53 şöbədən ibarət Azərbaycanda ən böyük filial şəbəkəsi ilə müştərilərinin xidmətindədir. Bank 2025-ci ilədək ölkənin birinci bankı Kapital Bank adı altında müştərilərinə xidmət göstərib və PAŞA Holding-ə daxildir. Kapital Bank isə hazırda maliyyə institutu olaraq fəaliyyətini davam etdirir. Bankın məhsul və xidmətləri barədə daha ətraflı məlumat almaq üçün </span></span><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://birbank.az\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:115%;\">birbank.az</span></span></a><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:115%;\"> saytına, 196 Əlaqə Mərkəzinə və ya Bankın müxtəlif sosial şəbəkələrdə olan səhifələrinə müraciət edə bilərsiniz.&nbsp;</span></span></p>",
-                            "order": null,
-                            "slug": "birbank-in-boel-oed-krediti-il-alis-veris-imkanlarinizi-genisl-ndirin",
-                            "createdAt": "2026-02-11T08:05:22.813Z",
-                            "updatedAt": "2026-02-13T10:41:24.477Z",
-                            "publishedAt": "2026-02-13T10:41:24.470Z",
-                            "locale": "az",
-                            "date": "2026-02-11",
-                            "imageUrl": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/BB_Boel_Oed_1x1_c24561d327.jpg",
-                            "image": {
-                                "data": {
-                                    "id": 2958,
-                                    "attributes": {
-                                        "name": "BB Böl-Ödə 1x1.jpg",
-                                        "alternativeText": null,
-                                        "caption": null,
-                                        "width": 1000,
-                                        "height": 1000,
-                                        "formats": {
-                                            "small": {
-                                                "ext": ".jpg",
-                                                "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/small_BB_Boel_Oed_1x1_c24561d327.jpg",
-                                                "hash": "small_BB_Boel_Oed_1x1_c24561d327",
-                                                "mime": "image/jpeg",
-                                                "name": "small_BB Böl-Ödə 1x1.jpg",
-                                                "path": null,
-                                                "size": 39.73,
-                                                "width": 500,
-                                                "height": 500,
-                                                "sizeInBytes": 39728
-                                            },
-                                            "medium": {
-                                                "ext": ".jpg",
-                                                "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/medium_BB_Boel_Oed_1x1_c24561d327.jpg",
-                                                "hash": "medium_BB_Boel_Oed_1x1_c24561d327",
-                                                "mime": "image/jpeg",
-                                                "name": "medium_BB Böl-Ödə 1x1.jpg",
-                                                "path": null,
-                                                "size": 74.35,
-                                                "width": 750,
-                                                "height": 750,
-                                                "sizeInBytes": 74348
-                                            },
-                                            "thumbnail": {
-                                                "ext": ".jpg",
-                                                "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/thumbnail_BB_Boel_Oed_1x1_c24561d327.jpg",
-                                                "hash": "thumbnail_BB_Boel_Oed_1x1_c24561d327",
-                                                "mime": "image/jpeg",
-                                                "name": "thumbnail_BB Böl-Ödə 1x1.jpg",
-                                                "path": null,
-                                                "size": 6.23,
-                                                "width": 156,
-                                                "height": 156,
-                                                "sizeInBytes": 6229
-                                            }
-                                        },
-                                        "hash": "BB_Boel_Oed_1x1_c24561d327",
-                                        "ext": ".jpg",
-                                        "mime": "image/jpeg",
-                                        "size": 118.7,
-                                        "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/BB_Boel_Oed_1x1_c24561d327.jpg",
-                                        "previewUrl": null,
-                                        "provider": "aws-s3",
-                                        "provider_metadata": null,
-                                        "createdAt": "2026-02-11T07:55:17.221Z",
-                                        "updatedAt": "2026-02-11T07:55:17.221Z"
-                                    }
-                                }
-                            }
-                        }
-                    },
-                    {
-                        "id": 86,
-                        "attributes": {
-                            "title": "Birbank Biznes-dən sahibkarlar üçün yeni tariflər: xərclərinizi minimuma endirin ",
-                            "content": "<p style=\"text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:115%;\" lang=\"AZ-LATIN\">Sahibkarlar üçün biznes və bankçılıq xidmətlərində bazar liderlərindən olan Birbank Biznes, mikro sahibkarlara yeni imkanlar təqdim etməyə davam edir. Onların&nbsp; fərdi ehtiyaclarına uyğun olaraq formalaşdırılan yeni tariflər 3 formada təklif olunur.&nbsp;</span></span></p><p style=\"text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:115%;\" lang=\"AZ-LATIN\">“Classic” tarifi sahibkarlara 5000 manatadək məbləği komissiyasız köçürmək və eyni məbləğdə nağdlaşdırma imkanı yaradır. Üstəlik də&nbsp; illik 18.99, 3 aylıq isə 5.99 manat ödənişlə.&nbsp;</span></span></p><p style=\"text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:115%;\" lang=\"AZ-LATIN\">“Plus” tarifi isə 10 000 manatadək&nbsp; əməliyyatları tamamilə komissiyasız həyata keçirmək istəyən sahibkarlar üçün ideal imkanlar təqdim edir. Bunun üçün illik cəmi 37.99 manat ödəmək yetərlidir. Tarifin 3 aylıq qiyməti isə 11.99 manat təşkil edir.&nbsp;</span></span></p><p style=\"text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:115%;\" lang=\"AZ-LATIN\">Sahibkarlara xərclərinə 27% qənaət etmək fürsəti yaradan “Premium” tarifi üçünsə illik cəmi 95.99 manat ödəniş tələb olunur. Tarifə qoşulmaqla 25 000 manatadək məbləği komissiyasız köçürmək və eyni məbləğdə nağdlaşdırmaq mümkündür.&nbsp;</span></span></p><p style=\"text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:115%;\" lang=\"AZ-LATIN\">Hansı tarifin seçilməsindən asılı olmayaraq bank tərəfindən mikro sahibkarlara Visa Sahibkar kartı da hədiyyə olunur. Sahibinə bir çox üstünlüklər təqdim edən kartın çatdırılması da bank tərəfindən ödənişsiz həyata keçirilir.&nbsp;</span></span></p><p style=\"text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:115%;\" lang=\"AZ-LATIN\">Bütün bunlarla Birbank Biznes müştərilərinə banka gəlmədən, vaxt itirmədən, rəqəmsal bankçılığın bütün üstünlüklərindən yararlanmaq şansı yaradır.&nbsp;</span></span></p><p style=\"text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:115%;\" lang=\"AZ-LATIN\">Tarif paketləri haqqında ətraflı məlumatı Birbank Biznes mobil tətbiqindən əldə etmək mümkündür:&nbsp;</span></span><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://www.b-b.az/bbu\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:115%;\" lang=\"AZ-LATIN\">www.b-b.az/bbu</span></span></a><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:115%;\" lang=\"AZ-LATIN\">.</span></span></p><p style=\"text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:115%;\" lang=\"AZ-LATIN\">Sahibkarlığın inkişafına önəm verən Birbank Biznes Kapital Bank-ın əmtəə nişanı olaraq həm sahibkarların, həm də onların bizneslərinin inkişafına dəstək olur, biznes sahiblərinə innovativ və rahat məhsullar təqdim edir. Birbank Biznes müştərilərində suallar yaranarsa, onlara istənilən vaxt canlı çat vasitəsilə də dəstək göstərilir. Sahibkarlara vaxta qənaət etmək imkanı verən Birbank Biznes sistemi haqqında ətraflı məlumat üçün </span></span><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://birbank.business/\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:115%;\" lang=\"AZ-LATIN\">https://birbank.business/</span></span></a><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:115%;\" lang=\"AZ-LATIN\"> saytına keçid edin və ya 896 məlumat mərkəzinə zəng edin.&nbsp;</span></span></p>",
-                            "order": null,
-                            "slug": "birbank-biznes-d-n-sahibkarlar-uecuen-yeni-tarifl-r-x-rcl-rinizi-minimuma-endirin",
-                            "createdAt": "2026-02-04T10:38:01.932Z",
-                            "updatedAt": "2026-02-04T10:40:34.248Z",
-                            "publishedAt": "2026-02-04T10:40:34.236Z",
-                            "locale": "az",
-                            "date": "2026-02-04",
-                            "imageUrl": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/BBB_Tarif_paketl_C9_99ri_1x1_4ae1e9028c.jpg",
-                            "image": {
-                                "data": {
-                                    "id": 2897,
-                                    "attributes": {
-                                        "name": "BBB-Tarif_paketl-C9-99ri-1x1.jpg",
-                                        "alternativeText": null,
-                                        "caption": null,
-                                        "width": 1080,
-                                        "height": 1080,
-                                        "formats": {
-                                            "large": {
-                                                "ext": ".jpg",
-                                                "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/large_BBB_Tarif_paketl_C9_99ri_1x1_4ae1e9028c.jpg",
-                                                "hash": "large_BBB_Tarif_paketl_C9_99ri_1x1_4ae1e9028c",
-                                                "mime": "image/jpeg",
-                                                "name": "large_BBB-Tarif_paketl-C9-99ri-1x1.jpg",
-                                                "path": null,
-                                                "size": 117.55,
-                                                "width": 1000,
-                                                "height": 1000,
-                                                "sizeInBytes": 117550
-                                            },
-                                            "small": {
-                                                "ext": ".jpg",
-                                                "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/small_BBB_Tarif_paketl_C9_99ri_1x1_4ae1e9028c.jpg",
-                                                "hash": "small_BBB_Tarif_paketl_C9_99ri_1x1_4ae1e9028c",
-                                                "mime": "image/jpeg",
-                                                "name": "small_BBB-Tarif_paketl-C9-99ri-1x1.jpg",
-                                                "path": null,
-                                                "size": 39.29,
-                                                "width": 500,
-                                                "height": 500,
-                                                "sizeInBytes": 39286
-                                            },
-                                            "medium": {
-                                                "ext": ".jpg",
-                                                "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/medium_BBB_Tarif_paketl_C9_99ri_1x1_4ae1e9028c.jpg",
-                                                "hash": "medium_BBB_Tarif_paketl_C9_99ri_1x1_4ae1e9028c",
-                                                "mime": "image/jpeg",
-                                                "name": "medium_BBB-Tarif_paketl-C9-99ri-1x1.jpg",
-                                                "path": null,
-                                                "size": 74.88,
-                                                "width": 750,
-                                                "height": 750,
-                                                "sizeInBytes": 74876
-                                            },
-                                            "thumbnail": {
-                                                "ext": ".jpg",
-                                                "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/thumbnail_BBB_Tarif_paketl_C9_99ri_1x1_4ae1e9028c.jpg",
-                                                "hash": "thumbnail_BBB_Tarif_paketl_C9_99ri_1x1_4ae1e9028c",
-                                                "mime": "image/jpeg",
-                                                "name": "thumbnail_BBB-Tarif_paketl-C9-99ri-1x1.jpg",
-                                                "path": null,
-                                                "size": 6.01,
-                                                "width": 156,
-                                                "height": 156,
-                                                "sizeInBytes": 6011
-                                            }
-                                        },
-                                        "hash": "BBB_Tarif_paketl_C9_99ri_1x1_4ae1e9028c",
-                                        "ext": ".jpg",
-                                        "mime": "image/jpeg",
-                                        "size": 134.22,
-                                        "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/BBB_Tarif_paketl_C9_99ri_1x1_4ae1e9028c.jpg",
-                                        "previewUrl": null,
-                                        "provider": "aws-s3",
-                                        "provider_metadata": null,
-                                        "createdAt": "2026-02-04T10:37:19.112Z",
-                                        "updatedAt": "2026-02-04T10:37:19.112Z"
-                                    }
-                                }
-                            }
-                        }
                     }
                 ],
                 "newsDetails": {
@@ -5952,7 +6051,7 @@
                     "page": 1,
                     "pageSize": 12,
                     "pageCount": 75,
-                    "total": 893
+                    "total": 895
                 }
             },
             "qrTransfer": {

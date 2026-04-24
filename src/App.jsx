@@ -6,6 +6,7 @@ import Footer from './components/Footer'
 import Cards from './components/Cards'
 import CurrencyRates from './components/CurrencyRates'
 import HowTo from './components/HowTo'
+import PulKocurmeleri from './components/PulKocurmeleri'
 function App() {
   return (
     <Routes>
@@ -14,6 +15,7 @@ function App() {
       <Route path="news" element={<News />}/>
       <Route path="*" element={<Nomatch />} />
       <Route path="/currency-rates" element={<CurrencyRates />} />
+      <Route path="/pul-kocurmeleri" element={<PulKocurmeleri />} />
       <Route path='/how-to' element={<HowTo />}/>
     </Routes>
   )

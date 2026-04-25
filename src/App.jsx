@@ -7,6 +7,7 @@ import Cards from './components/Cards'
 import CurrencyRates from './components/CurrencyRates'
 import HowTo from './components/HowTo'
 import PulKocurmeleri from './components/PulKocurmeleri'
+import Istiqraz from './components/Istiqraz'
 function App() {
   return (
     <Routes>
@@ -16,6 +17,7 @@ function App() {
       <Route path="*" element={<Nomatch />} />
       <Route path="/currency-rates" element={<CurrencyRates />} />
       <Route path="/pul-kocurmeleri" element={<PulKocurmeleri />} />
+      <Route path="/istiqraz" element={<Istiqraz />} />
       <Route path='/how-to' element={<HowTo />}/>
     </Routes>
   )

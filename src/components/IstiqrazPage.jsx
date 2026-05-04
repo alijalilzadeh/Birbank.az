@@ -52,8 +52,17 @@ const IstiqrazPage = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col gap-5 items-center">
-            
+          <div className="flex flex-col gap-5 w-full">
+            <h2>Gəliri hesabla</h2>
+            <div className="flex items-center  gap-4 p-[40px] rounded-[10px] bg-[#F9F9FA]">
+              <div className="flex items-center  gap-3">
+                  <p>Alış</p>
+                  <div className="flex relative">
+                    <div className="flex w-[30px]  h-[30px] rounded-full"></div>
+                  </div>
+                  <p>Satış</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

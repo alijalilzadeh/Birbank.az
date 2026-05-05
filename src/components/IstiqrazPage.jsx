@@ -58,7 +58,7 @@ const IstiqrazPage = () => {
               <div className="flex items-center  gap-3">
                   <p>Alış</p>
                   <div className="flex relative">
-                    <div className="flex w-[30px]  h-[30px] rounded-full"></div>
+                    <div className="flex w-[31px]  h-[31px] rounded-full"></div>
                   </div>
                   <p>Satış</p>
               </div>

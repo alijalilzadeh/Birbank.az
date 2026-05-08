@@ -71,8 +71,8 @@ const IstiqrazPage = () => {
             </div>
             <div className="flex flex-col gap-4 items-center">
               <div className="flex items-center self-end">
-                <p onClick={() => setCurrency("AZN")} className={`text-[16px] font-[400] px-[16px] py-[4px] ${currency === "AZN" ? " text-white bg-[#EC3342]" : " text-[#9496AC] bg-[#F3F3F5"} rounded-[6px] cursor-pointer`}>AZN</p>
-                <p onClick={() => setCurrency("USD")} className={`text-[16px] font-[400] px-[16px] py-[4px] ${currency === "USD" ? " text-white bg-[#EC3342]" : "text-[#9496AC] bg-[#F3F3F5"} rounded-[6px] cursor-pointer`}>USD</p>
+                <p onClick={() => setCurrency("AZN")} className={`text-[16px] font-[400] px-[16px] py-[4px] ${currency === "AZN" ? " text-white bg-[#EC3342]" : " text-[#9496AC] bg-[#F3F3F5]"} rounded-[6px] cursor-pointer`}>AZN</p>
+                <p onClick={() => setCurrency("USD")} className={`text-[16px] font-[400] px-[16px] py-[4px] ${currency === "USD" ? " text-white bg-[#EC3342]" : "text-[#9496AC] bg-[#F3F3F5]"} rounded-[6px] cursor-pointer`}>USD</p>
               </div>
               <div className="flex items-center justify-between w-full h-full relative rounded-[10px] bg-[linear-gradient(98.65deg,_rgb(236,50,66)_0%,_rgb(153,0,0)_100%)]">
                 <div className="flex flex-col gap-3 px-[72px] py-[96px] w-[60%] h-full">
@@ -241,6 +241,7 @@ const IstiqrazPage = () => {
             </div>
 
           </div>
+        
         </div>
       </div>
     </>

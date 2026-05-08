@@ -1,17 +1,18 @@
 import React from 'react'
 import Navbar from './Navbar'
-import IstiqrazPage from './IstiqrazPage'
 import SecondaryNavbar from './SecondaryNavbar'
+import GetCreditContent from './GetCreditContent'
 import Footer from './Footer'
-const Istiqraz = () => {
+
+const getCredit = () => {
   return (
     <>
-      <Navbar />
+      <Navbar/>
       <SecondaryNavbar />
-      <IstiqrazPage />
+      <GetCreditContent />
       <Footer />
     </>
   )
 }
 
-export default Istiqraz
+export default getCredit

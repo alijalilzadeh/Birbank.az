@@ -1,8 +1,7 @@
 import React from 'react'
-import { useState } from 'react'
+import { useState, useEffect, useMemo } from 'react'
 import { Link } from 'react-router-dom'
 import newsData from '../NewsData/newsData.json'
-
 const NewsBlock = () => {
 
   return (

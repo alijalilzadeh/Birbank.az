@@ -2,8 +2,8 @@
     "pageProps": {
         "data": [
             {
-                "buy": 2.2613,
-                "sell": 2.3663,
+                "buy": 2.2433,
+                "sell": 2.3483,
                 "type": "NON_CASH",
                 "currency": {
                     "num": 826,
@@ -13,8 +13,8 @@
                 }
             },
             {
-                "buy": 0.0203,
-                "sell": 0.0238,
+                "buy": 0.0196,
+                "sell": 0.0242,
                 "type": "CASH",
                 "currency": {
                     "num": 643,
@@ -24,8 +24,8 @@
                 }
             },
             {
-                "buy": 2.3063,
-                "sell": 2.3063,
+                "buy": 2.2883,
+                "sell": 2.2883,
                 "type": "CENTRAL_BANK",
                 "currency": {
                     "num": 826,
@@ -35,8 +35,8 @@
                 }
             },
             {
-                "buy": 0.0275,
-                "sell": 0.038,
+                "buy": 0.0305,
+                "sell": 0.0375,
                 "type": "CASH",
                 "currency": {
                     "num": 949,
@@ -46,8 +46,8 @@
                 }
             },
             {
-                "buy": 2.1499,
-                "sell": 2.2199,
+                "buy": 2.1264,
+                "sell": 2.1964,
                 "type": "CASH",
                 "currency": {
                     "num": 756,
@@ -57,8 +57,8 @@
                 }
             },
             {
-                "buy": 2.2613,
-                "sell": 2.3313,
+                "buy": 2.2433,
+                "sell": 2.3133,
                 "type": "CASH",
                 "currency": {
                     "num": 826,
@@ -68,8 +68,8 @@
                 }
             },
             {
-                "buy": 0.022836,
-                "sell": 0.022836,
+                "buy": 0.023214,
+                "sell": 0.023214,
                 "type": "CENTRAL_BANK",
                 "currency": {
                     "num": 643,
@@ -79,8 +79,8 @@
                 }
             },
             {
-                "buy": 0.0375,
-                "sell": 0.0375,
+                "buy": 0.037,
+                "sell": 0.037,
                 "type": "CENTRAL_BANK",
                 "currency": {
                     "num": 949,
@@ -90,8 +90,8 @@
                 }
             },
             {
-                "buy": 2.1799,
-                "sell": 2.1799,
+                "buy": 2.1564,
+                "sell": 2.1564,
                 "type": "CENTRAL_BANK",
                 "currency": {
                     "num": 756,
@@ -156,8 +156,8 @@
                 }
             },
             {
-                "buy": 1.995,
-                "sell": 1.995,
+                "buy": 1.9763,
+                "sell": 1.9763,
                 "type": "CENTRAL_BANK",
                 "currency": {
                     "num": 978,
@@ -178,8 +178,8 @@
                 }
             },
             {
-                "buy": 1.97,
-                "sell": 2.02,
+                "buy": 1.9513,
+                "sell": 2.0013,
                 "type": "CASH",
                 "currency": {
                     "num": 978,
@@ -189,7 +189,7 @@
                 }
             },
             {
-                "buy": 1.698,
+                "buy": 1.696,
                 "sell": 1.72,
                 "type": "NON_CASH",
                 "currency": {
@@ -200,8 +200,8 @@
                 }
             },
             {
-                "buy": 1.95,
-                "sell": 2.085,
+                "buy": 1.9313,
+                "sell": 2.0663,
                 "type": "NON_CASH",
                 "currency": {
                     "num": 978,
@@ -211,8 +211,8 @@
                 }
             },
             {
-                "buy": 0.0187,
-                "sell": 0.0264,
+                "buy": 0.0191,
+                "sell": 0.0268,
                 "type": "NON_CASH",
                 "currency": {
                     "num": 643,
@@ -222,8 +222,8 @@
                 }
             },
             {
-                "buy": 0.0243,
-                "sell": 0.0465,
+                "buy": 0.0238,
+                "sell": 0.046,
                 "type": "NON_CASH",
                 "currency": {
                     "num": 949,
@@ -233,8 +233,8 @@
                 }
             },
             {
-                "buy": 2.1299,
-                "sell": 2.2399,
+                "buy": 2.1064,
+                "sell": 2.2164,
                 "type": "NON_CASH",
                 "currency": {
                     "num": 756,
@@ -296,10 +296,11 @@
                 "more": "Daha çox",
                 "selected": "seçildi",
                 "noComission": "komissiyasız",
-                "tillMonth": "ayadək",
+                "tillMonth": "ayadək Böl-Ödə krediti",
                 "clean": "Təmizlə",
                 "month": "Ay",
-                "bonus": "Bonus",
+                "partnerListBonus": "bonus",
+                "bonus": "Bonus, %",
                 "earnBonus": "Bonus qazanmaq üçün barkodu göstər",
                 "partnerFoundText": "Partnyor tapıldı",
                 "onlyOnPosTerminals": "*** Yalnız Kapital Bank POS-terminallarında",
@@ -308,13 +309,19 @@
                 "interestAndInstallmentRules": "** Faiz və taksit şərtləri filiallar üzrə dəyişiklik göstərə bilər",
                 "partnersFilter": {
                     "categories": "Kateqoriyalar",
+                    "benefits": "Üstünlüklər",
+                    "allCategories": "Bütün kateqoriyalar",
                     "bonus": "Bonus, %",
-                    "installments": "Taksit sayı",
-                    "bnpl": "Böl-ödə",
+                    "all": "Hamısını seç",
+                    "reset": "Sıfırla",
+                    "installments": "Taksit sayı, ay",
+                    "bnpl": "Böl-ödə, ay",
                     "clean": "Təmizlə",
                     "month": "Ay",
                     "sort": "Çeşidlə",
-                    "search": "Axtar"
+                    "search": "Axtar",
+                    "filters": "Filterlər",
+                    "close": "Bağla"
                 }
             },
             "partnersDetails": {
@@ -371,6 +378,7 @@
                 "list": "Siyahı",
                 "heading": "Xidmət şəbəkəsi",
                 "inputName": "Ünvanı qeyd et",
+                "filtersTitle": "Filterlər",
                 "titles": "Başlıqlar",
                 "branch": "Filial",
                 "atm": "Bankomat",
@@ -378,6 +386,10 @@
                 "digitalCenter": "Rəqəmsal Mərkəz",
                 "customerServiceHours": "Müştərilərə xidmət vaxtı",
                 "specialDays": "Xüsusi günlərdə xidmət",
+                "backToMap": "Geri",
+                "selectAddress": "Ünvan seç",
+                "directions": "İstiqamət",
+                "waze": "Waze",
                 "filter": {
                     "all": "Hamısı",
                     "saturday": "Şənbə günü işləyən filiallar",
@@ -389,7 +401,8 @@
                     "phone": "Telefon",
                     "weekday": "Həftəiçi",
                     "saturday": "Şənbə",
-                    "sunday": "Bazar"
+                    "sunday": "Bazar",
+                    "nonWorkingDay": "Qeyri-iş günü"
                 },
                 "weekdays": {
                     "monday": "Bazar ertəsi",
@@ -866,6 +879,21 @@
                 "createReservationErrorUnknown": "Əməliyyat tamamlanmadı. Yenidən cəhd edin.",
                 "slotBusy": "Bu vaxt artıq tutulub. Başqa vaxt seçin.",
                 "countdownHint": "Rezervasiya <strong>{time}</strong> sonra avtomatik ləğv ediləcək"
+            },
+            "leasing": {
+                "form": {
+                    "buttonTitle": "Müraciət et",
+                    "agreementText": "Məlumatlarımın doğruluğunu təsdiq edir, kredit öhdəliklərim barədə məlumatları AKB KR-dən sorğu etməyə EHP-də qeydiyyatdan keçirməyə və digər məlumat\n              bazalarından məlumatlarımın toplanmasına razılığımı bildirirəm.",
+                    "phoneNumber": "Mobil nömrə",
+                    "pin": "Fin kod",
+                    "successfulApplicationMsg": "Müraciətiniz qəbul olundu",
+                    "close": "Bağla",
+                    "invalidPrefix": "Mobil nömrə düzgün deyil"
+                }
+            },
+            "cards": {
+                "debet": "Debet",
+                "taksit": "Taksit"
             }
         },
         "initialState": {
@@ -3026,11 +3054,11 @@
                         "order": 1,
                         "title": "Bayram günlərində xidmətindəyik ",
                         "content": "   ",
-                        "isActive": false,
+                        "isActive": true,
                         "author": " ",
                         "photo": {
                             "data": {
-                                "id": 3330,
+                                "id": 3425,
                                 "attributes": {
                                     "name": "Qeyri-iş günləri işləyən filiallar 480x304.png",
                                     "alternativeText": null,
@@ -3040,27 +3068,27 @@
                                     "formats": {
                                         "thumbnail": {
                                             "ext": ".png",
-                                            "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/thumbnail_Qeyri_is_guenl_ri_isl_y_n_filiallar_480x304_811213118a.png",
-                                            "hash": "thumbnail_Qeyri_is_guenl_ri_isl_y_n_filiallar_480x304_811213118a",
+                                            "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/thumbnail_Qeyri_is_guenl_ri_isl_y_n_filiallar_480x304_a703ca3c15.png",
+                                            "hash": "thumbnail_Qeyri_is_guenl_ri_isl_y_n_filiallar_480x304_a703ca3c15",
                                             "mime": "image/png",
                                             "name": "thumbnail_Qeyri-iş günləri işləyən filiallar 480x304.png",
                                             "path": null,
-                                            "size": 34.06,
+                                            "size": 31.89,
                                             "width": 245,
                                             "height": 155,
-                                            "sizeInBytes": 34062
+                                            "sizeInBytes": 31889
                                         }
                                     },
-                                    "hash": "Qeyri_is_guenl_ri_isl_y_n_filiallar_480x304_811213118a",
+                                    "hash": "Qeyri_is_guenl_ri_isl_y_n_filiallar_480x304_a703ca3c15",
                                     "ext": ".png",
                                     "mime": "image/png",
-                                    "size": 29.08,
-                                    "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/Qeyri_is_guenl_ri_isl_y_n_filiallar_480x304_811213118a.png",
+                                    "size": 27.32,
+                                    "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/Qeyri_is_guenl_ri_isl_y_n_filiallar_480x304_a703ca3c15.png",
                                     "previewUrl": null,
                                     "provider": "aws-s3",
                                     "provider_metadata": null,
-                                    "createdAt": "2026-05-08T12:18:46.812Z",
-                                    "updatedAt": "2026-05-08T12:18:46.812Z"
+                                    "createdAt": "2026-05-26T12:03:07.151Z",
+                                    "updatedAt": "2026-05-26T12:03:07.151Z"
                                 }
                             }
                         },
@@ -4858,8 +4886,8 @@
             "currencyRates": {
                 "data": [
                     {
-                        "buy": 2.2613,
-                        "sell": 2.3663,
+                        "buy": 2.2433,
+                        "sell": 2.3483,
                         "type": "NON_CASH",
                         "currency": {
                             "num": 826,
@@ -4869,8 +4897,8 @@
                         }
                     },
                     {
-                        "buy": 0.0203,
-                        "sell": 0.0238,
+                        "buy": 0.0196,
+                        "sell": 0.0242,
                         "type": "CASH",
                         "currency": {
                             "num": 643,
@@ -4880,8 +4908,8 @@
                         }
                     },
                     {
-                        "buy": 2.3063,
-                        "sell": 2.3063,
+                        "buy": 2.2883,
+                        "sell": 2.2883,
                         "type": "CENTRAL_BANK",
                         "currency": {
                             "num": 826,
@@ -4891,8 +4919,8 @@
                         }
                     },
                     {
-                        "buy": 0.0275,
-                        "sell": 0.038,
+                        "buy": 0.0305,
+                        "sell": 0.0375,
                         "type": "CASH",
                         "currency": {
                             "num": 949,
@@ -4902,8 +4930,8 @@
                         }
                     },
                     {
-                        "buy": 2.1499,
-                        "sell": 2.2199,
+                        "buy": 2.1264,
+                        "sell": 2.1964,
                         "type": "CASH",
                         "currency": {
                             "num": 756,
@@ -4913,8 +4941,8 @@
                         }
                     },
                     {
-                        "buy": 2.2613,
-                        "sell": 2.3313,
+                        "buy": 2.2433,
+                        "sell": 2.3133,
                         "type": "CASH",
                         "currency": {
                             "num": 826,
@@ -4924,8 +4952,8 @@
                         }
                     },
                     {
-                        "buy": 0.022836,
-                        "sell": 0.022836,
+                        "buy": 0.023214,
+                        "sell": 0.023214,
                         "type": "CENTRAL_BANK",
                         "currency": {
                             "num": 643,
@@ -4935,8 +4963,8 @@
                         }
                     },
                     {
-                        "buy": 0.0375,
-                        "sell": 0.0375,
+                        "buy": 0.037,
+                        "sell": 0.037,
                         "type": "CENTRAL_BANK",
                         "currency": {
                             "num": 949,
@@ -4946,8 +4974,8 @@
                         }
                     },
                     {
-                        "buy": 2.1799,
-                        "sell": 2.1799,
+                        "buy": 2.1564,
+                        "sell": 2.1564,
                         "type": "CENTRAL_BANK",
                         "currency": {
                             "num": 756,
@@ -5012,8 +5040,8 @@
                         }
                     },
                     {
-                        "buy": 1.995,
-                        "sell": 1.995,
+                        "buy": 1.9763,
+                        "sell": 1.9763,
                         "type": "CENTRAL_BANK",
                         "currency": {
                             "num": 978,
@@ -5034,8 +5062,8 @@
                         }
                     },
                     {
-                        "buy": 1.97,
-                        "sell": 2.02,
+                        "buy": 1.9513,
+                        "sell": 2.0013,
                         "type": "CASH",
                         "currency": {
                             "num": 978,
@@ -5045,7 +5073,7 @@
                         }
                     },
                     {
-                        "buy": 1.698,
+                        "buy": 1.696,
                         "sell": 1.72,
                         "type": "NON_CASH",
                         "currency": {
@@ -5056,8 +5084,8 @@
                         }
                     },
                     {
-                        "buy": 1.95,
-                        "sell": 2.085,
+                        "buy": 1.9313,
+                        "sell": 2.0663,
                         "type": "NON_CASH",
                         "currency": {
                             "num": 978,
@@ -5067,8 +5095,8 @@
                         }
                     },
                     {
-                        "buy": 0.0187,
-                        "sell": 0.0264,
+                        "buy": 0.0191,
+                        "sell": 0.0268,
                         "type": "NON_CASH",
                         "currency": {
                             "num": 643,
@@ -5078,8 +5106,8 @@
                         }
                     },
                     {
-                        "buy": 0.0243,
-                        "sell": 0.0465,
+                        "buy": 0.0238,
+                        "sell": 0.046,
                         "type": "NON_CASH",
                         "currency": {
                             "num": 949,
@@ -5089,8 +5117,8 @@
                         }
                     },
                     {
-                        "buy": 2.1299,
-                        "sell": 2.2399,
+                        "buy": 2.1064,
+                        "sell": 2.2164,
                         "type": "NON_CASH",
                         "currency": {
                             "num": 756,
@@ -5143,6 +5171,231 @@
             },
             "news": {
                 "newsData": [
+                    {
+                        "id": 149,
+                        "attributes": {
+                            "title": "Birbank və “Bir Kredit” BOKT-dan yeni lizinq imkanı: 0%-dən başlayan ilkin ödənişlə avtomobil əldə edin ",
+                            "content": "<p style=\"line-height:107%;text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\" lang=\"AZ-LATIN\">Avtomobil almaq istəyənlər üçün ən böyük çətinliklərdən biri yüksək ilkin ödəniş və uzunmüddətli rəsmiləşdirmə prosesidir. “Bir Kredit” BOKT (Bank Olmayan Kredit Təşkilatı) bu stereotipləri dəyişərək müştərilər üçün daha əlçatan lizinq imkanını təqdim edir.</span></span></p><p style=\"line-height:107%;text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\" lang=\"AZ-LATIN\">“Bir Kredit” BOKT, ölkənin ilk rəqəmsal bankı Birbank ilə tərəfdaşlıq çərçivəsində yeni lizinq xidmətini istifadəyə verib. Yeni xidmət sayəsində müştərilər həm yeni, həm də istehsal ili 5 ilə qədər olan işlənmiş avtomobilləri </span><i><span style=\"line-height:107%;\" lang=\"AZ-LATIN\"><strong>minimum 0%-dən başlayan ilkin ödənişlə</strong></span></i><span style=\"line-height:107%;\" lang=\"AZ-LATIN\">, </span><i><span style=\"line-height:107%;\" lang=\"AZ-LATIN\"><strong>100 000 AZN-dək maliyyələşmə məbləği</strong></span></i><span style=\"line-height:107%;\" lang=\"AZ-LATIN\"> ilə əldə edə və ödənişi </span><i><span style=\"line-height:107%;\" lang=\"AZ-LATIN\"><strong>60 aya qədər hissələrlə</strong></span></i><span style=\"line-height:107%;\" lang=\"AZ-LATIN\"> həyata keçirə bilərlər.</span></span></p><p style=\"line-height:107%;text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\" lang=\"AZ-LATIN\">Xidmətin əsas fərqləndirici cəhətlərindən biri onun daha geniş auditoriya üçün əlçatan olmasıdır. Belə ki, </span><i><span style=\"line-height:107%;\" lang=\"AZ-LATIN\"><strong>rəsmi gəliri olmayan şəxslər&nbsp;</strong></span></i><span style=\"line-height:107%;\" lang=\"AZ-LATIN\">də bu fürsətdən yararlana bilərlər. Tərəflər bu yanaşma ilə avtomobil sahibi olmağı daha çox insan üçün əlçatan etməyi hədəfləyir.&nbsp;</span></span></p><p style=\"line-height:107%;text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\" lang=\"AZ-LATIN\">Digər mühüm üstünlük isə prosesin sadəliyidir. Lizinq rəsmiləşdirilməsi birbaşa avtomobil salonunda həyata keçirilir. Bu isə əlavə sənəd toplamağa, banka getməyə və vaxt itirməyə ehtiyac qalmadan, avtomobili seçdiyiniz anda maliyyələşdirməni tamamlamağa imkan verir.</span></span></p><p style=\"line-height:107%;text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\" lang=\"AZ-LATIN\">Birbank-ın rəqəmsal yanaşması bu xidmətdə də özünü göstərir. Müştərilər prosesi daha sürətli, rahat və şəffaf şəkildə həyata keçirə bilirlər. Yeni lizinq imkanı çevik şərtləri, sürətli rəsmiləşdirilməsi və geniş əlçatanlığı ilə avtomobil əldə etmə prosesinə yeni baxış gətirir.</span></span></p><p style=\"line-height:107%;text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\" lang=\"AZ-LATIN\">Lizinq xidmətindən yararlanmaq istəyənlər daha ətraflı məlumat üçün Birbank mobil tətbiqi vasitəsilə müraciət edə və ya tərəfdaş avtomobil salonlarına yaxınlaşa bilərlər.</span></span></p><p style=\"line-height:107%;text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\" lang=\"AZ-LATIN\">Ətraflı məlumat üçün:&nbsp;</span></span><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.b-b.az/ZomFov\" title=\"https://www.b-b.az/zomfov\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\" lang=\"AZ-LATIN\">https://www.b-b.az/ZomFov</span></span></a><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\" lang=\"AZ-LATIN\">&nbsp;</span></span></p>",
+                            "order": null,
+                            "slug": "birbank-v-bir-kredit-bokt-dan-yeni-lizinq-imkani-0-d-n-baslayan-ilkin-oed-nisl-avtomobil-ld-edin",
+                            "createdAt": "2026-05-25T12:20:23.994Z",
+                            "updatedAt": "2026-05-25T12:22:14.973Z",
+                            "publishedAt": "2026-05-25T12:20:25.588Z",
+                            "locale": "az",
+                            "date": "2026-05-25",
+                            "imageUrl": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/Avtomobil_lizinqi_1000x1000_5aca304079.png",
+                            "image": {
+                                "data": {
+                                    "id": 3417,
+                                    "attributes": {
+                                        "name": "Avtomobil lizinqi 1000x1000.png",
+                                        "alternativeText": null,
+                                        "caption": null,
+                                        "width": 1000,
+                                        "height": 1000,
+                                        "formats": {
+                                            "small": {
+                                                "ext": ".png",
+                                                "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/small_Avtomobil_lizinqi_1000x1000_5aca304079.png",
+                                                "hash": "small_Avtomobil_lizinqi_1000x1000_5aca304079",
+                                                "mime": "image/png",
+                                                "name": "small_Avtomobil lizinqi 1000x1000.png",
+                                                "path": null,
+                                                "size": 337.1,
+                                                "width": 500,
+                                                "height": 500,
+                                                "sizeInBytes": 337103
+                                            },
+                                            "medium": {
+                                                "ext": ".png",
+                                                "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/medium_Avtomobil_lizinqi_1000x1000_5aca304079.png",
+                                                "hash": "medium_Avtomobil_lizinqi_1000x1000_5aca304079",
+                                                "mime": "image/png",
+                                                "name": "medium_Avtomobil lizinqi 1000x1000.png",
+                                                "path": null,
+                                                "size": 699.63,
+                                                "width": 750,
+                                                "height": 750,
+                                                "sizeInBytes": 699632
+                                            },
+                                            "thumbnail": {
+                                                "ext": ".png",
+                                                "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/thumbnail_Avtomobil_lizinqi_1000x1000_5aca304079.png",
+                                                "hash": "thumbnail_Avtomobil_lizinqi_1000x1000_5aca304079",
+                                                "mime": "image/png",
+                                                "name": "thumbnail_Avtomobil lizinqi 1000x1000.png",
+                                                "path": null,
+                                                "size": 45.27,
+                                                "width": 156,
+                                                "height": 156,
+                                                "sizeInBytes": 45268
+                                            }
+                                        },
+                                        "hash": "Avtomobil_lizinqi_1000x1000_5aca304079",
+                                        "ext": ".png",
+                                        "mime": "image/png",
+                                        "size": 245.46,
+                                        "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/Avtomobil_lizinqi_1000x1000_5aca304079.png",
+                                        "previewUrl": null,
+                                        "provider": "aws-s3",
+                                        "provider_metadata": null,
+                                        "createdAt": "2026-05-25T12:19:53.797Z",
+                                        "updatedAt": "2026-05-25T12:19:53.797Z"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": 146,
+                        "attributes": {
+                            "title": "“Bir Kredit BOKT” MMC 2025-ci il üzrə maliyyə göstəricilərini açıqlayıb ",
+                            "content": "<p style=\"line-height:normal;margin-bottom:19.5pt;text-align:justify;text-justify:inter-ideograph;\"><span style=\"background-color:white;color:black;font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\">“Bir Kredit BOKT” MMC 2025-ci il üzrə maliyyə göstəricilərini açıqlayıb. Hesabata əsasən, maliyyə qurumunun kredit portfeli 2025-ci ildə kreditləşmə fəaliyyəti nəticəsində 11 milyon 747 min 725 AZN təşkil edib.&nbsp;</span></p><p style=\"line-height:normal;margin-bottom:19.5pt;text-align:justify;text-justify:inter-ideograph;\"><span style=\"background-color:white;color:black;font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\">2025-ci ildə “Bir Kredit BOKT” MMC-nin gəlirlərinin əsas hissəsini – 98%-ni (269 min 528 AZN) faiz gəlirləri təşkil edib. Digər gəlirlər isə ümumi gəlirlərin 2%-i həcmində olub (4 min 477 AZN).<span>&nbsp; </span>Hesabat dövrü üzrə xalis zərər 206 min 908 AZN təşkil edib. Buna səbəb kreditləşmə fəaliyyətinə 2025-ci ilin avqust ayından etibarən başlanılması, eləcə də cəlb edilmiş vəsaitlər üzrə faiz xərclərinin, ehtiyatların və əməliyyat xərclərinin ilin əvvəlindən formalaşdırılması olub.&nbsp;</span></p><p style=\"line-height:normal;margin-bottom:19.5pt;text-align:justify;text-justify:inter-ideograph;\"><span style=\"background-color:white;color:black;font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\">2025-ci ilin sonunda “Bir Kredit BOKT” MMC-nin cəmi aktivləri 108 milyon 728 min 812 AZN təşkil edib. Müqayisə üçün qeyd edək ki, 2024-cü ilin sonunda bu göstərici 83 milyon 480 min 131 AZN təşkil edirdi. Beləliklə, BOKT-nin aktivləri illik müqayisədə 25 milyon manatdan çox artıb. Artımın əsas səbəbləri investisiya portfelinin 15 milyon manat genişlənməsi, həmçinin BOKT tərəfindən 6 ay ərzində verilən kreditlərin həcmidir ki, bu rəqəm yuvarlaq olaraq 12 milyon manatdır. Aktivlərdən çıxılan<span>&nbsp; </span>ehtiyatlar, keçmiş illərin zərəri 2 milyon manat təşkil edir. Hesabat dövründə BOKT-nin nizamnamə kapitalı da artırılaraq 99 milyon 835 min 580 manata çatdırılıb.&nbsp;</span></p><p style=\"line-height:normal;margin-bottom:19.5pt;text-align:justify;text-justify:inter-ideograph;\"><span style=\"background-color:white;color:black;font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\">Cari dövr ərzində BOKT rebrendinq edərək “BirKart BOKT” MMC adından, “Bir Kredit BOKT” MMC adına keçib. Rebrendinqin əsas məqsədi qurumun gələcək inkişaf strategiyasına uyğun olaraq daha innovativ və texnoloji yönümlü xidmət modelinin formalaşdırılması, eləcə də müştərilərə tam onlayn xidmətlərin təqdim edilməsidir. Bu istiqamətdə təqdim olunan əsas xidmətlərdən biri də Birmarket mobil tətbiqi vasitəsilə müştərilərin ehtiyaclarına uyğun onlayn kreditləşmə xidmətidir.</span></p><p style=\"line-height:normal;margin-bottom:19.5pt;text-align:justify;text-justify:inter-ideograph;\"><span style=\"background-color:white;color:black;font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\">Hesabatla ətraflı tanış olmaq üçün:&nbsp;</span><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.b-b.az/aC3aDn\"><span style=\"background-color:white;color:#0563C1;font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\">www.b-b.az/aC3aDn</span></a><span style=\"background-color:white;color:black;font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\">&nbsp;<span>&nbsp;</span></span></p><p style=\"line-height:normal;margin-bottom:19.5pt;text-align:justify;text-justify:inter-ideograph;\"><span style=\"background-color:white;color:black;font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\">Qeyd edək ki, kreditlərin verilməsi məqsədilə 2018-ci ildə yaradılmış “BirKart BOKT” MMC-nin 31 dekabr 2025-ci il tarixinə nizamnamə kapitalının 100%-i “Kapital Bank” ASC-yə məxsusdur. Hazırda fəaliyyətini “Bir kredit BOKT” MMC adı altında davam etdirən qurum Bakı şəhəri, Nəsimi rayonu, Neftçilər prospekti 153 ünvanında yerləşir.</span></p>",
+                            "order": null,
+                            "slug": "bir-kredit-bokt-mmc-2025-ci-il-uezr-maliyy-goest-ricil-rini-aciqlayib",
+                            "createdAt": "2026-05-22T07:27:25.622Z",
+                            "updatedAt": "2026-05-22T07:42:08.619Z",
+                            "publishedAt": "2026-05-22T07:36:41.234Z",
+                            "locale": "az",
+                            "date": "2026-05-21",
+                            "imageUrl": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/Bir_Kredit_BOKT_1000x1000_72f3aa9c2f.png",
+                            "image": {
+                                "data": {
+                                    "id": 3384,
+                                    "attributes": {
+                                        "name": "BirKreditBOKT 1000x1000.png",
+                                        "alternativeText": null,
+                                        "caption": null,
+                                        "width": 1000,
+                                        "height": 1000,
+                                        "formats": {
+                                            "small": {
+                                                "ext": ".png",
+                                                "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/small_Bir_Kredit_BOKT_1000x1000_72f3aa9c2f.png",
+                                                "hash": "small_Bir_Kredit_BOKT_1000x1000_72f3aa9c2f",
+                                                "mime": "image/png",
+                                                "name": "small_BirKreditBOKT 1000x1000.png",
+                                                "path": null,
+                                                "size": 17.75,
+                                                "width": 500,
+                                                "height": 500,
+                                                "sizeInBytes": 17747
+                                            },
+                                            "medium": {
+                                                "ext": ".png",
+                                                "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/medium_Bir_Kredit_BOKT_1000x1000_72f3aa9c2f.png",
+                                                "hash": "medium_Bir_Kredit_BOKT_1000x1000_72f3aa9c2f",
+                                                "mime": "image/png",
+                                                "name": "medium_BirKreditBOKT 1000x1000.png",
+                                                "path": null,
+                                                "size": 29.42,
+                                                "width": 750,
+                                                "height": 750,
+                                                "sizeInBytes": 29423
+                                            },
+                                            "thumbnail": {
+                                                "ext": ".png",
+                                                "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/thumbnail_Bir_Kredit_BOKT_1000x1000_72f3aa9c2f.png",
+                                                "hash": "thumbnail_Bir_Kredit_BOKT_1000x1000_72f3aa9c2f",
+                                                "mime": "image/png",
+                                                "name": "thumbnail_BirKreditBOKT 1000x1000.png",
+                                                "path": null,
+                                                "size": 6.05,
+                                                "width": 156,
+                                                "height": 156,
+                                                "sizeInBytes": 6054
+                                            }
+                                        },
+                                        "hash": "Bir_Kredit_BOKT_1000x1000_72f3aa9c2f",
+                                        "ext": ".png",
+                                        "mime": "image/png",
+                                        "size": 6.93,
+                                        "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/Bir_Kredit_BOKT_1000x1000_72f3aa9c2f.png",
+                                        "previewUrl": null,
+                                        "provider": "aws-s3",
+                                        "provider_metadata": null,
+                                        "createdAt": "2026-05-22T07:26:32.271Z",
+                                        "updatedAt": "2026-05-22T07:26:32.271Z"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": 143,
+                        "attributes": {
+                            "title": "Kreditinizi Birbank-a gətirin, 6%-dək endirim qazanın",
+                            "content": "<p style=\"line-height:107%;text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\" lang=\"AZ-LATIN\">Birbank digər banklardakı kredit öhdəliklərini daha sərfəli şərtlərlə idarə etmək istəyənlər üçün yeni fürsət yaradır. Belə ki, ölkənin ilk rəqəmsal bankı&nbsp; yeni kampaniya çərçivəsində </span><i><span style=\"line-height:107%;\" lang=\"AZ-LATIN\"><strong>digər banklardakı kreditlərini Birbank-a gətirən müştərilərə 6%-dək endirim</strong></span></i><span style=\"line-height:107%;\" lang=\"AZ-LATIN\"> təqdim edir.</span></span></p><p style=\"line-height:107%;text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><i><span style=\"line-height:107%;\" lang=\"AZ-LATIN\"><strong>1 iyun</strong></span></i><span style=\"line-height:107%;\" lang=\"AZ-LATIN\"> tarixinədək davam edəcək kampaniya müştərilərə yalnız daha sərfəli faiz şərtləri deyil, həm də aylıq kredit ödənişlərini azaltmaq və bütün kredit öhdəliklərini bir yerdən daha rahat idarə etmək imkanı yaradır.</span></span></p><p style=\"line-height:107%;text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\" lang=\"AZ-LATIN\">Kampaniya çərçivəsində Kapital Bank-dan və ya istənilən digər bankdan əməkhaqqı və ya təqaüd alan şəxslər </span><i><span style=\"line-height:107%;\" lang=\"AZ-LATIN\"><strong>50 000 manatadək nağd pul kreditini 59 ayadək müddətə</strong></span></i><span style=\"line-height:107%;\" lang=\"AZ-LATIN\"> əldə edə bilərlər.</span></span></p><p style=\"line-height:107%;text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\" lang=\"AZ-LATIN\">Birbank-ın təqdim etdiyi yeni imkan xüsusilə bir neçə kredit ödənişi olan və daha rahat maliyyə idarəçiliyi axtaran müştərilər üçün əlverişli həlldir.&nbsp; Kreditlərin bir mərkəzdə birləşdirilməsi həm ödəniş prosesini sadələşdirir, həm də maliyyə yükünü daha rahat planlaşdırmağa imkan verir.</span></span></p><p style=\"line-height:107%;text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\" lang=\"AZ-LATIN\">Kampaniyadan yararlanmaq istəyənlər onlara </span><i><span style=\"line-height:107%;\" lang=\"AZ-LATIN\"><strong>ən yaxın Kapital Bank/Birbank filialına yaxınlaşaraq</strong></span></i><span style=\"line-height:107%;\" lang=\"AZ-LATIN\"> bu fürsəti dəyərləndirə bilərlər.&nbsp;</span></span></p><p style=\"line-height:107%;text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\" lang=\"AZ-LATIN\">Ətraflı məlumat üçün link: </span></span><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://www.b-b.az/rkpr\" title=\"http://www.b-b.az/rkpr\"><span style=\"color:#0563C1;font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\" lang=\"AZ-LATIN\"><u>www.b-b.az/rkpr</u></span></span></a><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\" lang=\"AZ-LATIN\">&nbsp;</span></span></p><p style=\"line-height:107%;text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\" lang=\"AZ-LATIN\">Ölkənin birinci bankı Kapital Bank PAŞA Holding-ə daxildir və Azərbaycanda ən böyük filial şəbəkəsi, 114 filialı və 53 şöbəsi ilə müştərilərin xidmətindədir. Bankın məhsul və xidmətləri barədə daha ətraflı məlumat almaq üçün&nbsp;</span></span><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://kapitalbank.az/\"><span style=\"color:#0563C1;font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\" lang=\"AZ-LATIN\"><strong>https://kapitalbank.az</strong></span></span></a><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\" lang=\"AZ-LATIN\"> saytına, 196 Əlaqə Mərkəzinə və ya Bankın müxtəlif sosial şəbəkələrdə olan səhifələrinə müraciət edə bilərsiniz.&nbsp;</span></span><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://ccl.birbank.az/az/order/GTKR?utm_medium=pr&amp;utm_source=kb&amp;utm_campaign=0-TRF-gundelik-telebat-krediti-general&amp;utm_content=pr\"><span style=\"color:#0563C1;font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\" lang=\"AZ-LATIN\"><strong>Nağd pul krediti</strong></span></span></a><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\" lang=\"AZ-LATIN\"> və&nbsp;</span></span><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://birbank.az/cards/all?utm_medium=pr&amp;utm_source=kb&amp;utm_campaign=0-TRF-taksit-kartlari-general&amp;utm_content=pr\"><span style=\"color:#0563C1;font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\" lang=\"AZ-LATIN\"><strong>Birbank kartı</strong></span></span></a><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\" lang=\"AZ-LATIN\"> sifarişlərinizi onlayn formada həyata keçirə bilərsiniz.&nbsp;</span></span></p>",
+                            "order": null,
+                            "slug": "kreditinizi-birbank-a-g-tirin-6-d-k-endirim-qazanin",
+                            "createdAt": "2026-05-19T11:28:04.026Z",
+                            "updatedAt": "2026-05-19T11:37:03.498Z",
+                            "publishedAt": "2026-05-19T11:28:07.785Z",
+                            "locale": "az",
+                            "date": "2026-05-19",
+                            "imageUrl": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/refinans_kreditlerine_6_faiz_1x1_bc205c31ea.jpg",
+                            "image": {
+                                "data": {
+                                    "id": 3376,
+                                    "attributes": {
+                                        "name": "refinans kreditlerine 6 faiz-1x1.jpg",
+                                        "alternativeText": null,
+                                        "caption": null,
+                                        "width": 1000,
+                                        "height": 1000,
+                                        "formats": {
+                                            "small": {
+                                                "ext": ".jpg",
+                                                "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/small_refinans_kreditlerine_6_faiz_1x1_bc205c31ea.jpg",
+                                                "hash": "small_refinans_kreditlerine_6_faiz_1x1_bc205c31ea",
+                                                "mime": "image/jpeg",
+                                                "name": "small_refinans kreditlerine 6 faiz-1x1.jpg",
+                                                "path": null,
+                                                "size": 31.45,
+                                                "width": 500,
+                                                "height": 500,
+                                                "sizeInBytes": 31447
+                                            },
+                                            "medium": {
+                                                "ext": ".jpg",
+                                                "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/medium_refinans_kreditlerine_6_faiz_1x1_bc205c31ea.jpg",
+                                                "hash": "medium_refinans_kreditlerine_6_faiz_1x1_bc205c31ea",
+                                                "mime": "image/jpeg",
+                                                "name": "medium_refinans kreditlerine 6 faiz-1x1.jpg",
+                                                "path": null,
+                                                "size": 60.16,
+                                                "width": 750,
+                                                "height": 750,
+                                                "sizeInBytes": 60163
+                                            },
+                                            "thumbnail": {
+                                                "ext": ".jpg",
+                                                "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/thumbnail_refinans_kreditlerine_6_faiz_1x1_bc205c31ea.jpg",
+                                                "hash": "thumbnail_refinans_kreditlerine_6_faiz_1x1_bc205c31ea",
+                                                "mime": "image/jpeg",
+                                                "name": "thumbnail_refinans kreditlerine 6 faiz-1x1.jpg",
+                                                "path": null,
+                                                "size": 5.33,
+                                                "width": 156,
+                                                "height": 156,
+                                                "sizeInBytes": 5326
+                                            }
+                                        },
+                                        "hash": "refinans_kreditlerine_6_faiz_1x1_bc205c31ea",
+                                        "ext": ".jpg",
+                                        "mime": "image/jpeg",
+                                        "size": 93.53,
+                                        "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/refinans_kreditlerine_6_faiz_1x1_bc205c31ea.jpg",
+                                        "previewUrl": null,
+                                        "provider": "aws-s3",
+                                        "provider_metadata": null,
+                                        "createdAt": "2026-05-19T11:25:21.960Z",
+                                        "updatedAt": "2026-05-19T11:25:21.960Z"
+                                    }
+                                }
+                            }
+                        }
+                    },
                     {
                         "id": 140,
                         "attributes": {
@@ -5877,243 +6130,6 @@
                                 }
                             }
                         }
-                    },
-                    {
-                        "id": 104,
-                        "attributes": {
-                            "title": "Birbank-ın Yeni il lotereyasında mənzilin sahibi bəlli oldu",
-                            "content": "<p style=\"line-height:107%;text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\">Birbank-ın 17 noyabr 2025-ci il – 31 yanvar 2026-cı il tarixləri arasında keçirilən Yeni il lotereyası yekunlaşıb. Qaliblər 23 fevral 2026-cı il tarixində baş tutan tirajda bəlli olub. 3 000 000-a yaxın Birbanklının şansını sınadığı lotereyada 10 000 nəfər təsadüfi seçim əsasında qalib adını qazanıb.&nbsp;</span></span></p><p style=\"line-height:107%;text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\">Lotereyada 9 900 nəfər müxtəlif (10, 25, 50, 150, 250) Bir bonusu qazandığı halda, 9 nəfər “iPhone 17 Pro” markalı mobil telefona sahib olub. 20 qalibə “Apple Watch SE2”, 30 qalibə 500 manat dəyərində səyahət paketi hədiyyə olunub. 40 nəfər isə “AirPods 4” qulaqlığını qazanıb. Lotereyanın superprizi olan Sea Breeze-də “Park Lane” yaşayış kompleksində yerləşən mənzil isə 1 nəfər şanslı Birbanklının payına düşüb.&nbsp;</span></span></p><p style=\"line-height:107%;text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\">Lotereya qaliblərinin siyahısı:&nbsp;</span></span><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://www.b-b.az/qaliblersiyahi\"><span style=\"color:#0563C1;font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\"><strong>www.b-b.az/qaliblersiyahi</strong></span></span></a><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\">&nbsp;</span></span></p><p style=\"line-height:107%;text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\">Qeyd edək ki, lotereyada iştirak qeydiyyatsız həyata keçirilib. Belə ki,&nbsp;</span></span><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://birbank.az/cards/all\"><span style=\"color:#0563C1;font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\"><strong>Birbank debet</strong></span></span></a><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\">, Birbank taksit və&nbsp;</span></span><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://cards.birbank.az/az/BRST/bb/star\"><span style=\"color:#0563C1;font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\"><strong>Birbank Star</strong></span></span></a><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\"><strong>&nbsp;</strong>kartları ilə ödəniş edən hər kəs lotereyada avtomatik iştirak etmək şansı qazanıb.&nbsp;</span></span></p><p style=\"line-height:115%;margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:115%;\">Daim ən son rəqəmsal yeniliklər və bank məhsulları təqdim edən Kapital Bank-ın əmtəə nişanı olan Birbank, 3 milyondan çox aktiv istifadəçisi olan mobil tətbiqi, 115 filial və 53 şöbədən ibarət Azərbaycanda ən böyük filial şəbəkəsi ilə müştərilərinin xidmətindədir. Bank 2025-ci ilədək ölkənin birinci bankı Kapital Bank adı altında müştərilərinə xidmət göstərib və PAŞA Holding-ə daxildir. Kapital Bank isə hazırda maliyyə institutu olaraq fəaliyyətini davam etdirir. Bankın məhsul və xidmətləri barədə daha ətraflı məlumat almaq üçün <strong>birbank.az</strong> saytına, 196 Əlaqə Mərkəzinə və ya Bankın müxtəlif sosial şəbəkələrdə olan səhifələrinə müraciət edə bilərsiniz.</span></span></p>",
-                            "order": null,
-                            "slug": "birbank-in-yeni-il-lotereyasinda-m-nzilin-sahibi-b-lli-oldu",
-                            "createdAt": "2026-03-03T10:02:39.710Z",
-                            "updatedAt": "2026-03-03T10:05:02.618Z",
-                            "publishedAt": "2026-03-03T10:05:02.611Z",
-                            "locale": "az",
-                            "date": "2026-03-03",
-                            "imageUrl": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/BB_Lottery_Qalibl_r_1000x1000_a048c1bf24.png",
-                            "image": {
-                                "data": {
-                                    "id": 3122,
-                                    "attributes": {
-                                        "name": "BB_Lottery---Qaliblər_1000x1000.png",
-                                        "alternativeText": null,
-                                        "caption": null,
-                                        "width": 1000,
-                                        "height": 1000,
-                                        "formats": {
-                                            "small": {
-                                                "ext": ".png",
-                                                "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/small_BB_Lottery_Qalibl_r_1000x1000_a048c1bf24.png",
-                                                "hash": "small_BB_Lottery_Qalibl_r_1000x1000_a048c1bf24",
-                                                "mime": "image/png",
-                                                "name": "small_BB_Lottery---Qaliblər_1000x1000.png",
-                                                "path": null,
-                                                "size": 402.06,
-                                                "width": 500,
-                                                "height": 500,
-                                                "sizeInBytes": 402055
-                                            },
-                                            "medium": {
-                                                "ext": ".png",
-                                                "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/medium_BB_Lottery_Qalibl_r_1000x1000_a048c1bf24.png",
-                                                "hash": "medium_BB_Lottery_Qalibl_r_1000x1000_a048c1bf24",
-                                                "mime": "image/png",
-                                                "name": "medium_BB_Lottery---Qaliblər_1000x1000.png",
-                                                "path": null,
-                                                "size": 870.38,
-                                                "width": 750,
-                                                "height": 750,
-                                                "sizeInBytes": 870379
-                                            },
-                                            "thumbnail": {
-                                                "ext": ".png",
-                                                "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/thumbnail_BB_Lottery_Qalibl_r_1000x1000_a048c1bf24.png",
-                                                "hash": "thumbnail_BB_Lottery_Qalibl_r_1000x1000_a048c1bf24",
-                                                "mime": "image/png",
-                                                "name": "thumbnail_BB_Lottery---Qaliblər_1000x1000.png",
-                                                "path": null,
-                                                "size": 53.07,
-                                                "width": 156,
-                                                "height": 156,
-                                                "sizeInBytes": 53072
-                                            }
-                                        },
-                                        "hash": "BB_Lottery_Qalibl_r_1000x1000_a048c1bf24",
-                                        "ext": ".png",
-                                        "mime": "image/png",
-                                        "size": 314.49,
-                                        "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/BB_Lottery_Qalibl_r_1000x1000_a048c1bf24.png",
-                                        "previewUrl": null,
-                                        "provider": "aws-s3",
-                                        "provider_metadata": null,
-                                        "createdAt": "2026-03-03T10:02:06.302Z",
-                                        "updatedAt": "2026-03-03T10:02:06.302Z"
-                                    }
-                                }
-                            }
-                        }
-                    },
-                    {
-                        "id": 107,
-                        "attributes": {
-                            "title": "Birbank Biznes-in “Hər işdə birinci qadınlar” yarmarkası uğurla yekunlaşıb",
-                            "content": "<p style=\"line-height:107%;text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\">8 Mart Beynəlxalq Qadınlar Günü ərəfəsində Birbank Biznes-in təşəbbüsü ilə həyata keçirilən “Hər işdə birinci qadınlar” yarmarkası başa çatıb. Artıq ənənə halını alan yarmarka PASHA Malls-un dəstəyi ilə Crescent Mall-da baş tutub. Ümumilikdə 50 sahibkar qadının iştirak etdiyi tədbir ziyarətçilər tərəfindən də maraqla qarşılanıb.&nbsp;</span></span></p><p style=\"line-height:107%;text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\">Yarmarka çərçivəsində unikal əl işləri, kreativ hədiyyələr və müxtəlif məhsullar layihəyə özəl endirimli qiymətlərlə satışa çıxarılıb. Tədbir qadın sahibkarlar üçün satış imkanlarının genişləndirilməsi, yeni müştərilərlə tanışlıq və potensial tərəfdaşlıqların qurulması baxımından effektiv platforma rolunu oynayıb.&nbsp;</span></span></p><p style=\"line-height:107%;text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\">Layihənin davamı olaraq qadın sahibkarlar üçün xüsusi kampaniyaya da start verilib. Belə ki, xanımların biznesinə dəstək məqsədi ilə təqdim olunan “She’s Next” kartı 15 mart 2026-cı il tarixinədək xanımlara ödənişzsiz olaraq hədiyyə edilir. Kart sahibinə manat, dollar və avro valyutalarında istifadə imkanı ilə yanaşı, müxtəlif bonuslar və əlavə imtiyazlar da təklif edir. “She’s Next” biznes kartını əldə etmək istəyənlər&nbsp;</span></span><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://birbank.business/\"><span style=\"color:#0563C1;font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\">Birbank Biznes</span></span></a><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\">-in rəsmi internet saytı və ya mobil tətbiqi vasitəsilə onlayn müraciət edə bilərlər. Həmçinin, 16 mart tarixinədək&nbsp; xanımların Birbank Biznes mobil tətbiqindən onlayn rəsmiləşdirdikləri kreditlərə heç bir komissiya tətbiq edilmir.&nbsp;</span></span></p><p style=\"line-height:107%;text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\">Birbank Biznes bu təşəbbüslərlə qadın sahibkarların fəaliyyətini dəstəkləməyi, onların bizneslərinin tanıdılması və inkişafı üçün yeni imkanlar yaratmağı hədəfləyir.&nbsp; &nbsp;</span></span></p><p style=\"line-height:107%;text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\">Sahibkarlığın inkişafına önəm verən Birbank Biznes Kapital Bank-ın əmtəə nişanı olaraq həm sahibkarların, həm də onların bizneslərinin inkişafına dəstək olur, biznes sahiblərinə innovativ və rahat məhsullar təqdim edir. Birbank Biznes müştərilərində suallar yaranarsa, onlara istənilən vaxt canlı çat vasitəsilə də dəstək göstərilir. Sahibkarlara vaxta qənaət etmək imkanı verən Birbank Biznes sistemi haqqında ətraflı məlumat üçün&nbsp;</span></span><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://birbank.business/\"><span style=\"color:blue;font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\">https://birbank.business/</span></span></a><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\"> saytına keçid edin və ya 896 məlumat mərkəzinə zəng edin.&nbsp;</span></span></p>",
-                            "order": null,
-                            "slug": "birbank-biznes-in-h-r-isd-birinci-qadinlar-yarmarkasi-ugurla-yekunlasib",
-                            "createdAt": "2026-03-03T12:08:36.944Z",
-                            "updatedAt": "2026-03-03T12:10:19.198Z",
-                            "publishedAt": "2026-03-03T12:08:44.545Z",
-                            "locale": "az",
-                            "date": "2026-03-03",
-                            "imageUrl": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/BBB_Press_1x1_efe404ff11.jpg",
-                            "image": {
-                                "data": {
-                                    "id": 3137,
-                                    "attributes": {
-                                        "name": "BBB_Press 1x1.jpg",
-                                        "alternativeText": null,
-                                        "caption": null,
-                                        "width": 1000,
-                                        "height": 1000,
-                                        "formats": {
-                                            "small": {
-                                                "ext": ".jpg",
-                                                "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/small_BBB_Press_1x1_efe404ff11.jpg",
-                                                "hash": "small_BBB_Press_1x1_efe404ff11",
-                                                "mime": "image/jpeg",
-                                                "name": "small_BBB_Press 1x1.jpg",
-                                                "path": null,
-                                                "size": 50.44,
-                                                "width": 500,
-                                                "height": 500,
-                                                "sizeInBytes": 50443
-                                            },
-                                            "medium": {
-                                                "ext": ".jpg",
-                                                "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/medium_BBB_Press_1x1_efe404ff11.jpg",
-                                                "hash": "medium_BBB_Press_1x1_efe404ff11",
-                                                "mime": "image/jpeg",
-                                                "name": "medium_BBB_Press 1x1.jpg",
-                                                "path": null,
-                                                "size": 96.34,
-                                                "width": 750,
-                                                "height": 750,
-                                                "sizeInBytes": 96343
-                                            },
-                                            "thumbnail": {
-                                                "ext": ".jpg",
-                                                "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/thumbnail_BBB_Press_1x1_efe404ff11.jpg",
-                                                "hash": "thumbnail_BBB_Press_1x1_efe404ff11",
-                                                "mime": "image/jpeg",
-                                                "name": "thumbnail_BBB_Press 1x1.jpg",
-                                                "path": null,
-                                                "size": 7.09,
-                                                "width": 156,
-                                                "height": 156,
-                                                "sizeInBytes": 7088
-                                            }
-                                        },
-                                        "hash": "BBB_Press_1x1_efe404ff11",
-                                        "ext": ".jpg",
-                                        "mime": "image/jpeg",
-                                        "size": 152.06,
-                                        "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/BBB_Press_1x1_efe404ff11.jpg",
-                                        "previewUrl": null,
-                                        "provider": "aws-s3",
-                                        "provider_metadata": null,
-                                        "createdAt": "2026-03-03T12:08:25.566Z",
-                                        "updatedAt": "2026-03-03T12:08:25.566Z"
-                                    }
-                                }
-                            }
-                        }
-                    },
-                    {
-                        "id": 98,
-                        "attributes": {
-                            "title": "Bayram alış-verişiniz qadın sahibkarların gücünə güc qatsın ",
-                            "content": "<p style=\"line-height:107%;text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\">Birbank Biznes <strong>8 Mart Beynəlxalq Qadınlar Günü&nbsp;</strong>ərəfəsində qadın sahibkarları dəstəkləmək məqsədilə xüsusi təşəbbüslə çıxış edir.&nbsp;</span></span></p><p style=\"line-height:107%;text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\">Belə ki, <strong>1 mart 2026-cı il&nbsp;</strong>tarixində xanım sahibkarlar <strong>üçün “Hər işdə birinci qadınlar” yarmarkası</strong> keçiriləcək. PASHA Malls-un dəstəyi ilə baş tutacaq yarmarka <strong>Crescent Mall</strong>-da saat <strong>10:00-</strong>da start götürəcək.&nbsp;</span></span></p><p style=\"line-height:107%;text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\">Hər kəsin dəvətli olduğu yarmarkada bir-birindən unikal əl işləri və hədiyyələr layihəyə özəl, xüsusi endirimli qiymətlərlə satışa çıxarılacaq.&nbsp;</span></span></p><p style=\"line-height:107%;text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\">Layihə qadın sahibkarların öz məhsul və xidmətlərini geniş auditoriyaya təqdim etməsi, satış imkanlarını artırması, eləcə də yeni müştəri və tərəfdaşlarla əlaqə qurması üçün unikal platforma rolunu oynayacaq.&nbsp; <strong>Birbank Biznes&nbsp;</strong>bu təşəbbüslə qadın sahibkarların fəaliyyətini dəstəkləməyi, onların bizneslərinin tanıdılması və inkişafı üçün yeni imkanlar yaratmağı hədəfləyir. Həmçinin, yarmarka ziyarətçilərə ölkənin müxtəlif biznes istiqamətində fəaliyyət göstərən qadın sahibkarların məhsul və xidmətləri ilə tanış olmaq, onları dəstəkləmək və yeni əməkdaşlıq imkanları barədə fikir mübadiləsi aparmaq şansı yaradacaq.&nbsp;</span></span></p><p style=\"line-height:107%;text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:107%;\">Doğmalarına dəyərli və unikal hədiyyələr almaq, eləcə də ölkədə qadın sahibkarlığının inkişafına dəstək olmaq istəyən hər kəs 1 mart tarixində Crescent Mall-a dəvətlidir.&nbsp;</span></span></p><p style=\"line-height:115%;margin-bottom:10.0pt;text-align:justify;text-justify:inter-ideograph;\"><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:115%;\">Sahibkarlığın inkişafına önəm verən Birbank Biznes Kapital Bank-ın əmtəə nişanı olaraq həm sahibkarların, həm də onların bizneslərinin inkişafına dəstək olur, biznes sahiblərinə innovativ və rahat məhsullar təqdim edir. Birbank Biznes müştərilərində suallar yaranarsa, onlara istənilən vaxt canlı çat vasitəsilə də dəstək göstərilir. Sahibkarlara vaxta qənaət etmək imkanı verən Birbank Biznes sistemi haqqında ətraflı məlumat üçün&nbsp;</span></span><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://birbank.business/\"><span style=\"color:blue;font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:115%;\">https://birbank.business/</span></span></a><span style=\"font-family:&quot;Times New Roman&quot;,serif;font-size:14.0pt;\"><span style=\"line-height:115%;\"> saytına keçid edin və ya 896 məlumat mərkəzinə zəng edin.&nbsp;</span></span></p>",
-                            "order": null,
-                            "slug": "bayram-alis-verisiniz-qadin-sahibkarlarin-guecuen-guec-qatsin",
-                            "createdAt": "2026-02-24T07:32:34.223Z",
-                            "updatedAt": "2026-02-24T13:04:59.981Z",
-                            "publishedAt": "2026-02-24T07:34:53.519Z",
-                            "locale": "az",
-                            "date": "2026-02-24",
-                            "imageUrl": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/BBB_yarmarka_1000x1000_e759417c41.png",
-                            "image": {
-                                "data": {
-                                    "id": 3080,
-                                    "attributes": {
-                                        "name": "BBB_yarmarka 1000x1000.png",
-                                        "alternativeText": null,
-                                        "caption": null,
-                                        "width": 1080,
-                                        "height": 1080,
-                                        "formats": {
-                                            "large": {
-                                                "ext": ".png",
-                                                "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/large_BBB_yarmarka_1000x1000_e759417c41.png",
-                                                "hash": "large_BBB_yarmarka_1000x1000_e759417c41",
-                                                "mime": "image/png",
-                                                "name": "large_BBB_yarmarka 1000x1000.png",
-                                                "path": null,
-                                                "size": 1836.52,
-                                                "width": 1000,
-                                                "height": 1000,
-                                                "sizeInBytes": 1836520
-                                            },
-                                            "small": {
-                                                "ext": ".png",
-                                                "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/small_BBB_yarmarka_1000x1000_e759417c41.png",
-                                                "hash": "small_BBB_yarmarka_1000x1000_e759417c41",
-                                                "mime": "image/png",
-                                                "name": "small_BBB_yarmarka 1000x1000.png",
-                                                "path": null,
-                                                "size": 499.64,
-                                                "width": 500,
-                                                "height": 500,
-                                                "sizeInBytes": 499642
-                                            },
-                                            "medium": {
-                                                "ext": ".png",
-                                                "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/medium_BBB_yarmarka_1000x1000_e759417c41.png",
-                                                "hash": "medium_BBB_yarmarka_1000x1000_e759417c41",
-                                                "mime": "image/png",
-                                                "name": "medium_BBB_yarmarka 1000x1000.png",
-                                                "path": null,
-                                                "size": 1079.3,
-                                                "width": 750,
-                                                "height": 750,
-                                                "sizeInBytes": 1079301
-                                            },
-                                            "thumbnail": {
-                                                "ext": ".png",
-                                                "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/thumbnail_BBB_yarmarka_1000x1000_e759417c41.png",
-                                                "hash": "thumbnail_BBB_yarmarka_1000x1000_e759417c41",
-                                                "mime": "image/png",
-                                                "name": "thumbnail_BBB_yarmarka 1000x1000.png",
-                                                "path": null,
-                                                "size": 59.17,
-                                                "width": 156,
-                                                "height": 156,
-                                                "sizeInBytes": 59166
-                                            }
-                                        },
-                                        "hash": "BBB_yarmarka_1000x1000_e759417c41",
-                                        "ext": ".png",
-                                        "mime": "image/png",
-                                        "size": 436.66,
-                                        "url": "https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/BBB_yarmarka_1000x1000_e759417c41.png",
-                                        "previewUrl": null,
-                                        "provider": "aws-s3",
-                                        "provider_metadata": null,
-                                        "createdAt": "2026-02-24T07:32:16.779Z",
-                                        "updatedAt": "2026-02-24T07:32:16.779Z"
-                                    }
-                                }
-                            }
-                        }
                     }
                 ],
                 "newsDetails": {
@@ -6134,8 +6150,8 @@
                 "pagination": {
                     "page": 1,
                     "pageSize": 12,
-                    "pageCount": 75,
-                    "total": 898
+                    "pageCount": 76,
+                    "total": 901
                 }
             },
             "qrTransfer": {

@@ -1,18 +1,17 @@
 import React from 'react'
 import Navbar from './Navbar'
 import SecondaryNavbar from './SecondaryNavbar'
-import GetCreditContent from './GetCreditContent'
 import Footer from './Footer'
-
-const getCredit = () => {
+import NinjaComponents from './NinjaComponents'
+const Ninja = () => {
   return (
     <>
-      <Navbar/>
+      <Navbar />
       <SecondaryNavbar />
-      <GetCreditContent />
-      <Footer />
+      <NinjaComponents />
+      {/* <Footer /> */}
     </>
   )
 }
 
-export default getCredit;
+export default Ninja

@@ -10,6 +10,7 @@ const PulKocurmeleri = () => {
       <Navbar />
       <SecondaryNavbar />
       <PulKocurmeleriPage />
+      <Footer />
     </>
   )
 }

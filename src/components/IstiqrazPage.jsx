@@ -104,6 +104,7 @@ const IstiqrazPage = () => {
                   </div>
                 </div>
                 <img src={`${currency === "AZN" ? IstiqrazAZN : IstiqrazUSD}`} className='absolute bottom-0 right-[40px] w-[400px] h-[300px] object-contain ' />
+                <div className="styles_banner-info-image-neon__dQrtF"></div>
               </div>
             </div>
           </div>
@@ -207,7 +208,7 @@ const IstiqrazPage = () => {
 
             </div>
           </div>
-          <div className="flex items-center justify-center w-full">
+          <div className="flex items-center justify-center w-full mb-[100px] mt-[60px]">
 
             <div className="grid grid-cols-6 items-center justify-center grid-rows-6 gap-6">
               <div className="flex flex-col items-center justify-center col-span-2 row-span-3 gap-1">

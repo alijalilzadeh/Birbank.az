@@ -25,7 +25,7 @@ const Footer = () => {
                 <Link to="/cards/all" className="text-white text-[16px] hover:underline">Kartlar</Link>
                 <Link className="text-white text-[16px] hover:underline">Avtomobil krediti</Link>
                 <Link className="text-white text-[16px] hover:underline">Xəbər</Link>
-                <Link className="text-white text-[16px] hover:underline">Ninja</Link>
+                <Link to='/ninja' className="text-white text-[16px] hover:underline">Ninja</Link>
                 <Link className="text-white text-[16px] hover:underline">Bloqlar</Link>
               </div>
 
@@ -33,7 +33,7 @@ const Footer = () => {
                 <Link className="text-white text-[16px] hover:underline">Partnyorlar</Link>
                 <Link className="text-white text-[16px] hover:underline">Sığortalar</Link>
                 <Link className="text-white text-[16px] hover:underline">Tariflər</Link>
-                <Link className="text-white text-[16px] hover:underline">Birbank profilini sil</Link>
+                <Link to='/how-to' className="text-white text-[16px] hover:underline">Birbank profilini sil</Link>
               </div>
 
               <div className="flex flex-col gap-3">

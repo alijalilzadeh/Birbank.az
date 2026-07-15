@@ -150,7 +150,7 @@ const Services = () => {
               <Link
                 to={item.link.href}
                 key={index}
-                className="relative col-span-3 row-span-2 flex items-center justify-between bg-[#F3F3F5] rounded-[12px] px-[23px] py-[16px]"
+                className="overflow-hidden relative col-span-3 row-span-2 flex items-center justify-between bg-[#F3F3F5] rounded-[12px] px-[23px] py-[16px]"
               >
                 <div className="flex flex-col gap-2 w-[50%]">
                   <h2 className='text-[24px]'>{item.title}</h2>

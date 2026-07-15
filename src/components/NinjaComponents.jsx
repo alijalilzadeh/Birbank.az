@@ -18,13 +18,37 @@ const NinjaComponents = () => {
               <h2 className='text-[32px] font-[600] text-white'>Ninja təklifi ilə xərcləri hissələrə bölüb, ödəyin!</h2>
             </div>
             <div className="flex items-center justify-center w-[50%] py-[48px] px-[10px] ">
-                <img src={ninjaCardImg} className='w-[346px] object-cover flex' />
+              <img src={ninjaCardImg} className='w-[346px] object-cover flex' />
             </div>
           </div>
         </div>
-        <div className="flex items-center justify-center w-full my-[40px]">
-          <h2>Bilmək lazımdır</h2>
-          <div className="flex items-center justify-center w-full bg-[#F9F9FA]" ></div>
+        <div className="flex flex-col justify-center w-full ">
+          <div className="flex  justify-center w-[40%]">
+            <h2 className='text-[30px] font-[600] text-[#222222] mt-[48px] mb-[30px]'>Bilmək lazımdır</h2>
+          </div>
+          <div className="flex flex-col items-center justify-center w-full bg-[#F9F9FA] py-[24px]" >
+            <div className="flex items-center justify-center">
+              <span className='inline-flex items-center justify-center  text-white font-[700] text-[16px] bg-[#52575c] rounded-[5px] py-[1px] px-[6px] w-[282px] h-[40px]'>Haqqında</span>
+              <span className='inline-flex items-center justify-center cursor-pointer  text-black font-[700] text-[16px] bg-[#e7e8ea] rounded-[5px] py-[1px] px-[6px] w-[282px] h-[40px] transition duration-200 hover:bg-[#E7E8EA]'>FAQ</span>
+            </div>
+            <div className="flex flex-col gap-1">
+              <p>Ninja təklifi nədir?</p>
+              <p>Bu, Birbank taksit kartları ilə etdiyiniz birdəfəlik ödənişlərin (POS-terminal ilə və ya onlayn), eləcə də nağdlaşdırdığınız və köçürdüyünüz məbləğlərin müəyyən komissiya qarşılığında hissələrə bölünməsi üçün gələn təklifdir.</p>
+              <p>Ninja təklifindən necə yararlanmaq olar?</p>
+              <p>Birbank tətbiqi vasitəsilə:</p>
+              <p>- Tətbiqin bildirişi ilə — taksit kartı ilə ən azı 20 AZN məbləğində birdəfəlik ödəniş, nağdlaşdırma və ya köçürmə etdikdən sonra sizə Birbank tətbiqindən Ninja təklifi ilə bağlı bildiriş göndərilir. Birbank tətbiqiniz varsa və ya son 60 gündə ən azı bir dəfə tətbiqə daxil olmusunuzsa, tətbiqdən Ninja təklifi ilə bağlı bildiriş alırsınız. Bildirişdəki linkə keçdikdə “Ninja” səhifəsi açılacaq və siz burada məbləği aylara bölə biləcəksiniz;</p>
+              <p>- “Daha çox” bölməsində olan “Ninja” səhifəsində — bu səhifəyə daxil olaraq Ninja təklifindən yararlana biləcəyiniz əməliyyatların siyahısı, eləcə də daha öncə yararlandığınız Ninja təkliflərinin tarixçəsini görə bilərsiniz;</p>
+              <p>- Tətbiqdəki əməliyyat qəbzlərindən — qəbzin aşağısında yerləşən "Məbləği Ninja ilə böl" düyməsi vasitəsilə həmin ödəniş üçün Ninja təklifindən yararlanmaq mümkündür.</p>
+              <p>Hansı hallarda Ninja təklifi alacam?</p>
+              <p>Birbank taksit kartı ilə birdəfəlik ödəniş, nağdlaşdırma və ya köçürmə etdikdə Ninja təklifi alacaqsınız.</p>
+              <p>Ninja təklifi nə qədər müddət aktiv qalır?</p>
+              <p>Ninja təklifi birdəfəlik ödəniş, nağdlaşdırma və ya köçürmə etdiyiniz andan etibarən 24 saat ərzində keçərli olur.</p>
+              <p>Hansı hallarda Ninja təklifi göndərilmir?</p>
+              <p>- Ödənişləriniz bu MCC kodları* üzrə olduqda: 6532, 6536, 6533</p>
+              <p>- Ödənişləriniz bu MCC kodları* üzrə olduqda: 6532, 6536, 6533</p>
+              <p> *  MCC kodu — ticarət nöqtəsinin fəaliyyət növünü göstərən koddur.</p>
+            </div>
+          </div>
         </div>
       </div>
     </>

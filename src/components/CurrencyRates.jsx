@@ -3,7 +3,7 @@ import Navbar from './Navbar'
 import SecondaryNavbar from './SecondaryNavbar'
 import CurrencyRateSection from './CurrencyRateSection'
 import Footer from './Footer'
-import newsData from '../NewsData/newsData.json'
+import newsData from '../ApIDatas/newsData.json'
 
 const CurrencyRates = () => {
   return (

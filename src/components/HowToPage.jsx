@@ -8,7 +8,7 @@ import HowTo3 from '../assets/HowTo/how-to3.png'
 import HowTo4 from '../assets/HowTo/how-to4.png'
 import HowTo5 from '../assets/HowTo/how-to5.png'
 import HowTo6 from '../assets/HowTo/how-to6.jpg'
-import data from '../NewsData/newsData.json'
+import data from '../ApIDatas/newsData.json'
 const HowToPage = () => {
   const [faqStatus, setFaqStatus] = useState(false);
   return (

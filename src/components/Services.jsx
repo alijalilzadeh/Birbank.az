@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import newsData from '../NewsData/newsData.json'
+import newsData from '../ApIDatas/newsData.json'
 import { Link } from 'react-router-dom'
 import { GoArrowRight } from "react-icons/go";
 

@@ -31,9 +31,10 @@ const Footer = () => {
 
               <div className="flex flex-col gap-3">
                 <Link className="text-white text-[16px] hover:underline">Partnyorlar</Link>
-                <Link className="text-white text-[16px] hover:underline">Sığortalar</Link>
+                <Link to='/sigortalar' className="text-white text-[16px] hover:underline">Sığortalar</Link>
                 <Link className="text-white text-[16px] hover:underline">Tariflər</Link>
                 <Link to='/how-to' className="text-white text-[16px] hover:underline">Birbank profilini sil</Link>
+                <Link to='https://www.kapitalbank.az/reports' className="text-white text-[16px] hover:underline">Kapital Bank Hesabatları</Link>
               </div>
 
               <div className="flex flex-col gap-3">

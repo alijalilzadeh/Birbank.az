@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import newsData from '../NewsData/newsData.json'
+import newsData from '../ApIDatas/newsData.json'
 import { GiConfirmed } from "react-icons/gi";
 import NewCardBanner from '../assets/Cards/new_cards_banner.png'
 import BirBankStar from '../assets/Cards/birbank-star.avif'

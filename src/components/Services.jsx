@@ -136,7 +136,7 @@ const Services = () => {
                 Kurslar bu tarixə təyin edilmişdir: {formattedDate}
               </p>
 
-              <Link to="/currency-rates" className='flex items-center gap-1'>
+              <Link to="/currency-rates" className='flex items-center gap-1' reloadDocument>
                 <span className='text-[#ED3342] text-[14px]'>
                   Bütün məzənnələr
                 </span>
@@ -150,7 +150,7 @@ const Services = () => {
               <Link
                 to={item.link.href}
                 key={index}
-                className="overflow-hidden relative col-span-3 row-span-2 flex items-center justify-between bg-[#F3F3F5] rounded-[12px] px-[23px] py-[16px]"
+                className="group overflow-hidden relative col-span-3 row-span-2 flex items-center justify-between bg-[#F3F3F5] rounded-[12px] px-[23px] py-[16px]"
               >
                 <div className="flex flex-col gap-2 w-[50%]">
                   <h2 className='text-[24px]'>{item.title}</h2>
@@ -159,7 +159,7 @@ const Services = () => {
 
                 <img
                   src={item.image.data.attributes.formats.thumbnail.url}
-                  className='absolute bottom-0 right-[20px] w-[240px] transition hover:scale-[1.05]'
+                  className='absolute bottom-0 right-[20px] w-[240px] transition group-hover:scale-[1.05]'
                 />
               </Link>
             ))}

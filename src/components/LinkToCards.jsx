@@ -10,7 +10,7 @@ const LinkToCards = () => {
           <div className="flex flex-col gap-6 p-[40px] w-[55%]">
             <h2 className='text-white font-bold text-[32px]'>Birbank kartları ilə xüsusi təklif və imkanlardan yararlan</h2>
             <p className='text-white font-normal text-[16px]'>Visa və MasterCard® beynəlxalq ödəniş sistemlərini dəstəkləyən kartlarla dünyanın istənilən yerində ödənişlər etmək imkanına sahib ol.</p>
-            <Link to="/cards/all" className='flex items-center justify-center gap-2 w-[50%] bg-white rounded-[10px] py-[15px]'>
+            <Link to="/cards/all" className='flex items-center justify-center gap-2 w-[50%] bg-white rounded-[10px] py-[15px]' reloadDocument>
               <span className='text-[#25282B] text-[16px] font-[480]'>Daha ətraflı</span>
               <MdOutlineKeyboardArrowRight size={24} />
             </Link>

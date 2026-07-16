@@ -22,26 +22,26 @@ const Footer = () => {
 
             <div className="grid grid-cols-3 gap-10 flex-1">
               <div className="flex flex-col gap-3">
-                <Link to="/cards/all" className="text-white text-[16px] hover:underline">Kartlar</Link>
-                <Link className="text-white text-[16px] hover:underline">Avtomobil krediti</Link>
-                <Link className="text-white text-[16px] hover:underline">Xəbər</Link>
-                <Link to='/ninja' className="text-white text-[16px] hover:underline">Ninja</Link>
-                <Link className="text-white text-[16px] hover:underline">Bloqlar</Link>
+                <Link to="/cards/all" className="text-white text-[16px] hover:underline" reloadDocument>Kartlar</Link>
+                <Link className="text-white text-[16px] hover:underline" reloadDocument>Avtomobil krediti</Link>
+                <Link className="text-white text-[16px] hover:underline" reloadDocument>Xəbər</Link>
+                <Link to='/ninja' className="text-white text-[16px] hover:underline" reloadDocument>Ninja</Link>
+                <Link className="text-white text-[16px] hover:underline" reloadDocument>Bloqlar</Link>
               </div>
 
               <div className="flex flex-col gap-3">
                 <Link className="text-white text-[16px] hover:underline">Partnyorlar</Link>
-                <Link to='/sigortalar' className="text-white text-[16px] hover:underline">Sığortalar</Link>
-                <Link className="text-white text-[16px] hover:underline">Tariflər</Link>
-                <Link to='/how-to' className="text-white text-[16px] hover:underline">Birbank profilini sil</Link>
-                <Link to='https://www.kapitalbank.az/reports' className="text-white text-[16px] hover:underline">Kapital Bank Hesabatları</Link>
+                <Link to='/sigortalar' className="text-white text-[16px] hover:underline" reloadDocument>Sığortalar</Link>
+                <Link to='/tariffs' className="text-white text-[16px] hover:underline" reloadDocument>Tariflər</Link>
+                <Link to='/how-to' className="text-white text-[16px] hover:underline" reloadDocument>Birbank profilini sil</Link>
+                <Link to='https://www.kapitalbank.az/reports' className="text-white text-[16px] hover:underline" reloadDocument>Kapital Bank Hesabatları</Link>
               </div>
 
               <div className="flex flex-col gap-3">
-                <Link className="text-white text-[16px] hover:underline">Kampaniyalar</Link>
-                <Link className="text-white text-[16px] hover:underline">Haqqımızda</Link>
-                <Link className="text-white text-[16px] hover:underline">FAQ</Link>
-                <Link to ='/ecosystem' className="text-white text-[16px] hover:underline">Ekosistem</Link>
+                <Link className="text-white text-[16px] hover:underline" reloadDocument>Kampaniyalar</Link>
+                <Link className="text-white text-[16px] hover:underline" reloadDocument>Haqqımızda</Link>
+                <Link className="text-white text-[16px] hover:underline" reloadDocument>FAQ</Link>
+                <Link to ='/ecosystem' className="text-white text-[16px] hover:underline" reloadDocument>Ekosistem</Link>
               </div>
             </div>
             <div className="flex items-center gap-6">

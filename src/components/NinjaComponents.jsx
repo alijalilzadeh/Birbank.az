@@ -140,7 +140,7 @@ const NinjaComponents = () => {
                     <p className='flex gap-1'> <CgAsterisk className='text-red-600' />
                       <span  className='text-[16px] text-[#222222] font-[400]'> MCC kodu — ticarət nöqtəsinin fəaliyyət növünü göstərən koddur.</span></p>
                   </div>
-                  <div className="flex flex-col  w-[70%] items-center justify-center ">
+                  <div className="flex flex-col w-full items-center justify-center ">
 
                     <div className="flex items-center w-full justify-between mb-[20px]">
                       <p className='text-[#ec3342] font-[600] text-[16px] pl-[24px]'>Müddət</p>
@@ -176,7 +176,6 @@ const NinjaComponents = () => {
                       <p className='text-[#25282b] font-[300] text-[16px]  p-[10px]'>26.0%</p>
                       <p className='text-[#25282b] font-[300] text-[16px] p-[10px]'>24.0%</p>
                     </div>
-
 
                     <div className="flex items-center  w-full justify-between bg-white rounded-[4px]">
                       <p className='text-[#25282b] font-[300] text-[16px] pl-[24px] py-[10px]'>22 ay</p>

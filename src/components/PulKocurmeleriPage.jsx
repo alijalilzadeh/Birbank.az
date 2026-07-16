@@ -51,7 +51,7 @@ const PulKocurmeleriPage = () => {
           <div className="flex flex-col justify-center  gap-7">
             <div className="flex gap-2 items-center">
               <Link to='/' className='text-[14px] text-[#6d7478] font-[400] p-[15px]'>Ana Səhifə</Link>
-              <Link to='/currency-rates' className='text-[14px] text-[#25282b] font-[400] py-[15px]'>Pul köçürmələri</Link>
+              <Link to='/pul-kocurmeleri' className='text-[14px] text-[#25282b] font-[400] py-[15px]'>Pul köçürmələri</Link>
             </div>
             <div className="flex items-center justify-between w-full relative rounded-[10px] bg-[linear-gradient(98.65deg,_rgb(236,50,66)_0%,_rgb(153,0,0)_100%)]">
               <div className="flex flex-col gap-3 px-[72px] py-[96px] w-[60%]">

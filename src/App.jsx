@@ -12,6 +12,7 @@ import Ninja from './components/Ninja'
 import GetCredit from './components/GetCredit'
 import EcoSystem from './components/EcoSystem'
 import Sigortalar from './components/Sigortalar'
+import Tariffs from './components/Tariffs'
 function App() {
   return (
     <Routes>
@@ -27,6 +28,7 @@ function App() {
       <Route path='/ninja' element={<Ninja />}/>
       <Route path='/ecosystem' element={<EcoSystem />}/>
       <Route path='/sigortalar' element={<Sigortalar />}/>
+      <Route path='/tariffs' element={<Tariffs />}/>
     </Routes>
   )
 }

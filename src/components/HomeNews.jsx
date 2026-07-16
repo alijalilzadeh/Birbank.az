@@ -10,7 +10,7 @@ const HomeNews = () => {
         <div className="flex flex-col gap-10 w-[75%]">
           <div className="flex items-center justify-between">
             <h2 className='text-[30px] text-[#25282b] font-semibold'>Xəbərlər</h2>
-            <Link to="news" className='flex items-center  py-[12px] rounded-[10px] gap-1'>
+            <Link to="news" className='flex items-center  py-[12px] rounded-[10px] gap-1' reloadDocument>
               <span className='text-[14px] text-[#EC3342] font-normal'>Bütün xəbərlər</span>
               <GoArrowRight className='text-[14px]  text-[#EC3342] ' />
             </Link>

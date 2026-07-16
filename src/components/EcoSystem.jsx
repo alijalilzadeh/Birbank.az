@@ -1,17 +1,16 @@
 import React from 'react'
 import Navbar from './Navbar'
 import SecondaryNavbar from './SecondaryNavbar'
-import Footer from './Footer'
-import NinjaComponents from './NinjaComponents'
-const Ninja = () => {
+import EcoSystemContent from './EcoSystemContent'
+
+const EcoSystem = () => {
   return (
     <>
       <Navbar />
       <SecondaryNavbar />
-      <NinjaComponents />
-      <Footer />
+      <EcoSystemContent/>
     </>
   )
 }
 
-export default Ninja
+export default EcoSystem

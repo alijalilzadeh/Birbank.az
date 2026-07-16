@@ -40,7 +40,7 @@ const Footer = () => {
                 <Link className="text-white text-[16px] hover:underline">Kampaniyalar</Link>
                 <Link className="text-white text-[16px] hover:underline">Haqqımızda</Link>
                 <Link className="text-white text-[16px] hover:underline">FAQ</Link>
-                <Link className="text-white text-[16px] hover:underline">Ekosistem</Link>
+                <Link to ='/ecosystem' className="text-white text-[16px] hover:underline">Ekosistem</Link>
               </div>
             </div>
             <div className="flex items-center gap-6">

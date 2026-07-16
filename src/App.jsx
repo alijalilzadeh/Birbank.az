@@ -10,6 +10,7 @@ import PulKocurmeleri from './components/PulKocurmeleri'
 import Istiqraz from './components/Istiqraz'
 import Ninja from './components/Ninja'
 import GetCredit from './components/GetCredit'
+import EcoSystem from './components/EcoSystem'
 function App() {
   return (
     <Routes>
@@ -23,6 +24,7 @@ function App() {
       <Route path='/how-to' element={<HowTo />}/>
       <Route path='/kreditler' element={<GetCredit />}/>
       <Route path='/ninja' element={<Ninja />}/>
+      <Route path='/ecosystem' element={<EcoSystem />}/>
     </Routes>
   )
 }

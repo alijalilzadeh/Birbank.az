@@ -11,7 +11,6 @@ const CampaignsContent = () => {
   const [campaignType, setCampaignType] = useState(null)
   const [filterOrder, setFilterOrder] = useState(null)
 
-  // console.log(partnerData.pageProps.initialState.partners.partnersData.length)
   return (
     <>
       <div className="flex flex-col items-center justify-center w-full selection:bg-[#B3D4FC]">

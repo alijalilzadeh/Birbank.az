@@ -50,7 +50,7 @@ const Services = () => {
   const result = targetCurrencies.map(code => grouped[code]);
 
   return (
-    <div className="flex items-center justify-center w-full my-24ection:bg-[#B3D4FC]">
+    <div className="flex items-center justify-center w-full my-24 section:bg-[#B3D4FC]">
       <div className="flex flex-col gap-2 w-[75%]">
 
         <h2 className='text-[#25282b] font-semibold text-[30px]'>

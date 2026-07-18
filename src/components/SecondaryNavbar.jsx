@@ -19,7 +19,7 @@ const SecondaryNavbar = () => {
   const isScrolled = scrollY > 100;
   return (
     <>
-      <div className={`flex  w-full items-center justify-center py-5 ${isScrolled ? "fixed top-0 left-0" : "mt-17.5 border-b-2 border-b-[#ebebf1]"} bg-white z-10  `}>
+      <div className={`flex  w-full items-center justify-center py-5 ${isScrolled ? "fixed top-0 left-0 border-b-2 border-b-[#ebebf1]" : "mt-17.5 "} bg-white z-10  `}>
         <div className="flex  w-[75%] items-center justify-between">
           <Link to="/" reloadDocument>
             <img src={BirbankLogo} className='w-30   object-cover' />
@@ -31,7 +31,7 @@ const SecondaryNavbar = () => {
             <NavLink to='/istiqraz' className={'text-[14px] border-b-2 border-transparent hover:border-[#EC3342] text-[#9496AC] font-normal'} reloadDocument>İstiqraz</NavLink>
             <NavLink to='/pul-kocurmeleri' className={'text-[14px] border-b-2 border-transparent hover:border-[#EC3342] text-[#9496AC] font-normal'} reloadDocument>Pul köçürmələri</NavLink>
             <NavLink className={'text-[14px] border-b-2 border-transparent hover:border-[#EC3342] text-[#9496AC] font-normal'} reloadDocument>Partnyorlar</NavLink>
-            <NavLink className={'text-[14px] border-b-2 border-transparent hover:border-[#EC3342] text-[#9496AC] font-normal'} reloadDocument>Kampaniyalar</NavLink>
+            <NavLink to='/campaigns' className={'text-[14px] border-b-2 border-transparent hover:border-[#EC3342] text-[#9496AC] font-normal'} reloadDocument>Kampaniyalar</NavLink>
             <NavLink to='/news' className={'text-[14px] border-b-2 border-transparent hover:border-[#EC3342] text-[#9496AC] font-normal'} reloadDocument>Xəbərlər</NavLink>
           </div>
         </div>

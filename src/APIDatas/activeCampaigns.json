@@ -3,7 +3,7 @@
         "pageProps": {
             "searchParams": {
                 "dataFilter": "active",
-                "group": "5",
+                "group": "",
                 "page": "1"
             }
         },
@@ -910,12 +910,379 @@
                 ],
                 "campaignsData": [
                     {
+                        "id": 656,
+                        "attributes": {
+                            "title": "İrşad-da yayın “Yaşıl Cümə” fürsətləri başladı!",
+                            "content": "<p>İndi partnyorumuz İrşad mağazalarında, rəsmi veb-saytında və mobil tətbiqində keçirilən “Yaşıl Cümə” kampaniyası çərçivəsində müxtəlif məhsulları 70%-dək endirimlə əldə edə bilərsən. Üstəlik alış-verişini Birbank taksit kartınla edərək seçdiyin məhsulun ödənişini 12 aylıq hissələrə böləcəksən.</p><p><i><strong>Kampaniyanın üstünlüyü</strong></i><br>12 ay taksit<br>70%-dək endirim</p><p><i><strong>Kampaniya harada keçirilir?</strong></i><br>Kampaniya İrşad mağazalarında, rəsmi veb-saytında və mobil tətbiqində keçərlidir.</p><p><i><strong>Kampaniya nə vaxta kimi keçərlidir?</strong></i><br>“Yaşıl Cümə” kampaniyası 17–26 iyul 2026-cı il tarixlərində keçərlidir.</p><p>☎️ *0171<br>🌐 <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://irshad.az\">www.irshad.az</a><br>&nbsp;</p>",
+                            "order": 1,
+                            "startDate": "2026-07-16T20:00:00.000Z",
+                            "endDate": "2026-07-25T20:00:00.000Z",
+                            "slug": "campaign-279",
+                            "shortContent": null,
+                            "author": "null",
+                            "status": "active",
+                            "createdAt": "2026-07-17T07:42:47.039Z",
+                            "updatedAt": "2026-07-17T07:42:49.883Z",
+                            "publishedAt": "2026-07-17T07:42:49.870Z",
+                            "locale": "az",
+                            "redirectUrl": "https://birbank.az/campaigns/{slug}?id={id}",
+                            "faqTitle": null,
+                            "image": {
+                                "data": {
+                                    "id": 3646,
+                                    "attributes": {
+                                        "name": "Cover-1x1-2.png",
+                                        "alternativeText": null,
+                                        "caption": null,
+                                        "width": 1080,
+                                        "height": 1080,
+                                        "formats": {
+                                            "large": {
+                                                "ext": ".png",
+                                                "url": "https://birbank.az/file/large_Cover_1x1_2_e30b3bb155.png",
+                                                "hash": "large_Cover_1x1_2_e30b3bb155",
+                                                "mime": "image/png",
+                                                "name": "large_Cover-1x1-2.png",
+                                                "path": null,
+                                                "size": 842.52,
+                                                "width": 1000,
+                                                "height": 1000,
+                                                "sizeInBytes": 842521
+                                            },
+                                            "small": {
+                                                "ext": ".png",
+                                                "url": "https://birbank.az/file/small_Cover_1x1_2_e30b3bb155.png",
+                                                "hash": "small_Cover_1x1_2_e30b3bb155",
+                                                "mime": "image/png",
+                                                "name": "small_Cover-1x1-2.png",
+                                                "path": null,
+                                                "size": 251.07,
+                                                "width": 500,
+                                                "height": 500,
+                                                "sizeInBytes": 251074
+                                            },
+                                            "medium": {
+                                                "ext": ".png",
+                                                "url": "https://birbank.az/file/medium_Cover_1x1_2_e30b3bb155.png",
+                                                "hash": "medium_Cover_1x1_2_e30b3bb155",
+                                                "mime": "image/png",
+                                                "name": "medium_Cover-1x1-2.png",
+                                                "path": null,
+                                                "size": 514.65,
+                                                "width": 750,
+                                                "height": 750,
+                                                "sizeInBytes": 514652
+                                            },
+                                            "thumbnail": {
+                                                "ext": ".png",
+                                                "url": "https://birbank.az/file/thumbnail_Cover_1x1_2_e30b3bb155.png",
+                                                "hash": "thumbnail_Cover_1x1_2_e30b3bb155",
+                                                "mime": "image/png",
+                                                "name": "thumbnail_Cover-1x1-2.png",
+                                                "path": null,
+                                                "size": 34.85,
+                                                "width": 156,
+                                                "height": 156,
+                                                "sizeInBytes": 34847
+                                            }
+                                        },
+                                        "hash": "Cover_1x1_2_e30b3bb155",
+                                        "ext": ".png",
+                                        "mime": "image/png",
+                                        "size": 208.11,
+                                        "url": "https://birbank.az/file/Cover_1x1_2_e30b3bb155.png",
+                                        "previewUrl": null,
+                                        "provider": "aws-s3",
+                                        "provider_metadata": null,
+                                        "createdAt": "2026-07-17T07:41:38.139Z",
+                                        "updatedAt": "2026-07-17T07:41:38.139Z"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": 655,
+                        "attributes": {
+                            "title": "Baku Electronics-də “Dəli-dolu təkliflər” səni gözləyir!",
+                            "content": "<p>Partnyorumuz Baku Electronics-in “Dəli-dolu təkliflər” kampaniyası çərçivəsində müxtəlif məhsulları 60%-dək endirimlərlə əldə edə bilərsən. Birbank taksit kartınla ödəniş etdikdə isə alış-verişini ilkin ödənişsiz, faizsiz və komissiyasız şəkildə 18 ayadək hissələrə bölə bilərsən.</p><p>Cəmi 3 gün davam edəcək kampaniyadan yararlan, istədiyin məhsulları daha sərfəli şərtlərlə əldə et.</p><p><i><strong>Kampaniyanın üstünlükləri</strong></i><br>60%-dək endirimlər<br>18 ayadək taksit imkanı<br>İlkin ödənişsiz, faizsiz və komissiyasız alış-veriş</p><p><i><strong>Kampaniya harada keçirilir?</strong></i><br>Kampaniya Baku Electronics mağazalarında və rəsmi veb-saytında keçərlidir.</p><p><i><strong>Kampaniya nə vaxta kimi keçərlidir?</strong></i><br>“Dəli-dolu təkliflər” kampaniyası 17–19 iyul tarixlərində keçərlidir.</p>",
+                            "order": 1,
+                            "startDate": "2026-07-16T20:00:00.000Z",
+                            "endDate": "2026-07-18T20:00:00.000Z",
+                            "slug": "campaign-278",
+                            "shortContent": null,
+                            "author": "null",
+                            "status": "active",
+                            "createdAt": "2026-07-17T06:40:01.147Z",
+                            "updatedAt": "2026-07-17T06:40:02.816Z",
+                            "publishedAt": "2026-07-17T06:40:02.804Z",
+                            "locale": "az",
+                            "redirectUrl": "https://birbank.az/campaigns/{slug}?id={id}",
+                            "faqTitle": null,
+                            "image": {
+                                "data": {
+                                    "id": 3645,
+                                    "attributes": {
+                                        "name": "Cover-1x1.png",
+                                        "alternativeText": null,
+                                        "caption": null,
+                                        "width": 1080,
+                                        "height": 1080,
+                                        "formats": {
+                                            "large": {
+                                                "ext": ".png",
+                                                "url": "https://birbank.az/file/large_Cover_1x1_580862fc75.png",
+                                                "hash": "large_Cover_1x1_580862fc75",
+                                                "mime": "image/png",
+                                                "name": "large_Cover-1x1.png",
+                                                "path": null,
+                                                "size": 475.44,
+                                                "width": 1000,
+                                                "height": 1000,
+                                                "sizeInBytes": 475438
+                                            },
+                                            "small": {
+                                                "ext": ".png",
+                                                "url": "https://birbank.az/file/small_Cover_1x1_580862fc75.png",
+                                                "hash": "small_Cover_1x1_580862fc75",
+                                                "mime": "image/png",
+                                                "name": "small_Cover-1x1.png",
+                                                "path": null,
+                                                "size": 136.71,
+                                                "width": 500,
+                                                "height": 500,
+                                                "sizeInBytes": 136710
+                                            },
+                                            "medium": {
+                                                "ext": ".png",
+                                                "url": "https://birbank.az/file/medium_Cover_1x1_580862fc75.png",
+                                                "hash": "medium_Cover_1x1_580862fc75",
+                                                "mime": "image/png",
+                                                "name": "medium_Cover-1x1.png",
+                                                "path": null,
+                                                "size": 279.11,
+                                                "width": 750,
+                                                "height": 750,
+                                                "sizeInBytes": 279114
+                                            },
+                                            "thumbnail": {
+                                                "ext": ".png",
+                                                "url": "https://birbank.az/file/thumbnail_Cover_1x1_580862fc75.png",
+                                                "hash": "thumbnail_Cover_1x1_580862fc75",
+                                                "mime": "image/png",
+                                                "name": "thumbnail_Cover-1x1.png",
+                                                "path": null,
+                                                "size": 23.88,
+                                                "width": 156,
+                                                "height": 156,
+                                                "sizeInBytes": 23884
+                                            }
+                                        },
+                                        "hash": "Cover_1x1_580862fc75",
+                                        "ext": ".png",
+                                        "mime": "image/png",
+                                        "size": 102.72,
+                                        "url": "https://birbank.az/file/Cover_1x1_580862fc75.png",
+                                        "previewUrl": null,
+                                        "provider": "aws-s3",
+                                        "provider_metadata": null,
+                                        "createdAt": "2026-07-17T06:38:58.701Z",
+                                        "updatedAt": "2026-07-17T06:38:58.701Z"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": 654,
+                        "attributes": {
+                            "title": "Yeni sezon seçimləri Koton-da daha sərfəli!",
+                            "content": "<p>Partnyorumuz Koton mağazalarında yeni sezonun seçilmiş məhsullarına 30%-dək endirim kampaniyası davam edir. Bəyəndiyin geyimləri daha sərfəli qiymətlərlə əldə edə, ödənişini Birbank taksit kartı ilə 2 və ya 3 aya bölə bilərsən.</p><p>Sən də tərzini və qarderobunu yeniləmək üçün bu fürsətdən yararlanmağa tələs.</p><p><i><strong>Kampaniyanın üstünlüyü</strong></i><br>Yeni sezonun seçilmiş məhsullarına 30%-dək endirim və Birbank taksit kartı ilə 2 və ya 3 aylıq taksit imkanı.</p><p><i><strong>Kampaniya harada keçirilir?</strong></i><br>Kampaniya Koton-un aşağıdakı mağazalarında keçərlidir:</p><p>📍 City Park<br>📍 Metropark<br>📍 Dəniz Mall<br>📍 Gənclik Mall<br>📍 Crescent Mall</p><p><i><strong>Kampaniya nə vaxta kimi keçərlidir?</strong></i><br>Kampaniya məhdud müddət ərzində davam edir.</p>",
+                            "order": 1,
+                            "startDate": "2026-07-15T20:00:00.000Z",
+                            "endDate": "2026-07-25T20:00:00.000Z",
+                            "slug": "campaign-277",
+                            "shortContent": null,
+                            "author": "null",
+                            "status": "active",
+                            "createdAt": "2026-07-16T13:50:20.202Z",
+                            "updatedAt": "2026-07-16T13:50:21.875Z",
+                            "publishedAt": "2026-07-16T13:50:21.864Z",
+                            "locale": "az",
+                            "redirectUrl": "https://birbank.az/campaigns/{slug}?id={id}",
+                            "faqTitle": null,
+                            "image": {
+                                "data": {
+                                    "id": 3644,
+                                    "attributes": {
+                                        "name": "Cover-1x1-2.png",
+                                        "alternativeText": null,
+                                        "caption": null,
+                                        "width": 1080,
+                                        "height": 1080,
+                                        "formats": {
+                                            "large": {
+                                                "ext": ".png",
+                                                "url": "https://birbank.az/file/large_Cover_1x1_2_99a893120a.png",
+                                                "hash": "large_Cover_1x1_2_99a893120a",
+                                                "mime": "image/png",
+                                                "name": "large_Cover-1x1-2.png",
+                                                "path": null,
+                                                "size": 728.42,
+                                                "width": 1000,
+                                                "height": 1000,
+                                                "sizeInBytes": 728422
+                                            },
+                                            "small": {
+                                                "ext": ".png",
+                                                "url": "https://birbank.az/file/small_Cover_1x1_2_99a893120a.png",
+                                                "hash": "small_Cover_1x1_2_99a893120a",
+                                                "mime": "image/png",
+                                                "name": "small_Cover-1x1-2.png",
+                                                "path": null,
+                                                "size": 206.29,
+                                                "width": 500,
+                                                "height": 500,
+                                                "sizeInBytes": 206286
+                                            },
+                                            "medium": {
+                                                "ext": ".png",
+                                                "url": "https://birbank.az/file/medium_Cover_1x1_2_99a893120a.png",
+                                                "hash": "medium_Cover_1x1_2_99a893120a",
+                                                "mime": "image/png",
+                                                "name": "medium_Cover-1x1-2.png",
+                                                "path": null,
+                                                "size": 434.85,
+                                                "width": 750,
+                                                "height": 750,
+                                                "sizeInBytes": 434853
+                                            },
+                                            "thumbnail": {
+                                                "ext": ".png",
+                                                "url": "https://birbank.az/file/thumbnail_Cover_1x1_2_99a893120a.png",
+                                                "hash": "thumbnail_Cover_1x1_2_99a893120a",
+                                                "mime": "image/png",
+                                                "name": "thumbnail_Cover-1x1-2.png",
+                                                "path": null,
+                                                "size": 30.61,
+                                                "width": 156,
+                                                "height": 156,
+                                                "sizeInBytes": 30606
+                                            }
+                                        },
+                                        "hash": "Cover_1x1_2_99a893120a",
+                                        "ext": ".png",
+                                        "mime": "image/png",
+                                        "size": 182.83,
+                                        "url": "https://birbank.az/file/Cover_1x1_2_99a893120a.png",
+                                        "previewUrl": null,
+                                        "provider": "aws-s3",
+                                        "provider_metadata": null,
+                                        "createdAt": "2026-07-16T13:49:44.847Z",
+                                        "updatedAt": "2026-07-16T13:49:44.847Z"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": 653,
+                        "attributes": {
+                            "title": "LC Waikiki-də yeni sezon endirimləri!",
+                            "content": "<p>Partnyorumuz LC Waikiki-də yeni sezonun seçilmiş məhsullarına 30%-dək endirim kampaniyası davam edir. Sən də sevdiyin geyimləri daha sərfəli qiymətlərlə əldə edə, ödənişini Birbank taksit kartı ilə 2 və ya 3 aya bölə bilərsən.</p><p>Yeni mövsüm üçün qarderobunu yeniləmək və sərfəli seçimlərdən yararlanmaq üçün fürsəti qaçırma.</p><p><i><strong>Kampaniyanın üstünlüyü</strong></i><br>30%-dək endirim<br>2 və ya 3 aylıq taksit imkanı</p><p><i><strong>Kampaniya harada keçirilir?</strong></i><br>Kampaniya LC Waikiki mağazalarında keçərlidir.</p><p><i><strong>Kampaniya nə vaxta kimi keçərlidir?</strong></i><br>Kampaniya məhdud müddət ərzində davam edir.</p>",
+                            "order": 1,
+                            "startDate": "2026-07-15T20:00:00.000Z",
+                            "endDate": "2026-07-25T20:00:00.000Z",
+                            "slug": "campaign-276",
+                            "shortContent": null,
+                            "author": "null",
+                            "status": "active",
+                            "createdAt": "2026-07-16T09:19:01.970Z",
+                            "updatedAt": "2026-07-16T09:19:05.710Z",
+                            "publishedAt": "2026-07-16T09:19:05.696Z",
+                            "locale": "az",
+                            "redirectUrl": "https://birbank.az/campaigns/{slug}?id={id}",
+                            "faqTitle": null,
+                            "image": {
+                                "data": {
+                                    "id": 3638,
+                                    "attributes": {
+                                        "name": "Cover-1x1.png",
+                                        "alternativeText": null,
+                                        "caption": null,
+                                        "width": 1080,
+                                        "height": 1080,
+                                        "formats": {
+                                            "large": {
+                                                "ext": ".png",
+                                                "url": "https://birbank.az/file/large_Cover_1x1_33781036ee.png",
+                                                "hash": "large_Cover_1x1_33781036ee",
+                                                "mime": "image/png",
+                                                "name": "large_Cover-1x1.png",
+                                                "path": null,
+                                                "size": 598.22,
+                                                "width": 1000,
+                                                "height": 1000,
+                                                "sizeInBytes": 598224
+                                            },
+                                            "small": {
+                                                "ext": ".png",
+                                                "url": "https://birbank.az/file/small_Cover_1x1_33781036ee.png",
+                                                "hash": "small_Cover_1x1_33781036ee",
+                                                "mime": "image/png",
+                                                "name": "small_Cover-1x1.png",
+                                                "path": null,
+                                                "size": 185.43,
+                                                "width": 500,
+                                                "height": 500,
+                                                "sizeInBytes": 185432
+                                            },
+                                            "medium": {
+                                                "ext": ".png",
+                                                "url": "https://birbank.az/file/medium_Cover_1x1_33781036ee.png",
+                                                "hash": "medium_Cover_1x1_33781036ee",
+                                                "mime": "image/png",
+                                                "name": "medium_Cover-1x1.png",
+                                                "path": null,
+                                                "size": 370.9,
+                                                "width": 750,
+                                                "height": 750,
+                                                "sizeInBytes": 370902
+                                            },
+                                            "thumbnail": {
+                                                "ext": ".png",
+                                                "url": "https://birbank.az/file/thumbnail_Cover_1x1_33781036ee.png",
+                                                "hash": "thumbnail_Cover_1x1_33781036ee",
+                                                "mime": "image/png",
+                                                "name": "thumbnail_Cover-1x1.png",
+                                                "path": null,
+                                                "size": 28.28,
+                                                "width": 156,
+                                                "height": 156,
+                                                "sizeInBytes": 28276
+                                            }
+                                        },
+                                        "hash": "Cover_1x1_33781036ee",
+                                        "ext": ".png",
+                                        "mime": "image/png",
+                                        "size": 166.27,
+                                        "url": "https://birbank.az/file/Cover_1x1_33781036ee.png",
+                                        "previewUrl": null,
+                                        "provider": "aws-s3",
+                                        "provider_metadata": null,
+                                        "createdAt": "2026-07-16T09:18:10.110Z",
+                                        "updatedAt": "2026-07-16T09:18:10.110Z"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
                         "id": 638,
                         "attributes": {
-                            "publishedAt": "2026-06-22T13:32:17.310Z",
                             "title": "Hərbçilərə özəl sərfəli onlayn kredit kampaniyası başladı!",
                             "content": "<p>19.06.2026 – 31.07.2026 tarixləri arasında yeni kampaniyamızdan yararlanan hərbçilər hər 10 000 AZN kredit məbləği üçün aylıq 300 AZN-dən başlayan ödənişlə kreditlərini rahat şəkildə ödəyə biləcəklər.</p><p><br><strong>Kreditin üstünlükləri</strong></p><ul><li>Heç bir əlavə sənəd tələbi yoxdur</li><li>Başdan-başa tam onlayn və sürətli proses</li><li>Hər 10 000 AZN üçün aylıq 300 AZN-dən başlayan ödəniş</li></ul><p><br><strong>Necə müraciət etmək olar?</strong></p><ul><li>Birbank tətbiqindən</li><li>Birbank çatı</li></ul><p>&nbsp;</p><p><strong>İndi müraciət et</strong>: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.b-b.az/hbzk\">https://www.b-b.az/hbzk</a></p>",
-                            "order": 1,
+                            "order": 5,
                             "startDate": "2026-06-18T20:00:00.000Z",
                             "endDate": "2026-07-31T19:00:00.000Z",
                             "slug": "herbicilere-ozel-kredit",
@@ -924,6 +1291,7 @@
                             "status": "active",
                             "createdAt": "2026-06-19T07:03:23.504Z",
                             "updatedAt": "2026-06-24T19:04:03.954Z",
+                            "publishedAt": "2026-06-22T13:32:17.310Z",
                             "locale": "az",
                             "redirectUrl": "herbicilere-ozel-kredit",
                             "faqTitle": null,
@@ -988,6 +1356,810 @@
                                 }
                             }
                         }
+                    },
+                    {
+                        "id": 352,
+                        "attributes": {
+                            "title": "Trendyol-da milyonlarla müxtəlif məhsul 6 ayadək taksitlə",
+                            "content": "<p><span data-teams=\"true\">Birbanklılara Trendyol-da 6 ayadək taksit fürsəti!</span></p><p><span data-teams=\"true\">Çünki Birbank taksit kartı sahibləri eksklüziv olaraq indi Trendyol tətbiqindən və </span><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://trendyol.com\"><span data-teams=\"true\">trendyol.com</span></a><span data-teams=\"true\"> saytından istədiklərini rahatlıqla taksitlə əldə edə bilərlər.</span></p><p><span data-teams=\"true\">“Trendyol-da 6 taksit” kampaniyası 7 iyul 2026-ci il tarixinədək (göstərilən tarix daxil olmaqla) qüvvədədir və şərtlər aşağıdakı kimidir:</span></p><p style=\"margin:0cm;\">2 ay – 40 AZN və daha yuxarı alış-verişlərdə;<br>3 ay – 60 AZN və daha yuxarı alış-verişlərdə;<br>6 ay – 90 AZN və daha yuxarı alış-verişlərdə;</p><p><span data-teams=\"true\">Sən də geyimdən məişət texnikasına, elektronikadan kosmetik vasitələrə qədər ürəyindən keçən nə varsa, Trendyol-da asanlıqla tap və taksit imkanı ilə al.</span></p><p><span data-teams=\"true\">Yeri gəlmişkən, kampaniya Trendyol-da təqdim edilən bütün məhsullara və \"Azərbaycandan birbaşa al\" seçimi qeyd olunan sifarişlərdə keçərlidir. Məhsulu seçdikdən və kart məlumatlarını daxil etdikdən sonra taksit seçimi əlçatan olacaq.</span></p><p>Alış-veriş üçün:<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.trendyol.com/\"> trendyol.com</a></p><p><i>Kampaniya şərtlərinə \"Kapital Bank\" ASC və \"Trendyol\" tərəfindən dəyişikliklər edilə bilər.</i></p>",
+                            "order": 435,
+                            "startDate": "2026-04-29T20:00:00.000Z",
+                            "endDate": "2026-07-06T20:00:00.000Z",
+                            "slug": "trendyol-da-milyonlarla-muxtelif-mehsul-indi-6-ayadek-taksitle",
+                            "shortContent": null,
+                            "author": "null",
+                            "status": "active",
+                            "createdAt": "2025-01-24T13:52:27.442Z",
+                            "updatedAt": "2026-06-08T07:55:55.410Z",
+                            "publishedAt": "2025-01-24T13:52:45.959Z",
+                            "locale": "az",
+                            "redirectUrl": "https://birbank.az/campaigns/{slug}?id={id}",
+                            "faqTitle": null,
+                            "image": {
+                                "data": {
+                                    "id": 3298,
+                                    "attributes": {
+                                        "name": "BB-6 taksit aprel-1x1.png",
+                                        "alternativeText": null,
+                                        "caption": null,
+                                        "width": 1000,
+                                        "height": 1000,
+                                        "formats": {
+                                            "small": {
+                                                "ext": ".png",
+                                                "url": "https://birbank.az/file/small_BB_6_taksit_aprel_1x1_8f149156c6.png",
+                                                "hash": "small_BB_6_taksit_aprel_1x1_8f149156c6",
+                                                "mime": "image/png",
+                                                "name": "small_BB-6 taksit aprel-1x1.png",
+                                                "path": null,
+                                                "size": 208.01,
+                                                "width": 500,
+                                                "height": 500,
+                                                "sizeInBytes": 208008
+                                            },
+                                            "medium": {
+                                                "ext": ".png",
+                                                "url": "https://birbank.az/file/medium_BB_6_taksit_aprel_1x1_8f149156c6.png",
+                                                "hash": "medium_BB_6_taksit_aprel_1x1_8f149156c6",
+                                                "mime": "image/png",
+                                                "name": "medium_BB-6 taksit aprel-1x1.png",
+                                                "path": null,
+                                                "size": 430.7,
+                                                "width": 750,
+                                                "height": 750,
+                                                "sizeInBytes": 430702
+                                            },
+                                            "thumbnail": {
+                                                "ext": ".png",
+                                                "url": "https://birbank.az/file/thumbnail_BB_6_taksit_aprel_1x1_8f149156c6.png",
+                                                "hash": "thumbnail_BB_6_taksit_aprel_1x1_8f149156c6",
+                                                "mime": "image/png",
+                                                "name": "thumbnail_BB-6 taksit aprel-1x1.png",
+                                                "path": null,
+                                                "size": 30.87,
+                                                "width": 156,
+                                                "height": 156,
+                                                "sizeInBytes": 30870
+                                            }
+                                        },
+                                        "hash": "BB_6_taksit_aprel_1x1_8f149156c6",
+                                        "ext": ".png",
+                                        "mime": "image/png",
+                                        "size": 159.48,
+                                        "url": "https://birbank.az/file/BB_6_taksit_aprel_1x1_8f149156c6.png",
+                                        "previewUrl": null,
+                                        "provider": "aws-s3",
+                                        "provider_metadata": null,
+                                        "createdAt": "2026-04-23T06:31:19.394Z",
+                                        "updatedAt": "2026-04-23T06:31:19.394Z"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": 652,
+                        "attributes": {
+                            "title": "Music Gallery-də tərzinə uyğun fürsətlər başladı!",
+                            "content": "<p>Partnyorumuz Music Gallery-nin \"28 May\" Mərkəz mağazasında və mgstore.az veb-saytında keçirilən kampaniya çərçivəsində müxtəlif məhsulları 50%-dək endirimlə əldə edə bilərsən. Üstəlik Birbank taksit kartınla alış-veriş etdikdə endirimli qiyməti 18 ayadək hissələrə bölmək imkanı da səni gözləyir.</p><p>Tələs, tərzinə uyğun məhsulları sərfəli şərtlərlə almaq üçün bu fürsəti qaçırma.</p><p><i><strong>Kampaniyanın üstünlükləri</strong></i><br>&nbsp;</p><ul><li>50%-dək endirim</li><li>18 ayadək taksit imkanı</li><li>İlkin ödənişsiz, faizsiz və komissiyasız</li></ul><p><i><strong>Kampaniya harada keçirilir?</strong></i><br>Kampaniya Music Gallery mağazalarında və mgstore.az veb-saytında keçərlidir.</p><p><i><strong>Kampaniya nə vaxta kimi keçərlidir?</strong></i><br>Kampaniya 1-31 iyul tarixlərində davam edir.</p><p>📞 *1313<br>📱 050-228-03-47<br>🌐 <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://mgstore.az\">www.mgstore.az</a></p>",
+                            "order": 1,
+                            "startDate": "2026-07-13T20:00:00.000Z",
+                            "endDate": "2026-07-30T20:00:00.000Z",
+                            "slug": "campaign-275",
+                            "shortContent": null,
+                            "author": "null",
+                            "status": "active",
+                            "createdAt": "2026-07-14T11:50:31.853Z",
+                            "updatedAt": "2026-07-14T11:53:24.617Z",
+                            "publishedAt": "2026-07-14T11:51:43.359Z",
+                            "locale": "az",
+                            "redirectUrl": "https://birbank.az/campaigns/{slug}?id={id}",
+                            "faqTitle": null,
+                            "image": {
+                                "data": {
+                                    "id": 3615,
+                                    "attributes": {
+                                        "name": "Cover-1x1-2.png",
+                                        "alternativeText": null,
+                                        "caption": null,
+                                        "width": 1080,
+                                        "height": 1080,
+                                        "formats": {
+                                            "large": {
+                                                "ext": ".png",
+                                                "url": "https://birbank.az/file/large_Cover_1x1_2_15812da305.png",
+                                                "hash": "large_Cover_1x1_2_15812da305",
+                                                "mime": "image/png",
+                                                "name": "large_Cover-1x1-2.png",
+                                                "path": null,
+                                                "size": 816.65,
+                                                "width": 1000,
+                                                "height": 1000,
+                                                "sizeInBytes": 816649
+                                            },
+                                            "small": {
+                                                "ext": ".png",
+                                                "url": "https://birbank.az/file/small_Cover_1x1_2_15812da305.png",
+                                                "hash": "small_Cover_1x1_2_15812da305",
+                                                "mime": "image/png",
+                                                "name": "small_Cover-1x1-2.png",
+                                                "path": null,
+                                                "size": 230.17,
+                                                "width": 500,
+                                                "height": 500,
+                                                "sizeInBytes": 230173
+                                            },
+                                            "medium": {
+                                                "ext": ".png",
+                                                "url": "https://birbank.az/file/medium_Cover_1x1_2_15812da305.png",
+                                                "hash": "medium_Cover_1x1_2_15812da305",
+                                                "mime": "image/png",
+                                                "name": "medium_Cover-1x1-2.png",
+                                                "path": null,
+                                                "size": 483.04,
+                                                "width": 750,
+                                                "height": 750,
+                                                "sizeInBytes": 483035
+                                            },
+                                            "thumbnail": {
+                                                "ext": ".png",
+                                                "url": "https://birbank.az/file/thumbnail_Cover_1x1_2_15812da305.png",
+                                                "hash": "thumbnail_Cover_1x1_2_15812da305",
+                                                "mime": "image/png",
+                                                "name": "thumbnail_Cover-1x1-2.png",
+                                                "path": null,
+                                                "size": 32.22,
+                                                "width": 156,
+                                                "height": 156,
+                                                "sizeInBytes": 32224
+                                            }
+                                        },
+                                        "hash": "Cover_1x1_2_15812da305",
+                                        "ext": ".png",
+                                        "mime": "image/png",
+                                        "size": 220.54,
+                                        "url": "https://birbank.az/file/Cover_1x1_2_15812da305.png",
+                                        "previewUrl": null,
+                                        "provider": "aws-s3",
+                                        "provider_metadata": null,
+                                        "createdAt": "2026-07-14T11:50:52.324Z",
+                                        "updatedAt": "2026-07-14T11:50:52.324Z"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": 651,
+                        "attributes": {
+                            "title": "Omid-də böyük fürsətlər başladı!",
+                            "content": "<p>17–19 iyul tarixlərində partnyorumuz OMİD mağazalarının seçilmiş filiallarında məişət texnikaları və təmizlik məhsullarını 50%-dək endirimlə əldə edə bilərsən. Üstəlik Birbank taksit kartı ilə ödəniş etdikdə alış-verişini 12 ayadək hissələrə bölmək mümkündür.</p><p>Kampaniya çərçivəsində soyuducu, paltaryuyan maşın, soba, tozsoran, ütü, saç feni, mikser, blender və digər məişət texnikaları, eləcə də təmizlik məhsulları xüsusi təkliflərlə təqdim olunur. Kampaniya məhsulları məhdud saydadır.</p><p><i><strong>Kampaniyanın üstünlükləri</strong></i></p><ul><li>50%-dək endirimlər</li><li>12 ayadək taksit imkanı</li><li>İlkin ödənişsiz, faizsiz və komissiyasız</li></ul><p><i><strong>Kampaniya harada keçirilir?</strong></i><br>Kampaniya OMİD-in Əhməd Rəcəbli, Binə 2 və Göyçay filiallarında keçərlidir.</p><p><i><strong>Kampaniya nə vaxta kimi keçərlidir?</strong></i><br>Kampaniya 17–19 iyul tarixlərində keçirilir.</p><p>📞 890<br>🌐 <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://omid.az\">omid.az</a></p>",
+                            "order": 1,
+                            "startDate": "2026-07-13T20:00:00.000Z",
+                            "endDate": "2026-07-18T20:00:00.000Z",
+                            "slug": "campaign-274",
+                            "shortContent": null,
+                            "author": "null",
+                            "status": "active",
+                            "createdAt": "2026-07-14T06:47:15.459Z",
+                            "updatedAt": "2026-07-14T06:50:36.422Z",
+                            "publishedAt": "2026-07-14T06:47:17.507Z",
+                            "locale": "az",
+                            "redirectUrl": "https://birbank.az/campaigns/{slug}?id={id}",
+                            "faqTitle": null,
+                            "image": {
+                                "data": {
+                                    "id": 3612,
+                                    "attributes": {
+                                        "name": "Cover-1x1-3.png",
+                                        "alternativeText": null,
+                                        "caption": null,
+                                        "width": 1080,
+                                        "height": 1080,
+                                        "formats": {
+                                            "large": {
+                                                "ext": ".png",
+                                                "url": "https://birbank.az/file/large_Cover_1x1_3_5e76e62de7.png",
+                                                "hash": "large_Cover_1x1_3_5e76e62de7",
+                                                "mime": "image/png",
+                                                "name": "large_Cover-1x1-3.png",
+                                                "path": null,
+                                                "size": 658.12,
+                                                "width": 1000,
+                                                "height": 1000,
+                                                "sizeInBytes": 658124
+                                            },
+                                            "small": {
+                                                "ext": ".png",
+                                                "url": "https://birbank.az/file/small_Cover_1x1_3_5e76e62de7.png",
+                                                "hash": "small_Cover_1x1_3_5e76e62de7",
+                                                "mime": "image/png",
+                                                "name": "small_Cover-1x1-3.png",
+                                                "path": null,
+                                                "size": 187.68,
+                                                "width": 500,
+                                                "height": 500,
+                                                "sizeInBytes": 187675
+                                            },
+                                            "medium": {
+                                                "ext": ".png",
+                                                "url": "https://birbank.az/file/medium_Cover_1x1_3_5e76e62de7.png",
+                                                "hash": "medium_Cover_1x1_3_5e76e62de7",
+                                                "mime": "image/png",
+                                                "name": "medium_Cover-1x1-3.png",
+                                                "path": null,
+                                                "size": 392.09,
+                                                "width": 750,
+                                                "height": 750,
+                                                "sizeInBytes": 392094
+                                            },
+                                            "thumbnail": {
+                                                "ext": ".png",
+                                                "url": "https://birbank.az/file/thumbnail_Cover_1x1_3_5e76e62de7.png",
+                                                "hash": "thumbnail_Cover_1x1_3_5e76e62de7",
+                                                "mime": "image/png",
+                                                "name": "thumbnail_Cover-1x1-3.png",
+                                                "path": null,
+                                                "size": 29.57,
+                                                "width": 156,
+                                                "height": 156,
+                                                "sizeInBytes": 29574
+                                            }
+                                        },
+                                        "hash": "Cover_1x1_3_5e76e62de7",
+                                        "ext": ".png",
+                                        "mime": "image/png",
+                                        "size": 142.04,
+                                        "url": "https://birbank.az/file/Cover_1x1_3_5e76e62de7.png",
+                                        "previewUrl": null,
+                                        "provider": "aws-s3",
+                                        "provider_metadata": null,
+                                        "createdAt": "2026-07-14T06:45:53.288Z",
+                                        "updatedAt": "2026-07-14T06:45:53.288Z"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": 650,
+                        "attributes": {
+                            "title": "Coincasa-da 70% endirimlə “Outlet Sale” fürsətiləri!",
+                            "content": "<p>Gənclik Mall-da yerləşən partnyorumuz Coincasa mağazasında seçilmiş məhsulları “Outlet Sale” çərçivəsində 70%-dək endirimlə əldə edə bilərsən. Üstəlik ödənişini Birbank taksit kartınla etdikdə alış-veriş məbləğini 12 ayadək faizsiz hissələrə bölmək imkanından yararlanacaqsan. Evin üçün zövqlü seçimləri daha sərfəli şərtlərlə əldə etmək üçün bu fürsəti qaçırma.</p><p><i><strong>Kampaniyanın üstünlükləri</strong></i><br>70%-dək endirim<br>12 ayadək faizsiz taksit imkanı</p><p><i><strong>Kampaniya harada keçirilir?</strong></i><br>Kampaniya Bakı şəhərində, Gənclik Mall-da yerləşən Coincasa mağazasında keçərlidir.</p><p><i><strong>Kampaniya nə vaxta kimi keçərlidir?</strong></i><br>“Outlet Sale” kampaniyası 1 sentyabradək davam edir.</p>",
+                            "order": 1,
+                            "startDate": "2026-07-12T20:00:00.000Z",
+                            "endDate": "2026-08-31T20:00:00.000Z",
+                            "slug": "campaign-273",
+                            "shortContent": null,
+                            "author": "null",
+                            "status": "active",
+                            "createdAt": "2026-07-13T11:02:18.274Z",
+                            "updatedAt": "2026-07-13T11:02:20.436Z",
+                            "publishedAt": "2026-07-13T11:02:20.423Z",
+                            "locale": "az",
+                            "redirectUrl": "https://birbank.az/campaigns/{slug}?id={id}",
+                            "faqTitle": null,
+                            "image": {
+                                "data": {
+                                    "id": 3611,
+                                    "attributes": {
+                                        "name": "Cover-1x1.png",
+                                        "alternativeText": null,
+                                        "caption": null,
+                                        "width": 1080,
+                                        "height": 1080,
+                                        "formats": {
+                                            "large": {
+                                                "ext": ".png",
+                                                "url": "https://birbank.az/file/large_Cover_1x1_489d844ed3.png",
+                                                "hash": "large_Cover_1x1_489d844ed3",
+                                                "mime": "image/png",
+                                                "name": "large_Cover-1x1.png",
+                                                "path": null,
+                                                "size": 1256.89,
+                                                "width": 1000,
+                                                "height": 1000,
+                                                "sizeInBytes": 1256888
+                                            },
+                                            "small": {
+                                                "ext": ".png",
+                                                "url": "https://birbank.az/file/small_Cover_1x1_489d844ed3.png",
+                                                "hash": "small_Cover_1x1_489d844ed3",
+                                                "mime": "image/png",
+                                                "name": "small_Cover-1x1.png",
+                                                "path": null,
+                                                "size": 330.48,
+                                                "width": 500,
+                                                "height": 500,
+                                                "sizeInBytes": 330483
+                                            },
+                                            "medium": {
+                                                "ext": ".png",
+                                                "url": "https://birbank.az/file/medium_Cover_1x1_489d844ed3.png",
+                                                "hash": "medium_Cover_1x1_489d844ed3",
+                                                "mime": "image/png",
+                                                "name": "medium_Cover-1x1.png",
+                                                "path": null,
+                                                "size": 718.31,
+                                                "width": 750,
+                                                "height": 750,
+                                                "sizeInBytes": 718308
+                                            },
+                                            "thumbnail": {
+                                                "ext": ".png",
+                                                "url": "https://birbank.az/file/thumbnail_Cover_1x1_489d844ed3.png",
+                                                "hash": "thumbnail_Cover_1x1_489d844ed3",
+                                                "mime": "image/png",
+                                                "name": "thumbnail_Cover-1x1.png",
+                                                "path": null,
+                                                "size": 39.45,
+                                                "width": 156,
+                                                "height": 156,
+                                                "sizeInBytes": 39445
+                                            }
+                                        },
+                                        "hash": "Cover_1x1_489d844ed3",
+                                        "ext": ".png",
+                                        "mime": "image/png",
+                                        "size": 447.68,
+                                        "url": "https://birbank.az/file/Cover_1x1_489d844ed3.png",
+                                        "previewUrl": null,
+                                        "provider": "aws-s3",
+                                        "provider_metadata": null,
+                                        "createdAt": "2026-07-13T11:00:52.499Z",
+                                        "updatedAt": "2026-07-13T11:00:52.499Z"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": 649,
+                        "attributes": {
+                            "title": "Kontakt-da \"Tətili fürsət bil\" kampaniyası başladı!",
+                            "content": "<p>İndi partnyorumuz Kontakt mağazalarında və kontakt.az saytında istədiyin məhsulları 50%-dək endirimlərlə əldə edə bilərsən. Üstəlik Birbank taksit kartın ilə ödəniş etdikdə alış-verişini 18 ayadək hissələrə bölmək də mümkündür.</p><p>Sən də bu tətili fürsət bil və planlarına uyğun elektronika və digər məhsulları sərfəli şərtlərlə almaq üçün təklifi qaçırma.</p><p><i><strong>Kampaniyanın üstünlükləri</strong></i><br>50%-dək endirim<br>18 ayadək taksit fürsəti<br>İlkin ödənişsiz, faizsiz və komissiyasız</p><p><i><strong>Kampaniya harada keçirilir?</strong></i><br>Kampaniya Kontakt mağazalarında və kontakt.az saytında keçərlidir.</p><p><i><strong>Kampaniya nə vaxta kimi keçərlidir?</strong></i><br>Kampaniya 31 iyuladək davam edir.</p>",
+                            "order": 1,
+                            "startDate": "2026-07-12T20:00:00.000Z",
+                            "endDate": "2026-07-30T20:00:00.000Z",
+                            "slug": "campaign-272",
+                            "shortContent": null,
+                            "author": "null",
+                            "status": "active",
+                            "createdAt": "2026-07-13T07:19:11.334Z",
+                            "updatedAt": "2026-07-13T07:19:25.678Z",
+                            "publishedAt": "2026-07-13T07:19:25.668Z",
+                            "locale": "az",
+                            "redirectUrl": "https://birbank.az/campaigns/{slug}?id={id}",
+                            "faqTitle": null,
+                            "image": {
+                                "data": {
+                                    "id": 3610,
+                                    "attributes": {
+                                        "name": "Cover-1x1.png",
+                                        "alternativeText": null,
+                                        "caption": null,
+                                        "width": 1080,
+                                        "height": 1080,
+                                        "formats": {
+                                            "large": {
+                                                "ext": ".png",
+                                                "url": "https://birbank.az/file/large_Cover_1x1_f4f124e41a.png",
+                                                "hash": "large_Cover_1x1_f4f124e41a",
+                                                "mime": "image/png",
+                                                "name": "large_Cover-1x1.png",
+                                                "path": null,
+                                                "size": 445.75,
+                                                "width": 1000,
+                                                "height": 1000,
+                                                "sizeInBytes": 445747
+                                            },
+                                            "small": {
+                                                "ext": ".png",
+                                                "url": "https://birbank.az/file/small_Cover_1x1_f4f124e41a.png",
+                                                "hash": "small_Cover_1x1_f4f124e41a",
+                                                "mime": "image/png",
+                                                "name": "small_Cover-1x1.png",
+                                                "path": null,
+                                                "size": 125.82,
+                                                "width": 500,
+                                                "height": 500,
+                                                "sizeInBytes": 125822
+                                            },
+                                            "medium": {
+                                                "ext": ".png",
+                                                "url": "https://birbank.az/file/medium_Cover_1x1_f4f124e41a.png",
+                                                "hash": "medium_Cover_1x1_f4f124e41a",
+                                                "mime": "image/png",
+                                                "name": "medium_Cover-1x1.png",
+                                                "path": null,
+                                                "size": 260.75,
+                                                "width": 750,
+                                                "height": 750,
+                                                "sizeInBytes": 260751
+                                            },
+                                            "thumbnail": {
+                                                "ext": ".png",
+                                                "url": "https://birbank.az/file/thumbnail_Cover_1x1_f4f124e41a.png",
+                                                "hash": "thumbnail_Cover_1x1_f4f124e41a",
+                                                "mime": "image/png",
+                                                "name": "thumbnail_Cover-1x1.png",
+                                                "path": null,
+                                                "size": 20.47,
+                                                "width": 156,
+                                                "height": 156,
+                                                "sizeInBytes": 20470
+                                            }
+                                        },
+                                        "hash": "Cover_1x1_f4f124e41a",
+                                        "ext": ".png",
+                                        "mime": "image/png",
+                                        "size": 101.32,
+                                        "url": "https://birbank.az/file/Cover_1x1_f4f124e41a.png",
+                                        "previewUrl": null,
+                                        "provider": "aws-s3",
+                                        "provider_metadata": null,
+                                        "createdAt": "2026-07-13T07:18:22.054Z",
+                                        "updatedAt": "2026-07-13T07:18:22.054Z"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": 648,
+                        "attributes": {
+                            "title": "Go Sport, Footmark, Nike və Skechers-də yay fürsətləri!",
+                            "content": "<p>Partnyorlarımız Go Sport, Footmark, Nike və Skechers mağazalarında idman geyimləri, ayaqqabıları və aksesuarlarını 40%-dək endirimlə əldə edə bilərsən. Üstəlik Birbank taksit kartın ilə ödəniş etdikdə alış-verişini 6 aylıq hissələrə bölə bilərsən.</p><p>Sevdiyin brendlərdə rahat və sərfəli alış-veriş etmək, idman tərzini yeniləmək və istədiyin məhsulları rahatlıqla əldə etmək üçün bu fürsəti qaçırma.</p><p><i><strong>Kampaniyanın üstünlükləri</strong></i><br>40%-dək endirim<br>6 ayadək taksit imkanı</p><p><i><strong>Kampaniya harada keçirilir?</strong></i><br>Kampaniya Go Sport, Footmark, Nike və Skechers mağazalarında keçərlidir.</p>",
+                            "order": 1,
+                            "startDate": "2026-07-08T20:00:00.000Z",
+                            "endDate": "2026-07-22T20:00:00.000Z",
+                            "slug": "campaign-271",
+                            "shortContent": null,
+                            "author": "null",
+                            "status": "active",
+                            "createdAt": "2026-07-09T13:15:42.213Z",
+                            "updatedAt": "2026-07-09T13:15:44.576Z",
+                            "publishedAt": "2026-07-09T13:15:44.482Z",
+                            "locale": "az",
+                            "redirectUrl": "https://birbank.az/campaigns/{slug}?id={id}",
+                            "faqTitle": null,
+                            "image": {
+                                "data": {
+                                    "id": 3609,
+                                    "attributes": {
+                                        "name": "Cover-1x1.png",
+                                        "alternativeText": null,
+                                        "caption": null,
+                                        "width": 1080,
+                                        "height": 1080,
+                                        "formats": {
+                                            "large": {
+                                                "ext": ".png",
+                                                "url": "https://birbank.az/file/large_Cover_1x1_7c934d6c27.png",
+                                                "hash": "large_Cover_1x1_7c934d6c27",
+                                                "mime": "image/png",
+                                                "name": "large_Cover-1x1.png",
+                                                "path": null,
+                                                "size": 566.58,
+                                                "width": 1000,
+                                                "height": 1000,
+                                                "sizeInBytes": 566582
+                                            },
+                                            "small": {
+                                                "ext": ".png",
+                                                "url": "https://birbank.az/file/small_Cover_1x1_7c934d6c27.png",
+                                                "hash": "small_Cover_1x1_7c934d6c27",
+                                                "mime": "image/png",
+                                                "name": "small_Cover-1x1.png",
+                                                "path": null,
+                                                "size": 167.15,
+                                                "width": 500,
+                                                "height": 500,
+                                                "sizeInBytes": 167151
+                                            },
+                                            "medium": {
+                                                "ext": ".png",
+                                                "url": "https://birbank.az/file/medium_Cover_1x1_7c934d6c27.png",
+                                                "hash": "medium_Cover_1x1_7c934d6c27",
+                                                "mime": "image/png",
+                                                "name": "medium_Cover-1x1.png",
+                                                "path": null,
+                                                "size": 340.21,
+                                                "width": 750,
+                                                "height": 750,
+                                                "sizeInBytes": 340206
+                                            },
+                                            "thumbnail": {
+                                                "ext": ".png",
+                                                "url": "https://birbank.az/file/thumbnail_Cover_1x1_7c934d6c27.png",
+                                                "hash": "thumbnail_Cover_1x1_7c934d6c27",
+                                                "mime": "image/png",
+                                                "name": "thumbnail_Cover-1x1.png",
+                                                "path": null,
+                                                "size": 25.89,
+                                                "width": 156,
+                                                "height": 156,
+                                                "sizeInBytes": 25889
+                                            }
+                                        },
+                                        "hash": "Cover_1x1_7c934d6c27",
+                                        "ext": ".png",
+                                        "mime": "image/png",
+                                        "size": 147.32,
+                                        "url": "https://birbank.az/file/Cover_1x1_7c934d6c27.png",
+                                        "previewUrl": null,
+                                        "provider": "aws-s3",
+                                        "provider_metadata": null,
+                                        "createdAt": "2026-07-09T13:15:23.393Z",
+                                        "updatedAt": "2026-07-09T13:15:23.393Z"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": 647,
+                        "attributes": {
+                            "title": "İrşad-da “Yaya qoşul” fürsətləri başladı!",
+                            "content": "<p>İndi partnyorumuz İrşad mağazalarında və rəsmi veb-saytında keçirilən “Yaya qoşul” kampaniyası çərçivəsində istədiyin məhsulları Birbank taksit kartınla 18 ayadək taksitlə əldə edə bilərsən.</p><p>Yay alış-verişini daha rahat şərtlərlə etmək və sevdiyin məhsulları hissə-hissə ödəmək üçün bu fürsəti qaçırma.</p><p><i><strong>Kampaniyanın üstünlükləri</strong></i><br>&nbsp;</p><ul><li>18 ayadək taksit</li><li>İlkin ödənişsiz, faizsiz və komissiyasız</li></ul><p><i><strong>Kampaniya harada keçirilir?&nbsp;</strong></i><br>Kampaniya İrşad mağazalarında, rəsmi veb-saytında və mobil tətbiqində keçərlidir.</p><p><i><strong>Kampaniya nə vaxta kimi keçərlidir?</strong></i><br>“Yaya qoşul” kampaniyası 31 iyuladək keçərlidir.</p><p>&nbsp;</p><p style=\"-webkit-text-stroke-width:0px;box-sizing:border-box;caret-color:rgb(41, 53, 60);color:rgb(41, 53, 60);font-family:Graphik, -apple-system, system-ui, BlinkMacSystemFont, Aptos, Roboto, &quot;Segoe UI&quot;, Helvetica, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;;font-size:20px;font-style:normal;font-variant-caps:normal;font-weight:400;letter-spacing:-0.1px;margin:0px;orphans:2;scrollbar-width:thin;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-thickness:auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;\" dir=\"auto\">🌐<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://irshad.az\"> <a style=\"box-sizing:border-box;color:var(--color-blue);scrollbar-width:thin;\" target=\"_blank\" rel=\"noreferrer\"><u>www.irshad.az</u></a></a></p><p><br>&nbsp;</p>",
+                            "order": 1,
+                            "startDate": "2026-07-06T20:00:00.000Z",
+                            "endDate": "2026-07-30T20:00:00.000Z",
+                            "slug": "campaign-270",
+                            "shortContent": null,
+                            "author": "null",
+                            "status": "active",
+                            "createdAt": "2026-07-07T06:13:11.319Z",
+                            "updatedAt": "2026-07-07T07:36:40.814Z",
+                            "publishedAt": "2026-07-07T06:13:12.831Z",
+                            "locale": "az",
+                            "redirectUrl": "https://birbank.az/campaigns/{slug}?id={id}",
+                            "faqTitle": null,
+                            "image": {
+                                "data": {
+                                    "id": 3605,
+                                    "attributes": {
+                                        "name": "Cover-1x1-2.png",
+                                        "alternativeText": null,
+                                        "caption": null,
+                                        "width": 1080,
+                                        "height": 1080,
+                                        "formats": {
+                                            "large": {
+                                                "ext": ".png",
+                                                "url": "https://birbank.az/file/large_Cover_1x1_2_bcae3564ee.png",
+                                                "hash": "large_Cover_1x1_2_bcae3564ee",
+                                                "mime": "image/png",
+                                                "name": "large_Cover-1x1-2.png",
+                                                "path": null,
+                                                "size": 1230.38,
+                                                "width": 1000,
+                                                "height": 1000,
+                                                "sizeInBytes": 1230383
+                                            },
+                                            "small": {
+                                                "ext": ".png",
+                                                "url": "https://birbank.az/file/small_Cover_1x1_2_bcae3564ee.png",
+                                                "hash": "small_Cover_1x1_2_bcae3564ee",
+                                                "mime": "image/png",
+                                                "name": "small_Cover-1x1-2.png",
+                                                "path": null,
+                                                "size": 343.17,
+                                                "width": 500,
+                                                "height": 500,
+                                                "sizeInBytes": 343167
+                                            },
+                                            "medium": {
+                                                "ext": ".png",
+                                                "url": "https://birbank.az/file/medium_Cover_1x1_2_bcae3564ee.png",
+                                                "hash": "medium_Cover_1x1_2_bcae3564ee",
+                                                "mime": "image/png",
+                                                "name": "medium_Cover-1x1-2.png",
+                                                "path": null,
+                                                "size": 725.85,
+                                                "width": 750,
+                                                "height": 750,
+                                                "sizeInBytes": 725848
+                                            },
+                                            "thumbnail": {
+                                                "ext": ".png",
+                                                "url": "https://birbank.az/file/thumbnail_Cover_1x1_2_bcae3564ee.png",
+                                                "hash": "thumbnail_Cover_1x1_2_bcae3564ee",
+                                                "mime": "image/png",
+                                                "name": "thumbnail_Cover-1x1-2.png",
+                                                "path": null,
+                                                "size": 41.12,
+                                                "width": 156,
+                                                "height": 156,
+                                                "sizeInBytes": 41116
+                                            }
+                                        },
+                                        "hash": "Cover_1x1_2_bcae3564ee",
+                                        "ext": ".png",
+                                        "mime": "image/png",
+                                        "size": 281.13,
+                                        "url": "https://birbank.az/file/Cover_1x1_2_bcae3564ee.png",
+                                        "previewUrl": null,
+                                        "provider": "aws-s3",
+                                        "provider_metadata": null,
+                                        "createdAt": "2026-07-07T06:10:26.011Z",
+                                        "updatedAt": "2026-07-07T06:10:26.011Z"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": 644,
+                        "attributes": {
+                            "title": "GS Store-da 40%-dək endirim fürsəti!",
+                            "content": "<p>İndi partnyorumuz GS Store mağazasında seçilmiş məhsulları endirim və taksit fürsəti ilə əldə edə bilərsən. Belə ki, kampaniya çərçivəsində Birbank taksit kartı ilə alış-veriş edən müştərilər seçilmiş məhsulları 40%-dək endirim, həmçinin 2 və ya 3 aylıq taksit imkanı ilə alacaqlar. Amma tələs, çünki təkliflər 31 iyula qədər keçərlidir.</p><p><i><strong>Kampaniyanın üstünlükləri</strong></i></p><ul><li>Seçilmiş məhsullarda 40%-dək endirim</li><li>2 və ya 3 aylıq taksit imkanı</li></ul><p><i><strong>Kampaniya harada keçirilir?</strong></i><br>Kampaniya GS Store mağazalarında keçərlidir.</p><p><i><strong>Kampaniya nə vaxta kimi keçərlidir?</strong></i><br>Kampaniya 31 iyula qədər davam edir</p>",
+                            "order": 1,
+                            "startDate": "2026-06-24T20:00:00.000Z",
+                            "endDate": "2026-07-30T20:00:00.000Z",
+                            "slug": "campaign-267",
+                            "shortContent": null,
+                            "author": "null",
+                            "status": "active",
+                            "createdAt": "2026-06-25T11:07:00.612Z",
+                            "updatedAt": "2026-06-25T11:07:02.398Z",
+                            "publishedAt": "2026-06-25T11:07:02.378Z",
+                            "locale": "az",
+                            "redirectUrl": "https://birbank.az/campaigns/{slug}?id={id}",
+                            "faqTitle": null,
+                            "image": {
+                                "data": {
+                                    "id": 3557,
+                                    "attributes": {
+                                        "name": "Cover-1x1.png",
+                                        "alternativeText": null,
+                                        "caption": null,
+                                        "width": 1080,
+                                        "height": 1080,
+                                        "formats": {
+                                            "large": {
+                                                "ext": ".png",
+                                                "url": "https://birbank.az/file/large_Cover_1x1_c86ad8172a.png",
+                                                "hash": "large_Cover_1x1_c86ad8172a",
+                                                "mime": "image/png",
+                                                "name": "large_Cover-1x1.png",
+                                                "path": null,
+                                                "size": 714.87,
+                                                "width": 1000,
+                                                "height": 1000,
+                                                "sizeInBytes": 714869
+                                            },
+                                            "small": {
+                                                "ext": ".png",
+                                                "url": "https://birbank.az/file/small_Cover_1x1_c86ad8172a.png",
+                                                "hash": "small_Cover_1x1_c86ad8172a",
+                                                "mime": "image/png",
+                                                "name": "small_Cover-1x1.png",
+                                                "path": null,
+                                                "size": 203.41,
+                                                "width": 500,
+                                                "height": 500,
+                                                "sizeInBytes": 203411
+                                            },
+                                            "medium": {
+                                                "ext": ".png",
+                                                "url": "https://birbank.az/file/medium_Cover_1x1_c86ad8172a.png",
+                                                "hash": "medium_Cover_1x1_c86ad8172a",
+                                                "mime": "image/png",
+                                                "name": "medium_Cover-1x1.png",
+                                                "path": null,
+                                                "size": 422.42,
+                                                "width": 750,
+                                                "height": 750,
+                                                "sizeInBytes": 422415
+                                            },
+                                            "thumbnail": {
+                                                "ext": ".png",
+                                                "url": "https://birbank.az/file/thumbnail_Cover_1x1_c86ad8172a.png",
+                                                "hash": "thumbnail_Cover_1x1_c86ad8172a",
+                                                "mime": "image/png",
+                                                "name": "thumbnail_Cover-1x1.png",
+                                                "path": null,
+                                                "size": 30.93,
+                                                "width": 156,
+                                                "height": 156,
+                                                "sizeInBytes": 30926
+                                            }
+                                        },
+                                        "hash": "Cover_1x1_c86ad8172a",
+                                        "ext": ".png",
+                                        "mime": "image/png",
+                                        "size": 182.36,
+                                        "url": "https://birbank.az/file/Cover_1x1_c86ad8172a.png",
+                                        "previewUrl": null,
+                                        "provider": "aws-s3",
+                                        "provider_metadata": null,
+                                        "createdAt": "2026-06-25T11:06:07.458Z",
+                                        "updatedAt": "2026-06-25T11:06:07.458Z"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": 642,
+                        "attributes": {
+                            "title": "İlk taksitə 50 bonus",
+                            "content": "<p>25 iyun – 31 iyul 2026-cı il tarixləri arasında yeni əldə etdiyin Birbank taksit kartı ilə ilk 500 AZN və ya daha yüksək məbləğdə taksit əməliyyatı et və 50 bonus qazan!</p><p>&nbsp;</p><p><strong>Kimlər müraciət edə bilər?</strong></p><ul><li>Kampaniya başlama tarixinədək aktiv taksit kartı olmayan 18–67 yaş aralığındakı hər kəs</li></ul><p>&nbsp;</p><p><strong>Necə müraciət etmək olar?</strong></p><ul><li>İstənilən filiala gələrək</li><li>196 Əlaqə Mərkəzinə zəng edərək</li><li>Birbank çatında rəqəmsal assistentdən</li><li>Birbank tətbiqi və ya Birbank.az saytı üzərindən</li></ul><p>&nbsp;</p><h1 style=\"font-size:30px;\"><strong>Tez-tez verilən suallar</strong></h1><p>&nbsp;</p><p><strong>1. Hansı hallarda kampaniyada iştirakım dayandırıla bilər?</strong></p><p>Kampaniya çərçivəsində bonus qazandıqdan sonra alınan məhsulu geri qaytardıqda qazanılan bonus geri alınır, lakin növbəti taksit əməliyyatında bonus qazanıla bilər.</p><p>Əgər Bir Bonus hesabında kifayət qədər vəsait yoxdursa, bonus məbləği kart hesabından tutulur və kampaniyada iştirak dayandırılır.</p><p>&nbsp;</p><p><strong>2. Hissəli geri qaytarılma zamanı nə baş verir?</strong></p><p>İlk taksit zamanı bir neçə məhsul eyni vaxtda alınarsa və o məhsullardan biri və ya bir neçəsi geri qaytarıldıqda taksit məbləği 500 AZN-dən aşağı düşərsə, qazanılan bonus geri alınır. Bu halda həmin bonusu yenidən qazanmaq hüququ da itirilir.</p><p>&nbsp;</p><p><strong>3. Bonuslar nə zaman köçürüləcək?</strong></p><p>Qazanılan bonuslar 3–5 iş günü ərzində Bir Bonus hesabına avtomatik köçürülür. Bəzi hallarda bonusların köçürülməsi 5 iş gününədək uzana bilər.</p><p>&nbsp;</p><p><strong>4. Bəs kartın üstünlükləri nələrdir?</strong></p><ul><li>24 ayadək taksit</li><li>Partnyorlarda limitsiz bonus</li><li>Minlərlə partnyor mağaza</li><li>Pulsuz sifariş və çatdırılma</li><li>63 günədək güzəşt müddəti</li></ul><p>&nbsp;</p><p><strong>Kartı sifariş et: </strong><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://www.b-b.az/tkslkb\">http://www.b-b.az/tkslkb</a></p>",
+                            "order": 2,
+                            "startDate": "2026-06-24T20:15:00.000Z",
+                            "endDate": "2026-07-31T19:00:00.000Z",
+                            "slug": "ilk-taksit-50-bonus",
+                            "shortContent": null,
+                            "author": "null",
+                            "status": "active",
+                            "createdAt": "2026-06-24T11:27:57.578Z",
+                            "updatedAt": "2026-06-25T10:38:52.451Z",
+                            "publishedAt": "2026-06-25T03:53:10.050Z",
+                            "locale": "az",
+                            "redirectUrl": "ilk-taksit-50-bonus",
+                            "faqTitle": "Tez-tez verilən suallar",
+                            "image": {
+                                "data": {
+                                    "id": 3552,
+                                    "attributes": {
+                                        "name": "50 bonus-1x1.jpg",
+                                        "alternativeText": null,
+                                        "caption": null,
+                                        "width": 1000,
+                                        "height": 1000,
+                                        "formats": {
+                                            "small": {
+                                                "ext": ".jpg",
+                                                "url": "https://birbank.az/file/small_50_bonus_1x1_884623e10c.jpg",
+                                                "hash": "small_50_bonus_1x1_884623e10c",
+                                                "mime": "image/jpeg",
+                                                "name": "small_50 bonus-1x1.jpg",
+                                                "path": null,
+                                                "size": 36.65,
+                                                "width": 500,
+                                                "height": 500,
+                                                "sizeInBytes": 36650
+                                            },
+                                            "medium": {
+                                                "ext": ".jpg",
+                                                "url": "https://birbank.az/file/medium_50_bonus_1x1_884623e10c.jpg",
+                                                "hash": "medium_50_bonus_1x1_884623e10c",
+                                                "mime": "image/jpeg",
+                                                "name": "medium_50 bonus-1x1.jpg",
+                                                "path": null,
+                                                "size": 70.15,
+                                                "width": 750,
+                                                "height": 750,
+                                                "sizeInBytes": 70152
+                                            },
+                                            "thumbnail": {
+                                                "ext": ".jpg",
+                                                "url": "https://birbank.az/file/thumbnail_50_bonus_1x1_884623e10c.jpg",
+                                                "hash": "thumbnail_50_bonus_1x1_884623e10c",
+                                                "mime": "image/jpeg",
+                                                "name": "thumbnail_50 bonus-1x1.jpg",
+                                                "path": null,
+                                                "size": 6.2,
+                                                "width": 156,
+                                                "height": 156,
+                                                "sizeInBytes": 6200
+                                            }
+                                        },
+                                        "hash": "50_bonus_1x1_884623e10c",
+                                        "ext": ".jpg",
+                                        "mime": "image/jpeg",
+                                        "size": 110.21,
+                                        "url": "https://birbank.az/file/50_bonus_1x1_884623e10c.jpg",
+                                        "previewUrl": null,
+                                        "provider": "aws-s3",
+                                        "provider_metadata": null,
+                                        "createdAt": "2026-06-24T11:26:54.240Z",
+                                        "updatedAt": "2026-06-24T11:26:54.240Z"
+                                    }
+                                }
+                            }
+                        }
                     }
                 ],
                 "campaignData": {
@@ -1017,8 +2189,8 @@
                 "pagination": {
                     "page": 1,
                     "pageSize": 12,
-                    "pageCount": 1,
-                    "total": 1
+                    "pageCount": 2,
+                    "total": 14
                 },
                 "faq": [],
                 "faqTitle": ""

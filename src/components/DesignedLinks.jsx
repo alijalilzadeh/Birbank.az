@@ -33,10 +33,8 @@ const DesignedLinks = () => {
               }}
             >
               {campaigns.map((item, index) => (
-                <div key={index} className="min-w-full flex items-center justify-between relative pl-6"
-                >
+                <div key={index} className="min-w-full flex items-center justify-between relative pl-6">
                   <SlArrowLeft onClick={prevSlide} className="bg-white text-[34px] p-2 rounded-lg text-[#D4D6DB] cursor-pointer" />
-
                   <div className="flex flex-col justify-between w-[40%] gap-6">
                     <h2 className="text-[48px] font-bold text-[#25282b] leading-12">
                       {item.title}
@@ -58,7 +56,7 @@ const DesignedLinks = () => {
                           <span>
                             {item.secondLink.text}
                           </span>
-                          <HiArrowRight  className='text-[#ec3342]'/>
+                          <HiArrowRight className='text-[#ec3342]' />
                         </Link>
                       )}
                     </div>

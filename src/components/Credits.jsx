@@ -8,7 +8,7 @@ const Credits = () => {
     <>
       <div className="flex items-center justify-center w-full selection:bg-[#B3D4FC]">
         <div className="grid grid-cols-2 grid-rows-6 gap-6 w-[75%]">
-          <Link to='/kreditler' className="row-span-3 rounded-xl pl-10[pt-6[2pb-6 bg-[#FDF0F1] w-full relative" reloadDocument>
+          <Link to='/kreditler' className="row-span-3 rounded-xl pl-10 pt-6 pb-6 bg-[#FDF0F1] w-full relative" reloadDocument>
             <div className="flex  items-center justify-between ">
               <div className="flex flex-col w-[50%] gap-10">
                 <div className="flex flex-col w-full gap-1">
@@ -20,10 +20,10 @@ const Credits = () => {
                   <GoArrowRight className='text-[24px]  text-[#EC3342] ' />
                 </Link>
               </div>
-              <img src={OnlineCreditImg} className='w-65 h-64.5solute bottom-0 right-0' />
+              <img src={OnlineCreditImg} className='w-65 h-64.5 absolute bottom-0 right-0' />
             </div>
           </Link>
-          <Link className="row-span-3 col-start-1 row-start-4 rounded-xl pl-10 pt-62pb-6 bg-[#F3F3F5] w-full relative">
+          <Link className="row-span-3 col-start-1 row-start-4 rounded-xl pl-10 pt-6 pb-6 bg-[#F3F3F5] w-full relative">
             <div className="flex  items-center justify-between ">
               <div className="flex flex-col w-[50%] gap-10">
                 <div className="flex flex-col w-full gap-1">
@@ -35,7 +35,7 @@ const Credits = () => {
                   <GoArrowRight className='text-[24px]  text-[#EC3342] ' />
                 </Link>
               </div>
-              <img src={DepozitImg} className='w-655h-64.5lute bottom-0 right-0' />
+              <img src={DepozitImg} className='w-65.5 absolute bottom-0 right-0' />
             </div>
           </Link>
           <div className="row-span-6 col-start-2 row-start-1 rounded-xl pl-10 pt-6 pb-6 pr-0 bg-[url('https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/birbank_kampaniyalar_ee36563933.webp')] bg-cover bg-center relative w-full">

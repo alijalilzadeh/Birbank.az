@@ -19,7 +19,7 @@ const SecondaryNavbar = () => {
   const isScrolled = scrollY > 100;
   return (
     <>
-      <div className={`flex  w-full items-center justify-center py-5 ${isScrolled ? "fixed top-0 left-0 border-b-2 border-b-[#ebebf1]" : "mt-17.5"} bg-white z-10  `}>
+      <div className={`flex  w-full items-center justify-center py-5 ${isScrolled ? "fixed top-0 left-0" : "mt-17.5 border-b-2 border-b-[#ebebf1]"} bg-white z-10  `}>
         <div className="flex  w-[75%] items-center justify-between">
           <Link to="/" reloadDocument>
             <img src={BirbankLogo} className='w-30   object-cover' />

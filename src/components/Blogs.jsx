@@ -9,8 +9,8 @@ const Blogs = () => {
     <>
       <Navbar />
       <SecondaryNavbar />
-      <BlogsContent />
-      <Footer />
+      <BlogsContent/>
+       <Footer/> 
     </>
   )
 }

@@ -84,36 +84,36 @@ const getCreditContent = () => {
       <div className="flex items-center justify-center w-full selection:bg-[#B3D4FC]">
         <div className="flex flex-col items-center justify-center w-[75%]">
           <div className="flex flex-col  w-full">
-            <div className="flex  bg-[#F9F9FA] px-[40px] py-[50px] w-full relative">
+            <div className="flex  bg-[#F9F9FA] px-10 py-12.5 w-full relative">
               <div className="flex flex-col  gap-7 w-[70%] ">
-                <p className='flex text-[36px] font-[600] text-[#222222]'>
-                  <span className='text-[36px] font-[600] text-[#CE0F1D] mr-[8px]'>Nağd</span>
+                <p className='flex text-[36px] font-semibold text-[#222222]'>
+                  <span className='text-[36px] font-semibold text-[#CE0F1D] mr-2'>Nağd</span>
                   pul krediti
                 </p>
-                <p className='text-[16px] font-[300] text-[#25282b]'>Nağd pul krediti şəxsi ehtiyaclarınızı qarşılayaraq büdcənizə uyğun hissə-hissə ödəmə şansı tanıyan nağd pul kreditidir.</p>
+                <p className='text-[16px] font-light text-[#25282b]'>Nağd pul krediti şəxsi ehtiyaclarınızı qarşılayaraq büdcənizə uyğun hissə-hissə ödəmə şansı tanıyan nağd pul kreditidir.</p>
                 <div className="flex items-center  gap-5">
                   <div className="flex flex-col gap-1">
-                    <h2 className='text-[16px] font-[700] text-[#25282b]'>50 000 AZN-dək</h2>
-                    <p className='text-[16px] font-[400] text-[#25282b]'>Kredit məbləği</p>
+                    <h2 className='text-[16px] font-bold text-[#25282b]'>50 000 AZN-dək</h2>
+                    <p className='text-[16px] font-normal text-[#25282b]'>Kredit məbləği</p>
                   </div>
 
                   <div className="flex flex-col gap-1">
-                    <h2 className='text-[16px] font-[700] text-[#25282b]'>59 ayadək</h2>
-                    <p className='text-[16px] font-[400] text-[#25282b]'>Kredit məbləği</p>
+                    <h2 className='text-[16px] font-bold text-[#25282b]'>59 ayadək</h2>
+                    <p className='text-[16px] font-normal text-[#25282b]'>Kredit məbləği</p>
                   </div>
 
                   <div className="flex flex-col gap-1">
-                    <h2 className='text-[16px] font-[700] text-[#25282b]'>10.9%-dən</h2>
-                    <p className='text-[16px] font-[400] text-[#25282b]'> İllik faiz dərəcəsi</p>
+                    <h2 className='text-[16px] font-bold text-[#25282b]'>10.9%-dən</h2>
+                    <p className='text-[16px] font-normal text-[#25282b]'> İllik faiz dərəcəsi</p>
                   </div>
                 </div>
               </div>
               <img src={CreditGuy} className='absolute bottom-0 right-0 object-contain' />
             </div>
-            <div className="flex items-center justify-center flex-col w-full gap-5 bg-[#E7E8EA] pt-[35px] pb-[40px]">
-              <p className='w-[50%] text-center text-[28px] text-[#25282b] font-[700]'>Krediti <span className='text-[#CE0F1D]'>onlayn</span> dərhal əldə et!</p>
+            <div className="flex items-center justify-center flex-col w-full gap-5 bg-[#E7E8EA] pt-8.75 pb-10">
+              <p className='w-[50%] text-center text-[28px] text-[#25282b] font-bold'>Krediti <span className='text-[#CE0F1D]'>onlayn</span> dərhal əldə et!</p>
               <div className="flex flex-col items-center justify-center ">
-                <div className="relative w-[340px]">
+                <div className="relative w-85">
                   <div className="relative bg-white border  border-transparent rounded-xl px-3 pt-5 pb-2 flex items-center shadow-sm">
                     <label className="absolute top-1.5 left-3 text-xs text-[#4b5b7c] font-medium">
                       Mobil nömrə
@@ -136,7 +136,7 @@ const getCreditContent = () => {
                       </div>
 
                       {isDropdownOpen && (
-                        <div className="absolute top-10 left-[-10px] w-24 bg-white border border-gray-200 rounded-lg shadow-xl z-20 py-2">
+                        <div className="absolute top-10 -left-2.5 w-24 bg-white border border-gray-200 rounded-lg shadow-xl z-20 py-2">
                           {prefixes.map((p) => (
                             <div
                               key={p}
@@ -169,12 +169,12 @@ const getCreditContent = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col my-[48px] justify-center item-start gap-0 w-full">
-            <h2 className='text-[30px] font-[600] text-[#25282b]'>Bilmək faydalıdır</h2>
-            <div className="flex item-start  my-[40px]">
-              <p className='px-[20px] py-[10px] text-white text-[16px] font-[500] bg-[#EC3342] cursor-pointer rounded-[10px]'>Tez-tez verilən suallar</p>
-              <p className='px-[20px] py-[10px] text-[#9496ac] transition duration-100 hover:bg-[#D4D6DB] hover:text-[#25282b] text-[16px] font-[500] cursor-pointer rounded-[10px]'>Şərtlər</p>
-              <p className='px-[20px] py-[10px] text-[#9496ac] text-[16px] font-[500] transition duration-100 hover:bg-[#D4D6DB] hover:text-[#25282b] cursor-pointer  rounded-[10px]'>Əlavə məlumatlar</p>
+          <div className="flex flex-col my-12 justify-center item-start gap-0 w-full">
+            <h2 className='text-[30px] font-semibold text-[#25282b]'>Bilmək faydalıdır</h2>
+            <div className="flex item-start  my-10">
+              <p className='px-5 py-2.5 text-white text-[16px] font-medium bg-[#EC3342] cursor-pointer rounded-[10px]'>Tez-tez verilən suallar</p>
+              <p className='px-5 py-2.5 text-[#9496ac] transition duration-100 hover:bg-[#D4D6DB] hover:text-[#25282b] text-[16px] font-medium cursor-pointer rounded-[10px]'>Şərtlər</p>
+              <p className='px-5 py-2.5 text-[#9496ac] text-[16px] font-medium transition duration-100 hover:bg-[#D4D6DB] hover:text-[#25282b] cursor-pointer  rounded-[10px]'>Əlavə məlumatlar</p>
             </div>
             {
               faqData.map((item, index) => (
@@ -182,9 +182,9 @@ const getCreditContent = () => {
 
                   <div
                     onClick={() => toggleFaq(index)}
-                    className="group flex border-b border-[#E9EAEC] w-full px-[12px] py-[16px] items-center hover:border-none justify-between cursor-pointer"
+                    className="group flex border-b border-[#E9EAEC] w-full px-3 py-4 items-center hover:border-none justify-between cursor-pointer"
                   >
-                    <p className='text-[16px] text-[#25282b] text-center font-[400] transition duration-50 group-hover:text-[#A296AC] group-hover:border-none'>
+                    <p className='text-[16px] text-[#25282b] text-center font-normal transition duration-50 group-hover:text-[#A296AC] group-hover:border-none'>
                       {item.question}
                     </p>
 
@@ -195,10 +195,10 @@ const getCreditContent = () => {
                   </div>
 
                   <div
-                    className={`overflow-hidden flex items-center justify-center transition-all duration-300 ${activeIndex === index ? "max-h-[300px]" : "max-h-0"
+                    className={`overflow-hidden flex items-center justify-center transition-all duration-300 ${activeIndex === index ? "max-h-75" : "max-h-0"
                       }`}
                   >
-                    <p className='w-full  px-[32px] py-[40px] text-[16px] font-[200] text-[#222222] bg-[#F3F3F5]'>
+                    <p className='w-full  px-8 py-10 text-[16px] font-extralight text-[#222222] bg-[#F3F3F5]'>
                       {item.answer}
                     </p>
                   </div>

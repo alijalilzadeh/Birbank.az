@@ -71,8 +71,7 @@ const SigortalarContent = () => {
           <div className="flex flex-col w-full h-full">
             <h2 className='text-[24px] font-bold text-[#25282b] my-4'>Sığorta yoxla və online sığorta əldə et | Birbank</h2>
             <div className="flex gap-2 my-3">
-              <Link className='text-[14px] p-3.75 text-[#6D7478]' to="/">Ana Səhifə</Link>
-              <Link className=' text-[#25282b] text-[14px] p-3.75 pl-0' to="/ninja">Sığortalar</Link>
+<Link className='text-[14px] p-3.75 text-[#6D7478]' to="/" reloadDocument>Ana Səhifə</Link>              <Link className=' text-[#25282b] text-[14px] p-3.75 pl-0' to="/ninja">Sığortalar</Link>
             </div>
           </div>
           <div className="flex justify-between w-full bg-[linear-gradient(98.65deg,rgb(236,50,66)_0%,rgb(153,0,0)_100%)] rounded-xl relative overflow-hidden h-full py-16">

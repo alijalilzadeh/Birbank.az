@@ -50,25 +50,25 @@ const Services = () => {
   const result = targetCurrencies.map(code => grouped[code]);
 
   return (
-    <div className="flex items-center justify-center w-full my-[96px] selection:bg-[#B3D4FC]">
+    <div className="flex items-center justify-center w-full my-24ection:bg-[#B3D4FC]">
       <div className="flex flex-col gap-2 w-[75%]">
 
-        <h2 className='text-[#25282b] font-[600] text-[30px]'>
+        <h2 className='text-[#25282b] font-semibold text-[30px]'>
           {newsData.pageProps.messages.home.exchangeRate.services}
         </h2>
 
         <div className="flex items-center gap-8 justify-between w-full">
 
-          <div className="flex flex-col gap-4 w-[50%] rounded-[12px] bg-[#F9F9FA] p-[24px]">
+          <div className="flex flex-col gap-4 w-[50%] rounded-xl bg-[#F9F9FA] p-6">
 
-            <h2 className='text-[24px] text-[#222222] font-[500]'>
+            <h2 className='text-[24px] text-[#222222] font-medium'>
               {newsData.pageProps.messages.home.exchangeRateTable.exchangeRates}
             </h2>
 
             <div className="flex items-center">
               <button
                 onClick={() => setBuyStatus("buy")}
-                className={`rounded-[6px] px-[24px] cursor-pointer text-[14px] py-[8px] ${buyStatus === "buy"
+                className={`rounded-md px-6 cursor-pointer text-[14px] py-2 ${buyStatus === "buy"
                     ? "bg-[#25282B] text-white"
                     : "bg-[#FFFFFF] text-[#9496AC]"
                   }`}
@@ -78,7 +78,7 @@ const Services = () => {
 
               <button
                 onClick={() => setBuyStatus("sell")}
-                className={`rounded-[6px] px-[24px] cursor-pointer text-[14px] py-[8px] ${buyStatus === "sell"
+                className={`rounded-md px-6 cursor-pointer text-[14px] py-2 ${buyStatus === "sell"
                     ? "bg-[#25282B] text-white"
                     : "bg-[#FFFFFF] text-[#9496AC]"
                   }`}
@@ -89,18 +89,18 @@ const Services = () => {
 
             <div className="flex items-center gap-2 justify-between">
               <div className='flex flex-col gap-6'>
-                <h2 className='text-[16px] font-[600]'>Valyuta</h2>
+                <h2 className='text-[16px] font-semibold'>Valyuta</h2>
 
                 {result.map((item, i) => (
                   <p key={i} className='flex gap-2 items-center'>
-                    <img src={flags[item.code]} className='w-[32px]' />
+                    <img src={flags[item.code]} className='w-8' />
                     <span className='text-[18px]'>{item.code}</span>
                   </p>
                 ))}
               </div>
 
               <div className='flex flex-col gap-6'>
-                <h2 className='text-[16px] font-[600]'>Mərkəzi Bank</h2>
+                <h2 className='text-[16px] font-semibold'>Mərkəzi Bank</h2>
 
                 {result.map((item, i) => (
                   <span key={i}>
@@ -110,7 +110,7 @@ const Services = () => {
               </div>
 
               <div className='flex flex-col gap-6'>
-                <h2 className='text-[16px] font-[600]'>Nağd</h2>
+                <h2 className='text-[16px] font-semibold'>Nağd</h2>
 
                 {result.map((item, i) => (
                   <span key={i}>
@@ -120,7 +120,7 @@ const Services = () => {
               </div>
 
               <div className='flex flex-col gap-6'>
-                <h2 className='text-[16px] font-[600]'>Nağdsız</h2>
+                <h2 className='text-[16px] font-semibold'>Nağdsız</h2>
 
                 {result.map((item, i) => (
                   <span key={i}>
@@ -131,7 +131,7 @@ const Services = () => {
 
             </div>
 
-            <div className="flex items-center justify-between my-[6px]">
+            <div className="flex items-center justify-between my-1.5">
               <p className='text-[#80858A] text-[14px]'>
                 Kurslar bu tarixə təyin edilmişdir: {formattedDate}
               </p>
@@ -150,7 +150,7 @@ const Services = () => {
               <Link
                 to={item.link.href}
                 key={index}
-                className="group overflow-hidden relative col-span-3 row-span-2 flex items-center justify-between bg-[#F3F3F5] rounded-[12px] px-[23px] py-[16px]"
+                className="group overflow-hidden relative col-span-3 row-span-2 flex items-center justify-between bg-[#F3F3F5] rounded-xl px-5.75 py-4"
               >
                 <div className="flex flex-col gap-2 w-[50%]">
                   <h2 className='text-[24px]'>{item.title}</h2>
@@ -159,7 +159,7 @@ const Services = () => {
 
                 <img
                   src={item.image.data.attributes.formats.thumbnail.url}
-                  className='absolute bottom-0 right-[20px] w-[240px] transition group-hover:scale-[1.05]'
+                  className='absolute bottom-0 right-5 w-60 transition group-hover:scale-[1.05]'
                 />
               </Link>
             ))}

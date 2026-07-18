@@ -6,11 +6,11 @@ const HomeNews = () => {
   return (
     <>
 
-      <div className="flex items-center justify-center w-full my-[60px]">
+      <div className="flex items-center justify-center w-full my-15">
         <div className="flex flex-col gap-10 w-[75%]">
           <div className="flex items-center justify-between">
             <h2 className='text-[30px] text-[#25282b] font-semibold'>Xəbərlər</h2>
-            <Link to="news" className='flex items-center  py-[12px] rounded-[10px] gap-1' reloadDocument>
+            <Link to="news" className='flex items-center  py-3 rounded-[10px] gap-1' reloadDocument>
               <span className='text-[14px] text-[#EC3342] font-normal'>Bütün xəbərlər</span>
               <GoArrowRight className='text-[14px]  text-[#EC3342] ' />
             </Link>
@@ -24,7 +24,7 @@ const HomeNews = () => {
                   alt=""
                   className="w-full rounded-t-[10px]"
                 />
-                <div className="flex flex-col gap-4 justify-between p-[24px]">
+                <div className="flex flex-col gap-4 justify-between p-6">
                   <h3 className="mt-3 text-[16px] font-semibold text-[#25282b]">
                     {item.attributes.title}
                   </h3>

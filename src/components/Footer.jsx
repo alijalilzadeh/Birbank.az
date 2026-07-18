@@ -13,10 +13,10 @@ const Footer = () => {
     <>
       <div className="flex justify-center w-full bg-[#25282B] selection:bg-[#B3D4FC]">
         <div className="w-[75%] ">
-          <div className="flex items-start  py-[40px] justify-between gap-12 border-b-2 border-b-[#3B3F43]">
+          <div className="flex items-start  py-10 justify-between gap-12 border-b-2 border-b-[#3B3F43]">
             <div>
               <Link to="/">
-                <img src={BirbankLogo} className="w-[220px]" />
+                <img src={BirbankLogo} className="w-55" />
               </Link>
             </div>
 
@@ -26,7 +26,7 @@ const Footer = () => {
                 <Link className="text-white text-[16px] hover:underline" reloadDocument>Avtomobil krediti</Link>
                 <Link className="text-white text-[16px] hover:underline" reloadDocument>Xəbər</Link>
                 <Link to='/ninja' className="text-white text-[16px] hover:underline" reloadDocument>Ninja</Link>
-                <Link className="text-white text-[16px] hover:underline" reloadDocument>Bloqlar</Link>
+                <Link to='/bloqlar' className="text-white text-[16px] hover:underline" reloadDocument>Bloqlar</Link>
               </div>
 
               <div className="flex flex-col gap-3">
@@ -50,7 +50,7 @@ const Footer = () => {
                   href="https://apps.apple.com/us/app/birbank/id1293207342"
                   className="flex items-center gap-3 border border-white rounded-[10px] px-4 py-2"
                 >
-                  <img src={AppStore} className="w-[20px]" />
+                  <img src={AppStore} className="w-5" />
                   <div className="flex flex-col">
                     <h2 className="text-white text-[14px] font-bold">App Store</h2>
                     <span className="text-white text-[10px]">mobil tətbiqi yükləyin</span>
@@ -61,22 +61,22 @@ const Footer = () => {
                   href="https://play.google.com"
                   className="flex items-center gap-3 border border-white rounded-[10px] px-4 py-2"
                 >
-                  <img src={GooglePlay} className="w-[20px]" />
+                  <img src={GooglePlay} className="w-5" />
                   <div className="flex flex-col">
                     <h2 className="text-white text-[14px] font-bold">Google Play</h2>
                     <span className="text-white text-[10px]">mobil tətbiqi yükləyin</span>
                   </div>
                 </Link>
               </div>
-              <img src={QrCode} className="w-[100px]" />
+              <img src={QrCode} className="w-25" />
             </div>
           </div>
-          <div className="flex items-center justify-between w-full py-[16px]">
+          <div className="flex items-center justify-between w-full py-4">
             <span className='text-[12px] text-white'>© 2026 «Kapital Bank» ASC. Bütün hüquqlar qorunur.</span>
             <div className="flex gap-6 items-center justify-center">
               <Link className='text-[12px] text-white underline font-normal'>Məxfilik sənədi</Link>
               <p className='flex gap-2 items-center justify-center'>
-                <img src={PhoneLogo} className='w-[20px] object-fit' />
+                <img src={PhoneLogo} className='w-5 object-fit' />
                 <span className='text-[24px] text-[#EC3432] font-bold'>196</span>
               </p>
               <Link to="https://www.facebook.com/birbank"><FaFacebook className='text-[24px] text-white' /></Link>

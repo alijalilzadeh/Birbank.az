@@ -12,8 +12,7 @@ const TariffsContent = () => {
         <div className="flex flex-col w-[75%] h-full">
           <div className="flex flex-col w-full h-full">
             <div className="flex gap-2 my-3">
-              <Link className='text-[14px] p-3.75 text-[#6D7478]' to="/">Ana Səhifə</Link>
-              <Link className=' text-[#25282b] text-[14px] p-3.75 pl-0' to="/ninja">Tariflər</Link>
+<Link className='text-[14px] p-3.75 text-[#6D7478]' to="/" reloadDocument>Ana Səhifə</Link>              <Link className=' text-[#25282b] text-[14px] p-3.75 pl-0' to="/ninja">Tariflər</Link>
             </div>
           </div>
           <div className="flex justify-between w-full bg-[linear-gradient(98.65deg,rgb(236,50,66)_0%,rgb(153,0,0)_100%)] rounded-xl relative overflow-hidden h-full py-16">
@@ -27,8 +26,8 @@ const TariffsContent = () => {
         </div>
         <div className="flex flex-col items-center justify-center gap-10 w-full my-20 ">
           <div className="flex items-center justify-center">
-            <span onClick={() => setTariffStatus("tarif")} className={`rounded-[8px] infline-flex w-fit px-5 py-2 ${tariffStatus === "tarif" ? " bg-[#EC3342] text-white" : "bg-[#F3F3F5] text-[#9496AC]"} font-normal cursor-pointer`}>Tariflər</span>
-            <span onClick={() => setTariffStatus("melumat")} className={`rounded-[8px] infline-flex w-fit px-5 py-2 ${tariffStatus === "tarif" ? " bg-[#F3F3F5] text-[#9496AC]" : "bg-[#EC3342] text-white"} font-normal cursor-pointer`}>Məlumat</span>
+            <span onClick={() => setTariffStatus("tarif")} className={`rounded-lg infline-flex w-fit px-5 py-2 ${tariffStatus === "tarif" ? " bg-[#EC3342] text-white" : "bg-[#F3F3F5] text-[#9496AC]"} font-normal cursor-pointer`}>Tariflər</span>
+            <span onClick={() => setTariffStatus("melumat")} className={`rounded-lg infline-flex w-fit px-5 py-2 ${tariffStatus === "tarif" ? " bg-[#F3F3F5] text-[#9496AC]" : "bg-[#EC3342] text-white"} font-normal cursor-pointer`}>Məlumat</span>
           </div>
 
           <div className="grid grid-cols-6 gap-7 w-[75%] items-center justify-center">

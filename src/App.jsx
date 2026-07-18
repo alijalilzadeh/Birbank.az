@@ -13,6 +13,7 @@ import GetCredit from './components/GetCredit'
 import EcoSystem from './components/EcoSystem'
 import Sigortalar from './components/Sigortalar'
 import Tariffs from './components/Tariffs'
+import Blogs from './components/Blogs'
 function App() {
   return (
     <Routes>
@@ -29,6 +30,7 @@ function App() {
       <Route path='/ecosystem' element={<EcoSystem />}/>
       <Route path='/sigortalar' element={<Sigortalar />}/>
       <Route path='/tariffs' element={<Tariffs />}/>
+      <Route path='/bloqlar' element={<Blogs />}/>
     </Routes>
   )
 }

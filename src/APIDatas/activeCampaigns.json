@@ -1,0 +1,1265 @@
+{
+    "pageProps": {
+        "pageProps": {
+            "searchParams": {
+                "dataFilter": "active",
+                "group": "5",
+                "page": "1"
+            }
+        },
+        "locale": "az",
+        "messages": {
+            "breadcrumbs": {
+                "home": "Ana Səhifə",
+                "avans": "Avans",
+                "cards": "Kartlar",
+                "title": "Onlayn Kart Sifarişi",
+                "bnpl": "Böl ödə"
+            },
+            "avans": {
+                "sectionTitle": "Bilmək lazımdır",
+                "title": "Avans krediti"
+            },
+            "breadcrumbsMainRoot": "Ana Səhifə",
+            "campaigns": {
+                "title": "Ən yeni kampaniyalar",
+                "breadcrumbsData": [
+                    {
+                        "title": "Kampaniyalar",
+                        "href": "/campaigns"
+                    }
+                ],
+                "more": "Daha çox",
+                "expired": "Bitmiş",
+                "active": "Aktiv"
+            },
+            "campaignsDetails": {
+                "title": "Kampaniyalar",
+                "breadcrumbsData": [
+                    {
+                        "title": "Kampaniyalar",
+                        "href": "/campaigns"
+                    },
+                    {
+                        "title": "",
+                        "href": ""
+                    }
+                ]
+            },
+            "partners": {
+                "title": "Partnyorlar",
+                "breadcrumbsData": [
+                    {
+                        "title": "Partnyorlar",
+                        "href": "/partners"
+                    }
+                ],
+                "partnerFound": "Partnyor tapıldı",
+                "loading": "Yüklənir..",
+                "more": "Daha çox",
+                "selected": "seçildi",
+                "noComission": "komissiyasız",
+                "tillMonth": "ayadək Böl-ödə krediti",
+                "clean": "Təmizlə",
+                "month": "Ay",
+                "partnerListBonus": "bonus",
+                "bonus": "Bonus, %",
+                "earnBonus": "Bonus qazanmaq üçün barkodu göstər",
+                "partnerFoundText": "Partnyor tapıldı",
+                "onlyOnPosTerminals": "*** Yalnız Kapital Bank POS-terminallarında",
+                "onlyOnlinePayments": "*** Yalnız onlayn ödənişlərdə",
+                "aboutInstallment": "* Taksit və Bonus şərtləri məhsul və kampaniyalar üzrə dəyişə bilər",
+                "interestAndInstallmentRules": "** Faiz və taksit şərtləri filiallar üzrə dəyişiklik göstərə bilər",
+                "partnersFilter": {
+                    "categories": "Kateqoriyalar",
+                    "benefits": "Üstünlüklər",
+                    "allCategories": "Bütün kateqoriyalar",
+                    "bonus": "Bonus, %",
+                    "all": "Hamısını seç",
+                    "reset": "Sıfırla",
+                    "installments": "Taksit sayı, ay",
+                    "bnpl": "Böl-ödə, ay",
+                    "clean": "Təmizlə",
+                    "month": "Ay",
+                    "sort": "Çeşidlə",
+                    "search": "Axtar",
+                    "filters": "Filterlər",
+                    "close": "Bağla"
+                }
+            },
+            "partnersDetails": {
+                "title": "Partnyorlar",
+                "breadcrumbsData": [
+                    {
+                        "title": "Partnyorlar",
+                        "href": "/partners"
+                    },
+                    {
+                        "title": "",
+                        "href": ""
+                    }
+                ],
+                "notFound": {
+                    "title": "Partnyor tapılmadı",
+                    "subtitle": "Partnyor artıq aktiv deyil və ya mövcud deyil",
+                    "backToHome": "Ana səhifəyə qayıt",
+                    "availablePartners": "Mövcud partnyorlar"
+                },
+                "form": {
+                    "title": "Partnyor Ol",
+                    "typeTaksit": "Taksit",
+                    "typeBonus": "Bir bonus",
+                    "typeBnpl": "Böl, ödə",
+                    "inputName": "Ad soyad",
+                    "inputVoen": "VÖEN",
+                    "inputCompany": "Şirkət adı",
+                    "inputNumber": "Nömrə tam daxil edilməyib",
+                    "inputActivity": "Fəaliyyət sahəsi",
+                    "inputMail": "E-mail ünvanı",
+                    "button": "Tərəfdaş ol",
+                    "buttonSend": "Göndərilir...",
+                    "buttonClose": "Bağla",
+                    "warninginputVoen": "VÖEN 10 rəqəm olmalıdır",
+                    "req": "Bu xana mütləq doldurulmalıdır",
+                    "emailMessage": "Email düzgün deyil",
+                    "retryAgainPlease": "Xəta baş verdi, zəhmət olmasa yenidən cəhd edin.",
+                    "serverConnectionError": "Server ilə əlaqə zamanı xəta baş verdi.",
+                    "successHeading": "Təşəkkür edirik",
+                    "successContent": "Müraciətiniz qeydə alınıb. Rəsmiləşdirilmə üçün sizinlə qısa müddət ərzində əlaqə yaradılacaqdır. Müraciətiniz üçün təşəkkür edirik!",
+                    "prefix": "Prefiks",
+                    "similarPartners": "Oxşar Partnyorlar",
+                    "detailContentInfoText": "** Faiz və taksit şərtləri filiallar üzrə dəyişiklik göstərə bilər",
+                    "noComission": "komissiyasız",
+                    "showBarcode": "Bonus qazanmaq üçün barkodu göstər",
+                    "onlyOnPosTerminals": "*** Yalnız Kapital Bank POS-terminallarında",
+                    "onlyOnlinePayments": "*** Yalnız onlayn ödənişlərdə",
+                    "aboutInstallment": "* Taksit və Bonus şərtləri məhsul və kampaniyalar üzrə dəyişə bilər"
+                }
+            },
+            "mapHome": {
+                "map": "Xəritə",
+                "list": "Siyahı",
+                "heading": "Xidmət şəbəkəsi",
+                "inputName": "Ünvanı qeyd et",
+                "filtersTitle": "Filterlər",
+                "titles": "Başlıqlar",
+                "branch": "Filial",
+                "atm": "Bankomat",
+                "paymentTerminal": "Ödəniş Terminalı",
+                "digitalCenter": "Rəqəmsal Mərkəz",
+                "customerServiceHours": "Müştərilərə xidmət vaxtı",
+                "specialDays": "Xüsusi günlərdə xidmət",
+                "backToMap": "Geri",
+                "selectAddress": "Ünvan seç",
+                "directions": "İstiqamət",
+                "waze": "Waze",
+                "filter": {
+                    "all": "Hamısı",
+                    "saturday": "Şənbə günü işləyən filiallar",
+                    "sunday": "Bazar günü işləyən filiallar",
+                    "openNow": "İndi açıq olan filiallar"
+                },
+                "additionalInfo": {
+                    "address": "Ünvan",
+                    "phone": "Telefon",
+                    "weekday": "Həftəiçi",
+                    "saturday": "Şənbə",
+                    "sunday": "Bazar",
+                    "nonWorkingDay": "Qeyri-iş günü"
+                },
+                "weekdays": {
+                    "monday": "Bazar ertəsi",
+                    "tuesday": "Çərşənbə axşamı",
+                    "wednesday": "Çərşənbə",
+                    "thursday": "Cümə axşamı",
+                    "friday": "Cümə"
+                },
+                "filterActions": {
+                    "search": "Ətraflı axtarış",
+                    "close": "Bağla",
+                    "titles": "Başlıqlar",
+                    "branch": "Filial",
+                    "atm": "Bankomat",
+                    "paymentTerminal": "Ödəniş Terminalı",
+                    "digitalCenter": "Rəqəmsal Mərkəz"
+                }
+            },
+            "news": {
+                "title": "Xəbərlər və kampaniyalar",
+                "breadcrumbsData": [
+                    {
+                        "title": "Xəbərlər",
+                        "href": "/news"
+                    }
+                ],
+                "share": "Paylaş:",
+                "more": "Daha çox"
+            },
+            "transfers": {
+                "moneyTransfersTitle": "Pul köçürmələri",
+                "title": "Köçürmələr",
+                "breadcrumbsData": [
+                    {
+                        "title": "Köçürmələr",
+                        "href": "/transfers"
+                    }
+                ],
+                "betweenMyCards": "Öz kartlarım və hesablarım arasında",
+                "anyBankAccount": "İstənilən bank kartına",
+                "cashByCode": "Cash by code",
+                "moneyRequestFromFriends": "Dostlardan pul sorğusu",
+                "sendToPhone": "Nömrəyə köçürmə",
+                "downloadBirbankApp": "Birbank tətbiqini smartfonunuza yükləmək üçün QR-kodu oxudun",
+                "downloadBirbankAppMobile": "Birbank tətbiqini smartfonunuza yükləmək üçün platformaya uyğun onlayn mağazaya daxil olun",
+                "sectionTitle": "Bilmək lazımdır",
+                "qrTransferConfirmation": {
+                    "title": "QR köçürmələri",
+                    "description": "QR köçürmələri",
+                    "confirmButton": "Təsdiq etmək",
+                    "loading": "Yüklənir...",
+                    "sections": {
+                        "recipientInfo": "Vəsait alanın məlumatları",
+                        "cardInfo": "Kart məlumatları",
+                        "transferDetails": "Köçürmənin detalları"
+                    },
+                    "fields": {
+                        "receiptName": "Ad soyad",
+                        "receiptCardNumber": "Kart nömrəsi",
+                        "cardNumber": "Kartın nömrəsi",
+                        "amount": "Məbləğ",
+                        "comission": "Komissiya"
+                    }
+                }
+            },
+            "qrModal": {
+                "downloadMobileApp": "mobil tətbiqi yüklə",
+                "request": "Müraciət edin"
+            },
+            "deposits": {
+                "title": "Depozitlər",
+                "branch": "Filialda",
+                "app": "Tətbiqdə",
+                "pinCode": "Fin kod",
+                "phoneNumber": "Əlaqə nömrəsi",
+                "currency": "Valyuta",
+                "apply": "Müraciət edin",
+                "calculatorHeading": "Depozit kalkulyatoru",
+                "grossInterestIncome": "Ümumi faiz gəliri",
+                "term": "Müddət",
+                "howToCollectInterest": "Faizləri necə götürəcəksiniz?",
+                "amount": "Məbləğ",
+                "monthly": "Aylıq",
+                "endOfPeriod": "Müddətin sonunda",
+                "usefulToKnow": "Bilmək faydalıdır",
+                "month": "ay",
+                "depositPeriod": "Depozit müddəti",
+                "thanks": "Təşəkkürlər!",
+                "applyForDepositRequest": "Depozit yerləşdirmək üçün müraciət et",
+                "successfulApplicationMsg": "Sifarişini uğurla rəsmiləşdirdin. Qısa zaman ərzində bankımızın (012) 310-xx-xx nömrəsi vasitəsilə səninlə əlaqə saxlayacağıq. Görüşənədək!",
+                "pinCodeOfPassport": "Şəxsiyyət Vəsiqəsinin FİN kodu",
+                "prefix": "Prefiks",
+                "requiredPrefix": "Prefiks mütləq doldurulmalıdır",
+                "requiredField": "Bu xana mütləq doldurulmalıdır",
+                "phoneRequired": "Nömrə tam daxil edilməyib",
+                "finCodeInvalid": "Fin kod formatı düzgün deyil. 7 simvol (hərf və rəqəm) olmalıdır",
+                "branchRequired": "Filial seçilməyib",
+                "requestRequired": "Müraciətiniz mütləq qeyd edilməlidir",
+                "requestMinLength": "Müraciətiniz minimum 20 hərfdən ibarət olmalıdır",
+                "fullName": "A.S.A",
+                "fullNameValidation": "Ad, Soyad və Ata adı daxil edilməlidir. Hər söz minimum 2 hərfdən ibarət olmalıdır",
+                "contactNumber": "Əlaqə nömrəsi",
+                "putDeposit": "Depozit yerləşdir",
+                "noContent": "No content available",
+                "grossInterestIncomeMonthly": "Aylıq faiz gəliri",
+                "totalInterestIncome": "Ümumi faiz gəliri",
+                "amountAZN": "Məbləğ (AZN)",
+                "amountUSD": "Məbləğ (USD)",
+                "depositCurrencyTitle": "Depoziti hansı valyutada yerləşdirəcəksən?",
+                "amountRange": "Məbləğ aralığı",
+                "calcTierLow": "5 000 {currency}-ə qədər",
+                "calcTierHigh": "5 000 {currency}-dən çox",
+                "calculatorInfoText": "Hesablama zamanı faiz gəlirindən 10% vergi ilə bağlı şərtlər nəzərə alınmayıb.",
+                "offer": "Təklif",
+                "retryAgainPlease": "Xəta baş verdi, zəhmət olmasa yenidən cəhd edin.",
+                "required": "Bu xana mütləq doldurulmalıdır",
+                "phoneNumberError": "Nömrə tam daxil edilməyib",
+                "interestRate": "Faiz dərəcəsi"
+            },
+            "bond": {
+                "title": "İstiqraz",
+                "tabTitle": "Bilmək lazımdır",
+                "breadcrumbsData": [
+                    {
+                        "title": "İstiqraz",
+                        "href": "/istiqraz"
+                    }
+                ],
+                "calculator": {
+                    "title": "Gəliri hesabla",
+                    "purchase": "Alış",
+                    "sale": "Satış",
+                    "netIncome": "Xalis gəlir",
+                    "daysUntilExpiration": "İstiqrazların müddətinin bitməsinə qalan gün sayı*",
+                    "bondsYouWillGet": "Əldə edəcəyiniz istiqraz sayı",
+                    "purchaseDate": "Alış Tarixi:",
+                    "saleDate": "Satış Tarixi:",
+                    "annualIncome": "İllik gəlir",
+                    "netIncomeAtEnd": "Dövrün sonuna xalis gəlir"
+                }
+            },
+            "home": {
+                "heading": "Xidmət şəbəkəsi",
+                "inputName": "Ünvanı qeyd et",
+                "titles": "Başlıqlar",
+                "branch": "Filial",
+                "atm": "Bankomat",
+                "paymentTerminal": "Ödəniş Terminalı",
+                "digitalCenter": "Rəqəmsal Mərkəz",
+                "newsWidget": {
+                    "title": "Xəbərlər",
+                    "allNews": "Bütün xəbərlər"
+                },
+                "calculator": {
+                    "cashCreditText": "Nağd kredit",
+                    "birbankCardText": "Birbank kartı",
+                    "depositText": "Depozit",
+                    "tabSectionTitle": "Faydasını hesabla",
+                    "cashLoan": {
+                        "title": "Nağd krediti hesabla",
+                        "amount": "Məbləğ",
+                        "interest": "Faiz",
+                        "period": "Müdddət (Ay)",
+                        "monthlyPayment": "Aylıq ödəniş",
+                        "infoText": "Müştərilərimizə asanlıqla əldə edə biləcəkləri taksit kartı təklif edirik.",
+                        "orderText": "Sifariş et"
+                    },
+                    "birBankCard": {
+                        "birbankCardTitle": "Birbank kartı",
+                        "cashing": "Nağdlaşdırma",
+                        "installment": "Taksit",
+                        "amount": "Məbləğ",
+                        "month": "Ay",
+                        "interestRate": "Faiz dərəcəsi",
+                        "monthlyPayment": "Aylıq ödəniş",
+                        "infoText": "Müştərilərimizə asanlıqla əldə edə biləcəkləri taksit kartı təklif edirik.",
+                        "orderText": "Sifariş et"
+                    },
+                    "deposit": {
+                        "depositCurrencyTitle": "Depoziti hansı valyutada yerləşdirəcəksən?",
+                        "interestReceiveTitle": "Faizləri necə götürmək istərdin?",
+                        "monthly": "Aylıq",
+                        "endOfTerm": "Müddətin sonunda",
+                        "amountAZN": "Məbləğ (AZN)",
+                        "amountUSD": "Məbləğ (USD)",
+                        "month": "Ay",
+                        "offer": "Təklif",
+                        "totalInterestIncome": "Ümumi faiz gəliri",
+                        "infoText": "Hesablamada faiz gəlirlərinə 10% vergi ilə bağlı şərtlər nəzərə alınmayıb.",
+                        "orderText": "Sifariş et"
+                    }
+                },
+                "exchangeRate": {
+                    "services": "Xidmətlər",
+                    "exchangeRates": "Valyuta məzənnələri",
+                    "allExchanges": "Bütün məzənnələr",
+                    "infoText": "Kurslar bu tarixə təyin edilmişdir:"
+                },
+                "exchangeRateTable": {
+                    "services": "Xidmətlər",
+                    "exchangeRates": "Valyuta məzənnələri",
+                    "buy": "Alış",
+                    "sell": "Satış",
+                    "currency": "Valyuta",
+                    "centralBank": "Mərkəzi bank",
+                    "cash": "Nağd",
+                    "nonCash": "Nağdsız",
+                    "allExchanges": "Bütün məzənnələr",
+                    "infoText": "Kurslar bu tarixə təyin edilmişdir:",
+                    "iBuy": "Alıram",
+                    "iSell": "Satıram",
+                    "amount": "Məbləği daxil edin",
+                    "amountInput": "Məbləği daxil edin",
+                    "selectCurrency": "Valyuta seçin"
+                }
+            },
+            "tariffs": {
+                "title": "Tariflər",
+                "info": "Məlumat"
+            },
+            "avtoCredit": {
+                "initialPaymentInterest": "İlkin ödəniş faizi",
+                "carPrice": "Avtomobilin qiyməti",
+                "creditTerm": "Kreditin müddəti",
+                "title": "Avtomobil krediti",
+                "information": "Məlumatlar",
+                "calculator": "Avtomobil kalkulyator",
+                "minimalInitialPayment": "Minimal ilkin ödəniş",
+                "monthlyCreditPayment": "Aylıq kredit ödənişi",
+                "annualInterestRate": "İllik faiz dərəcəsi",
+                "creditAmount": "Kredit məbləği",
+                "commission": "Komissiya (0.5%)",
+                "interestRateNote": "Ümumi kredit öhdəliyindən asılı olaraq illik faiz dərəcəsi fərqli ola bilər.",
+                "electric": "Elektrik",
+                "hybrid": "Hibrid",
+                "other": "Digər"
+            },
+            "howTo": {
+                "breadcrumbsData": "Birbank profilini sil",
+                "howTo": "Necə etməli"
+            },
+            "insurance": {
+                "title": "Sığortalar",
+                "services": {
+                    "unofficialService": "Qeyri rəsmi servis",
+                    "officialService": "Rəsmi servis"
+                },
+                "calculator": {
+                    "averagePriceLabel": "Avtomobilin bazar dəyəri",
+                    "premiumLabel": "Sığorta haqqı",
+                    "offersTitle": "Təkliflər",
+                    "insuranceAmountLabel": "Təminat məbləği",
+                    "averagePriceNotFound": "Ortalama bazar dəyəri tapılmadı, zəhmət olmasa nəqliyyat vasitəsinin ortalama bazar dəyərini qeyd edin.",
+                    "currency": "AZN"
+                }
+            },
+            "faq": {
+                "title": "Tez tez verilən suallar",
+                "breadcrumbsData": "Tez tez verilən suallar",
+                "bannerInfo": {
+                    "heading": "Tez tez verilən suallar",
+                    "description": "Sizə lazım olan bank əməliyyatlarına dair bir çox məlumatları, prosedurları bu bölmədə tapa bilərsiniz."
+                }
+            },
+            "feedback": {
+                "requiredFieldPrefix": "Prefiks mütləq doldurulmalıdır",
+                "requiredField": "Bu xana mütləq doldurulmalıdır",
+                "phoneRequired": "Nömrə tam daxil edilməyib",
+                "branchRequired": "Filial seçilməyib",
+                "requestRequired": "Müraciətiniz mütləq qeyd edilməlidir",
+                "requestMinLength": "Müraciətiniz minimum 20 hərfdən ibarət olmalıdır",
+                "title": "Təklif və şikayətlər",
+                "description": "Bankımıza dair hər hansı təklif və ya müraciətiniz varsa aşağıdakı formu doldurmaqla bizə məktub göndərə bilərsiniz.",
+                "fullName": "A.S.A",
+                "fullNameValidation": "Ad, Soyad və Ata adı daxil edilməlidir. Hər söz minimum 2 hərfdən ibarət olmalıdır",
+                "contactNumber": "Əlaqə nömrəsi",
+                "prefix": "Prefiks",
+                "branch": "Filial",
+                "select": "Seçin",
+                "request": "Müraciətiniz",
+                "sending": "Göndərilir...",
+                "send": "Göndər",
+                "customerRequest": "Müştəri müraciəti",
+                "complaint": "Şikayət",
+                "thanks": "Təşəkkürlər!",
+                "successMessage": "Müraciətinizlə bağlı əməkdaşlarımız tərəfindən sizinlə əlaqə saxlanılacaqdır.",
+                "surveySuccessMessage": "Sorğuda iştirak etdiniz.",
+                "mobileAppTitle": "iOS və Android üçün mobil tətbiq",
+                "mobileAppTitleDescription": "Bütün növ bank əməliyyatlarını həyata keçirmək Birbank-la olar!",
+                "home": "Ana Səhifə",
+                "successMessageDepositsSuccess": "Sifarişini uğurla rəsmiləşdirdin. Səninlə qısa zamanda əməkdaşımız (012) 310-xx-xx nömrəsi ilə əlaqə saxlayacaq. Nəzərə al ki, daha yaxşı xidmət göstərə bilməyimiz üçün bu zəng zamanı danışıqlar qeydə alınacaq."
+            },
+            "birbankUmicoPremiumTaksit": {
+                "pageTitle": "Birbank Umico Premium Taksit Kartı",
+                "metaTitle": "Birbank Umico Premium Taksit Kartı: Gündəlik alış-verişlərdən keşbək qazanın | Birbank",
+                "metaDescription": "Umico Premium Taksit Kartı gündəlik alış-verişlərdən keşbək və bonuslar qazanmağın ən sərfəli yoludur.",
+                "heading": "",
+                "questions": [
+                    {
+                        "id": 0,
+                        "title": "Birbank Umico Premium Taksit nədir?",
+                        "desc": "Birbank Umico Premium Taksit Kartı Kapital Bank və Umiconun birgə təqdim etdiyi,\n      gündəlik alış-verişlərdən keşbek qazandıran premium taksit kartdır."
+                    },
+                    {
+                        "id": 1,
+                        "title": "Kartdan Kimlər istifadə edə bilər?",
+                        "desc": "Birbank Umico Premium Taksit kartını Kapital Bank və ya digər bankdan əmək haqqı/təqaüd alan şəxslər əldə edə bilər."
+                    },
+                    {
+                        "id": 2,
+                        "title": "Birbank Umico Premium Taksit Kartının Üstünlükləri Nələrdir?",
+                        "desc": "\n         \"Üstünlüklər:\n            - UmicoBank-da ödənişlərə görə keşbek\n            - Kommunal ödənişləri ödə, mobil nömrənin balansını artır və 0.5%-ə qədər qazan.\n            - Birbank kartının limitinin 100%-ə qədərini nağdlaşdıra bilərsiniz.\"\n      "
+                    },
+                    {
+                        "id": 3,
+                        "title": "Birbank Umico Premium Taksit kartı almaq üçün hansı şərtlər tələb olunur?",
+                        "desc": "\n      \"Şərtlər:\n        - Yaş həddi: Min. 18 yaş, maks. 67 yaş;\n        - Son iş yerində staj minimum 3 ay olmalıdır. Təqaüdçü müştərilər üzrə staj tələbi mövcud deyil.\"\n      "
+                    },
+                    {
+                        "id": 4,
+                        "title": "Kartın dəyəri nə qədərdir?",
+                        "desc": "Birbank Umico Premium Taksit kartı pulsuzdur"
+                    }
+                ]
+            },
+            "psiOrders": {
+                "heading": "Sifariş ediləcək məhsulu seç",
+                "orderButton": "Sifariş edin",
+                "products": {
+                    "cashCredit": "Nağd kredit",
+                    "birbankCards": "Birbank kartları"
+                }
+            },
+            "suggestions": {
+                "conditionText": "Müraciətə baxılması üçün bütün bölmələr tam və ətraflı doldurulmalıdır. Müraciət göndərildikdən sonra cavab qeyd etdiyiniz email ünvanına göndəriləcək.",
+                "bannerInfo": {
+                    "heading": "Təklif və şikayətlər",
+                    "desc": "Bankımıza dair hər hansı təklif və ya müraciətiniz varsa aşağıdakı formanı doldurmaqla bizə məktub göndərə bilərsiniz."
+                },
+                "requestTypes": {
+                    "application": "Ərizə",
+                    "suggestion": "Təklif",
+                    "complaint": "Şikayət",
+                    "fraud": "Dələduzluq",
+                    "compliance": "Komplayens"
+                },
+                "commonIssues": {
+                    "falseAdvertising": "Məhsul və xidmətlər barədə yalnış reklam",
+                    "incompleteInfo": "Müştərilərə natamam və ya yalnış məlumat verilməsi",
+                    "safekeeping": "Saxlanc xidməti ilə bağlı",
+                    "loanNotGranted": "Kreditin verilməməsi ilə bağlı",
+                    "loanSchedule": "Kreditin ödəniş qrafikinin və cərimələrin hesablanması",
+                    "loanConcession": "Kreditə güzəşt edilməsi",
+                    "collateral": "Girov predmeti ilə bağlı",
+                    "guarantee": "Zaminlik ilə bağlı",
+                    "cardDeletion": "Kart hesablarından silinmə (Kreditlə bağlı)",
+                    "loanContractDisputes": "Kredit müqaviləsi üzrə yaranan digər mübahisələr",
+                    "depositInterest": "Depozitə hesablanmış faizlərlə bağlı",
+                    "serviceFees": "Bankın xidmət haqları və tarifləri ilə əlaqədar",
+                    "paymentServices": "Ödəniş xidmətləri ilə bağlı",
+                    "moneyTransfer": "Pul köçürməsi ilə bağlı",
+                    "cardTheft": "Plastik kartlarda oğurluq halları",
+                    "cardPaymentIssues": "Plastik kartdan ödənişlə bağlı və digər problemlər",
+                    "atmIssues": "ATM ilə bağlı",
+                    "customerServiceQuality": "Müştəri xidmətinin keyfiyyəti",
+                    "delayedCardDelivery": "Sifariş olunmuş kartın vaxtında verilməməsi",
+                    "mkrCreditRemaining": "MKR-də silinməmiş kreditin qalması ilə bağlı",
+                    "other": "Digər",
+                    "kbCashbackTaksit": "KB-Birbank-Cashback-Taksit-Red-Web-Push"
+                },
+                "fraudIssues": {
+                    "fraudCases": "Dələduzluq halları ilə bağlı",
+                    "conflictOfInterest": "Maraqların toqquşması ilə bağlı",
+                    "corruption": "Rüşvətxorluq və korrupsiya ilə bağlı",
+                    "ethicalIssues": "Etik məsələlərlə bağlı",
+                    "breachOfConfidentialityIssues": "Məxfiliyin pozulması"
+                },
+                "complianceIssues": {
+                    "moneyLaundering": "Cinayət yolu ilə əldə edilmiş pulların yuyulması və terrorçuluğun maliyyələşdirilməsi ilə bağlı",
+                    "dataLeak": "Məlumat sızıntısı ilə bağlı",
+                    "legalViolation": "Qanunvericiliyin pozulması ilə bağlı"
+                },
+                "form": {
+                    "fullName": "Ad, soyad və ata adı",
+                    "fullNameRequired": "A.S.A mütləq qeyd edilməlidir",
+                    "email": "E - mail ünvanı",
+                    "emailRequired": "Email mütləq qeyd edilməlidir",
+                    "emailInvalid": "Email formatı düzgün deyil",
+                    "prefix": "Prefix",
+                    "prefixRequired": "Operator kodu mütləq qeyd edilməlidir",
+                    "mobileNumber": "Mobil nömrə",
+                    "mobileNumberRequired": "Mobil nömrə mütləq qeyd edilməlidir",
+                    "mobileNumberMinLength": "Mobil nömrə 7 simvoldan az ola bilməz.",
+                    "mobileNumberInvalid": "Mobil nömrə formatı düzgün deyil",
+                    "requestType": "Müraciətin qısa məzmunu",
+                    "requestTypePlaceholder": "Müraciətin qısa məzmunu",
+                    "issueType": "Məsələ növü",
+                    "issueTypePlaceholder": "Müraciətin növü",
+                    "requestContent": "Müraciətiniz",
+                    "requestContentRequired": "Müraciətiniz mütləq qeyd edilməlidir",
+                    "send": "Göndər",
+                    "operationName": "Təklif və şikayətlər",
+                    "requestContentLabel": "Müraciətin məzmunu",
+                    "issueTypeLabel": "Məsələ növü"
+                }
+            },
+            "savingAccount": {
+                "breadCrumbTitle": "Yığım hesabı",
+                "howToTitle": "Birbank-da yığım hesabını necə aça bilərsən?"
+            },
+            "bonus": {
+                "faqTitle": "FAQ",
+                "seeAllPartners": "Bütün partnyorlara bax"
+            },
+            "blog": {
+                "title": "Bloq",
+                "all": "Hamısı",
+                "share": "Paylaş",
+                "similarBlogs": "Oxşar mətnlər",
+                "more": "Daha çox"
+            },
+            "onlineQueue": {
+                "pageTitle": "Onlayn növbə",
+                "bannerTitle": "Onlayn növbə",
+                "bannerDescription": "Fiziki şəxslər üçün onlayn növbə",
+                "metaTitle": "Onlayn növbə | Birbank",
+                "metaDescription": "Fiziki şəxslər üçün onlayn növbə",
+                "newReservation": "Yeni rezervasiya",
+                "reservationCancel": "Rezervasiyanın ləğvi",
+                "branch": "Filial",
+                "serviceType": "Xidmət növü",
+                "dateAndTime": "Tarix və saat",
+                "date": "Tarix",
+                "time": "Saat",
+                "calPrevMonth": "Əvvəlki ay",
+                "calNextMonth": "Növbəti ay",
+                "timeScrollUp": "Əvvəlki saatlar",
+                "bookQueue": "Növbə götür",
+                "cancelQueue": "Rezervasiyanı ləğv edin",
+                "cancelCodePlaceholder": "Rezervasiya kodunu daxil edin",
+                "cancelSuccess": "Rezervasiya uğurla ləğv edildi.",
+                "cancelTooClose": "Rezervasiya vaxtı çox yaxın olduğundan ləğv etmək mümkün deyil.",
+                "cancelError": "Xəta baş verdi. Yenidən cəhd edin.",
+                "reservationCode": "Rezervasiya kodu",
+                "intervals": "İntervallar",
+                "confirm": "Təsdiqlə",
+                "back": "Geri",
+                "successTitle": "Təşəkkür edirik!",
+                "errorModalTitle": "Diqqət!",
+                "successSubtitle": "Sizin rezervasiyanız təsdiqləndi",
+                "cancelSuccessSubtitle": "Sizin rezervasiyanız ləğv edildi",
+                "reservationTime": "Rezervasiya vaxtı",
+                "activationCode": "Rezervasiya kodu",
+                "otpModalTitle": "Xahiş edirik nömrəni təsdiqləyin",
+                "otpCode": "Təsdiləmə kodu",
+                "resendSms": "SMS-i yenidən göndər",
+                "otpResendCooldownHint": "Yenidən göndərmək üçün {time} gözləyin",
+                "resendLimitReached": "SMS göndərmə limiti bitdi",
+                "contactModalTitle": "Xahiş edirik əlaqə məlumatları daxil edin",
+                "contactModalNote": "Onlayn növbənin rəsmiləşdirilməsi zamanı məlumatlarınızı tam və dəqiq şəkildə daxil etməniz tövsiyə olunur. Əks halda filiala xidmət göstərilməsi mümkün olmayacaqdır.",
+                "firstName": "Adınız",
+                "lastName": "Soyadınız",
+                "finCode": "Şəxsiyyət vəsiqəsinin FİN kodu",
+                "finCodeLengthError": "FİN kodu 7 simvoldan ibarət olmalıdır",
+                "finCodeError": "FİN kodu həm hərf, həm rəqəm ehtiva etməlidir",
+                "fieldRequired": "Bu sahə boş ola bilməz",
+                "phoneIncomplete": "Mobil nömrə tam daxil edilməyib",
+                "otpIncomplete": "Düzgün OTP kodu daxil edin",
+                "onlyLettersAllowed": "Bu sahədə yalnız hərf daxil edilə bilər",
+                "email": "E-poçt",
+                "phone": "Mobil nömrə",
+                "timeLoading": "Yüklənir...",
+                "timeNotFound": "Bu gün üçün boş saat tapılmadı.",
+                "closeModal": "Bağla",
+                "createReservationErrorMinus1": "Rezervasiya rəsmiləşdirilərkən xəta baş verdi. Zəhmət olmasa məlumatları yoxlayıb yenidən cəhd edin.",
+                "createReservationErrorUnknown": "Əməliyyat tamamlanmadı. Yenidən cəhd edin.",
+                "slotBusy": "Bu vaxt artıq tutulub. Başqa vaxt seçin.",
+                "countdownHint": "Rezervasiya <strong>{time}</strong> sonra avtomatik ləğv ediləcək"
+            },
+            "leasing": {
+                "form": {
+                    "buttonTitle": "Müraciət et",
+                    "agreementText": "Məlumatlarımın doğruluğunu təsdiq edir, kredit öhdəliklərim barədə məlumatları AKB KR-dən sorğu etməyə EHP-də qeydiyyatdan keçirməyə və digər məlumat\n              bazalarından məlumatlarımın toplanmasına razılığımı bildirirəm.",
+                    "phoneNumber": "Mobil nömrə",
+                    "pin": "Fin kod",
+                    "successfulApplicationMsg": "Müraciətiniz qəbul olundu",
+                    "close": "Bağla",
+                    "invalidPrefix": "Mobil nömrə düzgün deyil"
+                }
+            },
+            "cards": {
+                "debet": "Debet",
+                "taksit": "Taksit"
+            }
+        },
+        "initialState": {
+            "home": {
+                "loading": false,
+                "error": null,
+                "meta": {
+                    "title": "",
+                    "description": "",
+                    "image": {
+                        "data": {
+                            "attributes": {
+                                "url": "",
+                                "mime": "",
+                                "width": "",
+                                "height": ""
+                            }
+                        }
+                    }
+                },
+                "metatags": {
+                    "title": "",
+                    "description": "",
+                    "image": {
+                        "url": "",
+                        "type": "",
+                        "width": "",
+                        "height": ""
+                    }
+                },
+                "campaigns": [],
+                "products": [],
+                "calculator": {
+                    "birbank": {
+                        "minAmount": 0,
+                        "maxAmount": 0,
+                        "minPeriod": 0,
+                        "maxPeriod": 0,
+                        "defaultAmount": 0,
+                        "defaultPeriod": 0,
+                        "interestRate": 0,
+                        "redirectUrl": "/"
+                    },
+                    "credit": {
+                        "minAmount": 0,
+                        "maxAmount": 0,
+                        "minPercentage": 0,
+                        "maxPercentage": 0,
+                        "minPeriod": 0,
+                        "maxPeriod": 0,
+                        "defaultAmount": 0,
+                        "defaultPercentage": 0,
+                        "defaultPeriod": 0,
+                        "redirectUrl": "/"
+                    }
+                },
+                "features": [],
+                "currency": [],
+                "mobileWidget": {
+                    "title": "",
+                    "description": "",
+                    "qrImage": {
+                        "data": {
+                            "attributes": {
+                                "url": "",
+                                "mime": "",
+                                "width": "",
+                                "height": ""
+                            }
+                        }
+                    },
+                    "image": {
+                        "data": {
+                            "attributes": {
+                                "url": "",
+                                "mime": "",
+                                "width": "",
+                                "height": ""
+                            }
+                        }
+                    },
+                    "appLinks": []
+                },
+                "services": [],
+                "adbanner": {
+                    "id": 0,
+                    "title": "",
+                    "description": "",
+                    "link": {
+                        "id": 0,
+                        "text": "",
+                        "href": ""
+                    },
+                    "image": {
+                        "data": {
+                            "attributes": {
+                                "url": "",
+                                "mime": "",
+                                "width": "",
+                                "height": ""
+                            }
+                        }
+                    },
+                    "heading": ""
+                },
+                "campaignsWidget": [],
+                "newProductWidget": []
+            },
+            "cards": {
+                "meta": {
+                    "title": "",
+                    "description": "",
+                    "image": {
+                        "data": {
+                            "attributes": {
+                                "url": "",
+                                "mime": "",
+                                "width": "",
+                                "height": ""
+                            }
+                        }
+                    }
+                },
+                "metatags": {
+                    "title": "",
+                    "description": "",
+                    "image": {
+                        "url": "",
+                        "type": "",
+                        "width": "",
+                        "height": ""
+                    }
+                },
+                "heroes": [],
+                "contents": [],
+                "services": [],
+                "faq": [],
+                "faqTitle": ""
+            },
+            "exchangeRates": {
+                "date": "",
+                "currencyList": []
+            },
+            "partners": {
+                "filters": {
+                    "sorts": [],
+                    "categories": [],
+                    "cities": [],
+                    "paymentType": [],
+                    "installments": [],
+                    "cashbackes": [],
+                    "partnersData": [],
+                    "bnpl_option": [],
+                    "bnpl_options": []
+                },
+                "faq": [],
+                "faqTitle": "",
+                "partnersData": [],
+                "partnerSimilarData": [],
+                "totalElements": null,
+                "currentSize": null,
+                "partnerDetails": {
+                    "attributes": {
+                        "name": "",
+                        "cashback": "",
+                        "categories": [],
+                        "installments": {
+                            "data": []
+                        },
+                        "commisions": {
+                            "id": "",
+                            "commision": "",
+                            "installments": []
+                        },
+                        "stores": [],
+                        "content": "",
+                        "image": {
+                            "data": {
+                                "attributes": {
+                                    "url": ""
+                                }
+                            }
+                        },
+                        "website": "",
+                        "bnpl_option": [],
+                        "bnpl_options": []
+                    }
+                },
+                "pagination": {
+                    "page": 0,
+                    "pageSize": 0,
+                    "pageCount": 0,
+                    "total": 0
+                }
+            },
+            "currencyRates": {
+                "data": [],
+                "loading": false
+            },
+            "campaigns": {
+                "loading": true,
+                "error": "Failed to fetch campaign page data",
+                "campaignsGroup": [
+                    {
+                        "id": 5,
+                        "attributes": {
+                            "name": "Nağd Kredit",
+                            "order": 5,
+                            "type": 0,
+                            "author": null,
+                            "activeGroup": true,
+                            "expiredGroup": true,
+                            "createdAt": "2023-05-17T07:38:41.591Z",
+                            "updatedAt": "2026-06-24T19:03:37.801Z",
+                            "publishedAt": "2023-05-17T07:38:47.602Z",
+                            "locale": "az"
+                        }
+                    },
+                    {
+                        "id": 1,
+                        "attributes": {
+                            "name": "Birbank kartı partnyorları",
+                            "order": 1,
+                            "type": 0,
+                            "author": null,
+                            "activeGroup": true,
+                            "expiredGroup": true,
+                            "createdAt": "2023-05-17T07:31:17.408Z",
+                            "updatedAt": "2023-05-17T07:37:15.105Z",
+                            "publishedAt": "2023-05-17T07:32:32.485Z",
+                            "locale": "az"
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "attributes": {
+                            "name": "Birbank kartları",
+                            "order": 2,
+                            "type": 0,
+                            "author": "@tarlan",
+                            "activeGroup": true,
+                            "expiredGroup": true,
+                            "createdAt": "2023-05-17T07:34:23.879Z",
+                            "updatedAt": "2025-11-03T10:24:15.266Z",
+                            "publishedAt": "2023-05-17T07:34:24.593Z",
+                            "locale": "az"
+                        }
+                    }
+                ],
+                "campaignsData": [
+                    {
+                        "id": 638,
+                        "attributes": {
+                            "publishedAt": "2026-06-22T13:32:17.310Z",
+                            "title": "Hərbçilərə özəl sərfəli onlayn kredit kampaniyası başladı!",
+                            "content": "<p>19.06.2026 – 31.07.2026 tarixləri arasında yeni kampaniyamızdan yararlanan hərbçilər hər 10 000 AZN kredit məbləği üçün aylıq 300 AZN-dən başlayan ödənişlə kreditlərini rahat şəkildə ödəyə biləcəklər.</p><p><br><strong>Kreditin üstünlükləri</strong></p><ul><li>Heç bir əlavə sənəd tələbi yoxdur</li><li>Başdan-başa tam onlayn və sürətli proses</li><li>Hər 10 000 AZN üçün aylıq 300 AZN-dən başlayan ödəniş</li></ul><p><br><strong>Necə müraciət etmək olar?</strong></p><ul><li>Birbank tətbiqindən</li><li>Birbank çatı</li></ul><p>&nbsp;</p><p><strong>İndi müraciət et</strong>: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.b-b.az/hbzk\">https://www.b-b.az/hbzk</a></p>",
+                            "order": 1,
+                            "startDate": "2026-06-18T20:00:00.000Z",
+                            "endDate": "2026-07-31T19:00:00.000Z",
+                            "slug": "herbicilere-ozel-kredit",
+                            "shortContent": null,
+                            "author": "null",
+                            "status": "active",
+                            "createdAt": "2026-06-19T07:03:23.504Z",
+                            "updatedAt": "2026-06-24T19:04:03.954Z",
+                            "locale": "az",
+                            "redirectUrl": "herbicilere-ozel-kredit",
+                            "faqTitle": null,
+                            "image": {
+                                "data": {
+                                    "id": 3544,
+                                    "attributes": {
+                                        "name": "TV üçün Seqmentlər üzrə kommunikasiya 1x1 (1).png",
+                                        "alternativeText": null,
+                                        "caption": null,
+                                        "width": 1000,
+                                        "height": 1000,
+                                        "formats": {
+                                            "small": {
+                                                "ext": ".png",
+                                                "url": "https://birbank.az/file/small_TV_uecuen_Seqmentl_r_uezr_kommunikasiya_1x1_1_fa6609a63e.png",
+                                                "hash": "small_TV_uecuen_Seqmentl_r_uezr_kommunikasiya_1x1_1_fa6609a63e",
+                                                "mime": "image/png",
+                                                "name": "small_TV üçün Seqmentlər üzrə kommunikasiya 1x1 (1).png",
+                                                "path": null,
+                                                "size": 287.69,
+                                                "width": 500,
+                                                "height": 500,
+                                                "sizeInBytes": 287689
+                                            },
+                                            "medium": {
+                                                "ext": ".png",
+                                                "url": "https://birbank.az/file/medium_TV_uecuen_Seqmentl_r_uezr_kommunikasiya_1x1_1_fa6609a63e.png",
+                                                "hash": "medium_TV_uecuen_Seqmentl_r_uezr_kommunikasiya_1x1_1_fa6609a63e",
+                                                "mime": "image/png",
+                                                "name": "medium_TV üçün Seqmentlər üzrə kommunikasiya 1x1 (1).png",
+                                                "path": null,
+                                                "size": 610.69,
+                                                "width": 750,
+                                                "height": 750,
+                                                "sizeInBytes": 610690
+                                            },
+                                            "thumbnail": {
+                                                "ext": ".png",
+                                                "url": "https://birbank.az/file/thumbnail_TV_uecuen_Seqmentl_r_uezr_kommunikasiya_1x1_1_fa6609a63e.png",
+                                                "hash": "thumbnail_TV_uecuen_Seqmentl_r_uezr_kommunikasiya_1x1_1_fa6609a63e",
+                                                "mime": "image/png",
+                                                "name": "thumbnail_TV üçün Seqmentlər üzrə kommunikasiya 1x1 (1).png",
+                                                "path": null,
+                                                "size": 37.29,
+                                                "width": 156,
+                                                "height": 156,
+                                                "sizeInBytes": 37290
+                                            }
+                                        },
+                                        "hash": "TV_uecuen_Seqmentl_r_uezr_kommunikasiya_1x1_1_fa6609a63e",
+                                        "ext": ".png",
+                                        "mime": "image/png",
+                                        "size": 244.04,
+                                        "url": "https://birbank.az/file/TV_uecuen_Seqmentl_r_uezr_kommunikasiya_1x1_1_fa6609a63e.png",
+                                        "previewUrl": null,
+                                        "provider": "aws-s3",
+                                        "provider_metadata": null,
+                                        "createdAt": "2026-06-22T13:32:12.294Z",
+                                        "updatedAt": "2026-06-22T13:32:12.294Z"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ],
+                "campaignData": {
+                    "attributes": {
+                        "slug": "",
+                        "title": "",
+                        "image": {
+                            "data": {
+                                "attributes": {
+                                    "url": "",
+                                    "mime": "",
+                                    "width": "",
+                                    "height": ""
+                                }
+                            }
+                        },
+                        "content": "",
+                        "startDate": "",
+                        "endDate": "",
+                        "redirectUrl": "",
+                        "shortContent": "",
+                        "faq": [],
+                        "faqTitle": ""
+                    },
+                    "id": 0
+                },
+                "pagination": {
+                    "page": 1,
+                    "pageSize": 12,
+                    "pageCount": 1,
+                    "total": 1
+                },
+                "faq": [],
+                "faqTitle": ""
+            },
+            "news": {
+                "newsData": [],
+                "newsDetails": {
+                    "attributes": {
+                        "title": "",
+                        "content": "",
+                        "slug": "",
+                        "createdAt": "",
+                        "image": {
+                            "data": {
+                                "attributes": {
+                                    "url": ""
+                                }
+                            }
+                        }
+                    }
+                },
+                "pagination": {
+                    "page": 0,
+                    "pageSize": 0,
+                    "pageCount": 0,
+                    "total": 0
+                }
+            },
+            "qrTransfer": {
+                "fields": [],
+                "fillMessage": {
+                    "message": null
+                },
+                "fillInfo": {
+                    "destinationOtherCard": {
+                        "name": "",
+                        "number": ""
+                    },
+                    "sourceNewCard": {
+                        "number": ""
+                    },
+                    "commission": {
+                        "value": ""
+                    },
+                    "normalizedAmount": {
+                        "value": ""
+                    }
+                },
+                "confirmData": {},
+                "confirmMessage": {
+                    "message": null
+                }
+            },
+            "landings": {
+                "metatags": {
+                    "title": "",
+                    "description": "",
+                    "image": {
+                        "url": "",
+                        "type": "",
+                        "width": "",
+                        "height": ""
+                    }
+                },
+                "data": {
+                    "attributes": {
+                        "meta": {
+                            "title": "",
+                            "description": "",
+                            "image": {
+                                "data": {
+                                    "attributes": {
+                                        "url": "",
+                                        "mime": "",
+                                        "width": "",
+                                        "height": ""
+                                    }
+                                }
+                            }
+                        },
+                        "pageLink": "",
+                        "banner": {
+                            "name": "",
+                            "backgroundMode": "image",
+                            "backgroundImgWeb": {
+                                "data": {
+                                    "attributes": {
+                                        "url": ""
+                                    }
+                                }
+                            },
+                            "backgroundImgMob": {
+                                "data": {
+                                    "attributes": {
+                                        "url": ""
+                                    }
+                                }
+                            }
+                        },
+                        "form": {
+                            "title": "",
+                            "label": "",
+                            "isActive": false,
+                            "submit": {
+                                "label": ""
+                            },
+                            "url": ""
+                        },
+                        "advantages": [],
+                        "features": []
+                    }
+                }
+            },
+            "howTo": {
+                "meta": {
+                    "title": "",
+                    "description": "",
+                    "image": {
+                        "data": {
+                            "attributes": {
+                                "url": "",
+                                "mime": "",
+                                "width": "",
+                                "height": ""
+                            }
+                        }
+                    }
+                },
+                "metatags": {
+                    "title": "",
+                    "description": "",
+                    "image": {
+                        "url": "",
+                        "type": "",
+                        "width": "",
+                        "height": ""
+                    }
+                },
+                "howToGroup": [],
+                "howToData": []
+            },
+            "faq": {
+                "meta": {
+                    "title": "",
+                    "description": "",
+                    "image": {
+                        "data": {
+                            "attributes": {
+                                "url": "",
+                                "mime": "",
+                                "width": "",
+                                "height": ""
+                            }
+                        }
+                    }
+                },
+                "metatags": {
+                    "title": "",
+                    "description": "",
+                    "image": {
+                        "url": "",
+                        "type": "",
+                        "width": "",
+                        "height": ""
+                    }
+                },
+                "faqGroup": [],
+                "faqData": []
+            },
+            "lottery": {
+                "lotteryData": [],
+                "lotteryCheckPin": "",
+                "winners": [],
+                "error": ""
+            },
+            "tariffs": {
+                "data": [],
+                "loading": false
+            },
+            "email": {
+                "message": "",
+                "success": false
+            },
+            "savingAccount": {
+                "data": [],
+                "loading": false
+            },
+            "deposit": {
+                "data": [],
+                "loading": false
+            },
+            "bonds": {
+                "data": [],
+                "loading": false
+            },
+            "avans": {
+                "data": null,
+                "loading": false,
+                "error": null
+            },
+            "talabaPlus": {
+                "data": null,
+                "partnersData": null,
+                "loading": false,
+                "error": null
+            },
+            "autoCredit": {
+                "data": null,
+                "loading": false,
+                "error": null
+            },
+            "bnpl": {
+                "data": [],
+                "loading": false
+            },
+            "insurance": {
+                "data": null,
+                "loading": false,
+                "error": null
+            },
+            "moneyTransfers": {
+                "data": null,
+                "loading": false,
+                "error": null
+            },
+            "currency": {
+                "data": null,
+                "loading": false,
+                "error": null
+            },
+            "ninja": {
+                "data": null,
+                "loading": false,
+                "error": null
+            },
+            "nonTermDeposit": {
+                "data": null,
+                "loading": false,
+                "error": null
+            }
+        }
+    },
+    "__N_SSP": true
+}

@@ -6,12 +6,11 @@ const NewsBlock = () => {
 
   return (
     <>
-      <div className="flex items-center justify-center w-full selection:bg-[#B3D4FC] mb-[96px]">
+      <div className="flex items-center justify-center w-full selection:bg-[#B3D4FC] mb-24">
         <div className="flex flex-col w-[75%]">
-          <h2 className='my-[12px] text-[24px] font-[700] text-[#25282b]'>{newsData.pageProps.messages.news.title}</h2>
+          <h2 className='my-3 text-[24px] font-bold text-[#25282b]'>{newsData.pageProps.messages.news.title}</h2>
           <div className="flex gap-2">
-            <Link className='text-[14px] p-[15px] text-[#6D7478]' to="/">Ana Səhifə</Link>
-            <Link className=' text-[#25282b] text-[14px] p-[15px] pl-0'>{newsData.pageProps.messages.news.breadcrumbsData[0].title}</Link>
+<Link className='text-[14px] p-3.75 text-[#6D7478]' to="/" reloadDocument>Ana Səhifə</Link>            <Link className=' text-[#25282b] text-[14px] p-3.75 pl-0'>{newsData.pageProps.messages.news.breadcrumbsData[0].title}</Link>
           </div>
              <div className="grid grid-cols-6 items-center justify-center w-full h-full gap-4">
             {newsData?.pageProps?.initialState?.news?.newsData?.map((item) => (
@@ -21,7 +20,7 @@ const NewsBlock = () => {
                   alt=""
                   className="w-full rounded-t-[10px]"
                 />
-                <div className="flex flex-col gap-4 justify-between p-[24px]">
+                <div className="flex flex-col gap-4 justify-between p-6">
                   <h3 className="mt-3 text-[16px] font-semibold text-[#25282b]">
                     {item.attributes.title}
                   </h3>

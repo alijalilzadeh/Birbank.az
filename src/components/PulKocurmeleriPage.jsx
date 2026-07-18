@@ -50,27 +50,27 @@ const PulKocurmeleriPage = () => {
         <div className="flex flex-col justify-center w-[75%] gap-7">
           <div className="flex flex-col justify-center  gap-7">
             <div className="flex gap-2 items-center">
-              <Link to='/' className='text-[14px] text-[#6d7478] font-[400] p-[15px]'>Ana Səhifə</Link>
-              <Link to='/pul-kocurmeleri' className='text-[14px] text-[#25282b] font-[400] py-[15px]'>Pul köçürmələri</Link>
+              <Link className='text-[14px] p-3.75 text-[#6D7478]' to="/" reloadDocument>Ana Səhifə</Link>              
+              <Link to='/pul-kocurmeleri' className='text-[14px] text-[#25282b] font-normal py-3.75'>Pul köçürmələri</Link>
             </div>
-            <div className="flex items-center justify-between w-full relative rounded-[10px] bg-[linear-gradient(98.65deg,_rgb(236,50,66)_0%,_rgb(153,0,0)_100%)]">
-              <div className="flex flex-col gap-3 px-[72px] py-[96px] w-[60%]">
-                <h2 className='text-[32px] text-white font-[600]'>Pul köçürmələri</h2>
-                <p className='text-[16px] text-white font-[400]'>Kapital Bankın təklif etdiyi pul köçürmə xidməti ilə ölkədaxili və beynəlxalq pul köçürmələri et. Dünyanın istənilən ölkəsinə qısa müddətdə pul göndər.</p>
+            <div className="flex items-center justify-between w-full relative rounded-[10px] bg-[linear-gradient(98.65deg,rgb(236,50,66)_0%,rgb(153,0,0)_100%)]">
+              <div className="flex flex-col gap-3 px-18 py-24 w-[60%]">
+                <h2 className='text-[32px] text-white font-semibold'>Pul köçürmələri</h2>
+                <p className='text-[16px] text-white font-normal'>Kapital Bankın təklif etdiyi pul köçürmə xidməti ilə ölkədaxili və beynəlxalq pul köçürmələri et. Dünyanın istənilən ölkəsinə qısa müddətdə pul göndər.</p>
               </div>
-              <img src={MoneyTransfersBg} className='absolute bottom-0 right-[40px] w-[400px] h-[300px] object-contain ' />
+              <img src={MoneyTransfersBg} className='absolute bottom-0 right-10 w-1003h-75ect-contain ' />
             </div>
 
 
             <div className="grid grid-cols-6 gap-6">
-              <div className="group flex items-center justify-between col-span-3 row-span-3 overflow-hidden relative w-full h-[240px] rounded-[10px] bg-[#F9F9FA]">
-                <div className="flex flex-col  justify-between h-full w-[50%] px-[24px] pt-[24px] pb-[34px]">
+              <div className="group flex items-center justify-between col-span-3 row-span-3 overflow-hidden relative w-full h-60 rounded-[10px] bg-[#F9F9FA]">
+                <div className="flex flex-col  justify-between h-full w-[50%] px-624px] pb-8.5">
                   <div className="flex flex-col gap-4">
-                    <h2 className='text-[24px] font-[500] text-[#222222]'>Zolotaya Korona</h2>
-                    <p className='text-[14px] font-[300] text-[#222222]'>Ən qısa zamanda vəsaiti lazımı ünvana çatdırmaq üçün "Zolotaya Korona" var</p>
+                    <h2 className='text-[24px] font-medium text-[#222222]'>Zolotaya Korona</h2>
+                    <p className='text-[14px] font-light text-[#222222]'>Ən qısa zamanda vəsaiti lazımı ünvana çatdırmaq üçün "Zolotaya Korona" var</p>
                   </div>
                   <div className="flex gap-1 items-center ">
-                    <Link className='cursor-pointer text-[16px] font-[400] text-[#ec3342] transition duration-100 group-hover:text-[#B5202E]'>
+                    <Link className='cursor-pointer text-[16px] font-normal text-[#ec3342] transition duration-100 group-hover:text-[#B5202E]'>
                       Daha ətraflı
                     </Link>
                     <GoArrowRight className='cursor-pointer text-[16px] text-[#ec3342] transition duration-100 group-hover:text-[#B5202E]' />
@@ -78,14 +78,14 @@ const PulKocurmeleriPage = () => {
                 </div>
                 <img src={ZolotayaKorona} className='w-auto object-contain  absolute bottom-0 right-0 pointer-events-none' />
               </div>
-              <div className="col-span-3 row-span-3 col-start-4 overflow-hidden relative w-full h-[240px] rounded-[10px] bg-[#F9F9FA]">
-                <div className="flex flex-col  justify-between h-full w-[50%] px-[24px] pt-[24px] pb-[34px]">
+              <div className="col-span-3 row-span-3 col-start-4 overflow-hidden relative w-full h-60 rounded-[10px] bg-[#F9F9FA]">
+                <div className="flex flex-col  justify-between h-full w-[50%] px-6 pt-6 pb-8.5">
                   <div className="flex flex-col gap-4">
-                    <h2 className='text-[24px] font-[500] text-[#222222]'>Xəzri</h2>
-                    <p className='text-[14px] font-[300] text-[#222222]'>Sürətli pul köçürmə sistemi</p>
+                    <h2 className='text-[24px] font-medium text-[#222222]'>Xəzri</h2>
+                    <p className='text-[14px] font-light text-[#222222]'>Sürətli pul köçürmə sistemi</p>
                   </div>
                   <div className="flex gap-1 items-center group">
-                    <Link className='text-[16px] font-[400] text-[#ec3342] transition duration-100 group-hover:text-[#B5202E]'>
+                    <Link className='text-[16px] font-normal text-[#ec3342] transition duration-100 group-hover:text-[#B5202E]'>
                       Daha ətraflı
                     </Link>
                     <GoArrowRight className='text-[16px] text-[#ec3342] transition duration-100 group-hover:text-[#B5202E]' />
@@ -93,14 +93,14 @@ const PulKocurmeleriPage = () => {
                 </div>
                 <img src={Xezri} className='w-auto object-contain  absolute bottom-0 right-0 pointer-events-none' />
               </div>
-              <div className="col-span-3 row-span-3 row-start-4 overflow-hidden relative w-full h-[240px] rounded-[10px] bg-[#F9F9FA]">
-                <div className="flex flex-col  justify-between h-full w-[50%] px-[24px] pt-[24px] pb-[34px]">
+              <div className="col-span-3 row-span-3 row-start-4 overflow-hidden relative w-full h-60 rounded-[10px] bg-[#F9F9FA]">
+                <div className="flex flex-col  justify-between h-full w-[50%] px-6 pt-6 pb-8.5">
                   <div className="flex flex-col gap-4">
-                    <h2 className='text-[24px] font-[500] text-[#222222]'>Western Union</h2>
-                    <p className='text-[14px] font-[300] text-[#222222]'>Western Union sistemi dünyada ən iri pul köçürmə sistemi olaraq, bu sahədə liderdir.</p>
+                    <h2 className='text-[24px] font-medium text-[#222222]'>Western Union</h2>
+                    <p className='text-[14px] font-light text-[#222222]'>Western Union sistemi dünyada ən iri pul köçürmə sistemi olaraq, bu sahədə liderdir.</p>
                   </div>
                   <div className="flex gap-1 items-center group">
-                    <Link className='text-[16px] font-[400] text-[#ec3342] transition duration-100 group-hover:text-[#B5202E]'>
+                    <Link className='text-[16px] font-normal text-[#ec3342] transition duration-100 group-hover:text-[#B5202E]'>
                       Daha ətraflı
                     </Link>
                     <GoArrowRight className='text-[16px] text-[#ec3342] transition duration-100 group-hover:text-[#B5202E]' />
@@ -108,14 +108,14 @@ const PulKocurmeleriPage = () => {
                 </div>
                 <img src={WesternUnion} className='w-auto object-contain  absolute bottom-0 right-0 pointer-events-none' />
               </div>
-              <div className="col-span-3 row-span-3 col-start-4 row-start-4 overflow-hidden relative w-full h-[240px] rounded-[10px] bg-[#F9F9FA]">
-                <div className="flex flex-col  justify-between h-full w-[50%] px-[24px] pt-[24px] pb-[34px]">
+              <div className="col-span-3 row-span-3 col-start-4 row-start-4 overflow-hidden relative w-full h-60 rounded-[10px] bg-[#F9F9FA]">
+                <div className="flex flex-col  justify-between h-full w-[50%] px-6 pt-6 pb-8.5">
                   <div className="flex flex-col gap-4">
-                    <h2 className='text-[24px] font-[500] text-[#222222]'>Birbankla istənilən karta pul köçürün!</h2>
-                    <p className='text-[14px] font-[300] text-[#222222]'>Artıq Birbankla telefonunuzdan istənilən bank kartına asanlıqla pul göndərə bilərsiniz.</p>
+                    <h2 className='text-[24px] font-medium text-[#222222]'>Birbankla istənilən karta pul köçürün!</h2>
+                    <p className='text-[14px] font-light text-[#222222]'>Artıq Birbankla telefonunuzdan istənilən bank kartına asanlıqla pul göndərə bilərsiniz.</p>
                   </div>
                   <div className="flex gap-1 items-center group">
-                    <Link className='text-[16px] font-[400] text-[#ec3342] transition duration-100 group-hover:text-[#B5202E]'>
+                    <Link className='text-[16px] font-normal text-[#ec3342] transition duration-100 group-hover:text-[#B5202E]'>
                       Daha ətraflı
                     </Link>
                     <GoArrowRight className='text-[16px] text-[#ec3342] transition duration-100 group-hover:text-[#B5202E]' />
@@ -125,22 +125,22 @@ const PulKocurmeleriPage = () => {
               </div>
             </div>
 
-            <div className="flex flex-col gap-8 w-full mt-[48px] mb-[32px] w-full items-center justify-center">
-              <h2 className='text-left self-start text-[30px] text-[#222222] font-[600]'>Tez-tez verilən suallar</h2>
+            <div className="flex flex-col gap-8 w-full mt-12 mb-8 items-center justify-center">
+              <h2 className='text-left self-start text-[30px] text-[#222222] font-semibold'>Tez-tez verilən suallar</h2>
               <div className="flex flex-col  w-[80%]">
                 {
                   faqData.map((item, index) => {
                     return (
                       <div className="flex flex-col   border-b-[#E9EAEC]">
-                        <div key={index} onClick={() => toggleFaq(index)} className=" flex  px-[12px] py-[16px] items-center justify-between border-b-1 border-b-[#E9EAEC] cursor-pointer">
-                          <p className='text-[16px] text-[#222222]  font-[400]'>{item.question}</p>
+                        <div key={index} onClick={() => toggleFaq(index)} className=" flex  px-3 py-4 items-center justify-between border-b border-b-[#E9EAEC] cursor-pointer">
+                          <p className='text-[16px] text-[#222222]  font-normal'>{item.question}</p>
                           <IoIosArrowDown className={`text-[16px]  text-[#222222] transform ${activeIndex === index ? "rotate-180" : ""}`} />
                         </div>
                         <div
-                          className={`overflow-hidden transition-all duration-300 ${activeIndex === index ? "max-h-[300px]" : "max-h-0"
+                          className={`overflow-hidden transition-all duration-300 ${activeIndex === index ? "max-h-75" : "max-h-0"
                             }`}
                         >
-                          <p className='w-full pt-[4px] px-[24px] pb-[24px] text-[16px] font-[300] leading-[1.2] text-[#222222] bg-[#F3F3F5]'>
+                          <p className='w-full pt-1 px-6 pb-6 text-[16px] font-light leading-[1.2] text-[#222222] bg-[#F3F3F5]'>
                             {item.answer}
                           </p>
                         </div>

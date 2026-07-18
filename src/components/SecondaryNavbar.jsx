@@ -1,10 +1,25 @@
 import React from 'react'
 import BirbankLogo from '../assets/birbank-logo.svg'
 import { NavLink, Link } from 'react-router-dom'
+import { useState, useEffect } from 'react';
+
 const SecondaryNavbar = () => {
+  const [scrollY, setScrollY] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollY(window.scrollY);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  const isScrolled = scrollY > 100;
   return (
     <>
-      <div className="flex  w-full items-center justify-center py-5">
+      <div className={`flex  w-full items-center justify-center py-5 ${isScrolled ? "fixed top-0 left-0 border-b-2 border-b-[#ebebf1]" : "mt-17.5"} bg-white z-10  `}>
         <div className="flex  w-[75%] items-center justify-between">
           <Link to="/" reloadDocument>
             <img src={BirbankLogo} className='w-30   object-cover' />

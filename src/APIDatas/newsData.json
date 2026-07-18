@@ -1259,106 +1259,7 @@
                         },
                         "secondLink": null
                     },
-                    {
-                        "id": 124,
-                        "order": 3,
-                        "title": "İstədiyin qədər köçür",
-                        "content": "Birbank debet kartları arasında pul köçürərkən əlavə xərcin çıxmayacaq",
-                        "isActive": true,
-                        "author": "Qaratel",
-                        "photo": {
-                            "data": {
-                                "id": 3613,
-                                "attributes": {
-                                    "name": "480x304.png",
-                                    "alternativeText": null,
-                                    "caption": null,
-                                    "width": 480,
-                                    "height": 304,
-                                    "formats": {
-                                        "thumbnail": {
-                                            "ext": ".png",
-                                            "url": "https://birbank.az/file/thumbnail_480x304_17bca7b49d.png",
-                                            "hash": "thumbnail_480x304_17bca7b49d",
-                                            "mime": "image/png",
-                                            "name": "thumbnail_480x304.png",
-                                            "path": null,
-                                            "size": 38.29,
-                                            "width": 245,
-                                            "height": 155,
-                                            "sizeInBytes": 38289
-                                        }
-                                    },
-                                    "hash": "480x304_17bca7b49d",
-                                    "ext": ".png",
-                                    "mime": "image/png",
-                                    "size": 28.26,
-                                    "url": "https://birbank.az/file/480x304_17bca7b49d.png",
-                                    "previewUrl": null,
-                                    "provider": "aws-s3",
-                                    "provider_metadata": null,
-                                    "createdAt": "2026-07-14T10:30:16.703Z",
-                                    "updatedAt": "2026-07-14T10:30:16.703Z"
-                                }
-                            }
-                        },
-                        "firstLink": {
-                            "id": 265,
-                            "text": "Ətraflı",
-                            "href": "https://cards.birbank.az/az/BRCB_BLACK/bb?utm_medium=slider&utm_source=birbank.az&utm_campaign=2-TRF-birbank-debetlimitsiz-komissiyasiz-kocurme -AZ&utm_content=kartlar-arasi-kocurme"
-                        },
-                        "secondLink": null
-                    },
-                    {
-                        "id": 121,
-                        "order": 5,
-                        "title": "Bayram günlərində xidmətindəyik ",
-                        "content": "   ",
-                        "isActive": true,
-                        "author": " ",
-                        "photo": {
-                            "data": {
-                                "id": 3564,
-                                "attributes": {
-                                    "name": "slider.png",
-                                    "alternativeText": null,
-                                    "caption": null,
-                                    "width": 480,
-                                    "height": 304,
-                                    "formats": {
-                                        "thumbnail": {
-                                            "ext": ".png",
-                                            "url": "https://birbank.az/file/thumbnail_slider_f3a1561040.png",
-                                            "hash": "thumbnail_slider_f3a1561040",
-                                            "mime": "image/png",
-                                            "name": "thumbnail_slider.png",
-                                            "path": null,
-                                            "size": 32.74,
-                                            "width": 245,
-                                            "height": 155,
-                                            "sizeInBytes": 32740
-                                        }
-                                    },
-                                    "hash": "slider_f3a1561040",
-                                    "ext": ".png",
-                                    "mime": "image/png",
-                                    "size": 28.59,
-                                    "url": "https://birbank.az/file/slider_f3a1561040.png",
-                                    "previewUrl": null,
-                                    "provider": "aws-s3",
-                                    "provider_metadata": null,
-                                    "createdAt": "2026-06-25T12:13:45.602Z",
-                                    "updatedAt": "2026-06-25T12:13:45.602Z"
-                                }
-                            }
-                        },
-                        "firstLink": {
-                            "id": 260,
-                            "text": "Filiallar",
-                            "href": "https://birbank.az/xidmet-sebekesi"
-                        },
-                        "secondLink": null
-                    },
+                   
                     {
                         "id": 119,
                         "order": 6,
@@ -1695,43 +1596,7 @@
                             "href": "https://birbank.az/campaigns/az-faizli-yaz-krediti?utm_medium=slider&utm_source=birbank.az&utm_campaign=0-CNV-nagd-kredit-az-faizli-yaz-krediti-AZ&utm_content=kv"
                         }
                     },
-                    {
-                        "id": 14,
-                        "order": 0,
-                        "title": "Nağd kredit götür, minimum məbləğlə ödə!",
-                        "content": "İllik 10.9%-dən,  məbləğ 50 000 ₼-dək!",
-                        "isActive": false,
-                        "author": "Anar Behbudov",
-                        "photo": {
-                            "data": {
-                                "id": 2018,
-                                "attributes": {
-                                    "name": "naqt-kredit.webp",
-                                    "alternativeText": null,
-                                    "caption": null,
-                                    "width": 194,
-                                    "height": 156,
-                                    "formats": null,
-                                    "hash": "thumbnail_birbank_2_068da737df_936430818c",
-                                    "ext": ".webp",
-                                    "mime": "image/webp",
-                                    "size": 8.55,
-                                    "url": "https://birbank.az/file/thumbnail_birbank_2_068da737df_936430818c.webp",
-                                    "previewUrl": null,
-                                    "provider": "aws-s3",
-                                    "provider_metadata": null,
-                                    "createdAt": "2025-11-14T06:07:27.318Z",
-                                    "updatedAt": "2025-11-14T08:22:16.513Z"
-                                }
-                            }
-                        },
-                        "firstLink": {
-                            "id": 15,
-                            "text": "Sifariş et",
-                            "href": "https://www.kapitalbank.az/kampaniyalar/minimal-ayliq-odenis"
-                        },
-                        "secondLink": null
-                    },
+                    
                     {
                         "id": 27,
                         "order": 0,

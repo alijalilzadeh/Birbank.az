@@ -1794,7 +1794,19 @@
                                 }
                             },
                             "birbonusPaymentMethod": {
-                                "data": null
+                                "data": {
+                                    "id": 2,
+                                    "attributes": {
+                                        "birbonusPaymentMethod": "DEFAULT",
+                                        "createdAt": "2025-07-03T13:25:54.399Z",
+                                        "updatedAt": "2025-07-03T13:25:54.880Z",
+                                        "publishedAt": "2025-07-03T13:25:54.875Z",
+                                        "locale": "az",
+                                        "localizations": {
+                                            "data": []
+                                        }
+                                    }
+                                }
                             },
                             "bonus_types": {
                                 "data": []
@@ -2153,7 +2165,19 @@
                                 "data": null
                             },
                             "birbonusPaymentMethod": {
-                                "data": null
+                                "data": {
+                                    "id": 2,
+                                    "attributes": {
+                                        "birbonusPaymentMethod": "DEFAULT",
+                                        "createdAt": "2025-07-03T13:25:54.399Z",
+                                        "updatedAt": "2025-07-03T13:25:54.880Z",
+                                        "publishedAt": "2025-07-03T13:25:54.875Z",
+                                        "locale": "az",
+                                        "localizations": {
+                                            "data": []
+                                        }
+                                    }
+                                }
                             },
                             "bonus_types": {
                                 "data": []
@@ -2623,7 +2647,19 @@
                                 "data": null
                             },
                             "birbonusPaymentMethod": {
-                                "data": null
+                                "data": {
+                                    "id": 2,
+                                    "attributes": {
+                                        "birbonusPaymentMethod": "DEFAULT",
+                                        "createdAt": "2025-07-03T13:25:54.399Z",
+                                        "updatedAt": "2025-07-03T13:25:54.880Z",
+                                        "publishedAt": "2025-07-03T13:25:54.875Z",
+                                        "locale": "az",
+                                        "localizations": {
+                                            "data": []
+                                        }
+                                    }
+                                }
                             },
                             "bonus_types": {
                                 "data": []
@@ -2887,7 +2923,19 @@
                                 "data": null
                             },
                             "birbonusPaymentMethod": {
-                                "data": null
+                                "data": {
+                                    "id": 2,
+                                    "attributes": {
+                                        "birbonusPaymentMethod": "DEFAULT",
+                                        "createdAt": "2025-07-03T13:25:54.399Z",
+                                        "updatedAt": "2025-07-03T13:25:54.880Z",
+                                        "publishedAt": "2025-07-03T13:25:54.875Z",
+                                        "locale": "az",
+                                        "localizations": {
+                                            "data": []
+                                        }
+                                    }
+                                }
                             },
                             "bonus_types": {
                                 "data": [
@@ -3172,7 +3220,19 @@
                                 "data": null
                             },
                             "birbonusPaymentMethod": {
-                                "data": null
+                                "data": {
+                                    "id": 2,
+                                    "attributes": {
+                                        "birbonusPaymentMethod": "DEFAULT",
+                                        "createdAt": "2025-07-03T13:25:54.399Z",
+                                        "updatedAt": "2025-07-03T13:25:54.880Z",
+                                        "publishedAt": "2025-07-03T13:25:54.875Z",
+                                        "locale": "az",
+                                        "localizations": {
+                                            "data": []
+                                        }
+                                    }
+                                }
                             },
                             "bonus_types": {
                                 "data": [
@@ -3797,7 +3857,19 @@
                                 "data": null
                             },
                             "birbonusPaymentMethod": {
-                                "data": null
+                                "data": {
+                                    "id": 2,
+                                    "attributes": {
+                                        "birbonusPaymentMethod": "DEFAULT",
+                                        "createdAt": "2025-07-03T13:25:54.399Z",
+                                        "updatedAt": "2025-07-03T13:25:54.880Z",
+                                        "publishedAt": "2025-07-03T13:25:54.875Z",
+                                        "locale": "az",
+                                        "localizations": {
+                                            "data": []
+                                        }
+                                    }
+                                }
                             },
                             "bonus_types": {
                                 "data": [
@@ -3988,7 +4060,19 @@
                                 "data": null
                             },
                             "birbonusPaymentMethod": {
-                                "data": null
+                                "data": {
+                                    "id": 2,
+                                    "attributes": {
+                                        "birbonusPaymentMethod": "DEFAULT",
+                                        "createdAt": "2025-07-03T13:25:54.399Z",
+                                        "updatedAt": "2025-07-03T13:25:54.880Z",
+                                        "publishedAt": "2025-07-03T13:25:54.875Z",
+                                        "locale": "az",
+                                        "localizations": {
+                                            "data": []
+                                        }
+                                    }
+                                }
                             },
                             "bonus_types": {
                                 "data": [
@@ -4247,7 +4331,19 @@
                                 "data": null
                             },
                             "birbonusPaymentMethod": {
-                                "data": null
+                                "data": {
+                                    "id": 2,
+                                    "attributes": {
+                                        "birbonusPaymentMethod": "DEFAULT",
+                                        "createdAt": "2025-07-03T13:25:54.399Z",
+                                        "updatedAt": "2025-07-03T13:25:54.880Z",
+                                        "publishedAt": "2025-07-03T13:25:54.875Z",
+                                        "locale": "az",
+                                        "localizations": {
+                                            "data": []
+                                        }
+                                    }
+                                }
                             },
                             "bonus_types": {
                                 "data": [
@@ -4545,7 +4641,19 @@
                                 "data": null
                             },
                             "birbonusPaymentMethod": {
-                                "data": null
+                                "data": {
+                                    "id": 2,
+                                    "attributes": {
+                                        "birbonusPaymentMethod": "DEFAULT",
+                                        "createdAt": "2025-07-03T13:25:54.399Z",
+                                        "updatedAt": "2025-07-03T13:25:54.880Z",
+                                        "publishedAt": "2025-07-03T13:25:54.875Z",
+                                        "locale": "az",
+                                        "localizations": {
+                                            "data": []
+                                        }
+                                    }
+                                }
                             },
                             "bonus_types": {
                                 "data": [
@@ -4999,7 +5107,19 @@
                                 "data": null
                             },
                             "birbonusPaymentMethod": {
-                                "data": null
+                                "data": {
+                                    "id": 2,
+                                    "attributes": {
+                                        "birbonusPaymentMethod": "DEFAULT",
+                                        "createdAt": "2025-07-03T13:25:54.399Z",
+                                        "updatedAt": "2025-07-03T13:25:54.880Z",
+                                        "publishedAt": "2025-07-03T13:25:54.875Z",
+                                        "locale": "az",
+                                        "localizations": {
+                                            "data": []
+                                        }
+                                    }
+                                }
                             },
                             "bonus_types": {
                                 "data": [
@@ -5398,7 +5518,19 @@
                                 "data": null
                             },
                             "birbonusPaymentMethod": {
-                                "data": null
+                                "data": {
+                                    "id": 2,
+                                    "attributes": {
+                                        "birbonusPaymentMethod": "DEFAULT",
+                                        "createdAt": "2025-07-03T13:25:54.399Z",
+                                        "updatedAt": "2025-07-03T13:25:54.880Z",
+                                        "publishedAt": "2025-07-03T13:25:54.875Z",
+                                        "locale": "az",
+                                        "localizations": {
+                                            "data": []
+                                        }
+                                    }
+                                }
                             },
                             "bonus_types": {
                                 "data": [
@@ -5671,7 +5803,19 @@
                                 "data": null
                             },
                             "birbonusPaymentMethod": {
-                                "data": null
+                                "data": {
+                                    "id": 2,
+                                    "attributes": {
+                                        "birbonusPaymentMethod": "DEFAULT",
+                                        "createdAt": "2025-07-03T13:25:54.399Z",
+                                        "updatedAt": "2025-07-03T13:25:54.880Z",
+                                        "publishedAt": "2025-07-03T13:25:54.875Z",
+                                        "locale": "az",
+                                        "localizations": {
+                                            "data": []
+                                        }
+                                    }
+                                }
                             },
                             "bonus_types": {
                                 "data": [
@@ -5918,7 +6062,19 @@
                                 "data": null
                             },
                             "birbonusPaymentMethod": {
-                                "data": null
+                                "data": {
+                                    "id": 2,
+                                    "attributes": {
+                                        "birbonusPaymentMethod": "DEFAULT",
+                                        "createdAt": "2025-07-03T13:25:54.399Z",
+                                        "updatedAt": "2025-07-03T13:25:54.880Z",
+                                        "publishedAt": "2025-07-03T13:25:54.875Z",
+                                        "locale": "az",
+                                        "localizations": {
+                                            "data": []
+                                        }
+                                    }
+                                }
                             },
                             "bonus_types": {
                                 "data": [
@@ -5971,7 +6127,11 @@
                             "birbonus": null,
                             "termsNote": "<p>* Taksit və Bonus şərtləri məhsul və kampaniyalar üzrə dəyişə bilər&nbsp;</p><p>** Faiz və taksit şərtləri filiallar üzrə dəyişiklik göstərə bilər</p>",
                             "image": {
-                                "data": null
+                                "data": {
+                                    "attributes": {
+                                        "url": "https://birbank.az/file/geyim_5f346f1dcf.png"
+                                    }
+                                }
                             },
                             "categories": {
                                 "data": [
@@ -6077,7 +6237,19 @@
                                 "data": null
                             },
                             "birbonusPaymentMethod": {
-                                "data": null
+                                "data": {
+                                    "id": 2,
+                                    "attributes": {
+                                        "birbonusPaymentMethod": "DEFAULT",
+                                        "createdAt": "2025-07-03T13:25:54.399Z",
+                                        "updatedAt": "2025-07-03T13:25:54.880Z",
+                                        "publishedAt": "2025-07-03T13:25:54.875Z",
+                                        "locale": "az",
+                                        "localizations": {
+                                            "data": []
+                                        }
+                                    }
+                                }
                             },
                             "bonus_types": {
                                 "data": []
@@ -6258,7 +6430,19 @@
                                 "data": null
                             },
                             "birbonusPaymentMethod": {
-                                "data": null
+                                "data": {
+                                    "id": 2,
+                                    "attributes": {
+                                        "birbonusPaymentMethod": "DEFAULT",
+                                        "createdAt": "2025-07-03T13:25:54.399Z",
+                                        "updatedAt": "2025-07-03T13:25:54.880Z",
+                                        "publishedAt": "2025-07-03T13:25:54.875Z",
+                                        "locale": "az",
+                                        "localizations": {
+                                            "data": []
+                                        }
+                                    }
+                                }
                             },
                             "bonus_types": {
                                 "data": [
@@ -6543,7 +6727,19 @@
                                 "data": null
                             },
                             "birbonusPaymentMethod": {
-                                "data": null
+                                "data": {
+                                    "id": 2,
+                                    "attributes": {
+                                        "birbonusPaymentMethod": "DEFAULT",
+                                        "createdAt": "2025-07-03T13:25:54.399Z",
+                                        "updatedAt": "2025-07-03T13:25:54.880Z",
+                                        "publishedAt": "2025-07-03T13:25:54.875Z",
+                                        "locale": "az",
+                                        "localizations": {
+                                            "data": []
+                                        }
+                                    }
+                                }
                             },
                             "bonus_types": {
                                 "data": []
@@ -7074,7 +7270,19 @@
                                 "data": null
                             },
                             "birbonusPaymentMethod": {
-                                "data": null
+                                "data": {
+                                    "id": 2,
+                                    "attributes": {
+                                        "birbonusPaymentMethod": "DEFAULT",
+                                        "createdAt": "2025-07-03T13:25:54.399Z",
+                                        "updatedAt": "2025-07-03T13:25:54.880Z",
+                                        "publishedAt": "2025-07-03T13:25:54.875Z",
+                                        "locale": "az",
+                                        "localizations": {
+                                            "data": []
+                                        }
+                                    }
+                                }
                             },
                             "bonus_types": {
                                 "data": [

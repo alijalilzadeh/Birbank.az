@@ -14,6 +14,8 @@ const PartnersContent = () => {
 
 
   const [selected, setSelected] = useState(false);
+  const [inputVal,setInputVal] = useState("")
+  console.log(inputVal)
   return (
     <>
       <div className="flex flex-col items-center justify-center w-full selection:bg-[#B3D4FC]">
@@ -89,11 +91,11 @@ const PartnersContent = () => {
                 <span className='flex items-center justify-center px-4 py-3 rounded-xl bg-[#F3F3F5] text-[14px] font-medium text-[#6b7280] cursor-pointer transition duration-200 hover:bg-[#6B7280] hover:text-white mt-4'>Sıfırla</span>
               </div>
             </div>
-            <div className="flex flex-col items-start gap-4 w-[60%] h-fit relative ">
+            <div className="flex flex-col items-start gap-4 w-[80%] h-fit relative ">
               <div className="flex items-start justify-between w-full gap-4">
                 <div className="flex flex-1  p-4 rounded-[10px] border border-[#d4d6db] gap-4 cursor-default">
                   <CiSearch className="text-[24px]" />
-                  <input
+                  <input   onChange={(e) => setInputVal(e.target.value)}
                     type="text"
                     placeholder="Axtar"
                     className="w-full outline-none "
@@ -107,7 +109,7 @@ const PartnersContent = () => {
                   </div>
                   {
                     selected && (
-                      <div className="inline-flex flex-col  border border-[#e1e5e9] rounded-lg text-[#333333] text-[14px] font-normal cursor-pointer  w-full transition duration-250  hover:shadow-[0_4px_12px_0_rgba(19,22,60,0.06)] ">
+                      <div className="inline-flex flex-col  z-10 border border-[#e1e5e9] rounded-lg text-[#333333] text-[14px] font-normal cursor-pointer  w-full transition duration-250  hover:shadow-[0_4px_12px_0_rgba(19,22,60,0.06)] ">
                         {
                           filteredPartnerData.sorts.map((item, id) => (
                             <option className='px-4 py-3 transition duration-250 text-[#333333] text-[14px] font-normal'>{item.label}</option>
@@ -122,18 +124,45 @@ const PartnersContent = () => {
 
               <div className="grid grid-cols-9  gap-4 w-full my-5">
                 {
-                  partners.map((item, id) => (
-                    <div key={id} className="flex flex-col col-span-3 row-span-2   p-6 border border-[#e1e5e9] rounded-xl">
-                      <div className="flex items-center justify-between w-full">
+                  partners.filter((item)=> item.attributes.name.toLowerCase().includes(inputVal.toLowerCase()) )
+                  .map((item, id) => (
+                    <div key={id} className="flex flex-col col-span-3 row-span-6 p-6 gap-4 border border-[#e1e5e9] rounded-xl cursor-pointer w-full">
+                      <div className="flex items-start justify-between w-full">
                         <div key={id} className="flex flex-col gap-4">
                           <img src={item.attributes?.image?.data?.attributes?.url} className='w-15 h-15 object-cover' />
                           <h2 className='text-[18px] font-medium text-[#25282b]'>{item.attributes.name}</h2>
                         </div>
+                        <img src={`${item.attributes.birbonusPaymentMethod.data.attributes.birbonusPaymentMethod === "DEFAULT" ? "https://birbank.az/file/Barcode_1_38a2fa819c.svg" : "https://birbank.az/file/Barcode_522f5ced1a.svg"}`} />
                       </div>
+                      <div className="flex gap-2 items-center w-[75%]">
+                        <img src="https://birbank.az/file/Frame_2085662747_0868a51412.svg" />
+                        <div className="flex gap-2 text-[#25282b] font-normal text-[14px] w-full flex-wrap items-center  ">
+                          {
+                            item.attributes.installments.data.map((inst, id) => (
+                              <p className='leading-1' >{inst.attributes.duration}</p>
+                            ))
+                          }
+                          <p>komissiyasız</p>
+                        </div>
+                      </div>
+                      {
+                        item.attributes.birbonus != null ?
+                        (
+                           <div className="flex gap-1 items-center w-[75%]">
+                          <img src="https://birbank.az/file/Frame_2085662745_9a25432f87.svg" />
+                          <div className="flex gap-1 text-[#25282b] font-normal text-[14px] w-full flex-wrap items-center  ">
+                                <p className='leading-1' >{item.attributes.birbonus}%</p>
+                            <p>bonus</p>
+                          </div>
+                        </div>
+                        ) : (
+                          <></>
+                        )
+                       
+                      }
                     </div>
                   ))
                 }
-
 
               </div>
 

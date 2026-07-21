@@ -1,27 +1,52 @@
-import React, { useState,useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import PartnerData from '../APIDatas/partnersData.json'
 import { CiSearch } from "react-icons/ci";
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 
 const PartnersContent = () => {
-  const partners = PartnerData.pageProps.initialState.partners.partnersData
-  const filteredPartnerData = PartnerData.pageProps.initialState.partners.filters
-  const partnersCategories = PartnerData.pageProps.initialState.partners.filters.categories
-  const partnersİnstallments = PartnerData.pageProps.initialState.partners.filters.installments
-  const partnersBNPL = PartnerData.pageProps.initialState.partners.filters.bnpl_options
-  const partnersCashbackes = PartnerData.pageProps.initialState.partners.filters.cashbackes
+  const [partners, setPartners] = useState(
+    PartnerData.pageProps.initialState.partners.partnersData
+  );
 
-  const[slice,setSlice] = useState(9)
-  const [selected, setSelected] = useState(false);// Acilib baglanmasi ucun 
-  const [inputVal, setInputVal] = useState("")// inputdaki qiymeti goturur
-  const [categoryFilter, setCategoryFilter] = useState(null)//categoryni secir
-  const[sortCategory,setSortCategory] = useState("Çeşidlə")// bu sort qiymetlerini saxlayir(A-Z,yeni,popular,en yuksek bonus)
+  const filteredPartnerData =
+    PartnerData.pageProps.initialState.partners.filters;
+
+  const partnersCategories =
+    PartnerData.pageProps.initialState.partners.filters.categories;
+
+  const partnersİnstallments =
+    PartnerData.pageProps.initialState.partners.filters.installments;
+
+  const partnersBNPL =
+    PartnerData.pageProps.initialState.partners.filters.bnpl_options;
+
+  const partnersCashbackes =
+    PartnerData.pageProps.initialState.partners.filters.cashbackes;
 
 
+  const [slice, setSlice] = useState(9);
+
+  const [selected, setSelected] = useState(false);
+
+  const [selectedInstallments, setSelectedInstallments] = useState([]);
+  const [selectedBNPL, setSelectedBNPL] = useState([]);
+  const [selectedCashbackes, setSelectedCashbackes] = useState([]);
+
+  const [inputVal, setInputVal] = useState("");
+
+  const [categoryFilter, setCategoryFilter] = useState(null);
+
+  const [sortCategory, setSortCategory] = useState("Çeşidlə");
+
+  const [sortBenefits, setSortBenefits] = useState([]);
+
+  // API-dən gələn partners üzərində search və category filter
   const filteredCategory = partners
     .filter((item) =>
-      item.attributes.name.toLowerCase().includes(inputVal.toLowerCase())
+      item.attributes.name
+        .toLowerCase()
+        .includes(inputVal.toLowerCase())
     )
     .filter((item) =>
       categoryFilter === null
@@ -30,8 +55,11 @@ const PartnersContent = () => {
           (category) =>
             category.attributes.categoryName === categoryFilter
         )
-    );
-  const [totalPartners, setTotalPartners] = useState(partners.length);// partner arrayinin lengthin saxlayir 
+    )
+    ;
+
+
+  const [totalPartners, setTotalPartners] = useState(partners.length);
 
   useEffect(() => {
     setTotalPartners(filteredCategory.length);
@@ -80,11 +108,42 @@ const PartnersContent = () => {
                     <p className='font-normal text-[16px] text-[#222222]'>Taksit sayı, <span className='text-[#6b7280] font-medium text-[16px]'> ay</span></p>
                   </div>
                   <div className="flex items-center  w-full flex-wrap gap-2">
-                    <span className='rounded-xl py-px px-2.5 bg-[#F3F3F5] text-[#797F8C] inline-flex w-fit items-center justify-center font-normal text-[14px] cursor-pointer'>Hamısını seç</span>
+                    <span
+                      onClick={() => {
+                        if (selectedInstallments.length === partnersİnstallments.length) {
+                          setSelectedInstallments([]);
+                        } else {
+                          setSelectedInstallments(
+                            partnersİnstallments.map((item) => item.label)
+                          );
+                        }
+                      }}
+                      className={`rounded-xl py-px px-2.5 ${selectedInstallments.length === partnersİnstallments.length
+                        ? "text-white bg-[#ec3342]"
+                        : "bg-[#F3F3F5] text-[#797F8C]"
+                        } inline-flex w-fit items-center justify-center font-normal text-[14px] cursor-pointer`}
+                    >
+                      Hamısını seç
+                    </span>
 
                     {
                       partnersİnstallments.map((item, id) => (
-                        <span className='rounded-xl py-px px-2.5 bg-[#F3F3F5] text-[#797F8C] inline-flex w-10 items-center justify-center font-normal text-[14px] cursor-pointer'>{item.label}</span>
+                        <span
+                          key={id}
+                          onClick={() => {
+                            setSelectedInstallments((prev) =>
+                              prev.includes(item.label)
+                                ? prev.filter((value) => value !== item.label)
+                                : [...prev, item.label]
+                            );
+                          }}
+                          className={`rounded-xl py-px px-2.5 ${selectedInstallments.includes(item.label)
+                            ? "text-white bg-[#ec3342]"
+                            : "bg-[#F3F3F5] text-[#797F8C]"
+                            } inline-flex w-10 items-center justify-center font-normal text-[14px] cursor-pointer`}
+                        >
+                          {item.label}
+                        </span>
                       ))
                     }
                   </div>
@@ -96,11 +155,42 @@ const PartnersContent = () => {
                     <p className='font-normal text-[16px] text-[#222222]'>Böl-ödə, <span className='text-[#6b7280] font-medium text-[16px]'> ay</span></p>
                   </div>
                   <div className="flex items-center  w-full flex-wrap gap-2">
-                    <span className='rounded-xl py-px px-2.5 bg-[#F3F3F5] text-[#797F8C] inline-flex w-fit items-center justify-center font-normal text-[14px] cursor-pointer'>Hamısını seç</span>
+                    <span
+                      onClick={() => {
+                        if (selectedBNPL.length === partnersBNPL.length) {
+                          setSelectedBNPL([]);
+                        } else {
+                          setSelectedBNPL(
+                            partnersBNPL.map((item) => item.label)
+                          );
+                        }
+                      }}
+                      className={`rounded-xl py-px px-2.5 ${selectedBNPL.length === partnersBNPL.length
+                        ? "text-white bg-[#ec3342]"
+                        : "bg-[#F3F3F5] text-[#797F8C]"
+                        } inline-flex w-fit items-center justify-center font-normal text-[14px] cursor-pointer`}
+                    >
+                      Hamısını seç
+                    </span>
 
                     {
                       partnersBNPL.map((item, id) => (
-                        <span className='rounded-xl py-px px-2.5 bg-[#F3F3F5] text-[#797F8C] inline-flex w-10 items-center justify-center font-normal text-[14px] cursor-pointer'>{item.label}</span>
+                        <span
+                          key={id}
+                          onClick={() => {
+                            setSelectedBNPL((prev) =>
+                              prev.includes(item.label)
+                                ? prev.filter((value) => value !== item.label)
+                                : [...prev, item.label]
+                            );
+                          }}
+                          className={`rounded-xl py-px px-2.5 ${selectedBNPL.includes(item.label)
+                            ? "text-white bg-[#ec3342]"
+                            : "bg-[#F3F3F5] text-[#797F8C]"
+                            } inline-flex w-10 items-center justify-center font-normal text-[14px] cursor-pointer`}
+                        >
+                          {item.label}
+                        </span>
                       ))
                     }
                   </div>
@@ -112,16 +202,47 @@ const PartnersContent = () => {
                     <p className='font-normal text-[16px] text-[#222222]'>Bonus, <span className='text-[#6b7280] font-medium text-[16px]'>%</span></p>
                   </div>
                   <div className="flex items-center  w-full flex-wrap gap-2">
-                    <span className='rounded-xl py-px px-2.5 bg-[#F3F3F5] text-[#797F8C] inline-flex w-fit items-center justify-center font-normal text-[14px] cursor-pointer'>Hamısını seç</span>
+                    <span
+                      onClick={() => {
+                        if (selectedBNPL.length === partnersBNPL.length) {
+                          setSelectedCashbackes([]);
+                        } else {
+                          setSelectedCashbackes(
+                            partnersBNPL.map((item) => item.label)
+                          );
+                        }
+                      }}
+                      className={`rounded-xl py-px px-2.5 ${selectedCashbackes.length === partnersCashbackes.length
+                        ? "text-white bg-[#ec3342]"
+                        : "bg-[#F3F3F5] text-[#797F8C]"
+                        } inline-flex w-fit items-center justify-center font-normal text-[14px] cursor-pointer`}
+                    >
+                      Hamısını seç
+                    </span>
 
                     {
                       partnersCashbackes.map((item, id) => (
-                        <span className='rounded-xl py-px px-2.5 bg-[#F3F3F5] text-[#797F8C] inline-flex w-10 items-center justify-center font-normal text-[14px] cursor-pointer'>{item.label}</span>
+                        <span
+                          key={id}
+                          onClick={() => {
+                            setSelectedCashbackes((prev) =>
+                              prev.includes(item.label)
+                                ? prev.filter((value) => value !== item.label)
+                                : [...prev, item.label]
+                            );
+                          }}
+                          className={`rounded-xl py-px px-2.5 ${selectedCashbackes.includes(item.label)
+                            ? "text-white bg-[#ec3342]"
+                            : "bg-[#F3F3F5] text-[#797F8C]"
+                            } inline-flex w-10 items-center justify-center font-normal text-[14px] cursor-pointer`}
+                        >
+                          {item.label}
+                        </span>
                       ))
                     }
                   </div>
                 </div>
-                <span onClick={() => setCategoryFilter(null)} className='flex items-center justify-center px-4 py-3 rounded-xl bg-[#F3F3F5] text-[14px] font-medium text-[#6b7280] cursor-pointer transition duration-200 hover:bg-[#6B7280] hover:text-white mt-4'>Sıfırla</span>
+                <span onClick={() => {setSelectedInstallments([]);setSelectedBNPL([]); setSelectedCashbackes([f])}} className='flex items-center justify-center px-4 py-3 rounded-xl bg-[#F3F3F5] text-[14px] font-medium text-[#6b7280] cursor-pointer transition duration-200 hover:bg-[#6B7280] hover:text-white mt-4'>Sıfırla</span>
               </div>
             </div>
             <div className="flex flex-col  justify-center gap-4 w-[80%] h-fit relative ">
@@ -135,17 +256,17 @@ const PartnersContent = () => {
                   />
                 </div>
 
-                <div className="flex flex-col gap-2  w-[30%]">
+                <div className="flex flex-col gap-2  w-[30%] relative">
                   <div onClick={() => setSelected(!selected)} className="flex items-center justify-between p-4 border border-[#e1e5e9] rounded-lg  text-[#333333] text-[14px] font-normal cursor-pointer hover:border-[#d4d6db] ">
                     <option selected >{sortCategory}</option>
-                    <MdOutlineKeyboardArrowDown size={22}  className={`text-[#666666] transition transform duration-250 ${selected ? "rotate-180" : ""}`} />
+                    <MdOutlineKeyboardArrowDown size={22} className={`text-[#666666] transition transform duration-250 ${selected ? "rotate-180" : ""}`} />
                   </div>
                   {
                     selected && (
-                      <div className="inline-flex flex-col  z-10 border border-[#e1e5e9] rounded-lg text-[#333333] text-[14px] font-normal cursor-pointer  w-full transition duration-250  hover:shadow-[0_4px_12px_0_rgba(19,22,60,0.06)] ">
+                      <div className="absolute top-full left-0 mt-2 inline-flex flex-col z-50 bg-white border border-[#e1e5e9] rounded-lg text-[#333333] text-[14px] font-normal cursor-pointer  w-full transition duration-250  hover:shadow-[0_4px_12px_0_rgba(19,22,60,0.06)] ">
                         {
                           filteredPartnerData.sorts.map((item, id) => (
-                            <option onClick={()=> {setSortCategory(item.label); setSelected(!selected)}} className={`px-4 py-3 transition duration-200  ${sortCategory === item.label ? "text-[#ef3342]" : "text-[#333333] hover:text-[#ef3342]"}  text-[14px] font-normal `}>{item.label}</option>
+                            <option onClick={() => { setSortCategory(item.label); setSelected(!selected) }} className={`px-4 py-3 transition duration-200  ${sortCategory === item.label ? "text-[#ef3342]" : "text-[#333333] hover:text-[#ef3342]"}  text-[14px] font-normal `}>{item.label}</option>
                           ))
                         }
                       </div>
@@ -157,7 +278,7 @@ const PartnersContent = () => {
 
               <div className="grid grid-cols-9  gap-4 w-full my-5">
                 {
-                  filteredCategory.slice(0,slice)
+                  filteredCategory.slice(0, slice)
                     .map((item, id) => (
                       <div key={id} className="flex flex-col col-span-3 row-span-6 p-6 gap-4 border border-[#f3f3f5] rounded-xl cursor-pointer w-full h-79 transition duration-300 hover:shadow-[0_6px_20px_0_rgba(19,22,60,0.06)]">
                         <div className="flex items-start justify-between w-full">
@@ -200,12 +321,12 @@ const PartnersContent = () => {
               </div>
               <div className="flex items-center justify-center w-full">
 
-                  <span onClick={()=>{
-                    if(slice < partners.length){
-                      setSlice(slice + 9)
-                    }
-                 
-                  }} className={`w-66 px-9 py-4 rounded-xl cursor-pointer ${slice === partners.length  ? "hidden" : "flex"} flex items-center justify-center text-center border border-[#e7e8ea] font-normal text-[16px] text-[#222222] transition duration-250 hover:shadow-[0_6px_20px_0_rgba(19,22,60,0.06)]`}>Daha çox</span>
+                <span onClick={() => {
+                  if (slice < partners.length) {
+                    setSlice(slice + 9)
+                  }
+
+                }} className={`w-66 px-9 py-4 rounded-xl cursor-pointer ${slice === partners.length || slice === 0 ? "hidden" : "flex"} flex items-center justify-center text-center border border-[#e7e8ea] font-normal text-[16px] text-[#222222] transition duration-250 hover:shadow-[0_6px_20px_0_rgba(19,22,60,0.06)]`}>Daha çox</span>
               </div>
 
             </div>

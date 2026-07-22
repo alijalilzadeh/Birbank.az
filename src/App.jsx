@@ -16,6 +16,7 @@ import Tariffs from './components/Tariffs'
 import Blogs from './components/Blogs'
 import Campaigns from './components/Campaigns'
 import Partners from './components/Partners'
+import FAQ from './components/FAQ'
 function App() {
   return (
     <Routes>
@@ -35,6 +36,7 @@ function App() {
       <Route path='/bloqlar' element={<Blogs />}/>
       <Route path='/campaigns' element={<Campaigns />}/>
       <Route path='/partners' element={<Partners />}/>
+      <Route path='/faq' element={<FAQ />}/>
     </Routes>
   )
 }

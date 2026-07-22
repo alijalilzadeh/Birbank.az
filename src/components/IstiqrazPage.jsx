@@ -66,7 +66,7 @@ const IstiqrazPage = () => {
         <div className="flex flex-col justify-center w-[75%] gap-7">
           <div className="flex flex-col justify-center  gap-7">
             <div className="flex gap-2 items-center">
-<Link className='text-[14px] p-3.75 text-[#6D7478]' to="/" reloadDocument>Ana Səhifə</Link>              <Link to='/istiqraz' className='text-[14px] text-[#25282b] font-normal py-3.75'>İstiqraz</Link>
+              <Link className='text-[14px] p-3.75 text-[#6D7478]' to="/" reloadDocument>Ana Səhifə</Link>              <Link to='/istiqraz' className='text-[14px] text-[#25282b] font-normal py-3.75'>İstiqraz</Link>
             </div>
             <div className="flex flex-col gap-4 items-center">
               <div className="flex items-center self-end">
@@ -241,7 +241,7 @@ const IstiqrazPage = () => {
             </div>
 
           </div>
-        
+
         </div>
       </div>
     </>

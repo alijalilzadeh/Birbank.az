@@ -38,9 +38,9 @@ const Footer = () => {
               </div>
 
               <div className="flex flex-col gap-3">
-                <Link className="text-white text-[16px] hover:underline" reloadDocument>Kampaniyalar</Link>
+                <Link to='/campaigns' className="text-white text-[16px] hover:underline" reloadDocument>Kampaniyalar</Link>
                 <Link className="text-white text-[16px] hover:underline" reloadDocument>Haqqımızda</Link>
-                <Link className="text-white text-[16px] hover:underline" reloadDocument>FAQ</Link>
+                <Link to='/faq' className="text-white text-[16px] hover:underline" reloadDocument>FAQ</Link>
                 <Link to ='/ecosystem' className="text-white text-[16px] hover:underline" reloadDocument>Ekosistem</Link>
               </div>
             </div>

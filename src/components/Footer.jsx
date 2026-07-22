@@ -23,7 +23,7 @@ const Footer = () => {
             <div className="grid grid-cols-3 gap-10 flex-1">
               <div className="flex flex-col gap-3">
                 <Link to="/cards/all" className="text-white text-[16px] hover:underline" reloadDocument>Kartlar</Link>
-                <Link className="text-white text-[16px] hover:underline" reloadDocument>Avtomobil krediti</Link>
+                <Link to='/avtomobil-krediti' className="text-white text-[16px] hover:underline" reloadDocument>Avtomobil krediti</Link>
                 <Link className="text-white text-[16px] hover:underline" reloadDocument>Xəbər</Link>
                 <Link to='/ninja' className="text-white text-[16px] hover:underline" reloadDocument>Ninja</Link>
                 <Link to='/bloqlar' className="text-white text-[16px] hover:underline" reloadDocument>Bloqlar</Link>
@@ -39,7 +39,7 @@ const Footer = () => {
 
               <div className="flex flex-col gap-3">
                 <Link to='/campaigns' className="text-white text-[16px] hover:underline" reloadDocument>Kampaniyalar</Link>
-                <Link className="text-white text-[16px] hover:underline" reloadDocument>Haqqımızda</Link>
+                <Link to='/about-us' className="text-white text-[16px] hover:underline" reloadDocument>Haqqımızda</Link>
                 <Link to='/faq' className="text-white text-[16px] hover:underline" reloadDocument>FAQ</Link>
                 <Link to ='/ecosystem' className="text-white text-[16px] hover:underline" reloadDocument>Ekosistem</Link>
               </div>

@@ -149,27 +149,27 @@ const FAQContent = () => {
             <div className="flex items-center justify-center bg-[#F3F3F5] rounded-lg  overflow-hidden">
               {
                 faqData.map((item, id) => (
-                  <span onClick={() => setSelectedFaq(item.category)} key={id} className={`cursor-pointer p-2 ${selectedFaq === item.category ? "text-white bg-[#25282B] rounded-lg" : "text-[#9496AC]   bg-[#F3F3F5]"}  inline-flex w-fit text-[16px] `}> {item.category}</span>
+                  <span onClick={() => setSelectedFaq(item.category)} key={id} className={`cursor-pointer p-2 ${selectedFaq === item.category ? "text-white bg-[#25282B] rounded-lg" : "text-[#9496AC]   bg-[#F3F3F5]"}  inline-flex w-fit text-[16px] px-3 `}> {item.category}</span>
                 ))
               }
             </div>
             <div className="flex flex-col w-full items-center justify-center">
               {
-
                 filteredDescription.map((item, index) => (
                   <div key={index} className="flex flex-col w-full items-center justify-center ">
                     {item.description.map((fil, index) => (
-                      <>                      <div onClick={() => toggleFaq(index)} className="flex border-b border-[#E9EAEC] w-[60%] px-3 py-4 items-center justify-between cursor-pointer">
+                      <>                      
+                      <div onClick={() => toggleFaq(index)} className="flex border-b-2 border-[#E9EAEC] w-full px-3 py-4 justify-between cursor-pointer">
 
-                        <p className='text-[16px] text-[#222222] text-center font-normal'>
+                        <p className='text-[16px] text-[#222222]  font-normal w-full'>
                           {fil.question}
                         </p>
 
-                        <IoIosArrowDown className={`text-[16px] text-[#222222] transform ${activeIndex === index ? "rotate-180" : ""}`} />
+                        <IoIosArrowDown className={`text-[16px] text-[#222222] transition duration-100 transform ${activeIndex === index ? "rotate-180" : ""}`} />
                       </div>
 
-                        <div className={`overflow-hidden flex items-center justify-center transition-all duration-300 ${activeIndex === index ? "max-h-75" : "max-h-0"}`} >
-                          <p className='w-[60%] px-8 py-10 text-[16px] font-extralight text-[#222222] bg-[#F3F3F5]'>
+                        <div className={`overflow-hidden w-full flex items-center justify-center transition-all duration-300 ${activeIndex === index ? "max-h-75" : "max-h-0"}`} >
+                          <p className='w-full px-8 py-10 text-[16px] font-extralight text-[#222222] bg-[#F3F3F5]'>
                             {fil.answer}
                           </p>
                         </div>

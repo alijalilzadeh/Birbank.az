@@ -20,6 +20,7 @@ import FAQ from './components/FAQ'
 import AboutUs from './components/AboutUs'
 import CarCredit from './components/CarCredit'
 import YigimHesabi from './components/YigimHesabi'
+import Avans from './components/Avans'
 function App() {
   return (
     <Routes>
@@ -43,6 +44,7 @@ function App() {
       <Route path='/about-us' element={<AboutUs />}/>
       <Route path='/avtomobil-krediti' element={<CarCredit />}/>
       <Route path='/yigim-hesabi' element={<YigimHesabi />}/>
+      <Route path='/avans' element={<Avans />}/>
     </Routes>
   )
 }

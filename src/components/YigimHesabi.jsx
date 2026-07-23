@@ -142,7 +142,6 @@ const YigimHesabi = () => {
         <div className="flex flex-col items-center justify-center w-full selection:bg-[#B3D4FC]">
           <div className="flex flex-col w-[75%]">
             <div className="flex flex-col w-full">
-
               <div className="flex gap-2 my-3">
                 <Link className='text-[14px] p-3.75 text-[#6D7478]' to="/">Ana Səhifə</Link>
                 <Link className=' text-[#25282b] text-[14px] p-3.75 pl-0' to="/ninja">

@@ -79,6 +79,7 @@ const Footer = () => {
                 <img src={PhoneLogo} className='w-5 object-fit' />
                 <span className='text-[24px] text-[#EC3432] font-bold'>196</span>
               </p>
+              <img src="https://birbank.az/file/Bot_24b1f82f9f.png" className='w-6 flex object-cover' />
               <Link to="https://www.facebook.com/birbank"><FaFacebook className='text-[24px] text-white' /></Link>
               <Link to="https://www.instagram.com/birbank.az/"><FaInstagram className='text-[24px] text-white' /></Link>
               <Link to="https://www.youtube.com/channel/UC1p5TDF6qfzUm4sPqSYSGUA"> <FaYoutube className='text-[24px] text-white' /></Link>

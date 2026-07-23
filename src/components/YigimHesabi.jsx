@@ -85,8 +85,47 @@ const YigimHesabi = () => {
       ]
     }
   ]
+  const howToDoData = [
+    {
+      id: 1,
+      desc: "Əsas səhifədə 'Əmanətlər' hissəsinə keç",
+      imgUrl: "https://birbank.az/file/saving_acc_step1_664744eef0.png"
+    },
+    {
+      id: 2,
+      desc: "Burada 'Yığım hesabı' aç",
+      imgUrl: "https://birbank.az/file/saving_acc_step2_0149623edf.png"
+    }
+    ,
+    {
+      id: 3,
+      desc: " 'Yığım hesabı'ı aç düyməsini kliklə",
+      imgUrl: "https://birbank.az/file/saving_acc_step3_460db81caa.png"
+    },
+    {
+      id: 4,
+      desc: "Valyuta seçimi et",
+      imgUrl: "https://birbank.az/file/saving_acc_step4_4532d31123.png"
+    },
+    {
+      id: 5,
+      desc: "Ardınca videonu çəkərək şəxsiyyətini eyniləşdir",
+      imgUrl: "https://birbank.az/file/image_2025_06_25_15_37_57_085_990b8adf29.png"
+    },
+    {
+      id: 6,
+      desc: "Sənədləri imzala",
+      imgUrl: "https://birbank.az/file/saving_acc_step5_120822c47a.png"
+    },
+    {
+      id: 7,
+      desc: "Yığım hesabı lazımdır. İstədiyin məbləği əlavə et və pulunu yüksək faizlə yığmağa başla!",
+      imgUrl: "https://birbank.az/file/saving_acc_step6_18c116895d.png"
+    }
+  ]
   const filteredDescData = descrData.filter((item) => item.type === selectedCategory)
   const [activeIndex, setActiveIndex] = useState(null);
+  const[selectedNum,setSelectedNum] = useState(1)
   const toggleFaq = (index) => {
     if (activeIndex === index) {
       setActiveIndex(null)
@@ -195,16 +234,16 @@ const YigimHesabi = () => {
 
                                 <IoIosArrowDown
                                   className={`text-[16px] text-[#222222] transition duration-300 transform ${activeIndex === faqIndex
-                                      ? "rotate-180"
-                                      : ""
+                                    ? "rotate-180"
+                                    : ""
                                     }`}
                                 />
                               </div>
 
                               <div
                                 className={`overflow-hidden w-full flex items-center justify-center transition-all duration-300 ${activeIndex === faqIndex
-                                    ? "max-h-75"
-                                    : "max-h-0"
+                                  ? "max-h-75"
+                                  : "max-h-0"
                                   }`}
                               >
                                 <p className="w-full px-8 py-10 text-[16px] font-light text-[#222222] bg-[#F3F3F5]">
@@ -221,6 +260,32 @@ const YigimHesabi = () => {
 
                     </div>
                   ))
+                }
+                {
+                  selectedCategory === 'Necə etməli' && (
+                    <>
+                      <div className="flex  items-center justify gap-1 w-[75%]">
+                        <div className="flex items-center justify-between w-full">
+                          <div className="flex items-center justify-center w-[50%]">
+                            <img src= {howToDoData[selectedNum-1].imgUrl} className='w-67 object-cover'  />
+                          </div>
+                          <div className="flex flex-col gap-6  w-[60%]">
+                            <h2 className='text-[#2e3131] font-semibold text-[28px] align-end'>Birbank-da yığım hesabını necə aça bilərsən?</h2>
+                            <div className="flex flex-col gap-4 items-start justify-start w-full">
+                              {
+                                howToDoData.map((item, id) => (
+                                  <div onClick={()=> setSelectedNum(item.id)} key={id} className={`flex items-center w-full gap-4 px-6 py-4 rounded-lg ${item.id === selectedNum ? "bg-[#ff0039]" : "bg-white "} cursor-pointer`}>
+                                    <span className={` font-semibold text-[24px] ${item.id === selectedNum ? "bg-white" : " bg-[#f8f8f8]"}  text-[#ec3342] rounded-full px-3 flex items-center justify-center`}>{item.id}</span>
+                                    <p className={`text-[18px] ${item.id === selectedNum ? "text-white" : "text-[#2e3131]"}  font-normal`}> {item.desc}</p>
+                                  </div>
+                                ))
+                              }
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </>
+                  )
                 }
               </div>
             </div>

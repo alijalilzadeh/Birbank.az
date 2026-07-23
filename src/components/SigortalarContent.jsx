@@ -12,6 +12,8 @@ import SchoolInsurance from '../assets/Sigortalar/SchoolInsurance.png'
 import CrashInsurance from '../assets/Sigortalar/CrashInsurance.png'
 import CreditLifeInsurance from '../assets/Sigortalar/CreditLifeInsurance.png'
 import { HiMiniArrowLongRight } from "react-icons/hi2";
+import { IoIosArrowDown } from "react-icons/io";
+
 
 const SigortalarContent = () => {
   const faqData = [
@@ -71,7 +73,7 @@ const SigortalarContent = () => {
           <div className="flex flex-col w-full h-full">
             <h2 className='text-[24px] font-bold text-[#25282b] my-4'>Sığorta yoxla və online sığorta əldə et | Birbank</h2>
             <div className="flex gap-2 my-3">
-              <Link className='text-[14px] p-3.75 text-[#6D7478]' to="/" reloadDocument>Ana Səhifə</Link>              
+              <Link className='text-[14px] p-3.75 text-[#6D7478]' to="/" reloadDocument>Ana Səhifə</Link>
               <Link className=' text-[#25282b] text-[14px] p-3.75 pl-0' to="/ninja">Sığortalar</Link>
             </div>
           </div>
@@ -86,7 +88,7 @@ const SigortalarContent = () => {
             </div>
           </div>
         </div>
-        <div className="flex items-center justify-center w-[75%] my-10">
+        <div className="flex flex-col items-center justify-center w-[75%] my-10">
 
           <div className="grid grid-cols-6  gap-6 h-full w-full ">
             <div className="col-span-3 row-span-3 flex justify-between rounded-xl bg-[#F9F9FA] px-6 pt-6 pb-9 w-full relative h-full">
@@ -208,6 +210,31 @@ const SigortalarContent = () => {
                 </Link>
               </div>
               <img src={CreditLifeInsurance} className='object-contain absolute bottom-0 right-5 w-60 ' />
+            </div>
+          </div>
+          <div className="flex flex-col  mt-20 mb-10">
+            <h2 className='text-[32px] font-semibold mb-3 text-[#222222] leading-10'>Tez tez verilən suallar</h2>
+            <div className="flex flex-col w-full items-center justify-center">
+              {
+                faqData.map((item, index) => {
+                  return (
+                    <div className="flex flex-col w-[90%] items-center justify-center    border-b-[#E9EAEC]">
+                      <div key={index} onClick={() => toggleFaq(index)} className="w-full flex  px-3 py-4 items-center justify-between border-b border-b-[#E9EAEC] cursor-pointer">
+                        <p className='text-[16px] text-[#222222]  font-normal '>{item.question}</p>
+                        <IoIosArrowDown className={`text-[16px]  text-[#222222] transform ${activeIndex === index ? "rotate-180" : ""}`} />
+                      </div>
+                      <div
+                        className={`overflow-hidden transition-all w-full duration-300 ${activeIndex === index ? "max-h-75" : "max-h-0"
+                          }`}
+                      >
+                        <p className='w-full py-1 px-6  text-[16px] font-light text-[#222222] bg-[#F3F3F5]'>
+                          {item.answer}
+                        </p>
+                      </div>
+                    </div>
+                  )
+                })
+              }
             </div>
           </div>
         </div>

@@ -13,7 +13,7 @@ import BakiKart from '../assets/EcoSystem/BakiKart.svg'
 import BirBonus from '../assets/EcoSystem/BirBonus.svg'
 import BirID from '../assets/EcoSystem/BirId.svg'
 import BirPaySVG from '../assets/EcoSystem/BirPay.svg'
-
+import '../index.css'
 const EcoSystemContent = () => {
   return (
     <>
@@ -31,7 +31,7 @@ const EcoSystemContent = () => {
             <div className="flex flex-col w-[70%] gap-4 py-12 px-18">
               <h2 className='text-[32px] font-semibold text-white leading-10'>Qafqazın ilk tam inteqrasiyalı rəqəmsal platforması</h2>
               <p className='text-[16px] font-normal text-white'>Bir ekosistemi regionun rəqəmsal gələcəyini formalaşdıraraq milyonlarla insanı, biznesi və innovasiyanı bir çətir altında birləşdirir.</p>
-              <Link className='group px-16 py-4.5 inline-flex gap-2 w-fit items-center justify-center bg-white rounded-[10px]'>
+              <Link to='https://bir.az/storage/pages/121/invest-hero-0.mp4' target='_blank' className='group px-16 py-4.5 inline-flex gap-2 w-fit items-center justify-center bg-white rounded-[10px]'>
                 <BsCameraVideoFill className='group-hover:text-red-600  transition duration-200' />
                 <span className='text-[16px] font-normal text-black group-hover:text-red-600 transition duration-200'>Ekosistem videosunu izlə</span>
               </Link>

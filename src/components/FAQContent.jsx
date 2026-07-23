@@ -169,7 +169,7 @@ const FAQContent = () => {
                       </div>
 
                         <div className={`overflow-hidden w-full flex items-center justify-center transition-all duration-300 ${activeIndex === index ? "max-h-75" : "max-h-0"}`} >
-                          <p className='w-full px-8 py-10 text-[16px] font-extralight text-[#222222] bg-[#F3F3F5]'>
+                          <p className='w-full px-4 pt-6 pb-5 text-[14px] font-normal text-[#222222] bg-[#F3F3F5]'>
                             {fil.answer}
                           </p>
                         </div>

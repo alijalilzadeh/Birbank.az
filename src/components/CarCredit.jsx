@@ -288,26 +288,26 @@ const CarCredit = () => {
                 </div>
               </div>
             </div>
-            <div className="flex flex-col gap-5 items-center justify-center w-full my-15 bg-[#F9F9FA]">
-              <h2 className='text-[30px] text-[#222222] font-semibold my-10 text-start flex items-start'>Məlumatlar</h2>
-              <div className="inline-flex w-fit items-center justify-center bg-[#F3F3F5] rounded-[5px]  overflow-hidden">
-                {
-                  CarCreditInfo.map((item, id) => (
-                    <span onClick={() => setSelectedFaq(item.category)} key={id} className={`cursor-pointer p-2 ${selectedFaq === item.category ? "text-white bg-[#52575C] rounded-[5px]" : "text-black   bg-[#F3F3F5] hover:bg-[#A0A4A8] rounded-[5px]"} transition duration-200 text-[16px] px-5 font-semibold `}> {item.category}</span>
-                  ))
-                }
-              </div>
-              <div className="flex flex-col w-full items-center justify-center gap-1 my-3">
-                {
-                  filteredDescription?.description?.map((item, index) => (
-                    <div key={index} className="flex flex-col w-full items-center justify-center ">
-                      <p className='text-[16px] text-[#222222]  font-normal w-full'>
-                        {item.desc}
-                      </p>
-                    </div>
-                  ))
-                }
-              </div>
+            <h2 className='text-[30px] text-[#222222] font-semibold my-10 text-start flex items-start'>Məlumatlar</h2>
+          </div>
+          <div className="flex flex-col gap-5 items-center justify-center w-full my-15 bg-[#F9F9FA] py-6">
+            <div className="inline-flex w-fit items-center justify-center bg-[#F3F3F5] rounded-[5px]  overflow-hidden">
+              {
+                CarCreditInfo.map((item, id) => (
+                  <span onClick={() => setSelectedFaq(item.category)} key={id} className={`cursor-pointer p-2 ${selectedFaq === item.category ? "text-white bg-[#52575C] rounded-[5px]" : "text-black   bg-[#F3F3F5] hover:bg-[#A0A4A8] rounded-[5px]"} transition duration-200 text-[16px] px-5 font-semibold `}> {item.category}</span>
+                ))
+              }
+            </div>
+            <div className="flex flex-col w-[75%] items-center justify-center gap-1 my-3">
+              {
+                filteredDescription?.description?.map((item, index) => (
+                  <div key={index} className="flex flex-col w-full items-center justify-center ">
+                    <p className='text-[16px] text-[#222222]  font-normal w-full items-center justify-center '>
+                      {item.desc}
+                    </p>
+                  </div>
+                ))
+              }
             </div>
           </div>
         </div>

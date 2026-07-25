@@ -2,6 +2,8 @@ import React from 'react'
 import BirbankLogo from '../assets/birbank-logo.svg'
 import { NavLink, Link } from 'react-router-dom'
 import { useState, useEffect } from 'react';
+import creditBanner from '../assets/Credit/creditBanner.png'
+import { HiMiniArrowLongRight } from "react-icons/hi2";
 
 const SecondaryNavbar = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -15,24 +17,44 @@ const SecondaryNavbar = () => {
 
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-
+  const [linkStatus, setLinkStatus] = useState(false)
   const isScrolled = scrollY > 100;
   return (
     <>
-      <div className={`flex  w-full items-center justify-center py-5 ${isScrolled ? "fixed top-0 left-0 border-b-2 border-b-[#ebebf1]" : "mt-17.5 "} bg-white z-10  `}>
+      <div className={`flex flex-col  w-full items-center justify-center  ${isScrolled ? "fixed top-0 left-0 border-b-2 border-b-[#ebebf1]" : "mt-17.5 "} ${linkStatus && "pb-8"} bg-white z-10  relative`}>
         <div className="flex  w-[75%] items-center justify-between">
           <Link to="/" reloadDocument>
             <img src={BirbankLogo} className='w-30   object-cover' />
           </Link>
           <div className="flex gap-5 items-center justify-center">
             <NavLink to="/cards/all" className={'text-[14px] border-b-2 border-transparent hover:border-[#EC3342] text-[#9496AC] font-normal'} reloadDocument>Kartlar</NavLink>
-            <NavLink to='/kreditler' className={'text-[14px] border-b-2 border-transparent hover:border-[#EC3342] text-[#9496AC] font-normal'} reloadDocument>Kreditlər</NavLink>
+            <NavLink onMouseEnter={() => setLinkStatus(true)} onMouseLeave={() => setLinkStatus(false)} to='/kreditler' className={'text-[14px] border-b-2 border-transparent hover:border-[#EC3342] text-[#9496AC] font-normal'} reloadDocument>Kreditlər</NavLink>
             <NavLink className={'text-[14px] border-b-2 border-transparent hover:border-[#EC3342] text-[#9496AC] font-normal'} reloadDocument>Əmanətlər</NavLink>
             <NavLink to='/istiqraz' className={'text-[14px] border-b-2 border-transparent hover:border-[#EC3342] text-[#9496AC] font-normal'} reloadDocument>İstiqraz</NavLink>
             <NavLink to='/pul-kocurmeleri' className={'text-[14px] border-b-2 border-transparent hover:border-[#EC3342] text-[#9496AC] font-normal'} reloadDocument>Pul köçürmələri</NavLink>
             <NavLink to='/partners' className={'text-[14px] border-b-2 border-transparent hover:border-[#EC3342] text-[#9496AC] font-normal'} reloadDocument>Partnyorlar</NavLink>
             <NavLink to='/campaigns' className={'text-[14px] border-b-2 border-transparent hover:border-[#EC3342] text-[#9496AC] font-normal'} reloadDocument>Kampaniyalar</NavLink>
             <NavLink to='/news' className={'text-[14px] border-b-2 border-transparent hover:border-[#EC3342] text-[#9496AC] font-normal'} reloadDocument>Xəbərlər</NavLink>
+          </div>
+        </div>
+        <div onMouseEnter={() => setLinkStatus(true)} className={`flex items-center border-t border-t-[#ebebf1] justify-center w-full z-40  absolute top-full  bg-white  ${linkStatus ? "flex" : "hidden"}`}>
+          <div className={` flex justify-around w-full items-center `}>
+            <div className="inline-flex flex-col  text-start  gap-3 w-fit  pb-10">
+              <Link className='text-[14px] text-[#9496ac] font-normal'>Nağd pul krediti</Link>
+              <Link className='text-[14px] text-[#9496ac] font-normal'>Əmanət təminatlı kredit</Link>
+              <Link to='/avans' className='text-[14px] text-[#9496ac] font-normal' reloadDocument>Avans</Link>
+            </div>
+            <div className="flex items-center justify-start pl-6 py-4 w-[50%] bg-[#F3F3F5]">
+              <div className="flex flex-col gap-3 w-1/4 mr-10">
+                <h2 className='text-[24px] text-[#25282b] font-medium'>Nağd pul krediti</h2>
+                <p className='text-[16px] text-[#25282b] font-medium'>50000 AZN dək Nağd pul krediti</p>
+                <Link className='inline-flex items-center w-fit bg-[#ec3342] rounded-lg px-3 py-1 gap-2'>
+                  <span className='text-[14px] text-white  font-medium'>Sifariş et</span>
+                  <HiMiniArrowLongRight className='text-white' />
+                </Link>
+              </div>
+              <img src={creditBanner} className='object-cover items-center justify-center w-62.5' />
+            </div>
           </div>
         </div>
       </div>

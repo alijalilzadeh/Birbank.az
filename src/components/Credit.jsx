@@ -66,7 +66,6 @@ const Credit = () => {
 
               }
 
-
             </div>
           </div>
         </div>

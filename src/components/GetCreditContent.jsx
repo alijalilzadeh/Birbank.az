@@ -70,7 +70,35 @@ const getCreditContent = () => {
   ]
 
   const [activeIndex, setActiveIndex] = useState(null);
-
+  const cat = [
+    { desc: "Tez-tez verilən suallar" },
+    { desc: "Şərtlər" },
+    { desc: "Əlavə məlumatlar" }
+  ]
+  const descData = [
+    {
+      category: 'Şərtlər',
+      p : [
+        { desc: '- Krediti Kapital Bank və ya digər bankdan əmək haqqı/təqaüd alan şəxslər əldə edə bilər' },
+        { desc: '- Minimal yaş 18 olmalıdır, maksimal yaş isə kreditin son ödəniş tarixinədək 70 yaşı keçməməlidir' },
+        { desc: '- Son iş yerində staj minimum 3 ay olmalıdır. Təqaüdçü müştərilər üzrə staj tələbi mövcud deyil' },
+        { desc: '- Xüsusi hallarda zamin tələb edilə bilər' },
+        { desc: '- Digər banklarda krediti olanlara da kredit verilə bilər' },
+        { desc: '- Rəsmi gəliri olan şəxslər' },
+        { desc: '- FİFD: min. 10.9%-maks. 43.84% (6 ay-59 ay)' },
+        { desc: '- Nağd kredit üzrə ödənişlər gün ərzində saat 19:00-dək edildikdə həmin gün ödənilmiş hesab olunur. Qeyd edilən vaxtdan sonra həyata keçirilən ödənişlər isə növbəti iş günü icra edilmiş sayılır (müqavilədə və ya bank tərəfindən digər qayda nəzərdə tutulmamışdırsa).' },
+        { desc: '- Bank müştəriyə həmin kredit üzrə onunla bağlı risklərə təminat verilməsini nəzərdə tutan borcalanın həyatının ölüm halından və əmək qabiliyyətinin itirilməsi hallarından sığorta müqaviləsinin bağlanmasını təklif edir.' },
+      ]
+    },
+    {
+      category: 'Əlavə məlumatlar',
+      p : [
+        { desc: '- Nağd pul krediti, gündəlik və ya gözlənilməz maliyyə ehtiyaclarını qarşılamaq üçün çevik və etibarlı bir həll təqdim edir. Müxtəlif kredit məbləği və geri ödəniş müddəti seçimləri ilə bu məhsul büdcənə uyğun planlı maliyyə idarəsi imkanı yaradır. Kreditə müraciət prosesi sadə və sürətli olmaqla yanaşı, rəsmi gəliri olan şəxslər üçün əlverişli şərtlərlə təqdim olunur. Təqaüdçülərdən zamin və ya iş stajı tələbi qoyulmadan kredit verilməsi isə bu məhsulu daha da əlçatan edir. Əgər sən də maliyyə ehtiyaclarını rahatlıqla qarşılamaq və ödəmə prosesini öz imkanlarınıza uyğun şəkildə həyata keçirmək istəyirsənsə, Birbank tətbiqindən və ya sənə ən yaxın Birbank filialından faydalana bilərsiniz.' },
+      ]
+    }
+  ]
+  const [category, setCategory] = useState('Tez-tez verilən suallar');
+  const filteredData =  descData.find((it) => it.category === category)
   const toggleFaq = (index) => {
     if (activeIndex === index) {
       setActiveIndex(null)
@@ -171,40 +199,56 @@ const getCreditContent = () => {
           </div>
           <div className="flex flex-col my-12 justify-center item-start gap-0 w-full">
             <h2 className='text-[30px] font-semibold text-[#25282b]'>Bilmək faydalıdır</h2>
-            <div className="flex item-start  my-10">
-              <p className='px-5 py-2.5 text-white text-[16px] font-medium bg-[#EC3342] cursor-pointer rounded-[10px]'>Tez-tez verilən suallar</p>
-              <p className='px-5 py-2.5 text-[#9496ac] transition duration-100 hover:bg-[#D4D6DB] hover:text-[#25282b] text-[16px] font-medium cursor-pointer rounded-[10px]'>Şərtlər</p>
-              <p className='px-5 py-2.5 text-[#9496ac] text-[16px] font-medium transition duration-100 hover:bg-[#D4D6DB] hover:text-[#25282b] cursor-pointer  rounded-[10px]'>Əlavə məlumatlar</p>
+            <div className="inline-flex item-start w-fit  my-10">
+              {
+                cat.map((item, id) => (
+                  <p key={id} onClick={() => setCategory(item.desc)} className={`px-5 py-2.5  text-[16px] transition duration-100 font-medium ${item.desc === category ? "bg-[#EC3342] text-white" : "bg-white text-[#9498ac] hover:bg-[#D4D6DB] hover:text-black"}  cursor-pointer rounded-lg`}>{item.desc}</p>
+                ))
+              }
             </div>
             {
-              faqData.map((item, index) => (
-                <div key={index} className="flex flex-col w-full items-center justify-center ">
+              category === 'Tez-tez verilən suallar' ? (
 
-                  <div
-                    onClick={() => toggleFaq(index)}
-                    className="group flex border-b border-[#E9EAEC] w-full px-3 py-4 items-center hover:border-none justify-between cursor-pointer"
-                  >
-                    <p className='text-[16px] text-[#25282b] text-center font-normal transition duration-50 group-hover:text-[#A296AC] group-hover:border-none'>
-                      {item.question}
-                    </p>
+                faqData.map((item, index) => (
+                  <div key={index} className="flex flex-col w-full items-center justify-center ">
 
-                    <IoIosArrowDown
-                      className={`text-[16px] text-[#222222] transform ${activeIndex === index ? "rotate-180" : ""
+                    <div
+                      onClick={() => toggleFaq(index)}
+                      className="group flex border-b border-[#E9EAEC] w-full px-3 py-4 items-center hover:border-none justify-between cursor-pointer"
+                    >
+                      <p className='text-[16px] text-[#25282b] text-center font-normal transition duration-50 group-hover:text-[#A296AC] group-hover:border-none'>
+                        {item.question}
+                      </p>
+
+                      <IoIosArrowDown
+                        className={`text-[16px] text-[#222222] transform ${activeIndex === index ? "rotate-180" : ""
+                          }`}
+                      />
+                    </div>
+
+                    <div
+                      className={`overflow-hidden flex items-center justify-center transition-all duration-300 ${activeIndex === index ? "max-h-75" : "max-h-0"
                         }`}
-                    />
-                  </div>
+                    >
+                      <p className='w-full  px-8 py-10 text-[16px] font-extralight text-[#222222] bg-[#F3F3F5]'>
+                        {item.answer}
+                      </p>
+                    </div>
 
-                  <div
-                    className={`overflow-hidden flex items-center justify-center transition-all duration-300 ${activeIndex === index ? "max-h-75" : "max-h-0"
-                      }`}
-                  >
-                    <p className='w-full  px-8 py-10 text-[16px] font-extralight text-[#222222] bg-[#F3F3F5]'>
-                      {item.answer}
-                    </p>
                   </div>
+                ))
+              ) : (
+                <div className="flex flex-col items-start w-full gap-6">
+                  {
 
+                    filteredData.p.map((item,id)=> (
+                      <p className='text-[16px] font-light text-[#25282b]' key={id}>{item.desc}</p>
+                    ))
+                    
+                  }
                 </div>
-              ))
+              )
+
             }
           </div>
         </div>

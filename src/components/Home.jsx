@@ -6,7 +6,7 @@ import DownloadApp from './DownloadApp'
 import CalculateBenefit from './CalculateBenefit1'
 import Footer from './Footer'
 import LinkToCards from './LinkToCards'
-import Credits from './Credits'
+import Credits from './LayoutLink'
 import HomeNews from './HomeNews'
 import Services from './Services'
 

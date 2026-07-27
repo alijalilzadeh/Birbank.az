@@ -78,7 +78,7 @@ const DesignedLinks = () => {
                 <img src={BirbankStar} className='w-[228px] object-cover absolute right-0 bottom-0' />
               </div>
             </Link>
-            <Link to='/kreditler' className="col-span-3 row-span-3 col-start-4 bg-white rounded-[10px] w-full h-[180px] transition duration-300 hover:shadow-[0_6px_20px_0_rgba(19,22,60,0.06)] cursor-pointer" reloadDocument>
+            <Link to='/kredit-sifarisi' className="col-span-3 row-span-3 col-start-4 bg-white rounded-[10px] w-full h-[180px] transition duration-300 hover:shadow-[0_6px_20px_0_rgba(19,22,60,0.06)] cursor-pointer" reloadDocument>
               <div className="flex  items-center justify-between w-full h-full relative">
                 <div className="flex flex-col justify-between gap-1 px-[24px] py-[16px] w-[50%]">
                   <h2 className='text-[#25282B] text-[20px] font-[580]'>Nağd pul krediti</h2>

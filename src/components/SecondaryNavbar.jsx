@@ -31,10 +31,10 @@ const SecondaryNavbar = () => {
           <Link to="/" reloadDocument>
             <img src={BirbankLogo} className='w-30   object-cover' />
           </Link>
-          <div onMouseMove={() => setLinkStatus(true)} className="flex gap-5 items-center justify-center">
+          <div  className="flex gap-5 items-center justify-center">
             <NavLink to="/cards/all" className={'text-[14px] border-b-2 border-transparent hover:border-[#EC3342] text-[#9496AC] font-normal'} reloadDocument>Kartlar</NavLink>
-            <NavLink onMouseEnter={() => { setLinkStatus(true); setDropdown('Kreditler') }} onMouseLeave={() => setLinkStatus(false)} to='/kreditler' className={'text-[14px] border-b-2 border-transparent hover:border-[#EC3342] text-[#9496AC] font-normal'} reloadDocument>Kreditlər</NavLink>
-            <NavLink onMouseEnter={() => setDropdown('Emanetler')} className={'text-[14px] border-b-2 border-transparent hover:border-[#EC3342] text-[#9496AC] font-normal'} reloadDocument>Əmanətlər</NavLink>
+            <NavLink onMouseEnter={() => { setLinkStatus(true); setDropdown('Kreditler') }}  to='/kreditler' className={'text-[14px] border-b-2 border-transparent hover:border-[#EC3342] text-[#9496AC] font-normal'} reloadDocument>Kreditlər</NavLink>
+            <NavLink onMouseEnter={() =>{ setLinkStatus(true); setDropdown('Emanetler')}} className={'text-[14px] border-b-2 border-transparent hover:border-[#EC3342] text-[#9496AC] font-normal'} reloadDocument>Əmanətlər</NavLink>
             <NavLink to='/istiqraz' className={'text-[14px] border-b-2 border-transparent hover:border-[#EC3342] text-[#9496AC] font-normal'} reloadDocument>İstiqraz</NavLink>
             <NavLink to='/pul-kocurmeleri' className={'text-[14px] border-b-2 border-transparent hover:border-[#EC3342] text-[#9496AC] font-normal'} reloadDocument>Pul köçürmələri</NavLink>
             <NavLink to='/partners' className={'text-[14px] border-b-2 border-transparent hover:border-[#EC3342] text-[#9496AC] font-normal'} reloadDocument>Partnyorlar</NavLink>

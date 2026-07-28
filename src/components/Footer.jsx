@@ -12,16 +12,16 @@ const Footer = () => {
   return (
     <>
       <div className="flex justify-center w-full bg-[#25282B] selection:bg-[#B3D4FC]">
-        <div className="w-[75%] ">
-          <div className="flex items-start  py-10 justify-between gap-12 border-b-2 border-b-[#3B3F43]">
+        <div className="w-[95%] sm:w-[95%] md:w-[95%] lg:w-[75%] flex flex-col ">
+          <div className="flex flex-col items-center  py-10 justify-between gap-12 border-b-2 border-b-[#3B3F43] sm:flex-col sm:items-center md:items-center md:flex-col lg:flex-row lg:items-start">
             <div>
               <Link to="/">
-                <img src={BirbankLogo} className="w-55" />
+                <img src={BirbankLogo} className="w-65 sm:w-65 lg:w-55" />
               </Link>
             </div>
 
-            <div className="grid grid-cols-3 gap-10 flex-1">
-              <div className="flex flex-col gap-3">
+            <div className="grid grid-cols-3 gap-10 lg:flex-1 w-full justify-center  ">
+              <div className="flex flex-col justify-center items-center lg:items-start gap-3">
                 <Link to="/cards/all" className="text-white text-[16px] hover:underline" reloadDocument>Kartlar</Link>
                 <Link to='/avtomobil-krediti' className="text-white text-[16px] hover:underline" reloadDocument>Avtomobil krediti</Link>
                 <Link className="text-white text-[16px] hover:underline" reloadDocument>Xəbər</Link>
@@ -29,7 +29,7 @@ const Footer = () => {
                 <Link to='/bloqlar' className="text-white text-[16px] hover:underline" reloadDocument>Bloqlar</Link>
               </div>
 
-              <div className="flex flex-col gap-3">
+              <div className="flex flex-col justify-center items-center lg:items-start gap-3">
                 <Link className="text-white text-[16px] hover:underline">Partnyorlar</Link>
                 <Link to='/sigortalar' className="text-white text-[16px] hover:underline" reloadDocument>Sığortalar</Link>
                 <Link to='/tariffs' className="text-white text-[16px] hover:underline" reloadDocument>Tariflər</Link>
@@ -37,7 +37,7 @@ const Footer = () => {
                 <Link to='https://www.kapitalbank.az/reports' className="text-white text-[16px] hover:underline" reloadDocument>Kapital Bank Hesabatları</Link>
               </div>
 
-              <div className="flex flex-col gap-3">
+              <div className="flex flex-col justify-center items-center lg:items-start gap-3">
                 <Link to='/campaigns' className="text-white text-[16px] hover:underline" reloadDocument>Kampaniyalar</Link>
                 <Link to='/about-us' className="text-white text-[16px] hover:underline" reloadDocument>Haqqımızda</Link>
                 <Link to='/faq' className="text-white text-[16px] hover:underline" reloadDocument>FAQ</Link>
@@ -45,7 +45,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="flex items-center gap-6">
-              <div className="flex flex-col gap-3">
+              <div className="flex flex-row sm:flex-row lg:flex-col gap-3">
                 <Link
                   href="https://apps.apple.com/us/app/birbank/id1293207342"
                   className="flex items-center gap-3 border border-white rounded-[10px] px-4 py-2"
@@ -68,7 +68,7 @@ const Footer = () => {
                   </div>
                 </Link>
               </div>
-              <img src={QrCode} className="w-25" />
+              <img src={QrCode} className="hidden sm:hidden md:hidden lg:flex w-25" />
             </div>
           </div>
           <div className="flex items-center justify-between w-full py-4">

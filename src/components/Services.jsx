@@ -51,21 +51,21 @@ const Services = () => {
 
   return (
     <div className="flex items-center justify-center w-full my-24 section:bg-[#B3D4FC]">
-      <div className="flex flex-col gap-2 w-[75%]">
+      <div className="flex flex-col gap-2 w-full sm:w-[75%] md:w-[95%] md:gap-5 lg:w-[75%]">
 
         <h2 className='text-[#25282b] font-semibold text-[30px]'>
           {newsData.pageProps.messages.home.exchangeRate.services}
         </h2>
 
-        <div className="flex items-center gap-8 justify-between w-full">
+        <div className="flex  flex-col items-center justify-between w-full gap-8 sm:w-full md:w-full md:gap-9 lg:w-[50%] lg:flex-row lg:gap-8 ">
 
-          <div className="flex flex-col gap-4 w-[50%] rounded-xl bg-[#F9F9FA] p-6">
+          <div className="flex flex-col w-full gap-4  rounded-xl bg-[#F9F9FA] p-6">
 
-            <h2 className='text-[24px] text-[#222222] font-medium'>
+            <h2 className='text-[18px] sm:text-[18px] lg:text-[24px] text-[#222222] font-medium'>
               {newsData.pageProps.messages.home.exchangeRateTable.exchangeRates}
             </h2>
 
-            <div className="flex items-center">
+            <div className="flex  items-center">
               <button
                 onClick={() => setBuyStatus("buy")}
                 className={`rounded-md px-6 cursor-pointer text-[14px] py-2 ${buyStatus === "buy"
@@ -145,21 +145,21 @@ const Services = () => {
             </div>
 
           </div>
-          <div className="grid grid-cols-3 grid-rows-6 gap-4 w-[50%]">
+          <div className="grid grid-cols-3 grid-rows-6 gap-4 w-full sm:w-full md:w-full lg:w-[50%]">
             {newsData?.pageProps?.initialState?.home?.services?.map((item, index) => (
               <Link
                 to={item.link.href}
                 key={index}
-                className="group overflow-hidden relative col-span-3 row-span-2 flex items-center justify-between bg-[#F3F3F5] rounded-xl px-5.75 py-4"
+                className="group overflow-hidden relative col-span-3 row-span-2 flex flex-col   bg-[#F3F3F5] rounded-xl px-5.75 py-4 sm:flex-col sm:items-start md:flex-col md:items-start lg:flex-row lg:justify-between lg:items-center"
               >
-                <div className="flex flex-col gap-2 w-[50%]">
+                <div className="flex flex-col gap-2 w-full sm:w-full lg:w-[50%]">
                   <h2 className='text-[24px]'>{item.title}</h2>
                   <p className='text-[14px]'>{item.description}</p>
                 </div>
 
                 <img
                   src={item.image.data.attributes.formats.thumbnail.url}
-                  className='absolute bottom-0 right-5 w-60 transition group-hover:scale-[1.05]'
+                  className='self-center sm:self-center md:self-center lg:absolute bottom-0 right-5 w-60 transition group-hover:scale-[1.05]'
                 />
               </Link>
             ))}

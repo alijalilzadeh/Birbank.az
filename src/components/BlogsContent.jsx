@@ -29,7 +29,7 @@ const BlogsContent = () => {
             </div>
           </div>
           <div  className="flex  justify-between  w-full overflow-hidden rounded-[10px] ">
-            <div className="flex flex-col justify-between w-[60%]  py-12 px-18 bg-[#ec3342] gap-20">
+            <div className="flex flex-col justify-between w-[60%]  py-12 px-18 bg-[#ec3342] gap-20 ">
               <div className="flex flex-col gap-2">
                 <span className='rounded-xl bg-black text-[14px] inline-flex w-25 font-medium text-white items-center justify-center'>{blogData.pageProps.pageProps.data.attributes.bannerSlider[currentIndex].title}</span>
                 <h2 className='text-[32px] font-semibold text-white'>{blogData.pageProps.pageProps.data.attributes.bannerSlider[currentIndex].title}</h2>

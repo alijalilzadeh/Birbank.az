@@ -69,7 +69,7 @@ const CardsBlock = () => {
               <div className="flex flex-col items-start gap-2 p-4 sm:p-4  md:px-11.25 md:py-12 w-full sm:w-full sm:items-start sm:gap-2  md:w-[65%] md:gap-4 ">
                 <h2 className='text-[42px] text-white font-[650]'>Birbank Star</h2>
                 <p className='text-white hidden  text-[16px] font-medium sm:hidden md:flex'>30 000 ₼-dək kredit xətti olan bu kartda sadəlikdən rahatlığa, keşbeklərdən QR ödənişlərdə 2 qat ƏDV-yə qədər nə istəsən, var. Üstəlik…</p>
-                <div className="flex flex-col text-start items-start  sm:flex-col sm:items-start sm:text-start sm:gap-2 md:items-start md:flex-col lg:flex-row  lg:justify-between ">
+                <div className="flex flex-col text-start items-start  sm:flex-col sm:items-start sm:text-start sm:gap-2 md:items-start md:flex-col lg:flex-row lg:w-full  lg:justify-between ">
                   <div className="flex flex-col gap2">
                     <span className='text-white text-[20px] font-medium'>Çətin hesablamalar</span>
                     <span className='text-white text-[16px] font-light'>Yoxdur</span>
@@ -202,24 +202,24 @@ const CardsBlock = () => {
             </div>
           </div>
           <div className="flex flex-col items-center gap-7 justify-between my-5 sm:flex-col md:flex-row ">
-            <div className="flex flex-col items-center justify-between gap-5 w-full rounded-md px-5 py-6.25 bg-[#F9F9FA] h-full">
-              <div className="flex items-center gap-6 ">
+            <div className="flex flex-col items-start md:items-center justify-between gap-5 w-full rounded-md px-5 py-6.25 bg-[#F9F9FA] h-full">
+              <div className="flex items-start md:items-center gap-6 ">
                 <img src={SafetyRulesImg} className='w-12 ' />
                 <h2 className='text-[#222222] font-semibold text-[20px] max-w-[13ch] wrap-break-word'>Təhlükəsizlik qaydaları</h2>
               </div>
               <Link className='px-6.25 py-1.75 rounded-md text-[12px] border border-[#777A7D] text-[#2e3131] font-semibold transition duration-100 hover:bg-[#25282B] hover:text-white self-end'>Ətraflı</Link>
             </div>
 
-            <div className="flex flex-col items-center justify-between gap-5 w-full rounded-md px-5 py-6.25 bg-[#F9F9FA] h-full">
-              <div className="flex items-center  gap-6 ">
+            <div className="flex flex-col items-start md:items-center justify-between gap-5 w-full rounded-md px-5 py-6.25 bg-[#F9F9FA] h-full">
+              <div className="flex items-start md:items-center  gap-6 ">
                 <img src={KartEmeliyyat} className='w-12 ' />
                 <h2 className='text-[#222222] font-semibold text-[20px] max-w-[13ch] wrap-break-word'>Kartlar üzrə xidmətlər</h2>
               </div>
               <Link className='px-6.25 py-1.75 rounded-md text-[12px] border border-[#777A7D] text-[#2e3131] font-semibold transition duration-100 hover:bg-[#25282B] hover:text-white self-end'>Ətraflı</Link>
             </div>
 
-            <div className="flex flex-col items-center justify-between gap-5 w-full rounded-md px-5 py-6.25 bg-[#F9F9FA] h-full">
-              <div className="flex items-center gap-6 ">
+            <div className="flex flex-col items-start md:items-center justify-between gap-5 w-full rounded-md px-5 py-6.25 bg-[#F9F9FA] h-full">
+              <div className="flex items-start md:items-center gap-6 ">
                 <img src={KartinEynilesdirilmesi} className='w-12 ' />
                 <h2 className='text-[#222222] font-semibold text-[20px]'>Birbank kartlarının eyniləşdirilməsi</h2>
               </div>
@@ -249,7 +249,6 @@ const CardsBlock = () => {
                   )
                 })
               }
-
             </div>
           </div>
         </div>

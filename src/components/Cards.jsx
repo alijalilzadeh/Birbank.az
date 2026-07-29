@@ -6,12 +6,12 @@ import Footer from './Footer'
 
 const Cards = () => {
   return (
-    <>
+    <div className='w-full min-h-screen overflow-x-hidden'>
      <Navbar />
      <SecondaryNavbar />
      <CardsBlock />
      <Footer />
-    </>
+    </div>
   )
 }
 

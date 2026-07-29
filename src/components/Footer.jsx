@@ -20,8 +20,8 @@ const Footer = () => {
               </Link>
             </div>
 
-            <div className="grid grid-cols-3 gap-10 lg:flex-1 w-full justify-center  ">
-              <div className="flex flex-col justify-center items-center lg:items-start gap-3">
+            <div className="grid grid-cols-2 items-center sm:items-center sm:grid-cols-2 lg:grid-cols-3 gap-10 lg:flex-1 w-full justify-center  ">
+              <div className="flex flex-col justify-start items-center lg:items-start gap-3">
                 <Link to="/cards/all" className="text-white text-[16px] hover:underline" reloadDocument>Kartlar</Link>
                 <Link to='/avtomobil-krediti' className="text-white text-[16px] hover:underline" reloadDocument>Avtomobil krediti</Link>
                 <Link className="text-white text-[16px] hover:underline" reloadDocument>Xəbər</Link>
@@ -29,7 +29,7 @@ const Footer = () => {
                 <Link to='/bloqlar' className="text-white text-[16px] hover:underline" reloadDocument>Bloqlar</Link>
               </div>
 
-              <div className="flex flex-col justify-center items-center lg:items-start gap-3">
+              <div className="flex flex-col justify-start items-center lg:items-start gap-3">
                 <Link className="text-white text-[16px] hover:underline">Partnyorlar</Link>
                 <Link to='/sigortalar' className="text-white text-[16px] hover:underline" reloadDocument>Sığortalar</Link>
                 <Link to='/tariffs' className="text-white text-[16px] hover:underline" reloadDocument>Tariflər</Link>
@@ -37,11 +37,11 @@ const Footer = () => {
                 <Link to='https://www.kapitalbank.az/reports' className="text-white text-[16px] hover:underline" reloadDocument>Kapital Bank Hesabatları</Link>
               </div>
 
-              <div className="flex flex-col justify-center items-center lg:items-start gap-3">
+              <div className="flex flex-col justify-start items-center lg:items-start gap-3">
                 <Link to='/campaigns' className="text-white text-[16px] hover:underline" reloadDocument>Kampaniyalar</Link>
                 <Link to='/about-us' className="text-white text-[16px] hover:underline" reloadDocument>Haqqımızda</Link>
                 <Link to='/faq' className="text-white text-[16px] hover:underline" reloadDocument>FAQ</Link>
-                <Link to ='/ecosystem' className="text-white text-[16px] hover:underline" reloadDocument>Ekosistem</Link>
+                <Link to='/ecosystem' className="text-white text-[16px] hover:underline" reloadDocument>Ekosistem</Link>
               </div>
             </div>
             <div className="flex items-center gap-6">
@@ -52,7 +52,7 @@ const Footer = () => {
                 >
                   <img src={AppStore} className="w-5" />
                   <div className="flex flex-col">
-                    <h2 className="text-white text-[14px] font-bold">App Store</h2>
+                    <h2 className="text-white text-[16px] font-bold">App Store</h2>
                     <span className="text-white text-[10px]">mobil tətbiqi yükləyin</span>
                   </div>
                 </Link>
@@ -63,7 +63,7 @@ const Footer = () => {
                 >
                   <img src={GooglePlay} className="w-5" />
                   <div className="flex flex-col">
-                    <h2 className="text-white text-[14px] font-bold">Google Play</h2>
+                    <h2 className="text-white text-[16px] font-bold">Google Play</h2>
                     <span className="text-white text-[10px]">mobil tətbiqi yükləyin</span>
                   </div>
                 </Link>
@@ -71,10 +71,10 @@ const Footer = () => {
               <img src={QrCode} className="hidden sm:hidden md:hidden lg:flex w-25" />
             </div>
           </div>
-          <div className="flex items-center justify-between w-full py-4">
+          <div className="flex flex-col-reverse gap-3 items-start sm:gap-3 sm:items-start sm:flex-col-reverse md:flex-col-reverse md:items-start md:gap-4 lg:flex-row lg:items-center lg:justify-between w-full py-4">
             <span className='text-[12px] text-white'>© 2026 «Kapital Bank» ASC. Bütün hüquqlar qorunur.</span>
+            <Link className='text-[12px] text-white underline font-normal'>Məxfilik sənədi</Link>
             <div className="flex gap-6 items-center justify-center">
-              <Link className='text-[12px] text-white underline font-normal'>Məxfilik sənədi</Link>
               <p className='flex gap-2 items-center justify-center'>
                 <img src={PhoneLogo} className='w-5 object-fit' />
                 <span className='text-[24px] text-[#EC3432] font-bold'>196</span>
@@ -83,7 +83,6 @@ const Footer = () => {
               <Link to="https://www.facebook.com/birbank"><FaFacebook className='text-[24px] text-white' /></Link>
               <Link to="https://www.instagram.com/birbank.az/"><FaInstagram className='text-[24px] text-white' /></Link>
               <Link to="https://www.youtube.com/channel/UC1p5TDF6qfzUm4sPqSYSGUA"> <FaYoutube className='text-[24px] text-white' /></Link>
-
             </div>
           </div>
         </div>

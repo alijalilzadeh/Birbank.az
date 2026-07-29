@@ -25,46 +25,51 @@ const DesignedLinks = () => {
   return (
     <>
       <div className="flex items-center justify-center w-full  selection:bg-[#B3D4FC] ">
-        <div className="flex flex-col items-center w-[95%] sm:w-[90%] md:w-[90%] lg:w-[75%] bg-[rgb(243,243,245)] rounded-xl p-4 sm:p-6 gap-6">
-          <div className="overflow-hidden w-full">
-            <div className="flex transition-transform duration-500 ease-in-out" style={{transform: `translateX(-${currentIndex * 100}%)`,}}>
+        <div className="flex flex-col items-center  p-4 gap-0 w-[95%] sm:w-[75%] sm:gap-0 sm:p-6  md:w-[95%] lg:w-[75%] bg-[rgb(243,243,245)] rounded-xl lg:gap-6">
+          <div className="overflow-hidden w-full h-fit relative">
+            <div className="flex transition-transform duration-500 ease-in-out" style={{ transform: `translateX(-${currentIndex * 100}%)`, }}>
               {campaigns.map((item, index) => (
-                <div key={index} className="min-w-full flex items-center justify-between relative pl-6">
-                  <SlArrowLeft onClick={prevSlide} className="bg-white text-[34px] p-2 rounded-lg text-[#D4D6DB] cursor-pointer" />
-                  <div className="flex flex-col justify-between w-[40%] gap-6">
-                    <h2 className="text-[32px] md:text-[48px] font-normal md:font-bold text-[#25282b] leading-12">
+                <div key={index} className="min-w-full h-fit flex flex-col items-start md:flex-row md:items-center lg:flex-row  lg:justify-between relative gap-6  lg:px-6">
+                  <SlArrowLeft onClick={prevSlide} className="absolute            left-0 top-1/2  -translate-y-1/2   z-10   bg-white   text-[34px]  p-2 rounded-lg text-[#D4D6DB] cursor-pointer" />
+
+                  <div className="flex flex-col justify-between w-full md:w-[60%] md:pl-15.5 md:pt-18 lg:w-[40%] gap-6">
+                    <h2 className="text-[32px] md:text-[48px] font-medium sm:font-medium md:font-bold text-[#25282b] leading-tight">
                       {item.title}
                     </h2>
 
-                    <p className="text-[#80858a] text-[18px] leading-5"> {item.content}</p>
+                    <p className="text-[#80858a] text-[18px] leading-5">
+                      {item.content}
+                    </p>
 
-                    <div className="flex gap-4">
-                      <Link className="rounded-xl flex items-center px-7 py-3 bg-white text-[#ec3342] gap-2">
+                    <div className="flex flex-col sm:flex-col  lg:flex-row gap-4">
+                      <Link className="rounded-xl flex items-center  justify-center px-7 py-3 bg-white text-[#ec3342] gap-2 sm:w-auto">
                         <span>
                           {item.firstLink?.text}
                         </span>
-                        <HiArrowRight className='text-[#ec3342]' />
 
+                        <HiArrowRight className="text-[#ec3342]" />
                       </Link>
 
                       {item.secondLink && (
-                        <Link className="rounded-xl flex items-center px-7 py-3 bg-white text-[#ec3342] gap-2">
+                        <Link className="rounded-xl flex items-center justify-center px-7 py-3 bg-white text-[#ec3342] gap-2 sm:w-auto">
                           <span>
                             {item.secondLink.text}
                           </span>
-                          <HiArrowRight className='text-[#ec3342]' />
+
+                          <HiArrowRight className="text-[#ec3342]" />
                         </Link>
                       )}
                     </div>
                   </div>
 
-                  <img src={item.photo?.data?.attributes?.formats?.small?.url} className="object-cover w-40 sm:w-70 md:90 lg:w-120 h-75" /> 
-                  <SlArrowRight onClick={nextSlide} className="bg-white text-[34px] p-2 rounded-lg text-[#D4D6DB] cursor-pointer" />
+                  <img src={item.photo?.data?.attributes?.formats?.small?.url} className=" object-cover w-117 sm:w-111.5 md:w-92 lg:w-120 h-auto"/>
+
+                  <SlArrowRight onClick={nextSlide} className=" absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-white text-[34px] p-2 rounded-lg text-[#D4D6DB] cursor-pointer"/>
                 </div>
               ))}
             </div>
           </div>
-          <div className="grid grid-cols-6  gap-6  w-full  items-center ">
+          <div className="grid grid-cols-6  gap-6  w-full  items-center  ">
             <Link className="col-span-6 row-span-3 md:col-span-6 lg:col-span-3 bg-white rounded-[10px] w-full h-45 transition duration-300 hover:shadow-[0_6px_20px_0_rgba(19,22,60,0.06)] cursor-pointer">
               <div className="flex  items-center justify-between w-full h-full relative">
                 <div className="flex flex-col justify-between gap-1 px-6 py-4 w-[50%]">

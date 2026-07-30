@@ -6,12 +6,12 @@ import Footer from './Footer'
 import { Link } from 'react-router-dom'
 const aboutUs = () => {
   return (
-    <>
+    <div className='w-full min-h-screen overflow-x-hidden'>
       <Navbar />
       <SecondaryNavbar />
       <>
         <div className="flex flex-col items-center justify-center w-full selection:bg-[#B3D4FC] mb-20">
-          <div className="flex flex-col w-[75%]">
+          <div className="flex flex-col w-[95%] sm:w-[75%] md:w-[95%] lg:w-[75%]">
             <div className="flex flex-col w-full">
               <h2 className='text-[24px] font-bold text-[#25282b] my-4'>Haqqımızda</h2>
               <div className="flex gap-2 my-3">
@@ -27,7 +27,7 @@ const aboutUs = () => {
               </p>
               <h2 className='text-[18px] font-bold text-[#222222]'>Dəyərlərimiz</h2>
               <p className='text-[16px] font-light text-[#222222]'>
-                <span className='text-[18px] font-bold text-[#222222]'>Dürüstlük - </span>
+                <span className='text-[16px] font-bold text-[#222222]'>Dürüstlük - </span>
                 Biznesimizin təməlində dürüstlüyə tam sadiqlik dayanır. Bizim üçün bu, həmişə və hər zaman, hətta heç kəsin müşahidə etmədiyi
                 halda belə yalnız düzgün olan addımı atmaq deməkdir. Ən bəsit səviyyədə bu, fəaliyyət göstərdiyimiz ölkənin qanunlarına və qaydalarına
                 hörmətlə yanaşmaqdır. Dürüstlük hətta çətinliklərlə üz-üzə qaldıqda belə şirkətin davranış qaydalarına sadiq qalmaq deməkdir.
@@ -38,7 +38,7 @@ const aboutUs = () => {
               </p>
 
               <p className='text-[16px] font-light text-[#222222]'>
-                <span className='text-[18px] font-bold text-[#222222]'>Keyfiyyət - </span>
+                <span className='text-[16px] font-bold text-[#222222]'>Keyfiyyət - </span>
                 Kənardakılar həmişə verdiyimiz məhsulun və ya göstərdiyimiz xidmətin keyfiyyətinə əsasən bizə qiymət verəcək.
                 İşimizin keyfiyyəti heyətimizin fədakarlığı və peşəkarlığı ilə düz mütənasibdir. Bundan yan keçmək mümkün deyil.
                 Biz həmişə qoyduğumuz standartlara riayət edirik, gecə və gündüz vədimizə əməl edirik - optimal nəticələr əldə etmək üçün diqqətli şəkildə keyfiyyəti
@@ -49,7 +49,7 @@ const aboutUs = () => {
               </p>
 
               <p className='text-[16px] font-light text-[#222222]'>
-                <span className='text-[18px] font-bold text-[#222222]'>Əməkdaşlıq  - </span>
+                <span className='text-[16px] font-bold text-[#222222]'>Əməkdaşlıq  - </span>
                 Biz departamentlər, biznes bölmələri və ölkələr boyunca vahid komanda şəklində işləyərkən fenomenal nəticələrə nail oluruq. Müştərilərimiz,
                 tərəfdaşlarımız və təchizatçılarımızla əməkdaşlıq edərkən bazardakı gözləntiləri artıqlaması ilə üstələyirik. Bu sinerjilərin təsiri fərdi
                 surətdə qoyulan istənilən töhfədən dəfələrlə böyükdür. Əməkdaşlıq sağlam iş mühiti yaradır və daha yüksək səmərəliliyə gətirib çıxarır.
@@ -61,7 +61,7 @@ const aboutUs = () => {
               </p>
 
               <p className='text-[16px] font-light text-[#222222]'>
-                <span className='text-[18px] font-bold text-[#222222]'>Sahibkarlıq Ruhu  - </span>
+                <span className='text-[16px] font-bold text-[#222222]'>Sahibkarlıq Ruhu  - </span>
                 Ətrafımızdakı dünya daima dəyişməkdədir və buna görə də, biz çox vaxt qeyri-müəyyənliklə işləməli oluruq.
                 Biz yeni imkanlar axtarırıq və iri addımlar atmağa - digərlərinin cəsarət etmədiklərini etməyə və gedə
                 bilmədikləri yerlərə getməyə hazırıq. Komandamız çətinliklərdən qorxmur, əksinə, onları artım üçün fürsət kimi
@@ -73,7 +73,7 @@ const aboutUs = () => {
               </p>
 
               <p className='text-[16px] font-light text-[#222222]'>
-                <span className='text-[18px] font-bold text-[#222222]'>Gəlirlilik   - </span>
+                <span className='text-[16px] font-bold text-[#222222]'>Gəlirlilik   - </span>
                 Biz öz səhmdarlarımızın və yekun etibarilə cəmiyyətin xeyrinə mənfəət və fayda yaradırıq.
                 Əslində, bu gün qazanılan mənfəət gələcəkdə biznesin dayanıqlı və rəqabətədavamlı olmasına təminat verir.
                 Heyətimiz başa düşür ki, qazanılan hər bir manatla yanaşı qənaət edilən hər bir manat dəyər gətirir. Eyni zamanda,
@@ -86,13 +86,13 @@ const aboutUs = () => {
               </p>
 
               <span className='text-[#82848a] text-[14px] font-light'>Şirkət adı:</span>
-              <span className='text-[18px] font-bold text-[#222222]'>“Kapital Bank” ASC </span>
+              <span className='text-[16px] font-bold text-[#222222]'>“Kapital Bank” ASC </span>
 
               <span className='text-[#82848a] text-[14px] font-light'>Hüquqi ünvan:</span>
               <div className="flex flex-col gap">
 
-                <span className='text-[18px] font-bold text-[#222222]'>Azərbaycan Respublikası, AZ1010  </span>
-                <span className='text-[18px] font-bold text-[#222222]'>Bakı şəh., Nəsimi r-nu, Neftçilər pr. 153 </span>
+                <span className='text-[16px] font-bold text-[#222222]'>Azərbaycan Respublikası, AZ1010  </span>
+                <span className='text-[16px] font-bold text-[#222222]'>Bakı şəh., Nəsimi r-nu, Neftçilər pr. 153 </span>
               </div>
 
             </div>
@@ -100,7 +100,7 @@ const aboutUs = () => {
         </div>
       </>
       <Footer />
-    </>
+    </div>
   )
 }
 

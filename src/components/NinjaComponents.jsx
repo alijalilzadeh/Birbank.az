@@ -94,32 +94,32 @@ const NinjaComponents = () => {
   return (
     <>
       <div className="flex flex-col items-center justify-center w-full selection:bg-[#B3D4FC]">
-        <div className="flex flex-col w-[75%]">
+        <div className="flex flex-col w-[95%] sm:w-[75%] md:w-[95%] lg:w-[75%]">
           <div className="flex flex-col w-full">
             <div className="flex gap-2 my-3">
               <Link className='text-[14px] p-3.75 text-[#6D7478]' to="/" reloadDocument>Ana Səhifə</Link>              
               <Link className=' text-[#25282b] text-[14px] p-3.75 pl-0' to="/ninja">Ninja təklifi</Link>
             </div>
           </div>
-          <div className="flex  justify-between  w-full bg-[linear-gradient(98.65deg,#7D0018_0%,#CA154A_100%)] rounded-[10px]">
-            <div className="flex w-[60%] items-center py-12 px-18">
+          <div className="flex flex-col  justify-between bg-[linear-gradient(98.65deg,#87001A_0%,#960526_100%)]  w-full sm:bg-[linear-gradient(98.65deg,#87001A_0%,#960526_100%)] lg:bg-[linear-gradient(98.65deg,#5A0011_0%,#B81041_100%)] rounded-[10px] sm:flex-col md:flex-col lg:flex-row">
+            <div className="flex w-full items-center px-4 pt-12 sm:w-full md:w-full md:px-4 md:pt-12 md:pb-0  lg:py-12 lg:px-18  lg:w-[60%] ">
               <h2 className='text-[32px] font-semibold text-white'>Ninja təklifi ilə xərcləri hissələrə bölüb, ödəyin!</h2>
             </div>
-            <div className="flex items-center justify-center w-[50%] py-12 px-2.5 ">
-              <img src={ninjaCardImg} className='w-86.5 object-cover flex' />
+            <div className="flex items-center justify-center w-full sm:w-full lg:w-[50%] py-12 px-2.5 ">
+              <img src={ninjaCardImg} className='w-75 sm:w-full lg:w-86.5 object-cover flex' />
             </div>
           </div>
         </div>
-        <div className="flex flex-col justify-center w-full ">
-          <div className="flex  justify-center w-[40%]">
-            <h2 className='text-[30px] font-semibold text-[#222222] mt-12 mb-7.5'>Bilmək lazımdır</h2>
+        <div className="flex flex-col justify-center  w-full">
+          <div className="flex  w-full sm:w-full md:w-full lg:w-[40%] lg:p-0">
+            <h2 className='text-[30px] font-semibold text-[#222222] mx-0 px-4 sm:mx-37.3 sm:px-4   mt-12 mb-7.5 w-full lg:mx-44'>Bilmək lazımdır</h2>
           </div>
           <div className="flex flex-col items-center justify-center w-full bg-[#F9F9FA] py-6 mb-10" >
             <div className="flex items-center justify-center">
-              <span onClick={() => setStatus(true)} className={`inline-flex items-center justify-center ${status ? " text-white  bg-[#52575c]" : " text-black bg-[#e7e8ea]"}  font-bold text-[16px] cursor-pointer rounded-[5px] py-px px-1.5 w-70.5 h-10`}>Haqqında</span>
-              <span onClick={() => setStatus(false)} className={`inline-flex items-center justify-center cursor-pointer ${status ? " text-black bg-[#e7e8ea]" : "  text-white  bg-[#52575c]"}   font-bold text-[16px]  rounded-[5px] py-px px-1.5 w-70.5 h-10 transition duration-200 hover:bg-[#A0A4A8]`}>FAQ</span>
+              <span onClick={() => setStatus(true)} className={`inline-flex items-center justify-center ${status ? " text-white  bg-[#52575c]" : " text-black bg-[#e7e8ea]"}  font-bold text-[16px] cursor-pointer rounded-[5px] py-2 px-1.5 w-60 sm:w-30 md:w-45 lg:w-70.5 h-10`}>Haqqında</span>
+              <span onClick={() => setStatus(false)} className={`inline-flex items-center justify-center cursor-pointer ${status ? " text-black bg-[#e7e8ea]" : "  text-white  bg-[#52575c]"}   font-bold text-[16px]  rounded-[5px] py-2 px-1.5 w-60 sm:w-30 md:w-45 lg:w-70.5 h-10 transition duration-200 hover:bg-[#A0A4A8]`}>FAQ</span>
             </div>
-            <div className='w-[70%]'>
+            <div className='w-[95%] sm:w-[95%] lg:w-[70%] mt-4'>
               {status ? (
                 <>
                   <div className="flex flex-col gap-2 my-10 justify-center w-full">
@@ -143,45 +143,45 @@ const NinjaComponents = () => {
                   <div className="flex flex-col w-full items-center justify-center ">
 
                     <div className="flex items-center w-full justify-between mb-5">
-                      <p className='text-[#ec3342] font-semibold text-[16px] pl-6'>Müddət</p>
-                      <p className='text-[#ec3342] font-semibold text-[16px]'>ATM Nağdlaşdırma</p>
-                      <p className='text-[#ec3342] font-semibold text-[16px]'>Kartdan karta köçürmə</p>
-                      <p className='text-[#ec3342] font-semibold text-[16px]'>Alış-Veriş</p>
+                      <p className='text-[#ec3342] font-semibold text-[13px] sm:text-[14px] md:text-[14px] lg:text-[16px] pl-6 text-center'>Müddət</p>
+                      <p className='text-[#ec3342] font-semibold text-[13px] sm:text-[14px] md:text-[14px] lg:text-[16px] pl-6 text-center'>ATM Nağdlaşdırma</p>
+                      <p className='text-[#ec3342] font-semibold text-[13px] sm:text-[14px] md:text-[14px] lg:text-[16px] pl-6 text-center'>Kartdan karta köçürmə</p>
+                      <p className='text-[#ec3342] font-semibold text-[13px] sm:text-[14px] md:text-[14px] lg:text-[16px] pl-6  text-center' >Alış-Veriş</p>
                     </div>
 
                     <div className="flex items-center  w-full justify-between bg-white rounded-sm">
-                      <p className='text-[#25282b] font-light text-[16px] pl-6 py-2.5'>3 ay</p>
-                      <p className='text-[#25282b] font-light text-[16px] p-2.5'>	8.0%</p>
-                      <p className='text-[#25282b] font-light text-[16px]  p-2.5'>8.0%</p>
-                      <p className='text-[#25282b] font-light text-[16px] p-2.5'>6.0%</p>
+                      <p className='text-[#25282b] font-light text-[12px] sm:text-[14px] md:text-[15px] lg:text-[16px] pl-6 py-2.5 text-center'>3 ay</p>
+                      <p className='text-[#25282b] font-light text-[12px] sm:text-[14px] md:text-[15px] lg:text-[16px] pl-6 py-2.5 text-center'>8.0%</p>
+                      <p className='text-[#25282b] font-light text-[12px] sm:text-[14px] md:text-[15px] lg:text-[16px] pl-6 py-2.5 text-center'>8.0%</p>
+                      <p className='text-[#25282b] font-light text-[12px] sm:text-[14px] md:text-[15px] lg:text-[16px] pl-6 py-2.5 text-center'>6.0%</p>
                     </div>
 
                     <div className="flex items-center  w-full justify-between bg-[#F9F9FA] rounded-sm">
-                      <p className='text-[#25282b] font-light text-[16px] pl-6 py-2.5'>6 ay</p>
-                      <p className='text-[#25282b] font-light text-[16px] p-2.5'>	12.5%</p>
-                      <p className='text-[#25282b] font-light text-[16px]  p-2.5'>12.5%</p>
-                      <p className='text-[#25282b] font-light text-[16px] p-2.5'>10.0%</p>
+                      <p className='text-[#25282b] font-light text-[12px] sm:text-[14px] md:text-[15px] lg:text-[16px] pl-6 py-2.5 text-center'>6 ay</p>
+                      <p className='text-[#25282b] font-light text-[12px] sm:text-[14px] md:text-[15px] lg:text-[16px] pl-6 py-2.5 text-center'>12.5%</p>
+                      <p className='text-[#25282b] font-light text-[12px] sm:text-[14px] md:text-[15px] lg:text-[16px] pl-6 py-2.5 text-center'>12.5%</p>
+                      <p className='text-[#25282b] font-light text-[12px] sm:text-[14px] md:text-[15px] lg:text-[16px] pl-6 py-2.5 text-center'>10.0%</p>
                     </div>
 
                     <div className="flex items-center  w-full justify-between bg-white rounded-sm">
-                      <p className='text-[#25282b] font-light text-[16px] pl-6 py-2.5'>12 ay</p>
-                      <p className='text-[#25282b] font-light text-[16px] p-2.5'>	19.5%</p>
-                      <p className='text-[#25282b] font-light text-[16px]  p-2.5'>19.5%</p>
-                      <p className='text-[#25282b] font-light text-[16px] p-2.5'>17.0%</p>
+                      <p className='text-[#25282b] font-light text-[12px] sm:text-[14px] md:text-[15px] lg:text-[16px] pl-6 py-2.5 text-center'>12 ay</p>
+                      <p className='text-[#25282b] font-light text-[12px] sm:text-[14px] md:text-[15px] lg:text-[16px] pl-6 py-2.5 text-center'>19.5%</p>
+                      <p className='text-[#25282b] font-light text-[12px] sm:text-[14px] md:text-[15px] lg:text-[16px] pl-6 py-2.5 text-center'>19.5%</p>
+                      <p className='text-[#25282b] font-light text-[12px] sm:text-[14px] md:text-[15px] lg:text-[16px] pl-6 py-2.5 text-center'>17.0%</p>
                     </div>
 
                     <div className="flex items-center  w-full justify-between bg-[#F9F9FA] rounded-sm">
-                      <p className='text-[#25282b] font-light text-[16px] pl-6 py-2.5'>18 ay</p>
-                      <p className='text-[#25282b] font-light text-[16px] p-2.5'>	26.0%</p>
-                      <p className='text-[#25282b] font-light text-[16px]  p-2.5'>26.0%</p>
-                      <p className='text-[#25282b] font-light text-[16px] p-2.5'>24.0%</p>
+                      <p className='text-[#25282b] font-light text-[12px] sm:text-[14px] md:text-[15px] lg:text-[16px] pl-6 py-2.5 text-center'>18 ay</p>
+                      <p className='text-[#25282b] font-light text-[12px] sm:text-[14px] md:text-[15px] lg:text-[16px] pl-6 py-2.5 text-center'>26.0%</p>
+                      <p className='text-[#25282b] font-light text-[12px] sm:text-[14px] md:text-[15px] lg:text-[16px] pl-6 py-2.5 text-center'>26.0%</p>
+                      <p className='text-[#25282b] font-light text-[12px] sm:text-[14px] md:text-[15px] lg:text-[16px] pl-6 py-2.5 text-center'>24.0%</p>
                     </div>
 
                     <div className="flex items-center  w-full justify-between bg-white rounded-sm">
-                      <p className='text-[#25282b] font-light text-[16px] pl-6 py-2.5'>22 ay</p>
-                      <p className='text-[#25282b] font-light text-[16px] p-2.5'>	30.0%</p>
-                      <p className='text-[#25282b] font-light text-[16px]  p-2.5'>30.0%</p>
-                      <p className='text-[#25282b] font-light text-[16px] p-2.5'>28.0%</p>
+                      <p className='text-[#25282b] font-light text-[12px] sm:text-[14px] md:text-[15px] lg:text-[16px] pl-6 py-2.5 text-center'>22 ay</p>
+                      <p className='text-[#25282b] font-light text-[12px] sm:text-[14px] md:text-[15px] lg:text-[16px] pl-6 py-2.5 text-center'>30.0%</p>
+                      <p className='text-[#25282b] font-light text-[12px] sm:text-[14px] md:text-[15px] lg:text-[16px] pl-6 py-2.5 text-center'>30.0%</p>
+                      <p className='text-[#25282b] font-light text-[12px] sm:text-[14px] md:text-[15px] lg:text-[16px] pl-6 py-2.5 text-center'>28.0%</p>
                     </div>
                   </div>
                   <div className="flex items-center gap-2 pl-4 my-5">

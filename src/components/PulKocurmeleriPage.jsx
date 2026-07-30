@@ -47,24 +47,24 @@ const PulKocurmeleriPage = () => {
   return (
     <>
       <div className="flex  items-center justify-center w-full selection:bg-[#B3D4FC]">
-        <div className="flex flex-col justify-center w-[75%] gap-7">
+        <div className="flex flex-col justify-center w-[95%] sm:w-[65%] md:w-[95%] lg:w-[75%] gap-7">
           <div className="flex flex-col justify-center  gap-7">
             <div className="flex gap-2 items-center">
               <Link className='text-[14px] p-3.75 text-[#6D7478]' to="/" reloadDocument>Ana Səhifə</Link>              
               <Link to='/pul-kocurmeleri' className='text-[14px] text-[#25282b] font-normal py-3.75'>Pul köçürmələri</Link>
             </div>
-            <div className="flex items-center justify-between w-full relative rounded-[10px] bg-[linear-gradient(98.65deg,rgb(236,50,66)_0%,rgb(153,0,0)_100%)]">
-              <div className="flex flex-col gap-3 px-18 py-24 w-[60%]">
+            <div className="flex flex-col gap-4 sm:gap-6 sm:flex-col md:flex-col md:gap-6 lg:flex-row lg:gap-0 items-center justify-between w-full relative rounded-[10px] bg-[linear-gradient(98.65deg,rgb(236,50,66)_0%,rgb(153,0,0)_100%)]">
+              <div className="flex flex-col gap-3 pt-12  pl-4 sm:pt-12 sm:pl-4 lg:px-18 lg:py-24 w-full sm:w-full md:w-full lg:w-[60%]">
                 <h2 className='text-[32px] text-white font-semibold'>Pul köçürmələri</h2>
                 <p className='text-[16px] text-white font-normal'>Kapital Bankın təklif etdiyi pul köçürmə xidməti ilə ölkədaxili və beynəlxalq pul köçürmələri et. Dünyanın istənilən ölkəsinə qısa müddətdə pul göndər.</p>
               </div>
-              <img src={MoneyTransfersBg} className='absolute bottom-0 right-10 w-1003h-75ect-contain ' />
+              <img src={MoneyTransfersBg} className='lg:absolute bottom-0 right-10 w-94 h-75 sm:w-70 sm:h-75 lg:w-103 lg:h-75 object-contain ' />
             </div>
 
 
-            <div className="grid grid-cols-6 gap-6">
-              <div className="group flex items-center justify-between col-span-3 row-span-3 overflow-hidden relative w-full h-60 rounded-[10px] bg-[#F9F9FA]">
-                <div className="flex flex-col  justify-between h-full w-[50%] px-624px] pb-8.5">
+            <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-6">
+              <div className="group flex items-center justify-between overflow-hidden relative w-full h-60 rounded-[10px] bg-[#F9F9FA]">
+                <div className="flex flex-col  justify-between h-full w-[65%] sm:w-[65%] lg:w-[50%] px-6 pt-6 pb-8.5">
                   <div className="flex flex-col gap-4">
                     <h2 className='text-[24px] font-medium text-[#222222]'>Zolotaya Korona</h2>
                     <p className='text-[14px] font-light text-[#222222]'>Ən qısa zamanda vəsaiti lazımı ünvana çatdırmaq üçün "Zolotaya Korona" var</p>
@@ -78,8 +78,8 @@ const PulKocurmeleriPage = () => {
                 </div>
                 <img src={ZolotayaKorona} className='w-auto object-contain  absolute bottom-0 right-0 pointer-events-none' />
               </div>
-              <div className="col-span-3 row-span-3 col-start-4 overflow-hidden relative w-full h-60 rounded-[10px] bg-[#F9F9FA]">
-                <div className="flex flex-col  justify-between h-full w-[50%] px-6 pt-6 pb-8.5">
+              <div className=" overflow-hidden relative w-full h-60 rounded-[10px] bg-[#F9F9FA]">
+                <div className="flex flex-col  justify-between h-full w-[65%] sm:w-[65%] lg:w-[50%] px-6 pt-6 pb-8.5">
                   <div className="flex flex-col gap-4">
                     <h2 className='text-[24px] font-medium text-[#222222]'>Xəzri</h2>
                     <p className='text-[14px] font-light text-[#222222]'>Sürətli pul köçürmə sistemi</p>
@@ -93,8 +93,8 @@ const PulKocurmeleriPage = () => {
                 </div>
                 <img src={Xezri} className='w-auto object-contain  absolute bottom-0 right-0 pointer-events-none' />
               </div>
-              <div className="col-span-3 row-span-3 row-start-4 overflow-hidden relative w-full h-60 rounded-[10px] bg-[#F9F9FA]">
-                <div className="flex flex-col  justify-between h-full w-[50%] px-6 pt-6 pb-8.5">
+              <div className=" overflow-hidden relative w-full h-60 rounded-[10px] bg-[#F9F9FA]">
+                <div className="flex flex-col  justify-between h-full w-[65%] sm:w-[65%] lg:w-[50%] px-6 pt-6 pb-8.5">
                   <div className="flex flex-col gap-4">
                     <h2 className='text-[24px] font-medium text-[#222222]'>Western Union</h2>
                     <p className='text-[14px] font-light text-[#222222]'>Western Union sistemi dünyada ən iri pul köçürmə sistemi olaraq, bu sahədə liderdir.</p>
@@ -108,8 +108,8 @@ const PulKocurmeleriPage = () => {
                 </div>
                 <img src={WesternUnion} className='w-auto object-contain  absolute bottom-0 right-0 pointer-events-none' />
               </div>
-              <div className="col-span-3 row-span-3 col-start-4 row-start-4 overflow-hidden relative w-full h-60 rounded-[10px] bg-[#F9F9FA]">
-                <div className="flex flex-col  justify-between h-full w-[50%] px-6 pt-6 pb-8.5">
+              <div className=" overflow-hidden relative w-full h-60 rounded-[10px] bg-[#F9F9FA]">
+                <div className="flex flex-col  justify-between h-full w-[65%] sm:w-[65%] lg:w-[50%] px-6 pt-6 pb-8.5">
                   <div className="flex flex-col gap-4">
                     <h2 className='text-[24px] font-medium text-[#222222]'>Birbankla istənilən karta pul köçürün!</h2>
                     <p className='text-[14px] font-light text-[#222222]'>Artıq Birbankla telefonunuzdan istənilən bank kartına asanlıqla pul göndərə bilərsiniz.</p>
@@ -127,7 +127,7 @@ const PulKocurmeleriPage = () => {
 
             <div className="flex flex-col gap-8 w-full mt-12 mb-8 items-center justify-center">
               <h2 className='text-left self-start text-[30px] text-[#222222] font-semibold'>Tez-tez verilən suallar</h2>
-              <div className="flex flex-col  w-[80%]">
+              <div className="flex flex-col   w-full sm:w-full  md:w-[80%]">
                 {
                   faqData.map((item, index) => {
                     return (

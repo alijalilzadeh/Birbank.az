@@ -6,12 +6,12 @@ import Footer from './Footer'
 import PulKocurmeleriPage from './PulKocurmeleriPage'
 const PulKocurmeleri = () => {
   return (
-    <>
+    <div className='w-full min-h-screen overflow-x-hidden'>
       <Navbar />
       <SecondaryNavbar />
       <PulKocurmeleriPage />
       <Footer />
-    </>
+    </div>
   )
 }
 

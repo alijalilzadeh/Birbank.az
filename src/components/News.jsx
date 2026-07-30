@@ -5,12 +5,12 @@ import Footer from './Footer'
 import NewsBlock from './NewsBlock'
 const News = () => {
   return (
-    <>
+    <div className='w-full min-h-screen overflow-x-hidden'>
       <Navbar />
       <SecondaryNavbar />
       <NewsBlock />
       <Footer />
-    </>
+    </div>
   )
 }
 

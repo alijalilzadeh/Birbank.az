@@ -35,7 +35,7 @@ const Credit = () => {
       <>
         <div className="flex flex-col items-center justify-center  selection:bg-[#B3D4FC] mb-20 ">
           <div className="flex flex-col w-[95%] sm:w-[65%] md:w-full lg:w-[75%]">
-            <div className="flex flex-col-reverse p-4  sm:flex-col-reverse sm:items-center sm:justify-center md:flex-col-reverse lg:flex-row justify-between sm:p-4  lg:p-12 w-full bg-[linear-gradient(265deg,_#fff1d3_8.07%,_#f3f4f6_70.76%)] rounded-[20px] relative overflow-hidden mb-20">
+            <div className="flex flex-col-reverse p-4  sm:flex-col-reverse sm:items-center sm:justify-center md:flex-col-reverse lg:flex-row justify-between sm:p-4  lg:p-12 w-full bg-[linear-gradient(265deg,#fff1d3_8.07%,#f3f4f6_70.76%)] rounded-[20px] relative overflow-hidden mb-20">
               <div className="flex justify-between flex-col w-full sm:w-full lg:w-[50%] gap-10 ">
                 <div className="flex flex-col gap-4 mt-2 sm:mt-2 lg:mt-0">
                   <h2 className='w-full text-center text-[36px]  sm:text-center sm:w-full md:w-full md:text-[36px] lg:text-[40px] lg:text-start font-bold text-[#25282b] leading-10'>İstəyinizə uyğun nağd pul krediti onlayn əldə edin!</h2>
@@ -51,7 +51,7 @@ const Credit = () => {
             <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 items-center justify-center w-full gap-6 h-full ">
               {
                 creditData.map((item, id) => (
-                  <div className=" flex flex-col gap-3 rounded-[20px] h-full overflow-hidden bg-[linear-gradient(to_bottom,_#fff1d3_0%,_#f3f4f6_100%)]">
+                  <div className=" flex flex-col gap-3 rounded-[20px] h-full overflow-hidden bg-[linear-gradient(to_bottom,#fff1d3_0%,#f3f4f6_100%)]">
                     <img src={item.imgUrl} className='object-cover items-center justify-center' />
                     <div className="flex flex-col gap-6 p-6">
                       <div className="flex flex-col justify-between gap-2">

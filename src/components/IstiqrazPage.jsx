@@ -65,7 +65,7 @@ const IstiqrazPage = () => {
   return (
     <>
       <div className="flex  items-center justify-center w-full selection:bg-[#B3D4FC]">
-        <div className="flex flex-col justify-center w-[75%] gap-7">
+        <div className="flex flex-col justify-center w-[95%] sm:w-[75%] md:w-[95%] lg:w-[75%] gap-7">
           <div className="flex flex-col justify-center  gap-7">
             <div className="flex gap-2 items-center">
               <Link className='text-[14px] p-3.75 text-[#6D7478]' to="/" reloadDocument>Ana Səhifə</Link>              <Link to='/istiqraz' className='text-[14px] text-[#25282b] font-normal py-3.75'>İstiqraz</Link>
@@ -75,8 +75,8 @@ const IstiqrazPage = () => {
                 <p onClick={() => setCurrency("AZN")} className={`text-[16px] font-normal px-4 py-1 ${currency === "AZN" ? " text-white bg-[#EC3342]" : " text-[#9496AC] bg-[#F3F3F5]"} rounded-md cursor-pointer`}>AZN</p>
                 <p onClick={() => setCurrency("USD")} className={`text-[16px] font-normal px-4 py-1 ${currency === "USD" ? " text-white bg-[#EC3342]" : "text-[#9496AC] bg-[#F3F3F5]"} rounded-md cursor-pointer`}>USD</p>
               </div>
-              <div className="flex items-center justify-between w-full h-full relative rounded-[10px] bg-[linear-gradient(98.65deg,rgb(236,50,66)_0%,rgb(153,0,0)_100%)]">
-                <div className="flex flex-col gap-3 px-18 py-24 w-[60%] h-full">
+              <div className="flex flex-col lg:items-center justify-between w-full h-full relative rounded-[10px] bg-[linear-gradient(98.65deg,rgb(236,50,66)_0%,rgb(153,0,0)_100%)] sm:flex-col md:flex-col lg:flex-row">
+                <div className="flex flex-col gap-3 w-full px-4 pt-12 pb-0 sm:px-4 sm:py-12 sm:pb-0 sm:w-full md:px-4 md:py-12 md:w-full  lg:px-18 lg:py-24 lg:w-[60%] h-full">
                   <h2 className='text-[32px] text-white font-semibold'>Kapital Bank istiqrazları</h2>
                   <p className='text-[16px] text-white font-normal'>
                     {
@@ -104,7 +104,7 @@ const IstiqrazPage = () => {
                     </div>
                   </div>
                 </div>
-                <img src={`${currency === "AZN" ? IstiqrazAZN : IstiqrazUSD}`} className='absolute bottom-0 right-10 w-100 h-75 object-contain ' />
+                <img src={`${currency === "AZN" ? IstiqrazAZN : IstiqrazUSD}`} className='self-end bottom-0 right-10 w-100 h-75 object-contain  lg:absolute' />
                 <div className="styles_banner-info-image-neon__dQrtF"></div>
               </div>
             </div>
@@ -119,11 +119,11 @@ const IstiqrazPage = () => {
                 </div>
                 <p className='text-[16px] font-normal text-[#222222]'>Satış</p>
               </div>
-              <div className="flex items-start justify-start w-full gap-8">
+              <div className="flex flex-col items-start justify-start w-full gap-8 sm:flex-col md:flex-col lg:flex-row">
                 {
                   !buttonStatus ? (
                     <>
-                      <div className="flex flex-col gap-8 w-[50%] items-start">
+                      <div className="flex flex-col gap-8 w-full sm:w-full md:w-full  items-start lg:w-[50%]">
                         <div className="flex items-start justify-start w-full">
                           <select className='w-full flex focus:outline-none bg-white border border-[#dbdee3] rounded-[10px] h-14 text-[14px] text-[#333333] font-normal' name="istiqrazID" id="istiqrazID">
                             <option className='text-[14px] text-[#333333] font-normal text-center' value="AZ2016005152">AZ2016005152</option>
@@ -135,7 +135,7 @@ const IstiqrazPage = () => {
                           <input type="range" min={100} max={500000} value={purchaseVolume} onChange={(e) => setPurchaseVolume(e.target.value)} />
                         </div>
                       </div>
-                      <div className=" flex flex-col items-center justify-center bg-white rounded-[10px] p-6 w-[50%] gap-4">
+                      <div className=" flex flex-col items-center justify-center bg-white rounded-[10px] p-6 w-full sm:w-full md:w-full lg:w-[50%] gap-4">
                         <div className="flex flex-col items-center justify-center gap-0">
                           <p className='text-[18px] font-semibold text-[#25282b]'>Xalis gəlir</p>
                           <p className='text-[42px] font-semibold text-[#EC3342] '>{profit}₼</p>
@@ -154,7 +154,7 @@ const IstiqrazPage = () => {
                     </>
                   ) : (
                     <>
-                      <div className="flex flex-col gap-8 w-[50%] items-start">
+                      <div className="flex flex-col gap-8 w-full sm:w-full md:w-full lg:w-[50%] items-start">
                         <div className="flex items-start justify-start w-full">
                           <select className='w-full flex focus:outline-none bg-white border border-[#dbdee3] rounded-[10px] h-14 text-[14px] text-[#333333] font-normal' name="istiqrazID" id="istiqrazID">
                             <option className='text-[14px] text-[#333333] font-normal text-center' value="AZ2016005152">AZ2016005152</option>
@@ -176,7 +176,7 @@ const IstiqrazPage = () => {
                           <input type="range" min={1} max={5000} value={istiqrazVol} onChange={(e) => setIstiqrazVol(e.target.value)} />
                         </div>
                       </div>
-                      <div className=" flex flex-col items-center justify-center bg-white rounded-[10px] p-6 w-[50%] gap-4">
+                      <div className=" flex flex-col items-center justify-center bg-white rounded-[10px] p-6 w-full sm:w-full md:w-full lg:w-[50%] gap-4">
                         <div className="flex flex-col items-center justify-center gap-0">
                           <p className='text-[18px] font-semibold text-[#25282b]'>İllik gəlir</p>
                           <p className='text-[42px] font-semibold text-[#EC3342] '>{illikGelir}₼</p>
@@ -196,11 +196,11 @@ const IstiqrazPage = () => {
           <div className="flex flex-col w-full">
             <h2 className='text-[30px] text-[#222222] font-semibold mt-12 mb-8'>Bilmək lazımdır</h2>
             <div className=' flex flex-col  justify-center bg-[#F9F9FA] p-6 gap-6'>
-              <div className='flex items-center justify-center'>
-                <p onClick={() => setGrayBtn("Transh")} className={`text-[16px] w-70 text-center cursor-pointer ${grayBtn === "Transh" ? "text-white bg-[#52575C] " : " text-[#25282b] bg-[#e7e8ea] transition duration-100 hover:bg-[#A0A4A8]"}  font-bold px-3 py-1.5 rounded-[5px] `}>
+              <div className='flex items-center justify-center '>
+                <p onClick={() => setGrayBtn("Transh")} className={`text-[16px] w-60 sm:w-30 md:w-45 lg:w-70 text-center cursor-pointer ${grayBtn === "Transh" ? "text-white bg-[#52575C] " : " text-[#25282b] bg-[#e7e8ea] transition duration-100 hover:bg-[#A0A4A8]"}  font-bold px-3 py-1.5 rounded-[5px] `}>
                   1-ci tranş
                 </p>
-                <p onClick={() => setGrayBtn("FAQ")} className={`text-[16px] w-70 text-center cursor-pointer ${grayBtn === "FAQ" ? "text-white bg-[#52575C]" : " text-[#25282b] bg-[#e7e8ea] transition duration-100 hover:bg-[#A0A4A8]"} font-bold px-3 py-1.5 rounded-[5px] `}>FAQ</p>
+                <p onClick={() => setGrayBtn("FAQ")} className={`text-[16px] w-60 sm:w-30 md:w-45 lg:w-70 text-center cursor-pointer ${grayBtn === "FAQ" ? "text-white bg-[#52575C]" : " text-[#25282b] bg-[#e7e8ea] transition duration-100 hover:bg-[#A0A4A8]"} font-bold px-3 py-1.5 rounded-[5px] `}>FAQ</p>
               </div>
               <div >
 
@@ -228,9 +228,9 @@ const IstiqrazPage = () => {
 
                       <div
                         onClick={() => toggleFaq(index)}
-                        className="flex border-b border-[#E9EAEC] w-[60%] px-3 py-4 items-center justify-between cursor-pointer"
+                        className="flex border-b border-[#E9EAEC] w-full sm:w-full md:w-[90%] lg:w-[60%] px-3 py-4 items-center justify-between cursor-pointer"
                       >
-                        <p className='text-[16px] text-[#222222] text-center font-normal'>
+                        <p className='text-[16px] text-[#222222] font-normal'>
                           {item.question}
                         </p>
 
@@ -258,32 +258,32 @@ const IstiqrazPage = () => {
           </div>
           <div className="flex items-center justify-center w-full mb-25 mt-15">
 
-            <div className="grid grid-cols-6 items-center justify-center grid-rows-6 gap-6">
-              <div className="flex flex-col items-center justify-center col-span-2 row-span-3 gap-1">
+            <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center w-[70%]  gap-6 sm:w-[70%] md:w-full lg:w-full">
+              <div className="flex flex-col items-center justify-center  gap-1">
                 <img src={bondSafety} className='w-20' />
                 <h2 className='text-[24px] font-semibold text-[#222222]'>Güvənlidir</h2>
                 <p className='text-[16px] text-center text-[#25282b] font-normal'>İstiqrazların arxasında bankımız dayanır.</p>
               </div>
 
-              <div className="flex flex-col items-center justify-center gap-1 col-span-2 row-span-3 col-start-3">
+              <div className="flex flex-col items-center justify-center gap-1 ">
                 <img src={bondNoTax} className='w-20' />
                 <h2 className='text-[24px] font-semibold text-[#222222]'>Vergi yoxdur</h2>
                 <p className='text-[16px] text-center text-[#25282b] font-normal'>İstiqrazlardan qazanacağınız gəlirə görə vergi ödəməyəcəksiniz.</p>
               </div>
 
-              <div className="flex flex-col items-center justify-center gap-1 col-span-2 row-span-3 col-start-5">
+              <div className="flex flex-col items-center justify-center gap-1 ">
                 <img src={bondLiquidity} className='w-20' />
                 <h2 className='text-[24px] font-semibold text-[#222222]'>Likvidlik yüksəkdir</h2>
                 <p className='text-[16px] text-center text-[#25282b] font-normal'>İstiqrazları rahatlıqla alıb-sata bilərsiniz.</p>
               </div>
 
-              <div className="flex flex-col items-center justify-center gap-1 col-span-2 row-span-3 row-start-4">
+              <div className="flex flex-col items-center justify-center  gap-1 ">
                 <img src={bondProfitable} className='w-20' />
                 <h2 className='text-[24px] font-semibold text-[#222222]'>Gəlirlidir</h2>
                 <p className='text-[16px] text-center text-[#25282b] font-normal'>İllik faiz dərəcəsinə əsasən sabit olaraq yüksək qazanc əldə edəcəksiniz.</p>
               </div>
 
-              <div className="flex flex-col items-center justify-center gap-1 col-span-2 row-span-3 col-start-3 row-start-4"><img src={bondAdditionalCost} className='w-20' />
+              <div className="flex flex-col items-center justify-center gap-1 self-center "><img src={bondAdditionalCost} className='w-20' />
                 <h2 className='text-[24px] font-semibold text-[#222222]'>Əlavə xərclər yoxdur</h2>
                 <p className='text-[16px] text-center text-[#25282b] font-normal'>İstiqrazlarımızı filiallarımızda alarkən və satarkən yaranan bütün xərclər bankımız tərəfindən qarşılanır.</p>
               </div>

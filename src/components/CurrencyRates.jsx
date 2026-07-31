@@ -11,6 +11,7 @@ const CurrencyRates = () => {
       <Navbar />
       <SecondaryNavbar />
       <CurrencyRateSection />
+      <Footer/>
     </>
   )
 }

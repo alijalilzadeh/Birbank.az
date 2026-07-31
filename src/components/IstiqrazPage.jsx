@@ -19,7 +19,9 @@ const IstiqrazPage = () => {
   const [currency, setCurrency] = useState("AZN");
   const [buttonStatus, setButtonStatus] = useState(false);
   const [purchaseVolume, setPurchaseVolume] = useState(100);
-
+  const [istiqrazVol, setIstiqrazVol] = useState(1);
+  const [illikGelir, setIllikGelir] = useState(0)
+  const [yearlyClearBenefit, setYearlyClearBenefit] = useState(0)
   const interestRate = 11;
   const days = 360;
 
@@ -69,8 +71,8 @@ const IstiqrazPage = () => {
               <Link className='text-[14px] p-3.75 text-[#6D7478]' to="/" reloadDocument>Ana Səhifə</Link>              <Link to='/istiqraz' className='text-[14px] text-[#25282b] font-normal py-3.75'>İstiqraz</Link>
             </div>
             <div className="flex flex-col gap-4 items-center">
-              <div className="flex items-center self-end">
-                <p onClick={() => setCurrency("AZN")} className={`text-[16px] font-normal px-4 py-1 ${currency === "AZN" ? " text-white bg-[#EC3342]" : " text-[#9496AC] bg-[#F3F3F5]"} rounded-mdrsor-pointer`}>AZN</p>
+              <div className="flex items-center self-end bg-[#F3F3F5] overflow-hidden rounded-md">
+                <p onClick={() => setCurrency("AZN")} className={`text-[16px] font-normal px-4 py-1 ${currency === "AZN" ? " text-white bg-[#EC3342]" : " text-[#9496AC] bg-[#F3F3F5]"} rounded-md cursor-pointer`}>AZN</p>
                 <p onClick={() => setCurrency("USD")} className={`text-[16px] font-normal px-4 py-1 ${currency === "USD" ? " text-white bg-[#EC3342]" : "text-[#9496AC] bg-[#F3F3F5]"} rounded-md cursor-pointer`}>USD</p>
               </div>
               <div className="flex items-center justify-between w-full h-full relative rounded-[10px] bg-[linear-gradient(98.65deg,rgb(236,50,66)_0%,rgb(153,0,0)_100%)]">
@@ -96,7 +98,7 @@ const IstiqrazPage = () => {
                       <p className='text-[14px] text-white font-normal'>İllik gəlir</p>
                     </div>
                     <div className="flex flex-col gap-2">
-                      <p className='text-[18px] text-white font-semibold'>100                         {currency === "AZN" ? "AZN" : "USD"}
+                      <p className='text-[18px] text-white font-semibold'>100 {currency === "AZN" ? "AZN" : "USD"}
                       </p>
                       <p className='text-[14px] text-white font-normal'>Bir istiqrazın dəyəri</p>
                     </div>
@@ -113,34 +115,81 @@ const IstiqrazPage = () => {
               <div className="flex items-center gap-4">
                 <p className='text-[16px] font-normal text-[#222222]'>Alış</p>
                 <div className={`flex relative w-16 h-8 cursor-pointer rounded-[20px] items-center px-1 bg-[#EC3342] `}>
-                  <div onClick={() => setButtonStatus(!buttonStatus)} className={`flex w-6  h-6 rounded-full bg-white transform transition duration-300 ${buttonStatus ? "translate-x-7.5" : "translate-0"}`}></div>
+                  <div onClick={() => setButtonStatus(!buttonStatus)} className={`flex w-6  h-6 rounded-full bg-white transform transition duration-300 ${buttonStatus ? "translate-x-8" : "translate-0"}`}></div>
                 </div>
                 <p className='text-[16px] font-normal text-[#222222]'>Satış</p>
               </div>
-              <div className="flex items-center justify-center w-full gap-8">
-                <div className="flex flex-col gap-5 w-[50%]">
-                  <div className="flex flex-col border border-[#dbdee3]  rounded-t-[10px] rounded-b-[5px] bg-white w-full">
-                    <span className='text-[12px] font-semibold text-[#9496AC] pl-3 pt-2 pb-1'>Alış həcmi</span>
-                    <span className='text-[16px] text-[#222222] font-normal pl-3  pb-1.5'>{purchaseVolume}</span>
-                    <input type="range" min={100} max={500000} value={purchaseVolume} onChange={(e) => setPurchaseVolume(e.target.value)} />
-                  </div>
-                </div>
-                <div className=" flex flex-col items-center justify-center bg-white rounded-[10px] p-6 w-[50%] gap-4">
-                  <div className="flex flex-col items-center justify-center gap-0">
-                    <p className='text-[18px] font-semibold text-[#25282b]'>Xalis gəlir</p>
-                    <p className='text-[42px] font-semibold text-[#EC3342] '>{profit}₼</p>
-                  </div>
-                  <div className="flex items-center justify-center  gap-4">
-                    <div className="flex items-center justify-center flex-col gap-0">
-                      <p className='text-[12px] font-semibold text-[#25282b] text-center'>İstiqrazların müddətinin bitməsinə qalan gün sayı*</p>
-                      <p className='text-[32px] font-semibold text-[#EC3342] '>{days}</p>
-                    </div>
-                    <div className="flex items-center justify-center flex-col gap-0">
-                      <p className='text-[12px] font-semibold text-[#25282b] text-center'>Əldə edəcəyiniz istiqraz sayı</p>
-                      <p className='text-[32px] font-semibold text-[#EC3342] '>{bondCount}</p>
-                    </div>
-                  </div>
-                </div>
+              <div className="flex items-start justify-start w-full gap-8">
+                {
+                  !buttonStatus ? (
+                    <>
+                      <div className="flex flex-col gap-8 w-[50%] items-start">
+                        <div className="flex items-start justify-start w-full">
+                          <select className='w-full flex focus:outline-none bg-white border border-[#dbdee3] rounded-[10px] h-14 text-[14px] text-[#333333] font-normal' name="istiqrazID" id="istiqrazID">
+                            <option className='text-[14px] text-[#333333] font-normal text-center' value="AZ2016005152">AZ2016005152</option>
+                          </select>
+                        </div>
+                        <div className="flex flex-col border border-[#dbdee3]  rounded-t-[10px] rounded-b-[5px] bg-white w-full h-14">
+                          <span className='text-[12px] font-semibold text-[#9496AC] pl-3 pt-2 pb-0'>Alış həcmi</span>
+                          <span className='text-[16px] text-[#222222] font-normal pl-3  pb-0'>{purchaseVolume}</span>
+                          <input type="range" min={100} max={500000} value={purchaseVolume} onChange={(e) => setPurchaseVolume(e.target.value)} />
+                        </div>
+                      </div>
+                      <div className=" flex flex-col items-center justify-center bg-white rounded-[10px] p-6 w-[50%] gap-4">
+                        <div className="flex flex-col items-center justify-center gap-0">
+                          <p className='text-[18px] font-semibold text-[#25282b]'>Xalis gəlir</p>
+                          <p className='text-[42px] font-semibold text-[#EC3342] '>{profit}₼</p>
+                        </div>
+                        <div className="flex items-center justify-center  gap-4">
+                          <div className="flex items-center justify-center flex-col gap-0">
+                            <p className='text-[12px] font-semibold text-[#25282b] text-center'>İstiqrazların müddətinin bitməsinə qalan gün sayı*</p>
+                            <p className='text-[32px] font-semibold text-[#EC3342] '>{days}</p>
+                          </div>
+                          <div className="flex items-center justify-center flex-col gap-0">
+                            <p className='text-[12px] font-semibold text-[#25282b] text-center'>Əldə edəcəyiniz istiqraz sayı</p>
+                            <p className='text-[32px] font-semibold text-[#EC3342] '>{bondCount}</p>
+                          </div>
+                        </div>
+                      </div>
+                    </>
+                  ) : (
+                    <>
+                      <div className="flex flex-col gap-8 w-[50%] items-start">
+                        <div className="flex items-start justify-start w-full">
+                          <select className='w-full flex focus:outline-none bg-white border border-[#dbdee3] rounded-[10px] h-14 text-[14px] text-[#333333] font-normal' name="istiqrazID" id="istiqrazID">
+                            <option className='text-[14px] text-[#333333] font-normal text-center' value="AZ2016005152">AZ2016005152</option>
+                          </select>
+                        </div>
+                        <div className="flex items-center gap-4  w-full">
+                          <div className="flex w-full flex-col gap-1.25">
+                            <span className='text-[14px] font-medium text-[#222222]'>Alış Tarixi:</span>
+                            <input className='w-full  focus:outline-none bg-white border border-[#dbdee3] rounded-[10px] h-14 px-4.25 text-[14px] text-[#757575] font-normal' type="date" />
+                          </div>
+                          <div className="flex w-full flex-col gap-1.25">
+                            <span className='text-[14px] font-medium text-[#222222]'>Satış Tarixi:</span>
+                            <input className='w-full  focus:outline-none bg-white border border-[#dbdee3] rounded-[10px] h-14 px-4.25 text-[14px] text-[#757575] font-normal' type="date" />
+                          </div>
+                        </div>
+                        <div className="flex flex-col border border-[#dbdee3]  rounded-t-[10px] rounded-b-[5px] bg-white w-full h-14">
+                          <span className='text-[12px] font-semibold text-[#9496AC] pl-3 pt-2 pb-0'>İstiqrazların sayı</span>
+                          <span className='text-[16px] text-[#222222] font-normal pl-3  pb-0'>{istiqrazVol}</span>
+                          <input type="range" min={1} max={5000} value={istiqrazVol} onChange={(e) => setIstiqrazVol(e.target.value)} />
+                        </div>
+                      </div>
+                      <div className=" flex flex-col items-center justify-center bg-white rounded-[10px] p-6 w-[50%] gap-4">
+                        <div className="flex flex-col items-center justify-center gap-0">
+                          <p className='text-[18px] font-semibold text-[#25282b]'>İllik gəlir</p>
+                          <p className='text-[42px] font-semibold text-[#EC3342] '>{illikGelir}₼</p>
+                        </div>
+
+                        <div className="flex items-center justify-center flex-col gap-0">
+                          <p className='text-[12px] font-semibold text-[#25282b] text-center'>Dövrün sonuna xalis gəlir</p>
+                          <p className='text-[32px] font-semibold text-[#EC3342] '>{yearlyClearBenefit}</p>
+                        </div>
+                      </div>
+                    </>
+                  )
+                }
               </div>
             </div>
           </div>

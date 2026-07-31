@@ -42,7 +42,7 @@ const CurrecyRateSection = () => {
   return (
     <>
       <div className="flex  items-center justify-center w-full selection:bg-[#B3D4FC]">
-        <div className="flex flex-col justify-center w-[75%] gap-7">
+        <div className="flex flex-col justify-center w-[75%] gap-7 mb-15">
           <div className="flex flex-col justify-center  gap-7">
             <h2 className='text-[24px] text-[#25282b] font-bold self-start'>{newsData.pageProps.messages.home.exchangeRate.exchangeRates}</h2>
             <div className="flex gap-2 items-center">
@@ -57,14 +57,14 @@ const CurrecyRateSection = () => {
               <img src={currencyRateBg} className='absolute bottom-0 right-10 w-100 h-75 object-contain ' />
             </div>
           </div>
-          <div className="flex flex-col gap-8 w-full mt-12[mb-8ms-center justify-center">
+          <div className="flex flex-col gap-8 w-full mt-12 mb-8 items-center justify-center">
             <h2 className='text-left self-start text-[30px] text-[#222222] font-semibold'>Tez-tez verilən suallar</h2>
-            <div className="flex flex-col  w-[80%]">
+            <div className="flex flex-col   w-[80%]">
               {
                 faqData.map((item, index) => {
                   return (
                     <div className="flex flex-col   border-b-[#E9EAEC]">
-                      <div key={index} onClick={() => toggleFaq(index)} className=" flex  px-316px] items-center justify-between border-b border-b-[#E9EAEC] cursor-pointer">
+                      <div key={index} onClick={() => toggleFaq(index)} className=" flex  px-3 py-4 items-center justify-between border-b border-b-[#E9EAEC] cursor-pointer">
                         <p className='text-[16px] text-[#222222]  font-normal'>{item.question}</p>
                         <IoIosArrowDown className={`text-[16px]  text-[#222222] transform ${activeIndex === index ? "rotate-180" : ""}`} />
                       </div>

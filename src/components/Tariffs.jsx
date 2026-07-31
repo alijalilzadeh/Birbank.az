@@ -6,12 +6,12 @@ import TariffsContent from './TariffsContent'
 
 const Tariffs = () => {
   return (
-    <>
+    <div className='w-full min-h-screen overflow-x-hidden'>
       <Navbar/>
       <SecondaryNavbar/>
       <TariffsContent/>
        <Footer/> 
-    </>
+    </div>
   )
 }
 

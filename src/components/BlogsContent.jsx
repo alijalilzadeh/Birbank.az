@@ -84,7 +84,7 @@ const BlogsContent = () => {
                 <IoIosArrowForward />
               </Link>
             </div>
-            <img src={blogData.pageProps.pageProps.data.attributes.adBanner.imageUrl} className='pt-10 pr-10  object-cover self-end bottom-0 right-4 w-65 h-55 sm:self-end sm:w-65 sm:h-55 md:w-65 lg:absolute lg:w-95 lg:h-83 lg:self-center' />
+            <img src={blogData.pageProps.pageProps.data.attributes.adBanner.imageUrl} className='pt-10 pr-10  object-cover self-end bottom-0 right-4 w-65  sm:self-end sm:w-65 sm:h-55 md:w-65 lg:absolute lg:w-95 lg:h-83 lg:self-center' />
           </div>
         </div>
       </div>

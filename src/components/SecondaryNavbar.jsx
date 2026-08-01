@@ -50,8 +50,8 @@ const SecondaryNavbar = () => {
                 <div className="inline-flex flex-col  text-start  gap-3 w-fit pb-10">
                   {dropdown === 'Kreditler' ? (
                     <>
-                      <Link className='text-[14px] text-[#9496ac] font-medium'>Nağd pul krediti</Link>
-                      <Link className='text-[14px] text-[#9496ac] font-medium'>Əmanət təminatlı kredit</Link>
+                      <Link to='/kredit-sifarisi' className='text-[14px] text-[#9496ac] font-medium' reloadDocument>Nağd pul krediti</Link>
+                      <Link className='text-[14px] text-[#9496ac] font-medium' reloadDocument>Əmanət təminatlı kredit</Link>
                       <Link to='/avans' className='text-[14px] text-[#9496ac] font-medium' reloadDocument>Avans</Link>
                     </>
                   ) : (

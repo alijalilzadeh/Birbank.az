@@ -127,7 +127,7 @@ const FAQContent = () => {
   return (
     <>
       <div className="flex flex-col items-center justify-center w-full selection:bg-[#B3D4FC]">
-        <div className="flex flex-col w-[75%] h-full">
+        <div className="flex flex-col w-[90%] sm:w-[75%] md:w-[95%] lg:w-[75%] h-full">
           <div className="flex flex-col w-full h-full">
             <h2 className='text-[24px] font-bold text-[#25282b] my-4'>Tez tez verilən suallar</h2>
             <div className="flex gap-2 my-3">
@@ -135,21 +135,21 @@ const FAQContent = () => {
               <Link className=' text-[#25282b] text-[14px] p-3.75 pl-0' to="/ninja">Tez tez verilən suallar</Link>
             </div>
           </div>
-          <div className="flex justify-between w-full bg-[linear-gradient(98.65deg,rgb(236,50,66)_0%,rgb(153,0,0)_100%)] rounded-xl relative overflow-hidden h-full py-16">
-            <div className="flex flex-col w-[70%] gap-4 py-12 px-18 h-full">
+          <div className="flex flex-col justify-between w-full bg-[linear-gradient(98.65deg,rgb(236,50,66)_0%,rgb(153,0,0)_100%)] rounded-xl relative overflow-hidden h-full sm:flex-col lg:py-16 lg:flex-row">
+            <div className="flex flex-col h-full px-4 pt-12 pb-0 w-full gap-4 sm:w-full md:w-full md:px-4 md:pt-12 md:pb-0  lg:py-12 lg:px-18 lg:w-[70%] ">
               <h2 className='text-[32px] font-semibold text-white leading-10'>Tez tez verilən suallar</h2>
-              <p className='text-[16px] font-normal text-white'>Optimal Kasko, Gəlirli Həyat, İşsizlik sığortası və Fərdi qəza sığortası məhsulları ilə vəsaitlərinizi, avtomobillərinizi təminat altına alın.</p>
+              <p className='text-[16px] font-normal text-white'>Sizə lazım olan bank əməliyyatlarına dair bir çox məlumatları, prosedurları bu bölmədə tapa bilərsiniz.</p>
 
             </div>
-            <div className="flex items-center justify-center w-[50%] py-12 px-2.5 ">
-              <img src={faqBanner} className=' object-cover flex w-100 absolute bottom-0 right-10 ' alt="BirPay" />
+            <div className="flex items-center justify-center h-full  mt-12 sm:justify-end sm:mt-12 w-full sm:w-full md:w-full lg:mt-0 lg:py-12 lg:px-2.5 lg:w-[50%] lg:justify-center">
+              <img src={faqBanner} className=' object-cover flex w-90 sm:w-100  bottom-0 right-10 self-center sm:self-end lg:self-auto lg:absolute' alt="BirPay" />
             </div>
           </div>
           <div className="flex flex-col gap-5 items-center justify-center w-full my-15">
             <div className="flex items-center justify-center bg-[#F3F3F5] rounded-lg  overflow-hidden">
               {
                 faqData.map((item, id) => (
-                  <span onClick={() => setSelectedFaq(item.category)} key={id} className={`cursor-pointer p-2 ${selectedFaq === item.category ? "text-white bg-[#25282B] rounded-lg" : "text-[#9496AC]   bg-[#F3F3F5]"}  inline-flex w-fit text-[16px] px-3 `}> {item.category}</span>
+                  <span onClick={() => setSelectedFaq(item.category)} key={id} className={`cursor-pointer  ${selectedFaq === item.category ? "text-white bg-[#25282B] rounded-lg" : "text-[#9496AC]   bg-[#F3F3F5]"}  inline-flex w-fit leading-5 text-[16px] text-center py-0.5 flex-wrap px-1.5 sm:px-1.5 sm:py-0.5 sm:flex-wrap md:flex-nowrap  md:py-2 `}> {item.category}</span>
                 ))
               }
             </div>

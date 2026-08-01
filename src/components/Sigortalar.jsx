@@ -6,12 +6,12 @@ import SigortalarContent from './SigortalarContent'
 
 const Sigortlara = () => {
   return (
-    <>
+    <div className='w-full min-h-screen overflow-x-hidden'>
       <Navbar/>
       <SecondaryNavbar/>
       <SigortalarContent/>
        <Footer/> 
-    </>
+    </div>
   )
 }
 

@@ -6,12 +6,12 @@ import Footer from './Footer'
 import BlogsContent from './BlogsContent'
 const Blogs = () => {
   return (
-    <>
+    <div className='w-full min-h-screen overflow-x-hidden'>
       <Navbar />
       <SecondaryNavbar />
       <BlogsContent/>
        <Footer/> 
-    </>
+    </div>
   )
 }
 

@@ -30,7 +30,7 @@ const SigortalarContent = () => {
     {
       "id": 3,
       "question": "Aldığım sığorta polisinə haradan baxa bilərəm?",
-      "answer": "Rəsmiləşdirdiyiniz bütün aktiv polislər Birbank-dakı şəxsi kabinetinizdə ('ə'Sığortalarım' alt bölməsində) saxlanılır. İstənilən vaxt sənədinizə baxa, onu PDF formatında yükləyə və ya kiməsə göndərə bilərsiniz."
+      "answer": "Rəsmiləşdirdiyiniz bütün aktiv polislər Birbank-dakı şəxsi kabinetinizdə ('Sığortalarım' alt bölməsində) saxlanılır. İstənilən vaxt sənədinizə baxa, onu PDF formatında yükləyə və ya kiməsə göndərə bilərsiniz."
     },
     {
       "id": 4,
@@ -69,7 +69,7 @@ const SigortalarContent = () => {
   return (
     <>
       <div className="flex flex-col items-center justify-center w-full selection:bg-[#B3D4FC]">
-        <div className="flex flex-col w-[75%] h-full">
+        <div className="flex flex-col w-[95%] sm:w-[75%] md:w-[95%] lg:w-[75%] h-full">
           <div className="flex flex-col w-full h-full">
             <h2 className='text-[24px] font-bold text-[#25282b] my-4'>Sığorta yoxla və online sığorta əldə et | Birbank</h2>
             <div className="flex gap-2 my-3">
@@ -77,21 +77,20 @@ const SigortalarContent = () => {
               <Link className=' text-[#25282b] text-[14px] p-3.75 pl-0' to="/ninja">Sığortalar</Link>
             </div>
           </div>
-          <div className="flex justify-between w-full bg-[linear-gradient(98.65deg,rgb(236,50,66)_0%,rgb(153,0,0)_100%)] rounded-xl relative overflow-hidden h-full py-16">
-            <div className="flex flex-col w-[70%] gap-4 py-12 px-18 h-full">
+          <div className="flex flex-col justify-between w-full bg-[linear-gradient(98.65deg,rgb(236,50,66)_0%,rgb(153,0,0)_100%)] rounded-xl relative overflow-hidden h-full sm:flex-col lg:py-16 lg:flex-row">
+            <div className="flex flex-col h-full px-4 pt-12 pb-0 w-full gap-4 sm:w-full md:w-full md:px-4 md:pt-12 md:pb-0  lg:py-12 lg:px-18 lg:w-[70%]">
               <h2 className='text-[32px] font-semibold text-white leading-10'>Sığortalar</h2>
               <p className='text-[16px] font-normal text-white'>Optimal Kasko, Gəlirli Həyat, İşsizlik sığortası və Fərdi qəza sığortası məhsulları ilə vəsaitlərinizi, avtomobillərinizi təminat altına alın.</p>
 
             </div>
-            <div className="flex items-center justify-center w-[50%] py-12 px-2.5 ">
-              <img src={InsuranceImg} className='w-auto object-contain flex absolute bottom-0 right-10 h-full' alt="BirPay" />
+            <div className="flex items-center justify-center h-full  mt-12 sm:justify-center sm:mt-12 w-full sm:w-full md:w-full lg:mt-0 lg:py-12 lg:px-2.5 lg:w-[50%] lg:justify-center">
+              <img src={InsuranceImg} className='w-88 object-contain flex  bottom-0 right-10 h-full lg:absolute' alt="BirPay" />
             </div>
           </div>
         </div>
-        <div className="flex flex-col items-center justify-center w-[75%] my-10">
-
-          <div className="grid grid-cols-6  gap-6 h-full w-full ">
-            <div className="col-span-3 row-span-3 flex justify-between rounded-xl bg-[#F9F9FA] px-6 pt-6 pb-9 w-full relative h-full">
+        <div className="flex flex-col items-center justify-center w-[95%] sm:w-[75%] md:w-[95%] lg:w-[75%] my-10">
+          <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2  gap-6 h-full w-full ">
+            <div className=" flex justify-between rounded-xl bg-[#F9F9FA] px-6 pt-6 pb-9 w-full relative h-full">
               <div className="flex flex-col gap-8 justify-between w-[50%]">
                 <div className="flex flex-col w-full">
                   <h2 className='text-[24px] text-[#222222] font-medium mb-4 leading-7'>Optimal kasko</h2>
@@ -105,7 +104,7 @@ const SigortalarContent = () => {
               <img src={OptimalKasko} className='object-contain absolute bottom-0 right-5 w-60 ' />
             </div>
 
-            <div className="col-span-3 row-span-3 col-start-4 flex justify-between rounded-xl bg-[#F9F9FA] px-6 pt-6 pb-9 w-full relative h-full">
+            <div className=" flex justify-between rounded-xl bg-[#F9F9FA] px-6 pt-6 pb-9 w-full relative h-full">
               <div className="flex flex-col gap-8 justify-between w-[55%]">
                 <div className="flex flex-col w-full">
                   <h2 className='text-[24px] text-[#222222] font-medium mb-4 leading-7'>Phishing-skimming (dələduzluq)</h2>
@@ -119,7 +118,7 @@ const SigortalarContent = () => {
               <img src={Phising} className='object-contain absolute bottom-0 right-5 w-60 ' />
             </div>
 
-            <div className="col-span-3 row-span-3 row-start-4 flex justify-between rounded-xl bg-[#F9F9FA] px-6 pt-6 pb-9 w-full relative h-full">
+            <div className="flex justify-between rounded-xl bg-[#F9F9FA] px-6 pt-6 pb-9 w-full relative h-full">
               <div className="flex flex-col gap-8 justify-between w-[55%]">
                 <div className="flex flex-col w-full">
                   <h2 className='text-[24px] text-[#222222] font-medium mb-4 leading-7'>Kredit kartların fiziki zədələnmədən sığortası</h2>
@@ -130,10 +129,10 @@ const SigortalarContent = () => {
                   <HiMiniArrowLongRight className='text-red-600 flex items-center justify-center align-center' />
                 </Link>
               </div>
-              <img src={CreditCardInsurance} className='object-contain absolute bottom-0 right-5 w-60 ' />
+              <img src={CreditCardInsurance} className='object-contain absolute bottom-0 right-5 w-60 h-auto' />
             </div>
 
-            <div className="col-span-3 row-span-3 col-start-4 row-start-4 flex justify-between rounded-xl bg-[#F9F9FA] px-6 pt-6 pb-9 w-full relative h-full">
+            <div className=" flex justify-between rounded-xl bg-[#F9F9FA] px-6 pt-6 pb-9 w-full relative h-full">
               <div className="flex flex-col gap-8 justify-between w-[55%]">
                 <div className="flex flex-col w-full">
                   <h2 className='text-[24px] text-[#222222] font-medium mb-4 leading-7'>İşsizlik sığortası (Unemployment)</h2>
@@ -144,9 +143,9 @@ const SigortalarContent = () => {
                   <HiMiniArrowLongRight className='text-red-600 flex items-center justify-center align-center' />
                 </Link>
               </div>
-              <img src={Unemployment} className='object-contain absolute bottom-0 right-5 w-60 ' />
+              <img src={Unemployment} className='object-contain absolute bottom-0 right-5 w-60 h-auto' />
             </div>
-            <div className="col-span-3 row-span-3 row-start-7  flex justify-between rounded-xl bg-[#F9F9FA] px-6 pt-6 pb-9 w-full relative h-full">
+            <div className="flex justify-between rounded-xl bg-[#F9F9FA] px-6 pt-6 pb-9 w-full relative h-full">
               <div className="flex flex-col gap-8 justify-between w-[55%]">
                 <div className="flex flex-col w-full">
                   <h2 className='text-[24px] text-[#222222] font-medium mb-4 leading-7'>Debet kartların fiziki zədələnmədən sığortası</h2>
@@ -157,9 +156,9 @@ const SigortalarContent = () => {
                   <HiMiniArrowLongRight className='text-red-600 flex items-center justify-center align-center' />
                 </Link>
               </div>
-              <img src={DebetCardInsurance} className='object-contain absolute bottom-0 right-5 w-60 ' />
+              <img src={DebetCardInsurance} className='object-contain absolute bottom-0 right-5 w-60 h-auto' />
             </div>
-            <div className="col-span-3 row-span-3 col-start-4 row-start-7 flex justify-between rounded-xl bg-[#F9F9FA] px-6 pt-6 pb-9 w-full relative h-full">
+            <div className="flex justify-between rounded-xl bg-[#F9F9FA] px-6 pt-6 pb-9 w-full relative h-full">
               <div className="flex flex-col gap-8 justify-between w-[55%]">
                 <div className="flex flex-col w-full">
                   <h2 className='text-[24px] text-[#222222] font-medium mb-4 leading-7'>100-qat həyat sığortası (BOX)</h2>
@@ -170,9 +169,9 @@ const SigortalarContent = () => {
                   <HiMiniArrowLongRight className='text-red-600 flex items-center justify-center align-center' />
                 </Link>
               </div>
-              <img src={xBox} className='object-contain absolute bottom-0 right-5 w-60 ' />
+              <img src={xBox} className='object-contain absolute bottom-0 right-5 w-60 h-auto' />
             </div>
-            <div className="col-span-3 row-span-3 row-start-10 flex justify-between rounded-xl bg-[#F9F9FA] px-6 pt-6 pb-9 w-full relative h-full">
+            <div className="flex justify-between rounded-xl bg-[#F9F9FA] px-6 pt-6 pb-9 w-full relative h-full">
               <div className="flex flex-col gap-8 justify-between w-[55%]">
                 <div className="flex flex-col w-full">
                   <h2 className='text-[24px] text-[#222222] font-medium mb-4 leading-7'>Məktəbli sığortası</h2>
@@ -183,9 +182,9 @@ const SigortalarContent = () => {
                   <HiMiniArrowLongRight className='text-red-600 flex items-center justify-center align-center' />
                 </Link>
               </div>
-              <img src={SchoolInsurance} className='object-contain absolute bottom-0 right-5 w-60 ' />
+              <img src={SchoolInsurance} className='object-contain absolute bottom-0 right-5 w-60 h-auto' />
             </div>
-            <div className="col-span-3 row-span-3 col-start-4 row-start-10  flex justify-between rounded-xl bg-[#F9F9FA] px-6 pt-6 pb-9 w-full relative h-full">
+            <div className="flex justify-between rounded-xl bg-[#F9F9FA] px-6 pt-6 pb-9 w-full relative h-full">
               <div className="flex flex-col gap-8 justify-between w-[55%]">
                 <div className="flex flex-col w-full">
                   <h2 className='text-[24px] text-[#222222] font-medium mb-4 leading-7'>Fərdi qəza sığortası</h2>
@@ -196,9 +195,9 @@ const SigortalarContent = () => {
                   <HiMiniArrowLongRight className='text-red-600 flex items-center justify-center align-center' />
                 </Link>
               </div>
-              <img src={CrashInsurance} className='object-contain absolute bottom-0 right-5 w-60 ' />
+              <img src={CrashInsurance} className='object-contain absolute bottom-0 right-5 w-60 h-auto' />
             </div>
-            <div className="col-span-3 row-span-3   flex justify-between rounded-xl bg-[#F9F9FA] px-6 pt-6 pb-9 w-full relative h-full">
+            <div className="flex justify-between rounded-xl bg-[#F9F9FA] px-6 pt-6 pb-9 w-full relative h-full">
               <div className="flex flex-col gap-8 justify-between w-[55%]">
                 <div className="flex flex-col w-full">
                   <h2 className='text-[24px] text-[#222222] font-medium mb-4 leading-7'>Kredit Həyat Sığortası</h2>
@@ -209,11 +208,11 @@ const SigortalarContent = () => {
                   <HiMiniArrowLongRight className='text-red-600 flex items-center justify-center align-center' />
                 </Link>
               </div>
-              <img src={CreditLifeInsurance} className='object-contain absolute bottom-0 right-5 w-60 ' />
+              <img src={CreditLifeInsurance} className='object-contain absolute bottom-0 right-5 w-60 h-auto' />
             </div>
           </div>
           <div className="flex flex-col  mt-20 mb-10">
-            <h2 className='text-[32px] font-semibold mb-3 text-[#222222] leading-10'>Tez tez verilən suallar</h2>
+            <h2 className=' text-[30px] sm:text-[30px] lg:text-[32px] font-semibold mb-3 text-[#222222] leading-10'>Tez-tez verilən suallar</h2>
             <div className="flex flex-col w-full items-center justify-center">
               {
                 faqData.map((item, index) => {

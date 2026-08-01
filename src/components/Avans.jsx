@@ -57,7 +57,7 @@ const Avans = () => {
       "question": "Avans krediti götürmək üçün hansı sənədlər tələb olunur?",
       "answer": "Avans krediti götürmək üçün əlavə hər hansı sənəd tələb olunmur."
     },
-  
+
   ]
 
   const [activeIndex, setActiveIndex] = useState(null);
@@ -73,20 +73,20 @@ const Avans = () => {
   return (
 
 
-    <>
+    <div className='w-full min-h-screen overflow-x-hidden'>
       <Navbar />
       <SecondaryNavbar />
       <>
         <div className="flex flex-col items-center justify-center w-full selection:bg-[#B3D4FC]">
-          <div className="flex flex-col w-[75%]">
+          <div className="flex flex-col w-[95%] sm:w-[75%] md:w-[95%] lg:w-[75%]">
             <div className="flex flex-col w-full ">
               <div className="flex gap-2 my-3">
                 <Link className='text-[14px] p-3.75 text-[#6D7478]' to="/">Ana Səhifə</Link>
                 <Link className=' text-[#25282b] text-[14px] p-3.75 pl-0' to="/ninja">Avans</Link>
               </div>
-              <div className="flex justify-between w-full bg-[linear-gradient(98.65deg,#7D0018_0%,#CA154A_100%)] rounded-[10px] relative overflow-hidden">
-                <div className="flex flex-col w-[70%] justify-center  gap-10 py-12 px-18">
-                  <h2 className='text-[32px] font-semibold text-white leading-10'>Təcili pula ehtiyacınız varsa, rahatlıqla Avans götürün!</h2>
+              <div className="flex flex-col justify-between w-full bg-[linear-gradient(98.65deg,#7D0018_0%,#CA154A_100%)] rounded-[10px] relative overflow-hidden sm:flex-col lg:flex-row">
+                <div className="flex flex-col  justify-center px-4 pb-0 pt-12   gap-10 w-full sm:w-full lg:py-12 lg:px-18 lg:w-[70%]">
+                  <h2 className='text-[30px] font-semibold text-white leading-10  lg:text-[32px] '>Təcili pula ehtiyacınız varsa, rahatlıqla Avans götürün!</h2>
                   <div className="flex items-center justify-between">
                     <div className="flex flex-col ">
                       <span className='text-[18px] text-white font-semibold'>7%</span>
@@ -104,23 +104,23 @@ const Avans = () => {
                     </div>
                   </div>
                 </div>
-                <div className="flex items-center justify-center w-[50%] pt-12 px-2.5 ">
-                  <img src="https://birbank.az/file/avans_9054345e8d.svg" className='w-90 object-cover flex ' alt="BirPay" />
+                <div className="flex items-center justify-end mt-10 w-full sm:w-full lg:w-[50%] lg:m-0 lg:pt-12 lg:px-2.5 lg:justify-center">
+                  <img src="https://birbank.az/file/avans_9054345e8d.svg" className='w-90 object-cover flex' alt="BirPay" />
                 </div>
               </div>
-              <div className="flex flex-col gap-2 my-10">
-                <h2 className='text-[32px] font-semibold text-[#333333] leading-10' >Avans krediti</h2>
+              <div className="flex flex-col gap-6 my-10">
+                <h2 className='text-[30px] font-semibold text-[#333333] leading-10 lg:text-[32px]' >Avans krediti</h2>
                 <p className='text-[16px] text-[#222222] font-normal leading-5'>Təcili pul lazım olduqda maaş və ya təqaüd kartı ilə avans əldə edə bilərsiniz. Bu Kapital Bankdan əmək haqqı və ya təqaüd alanlara xüsusi üstünlük qazandıran təklifdir.</p>
               </div>
-              <h2 className='text-[32px] font-semibold text-[#333333] leading-10 mb-5'>Bilmək lazımdır</h2>
+              <h2 className='text-[30px] font-semibold text-[#333333] leading-10 mb-5 lg:text-[32px]'>Bilmək lazımdır</h2>
 
             </div>
           </div>
-          <div className="flex flex-col w-full items-center justify-center bg-[#F9F9FA] mb-20">
+          <div className="flex flex-col w-full items-center justify-center bg-[#F9F9FA] mb-20 ">
             {
               faqData.map((item, index) => {
                 return (
-                  <div className="flex flex-col w-[75%]   border-b-[#E9EAEC]">
+                  <div className="flex flex-col w-[95%] sm:w-[75%] md:w-[95%] lg:w-[75%]   border-b-[#E9EAEC]">
                     <div key={index} onClick={() => toggleFaq(index)} className=" flex    px-6 py-2.5 items-center justify-between border-b border-b-[#E9EAEC] cursor-pointer">
                       <p className='text-[16px] text-[#222222]  font-normal'>{item.question}</p>
                       <IoIosArrowDown className={`text-[16px]  text-[#222222] transform ${activeIndex === index ? "rotate-180" : ""}`} />
@@ -141,7 +141,7 @@ const Avans = () => {
         </div>
       </>
       <Footer />
-    </>
+    </div>
   )
 }
 

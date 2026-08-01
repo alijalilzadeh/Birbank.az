@@ -49,12 +49,12 @@ const BlogsContent = () => {
             </div>
           </div>
           <div className="flex flex-col items-center justify-center w-full my-15 ">
-            <div className="inline-flex items-center   h-fit mb-15 bg-[#F3F3F5] rounded-xl whitespace-nowrap w-full hide-scrollbar overflow-x-auto">
-              <span onClick={() => setCurrentFilter("Hamısı")} className={`inline-flex w-fit rounded-xl px-6 py-4.5 ${currentFilter != "Hamısı" ? " bg-[#F3F3F5] text-[#9796AC]" : " text-white bg-[#ec3342]"} cursor-pointer`}>Hamısı</span>
+            <div className="inline-flex items-center w-full  h-fit mb-15 bg-[#F3F3F5] rounded-xl whitespace-nowrap  hide-scrollbar overflow-x-auto md:justify-center md:w-fit md:overflow-x-hidden">
+              <span onClick={() => setCurrentFilter("Hamısı")} className={`inline-flex w-fit rounded-xl px-6 py-3  ${currentFilter != "Hamısı" ? " bg-[#F3F3F5] text-[#9796AC]" : " text-white bg-[#ec3342]"} cursor-pointer`}>Hamısı</span>
 
               {
                 blogData.pageProps.pageProps.data.attributes.bannerSlider.map((data, id) => (
-                  <span onClick={() => setCurrentFilter(data.title)} key={id} className={`inline-flex w-fit rounded-lg px-6 py-4.5 ${currentFilter === data.title ? " text-white bg-[#ec3342]" : " bg-[#F3F3F5] text-[#9796AC]"} bg-[#F3F3F5] text-[#9796AC] cursor-pointer`}>{data.title}</span>
+                  <span onClick={() => setCurrentFilter(data.title)} key={id} className={`inline-flex w-fit rounded-lg px-6 py-3  ${currentFilter === data.title ? " text-white bg-[#ec3342]" : " bg-[#F3F3F5] text-[#9796AC]"} bg-[#F3F3F5] text-[#9796AC] cursor-pointer`}>{data.title}</span>
                 )
                 )
               }

@@ -110,10 +110,10 @@ const getCreditContent = () => {
   return (
     <>
       <div className="flex items-center justify-center w-full selection:bg-[#B3D4FC]">
-        <div className="flex flex-col items-center justify-center w-[75%]">
-          <div className="flex flex-col  w-full">
-            <div className="flex  bg-[#F9F9FA] px-10 py-12.5 w-full relative">
-              <div className="flex flex-col  gap-7 w-[70%] ">
+        <div className="flex flex-col items-center justify-center w-[95%] sm:w-[95%] lg:w-[75%]">
+          <div className="flex flex-col-reverse sm:flex-col-reverse md:flex-col w-full">
+            <div className="flex flex-col-reverse bg-[#F9F9FA]  w-full relative sm:flex-row sm:px-10 sm:py-12.5 ">
+              <div className="flex flex-col px-2 py-4  gap-7 w-full sm:w-[50%] sm:p-0 md:w-[50%] lg:w-[70%] ">
                 <p className='flex text-[36px] font-semibold text-[#222222]'>
                   <span className='text-[36px] font-semibold text-[#CE0F1D] mr-2'>Nağd</span>
                   pul krediti
@@ -136,10 +136,10 @@ const getCreditContent = () => {
                   </div>
                 </div>
               </div>
-              <img src={CreditGuy} className='absolute bottom-0 right-0 object-contain' />
+              <img src={CreditGuy} className=' bottom-0 right-0 object-contain w-104 self-center my-10 sm:absolute sm:m-0 sm:w-93 sm:self-auto md:w-82 lg:w-101 ' />
             </div>
             <div className="flex items-center justify-center flex-col w-full gap-5 bg-[#E7E8EA] pt-8.75 pb-10">
-              <p className='w-[50%] text-center text-[28px] text-[#25282b] font-bold'>Krediti <span className='text-[#CE0F1D]'>onlayn</span> dərhal əldə et!</p>
+              <p className='w-[60%] lg:w-[50%] text-center text-[28px] text-[#25282b] font-bold'>Krediti <span className='text-[#CE0F1D]'>onlayn</span> dərhal əldə et!</p>
               <div className="flex flex-col items-center justify-center ">
                 <div className="relative w-85">
                   <div className="relative bg-white border  border-transparent rounded-xl px-3 pt-5 pb-2 flex items-center shadow-sm">
@@ -199,7 +199,7 @@ const getCreditContent = () => {
           </div>
           <div className="flex flex-col my-12 justify-center item-start gap-0 w-full">
             <h2 className='text-[30px] font-semibold text-[#25282b]'>Bilmək faydalıdır</h2>
-            <div className="inline-flex item-start w-fit  my-10">
+            <div className="inline-flex item-start w-full whitespace-nowrap hide-scrollbar my-10 overflow-x-auto md:justify-center md:w-fit md:overflow-x-hidden  ">
               {
                 cat.map((item, id) => (
                   <p key={id} onClick={() => setCategory(item.desc)} className={`px-5 py-2.5  text-[16px] transition duration-100 font-medium ${item.desc === category ? "bg-[#EC3342] text-white" : "bg-white text-[#9498ac] hover:bg-[#D4D6DB] hover:text-black"}  cursor-pointer rounded-lg`}>{item.desc}</p>
@@ -216,7 +216,7 @@ const getCreditContent = () => {
                       onClick={() => toggleFaq(index)}
                       className="group flex border-b border-[#E9EAEC] w-full px-3 py-4 items-center hover:border-none justify-between cursor-pointer"
                     >
-                      <p className='text-[16px] text-[#25282b] text-center font-normal transition duration-50 group-hover:text-[#A296AC] group-hover:border-none'>
+                      <p className='text-[16px] text-[#25282b] w-[90%]  font-normal transition duration-50 group-hover:text-[#A296AC] group-hover:border-none'>
                         {item.question}
                       </p>
 
@@ -230,7 +230,7 @@ const getCreditContent = () => {
                       className={`overflow-hidden flex items-center justify-center transition-all duration-300 ${activeIndex === index ? "max-h-75" : "max-h-0"
                         }`}
                     >
-                      <p className='w-full  px-8 py-10 text-[16px] font-extralight text-[#222222] bg-[#F3F3F5]'>
+                      <p className='w-full  px-4 py-5 text-[16px] font-extralight text-[#222222] bg-[#F3F3F5]'>
                         {item.answer}
                       </p>
                     </div>

@@ -4,6 +4,8 @@ import SecondaryNavbar from './SecondaryNavbar'
 import { Link } from 'react-router-dom'
 import Footer from './Footer'
 import { IoIosArrowDown } from "react-icons/io";
+import { MdKeyboardArrowRight } from "react-icons/md";
+import { MdKeyboardArrowLeft } from "react-icons/md";
 
 const YigimHesabi = () => {
   const [selectedCategory, setSelectedCategory] = useState('FAQ')
@@ -125,7 +127,11 @@ const YigimHesabi = () => {
   ]
   const filteredDescData = descrData.filter((item) => item.type === selectedCategory)
   const [activeIndex, setActiveIndex] = useState(null);
-  const[selectedNum,setSelectedNum] = useState(1)
+  const [selectedNum, setSelectedNum] = useState(1)
+  const [progress, setProgress] = useState(3)// bu nece etmeli hissesinde progresi teyind edir meselen birinci sekilde 13% dolur 2-ci sekilde 26% ve s. 
+  const [progressNum, setProgressNum] = useState(1)
+  const [disableBtn, setDisableBtn] = useState('left')
+  console.log(progress)
   const toggleFaq = (index) => {
     if (activeIndex === index) {
       setActiveIndex(null)
@@ -135,12 +141,12 @@ const YigimHesabi = () => {
     }
   }
   return (
-    <>
+    <div className='w-full min-h-screen overflow-x-hidden'>
       <Navbar />
       <SecondaryNavbar />
       <>
         <div className="flex flex-col items-center justify-center w-full selection:bg-[#B3D4FC]">
-          <div className="flex flex-col w-[75%]">
+          <div className="flex flex-col w-[95%] sm:w-[75%] md:w-[95%] lg:w-[75%]">
             <div className="flex flex-col w-full">
               <div className="flex gap-2 my-3">
                 <Link className='text-[14px] p-3.75 text-[#6D7478]' to="/">Ana Səhifə</Link>
@@ -148,9 +154,9 @@ const YigimHesabi = () => {
                   Yığım hesabı</Link>
               </div>
             </div>
-            <div className="flex justify-between w-full bg-linear-to-r from-[#EC3242] to-[#EC3242] rounded-[10px] relative overflow-hidden">
-              <div className="flex flex-col w-[70%] gap-10 py-12 px-18">
-                <h2 className='text-[32px] font-semibold text-white leading-10'>Pulunu Birbank-la yığ, istəyəndə götür və faiz gəlirlərini itirmə!</h2>
+            <div className="flex flex-col justify-between w-full bg-linear-to-r from-[#EC3242] to-[#EC3242] rounded-[10px] relative overflow-hidden lg:flex-row">
+              <div className="flex flex-col w-full gap-10 px-4 pt-12 lg:py-12 lg:px-18 lg:w-[70%]">
+                <h2 className='text-[30px] font-semibold text-white leading-10 lg:text-[32px]'>Pulunu Birbank-la yığ, istəyəndə götür və faiz gəlirlərini itirmə!</h2>
                 <div className="flex items-center justify-between">
                   <div className="flex flex-col ">
                     <span className='text-[18px] text-white font-semibold'>0 AZN/USD-dan</span>
@@ -168,38 +174,38 @@ const YigimHesabi = () => {
                   </div>
                 </div>
               </div>
-              <div className="flex items-center justify-center w-[50%] py-12 px-2.5 ">
+              <div className="flex items-center justify-center w-full mt-10 lg:py-12 lg:px-2.5 lg:w-[50%] lg:m-0">
                 <img src="https://birbank.az/file/thumbnail_saving_account_banner_img_9ecbe94e68_97fdca7d6f.webp" className='w-60 object-cover flex ' alt="BirPay" />
               </div>
             </div>
             <div className="flex flex-col gap-4 items-center justify-center w-full my-15">
-              <h2 className='text-[#222222] font-semibold mx-53.5 text-center mb-8 text-[42px] leading-12'>YIĞIM HESABINI İNDİ AÇ, QAZANMAĞA BAŞLA!</h2>
+              <h2 className='text-[#222222] font-semibold  text-center mb-8 text-[24px] leading-12 md:text-[42px] lg:mx-53.5 '>YIĞIM HESABINI İNDİ AÇ, QAZANMAĞA BAŞLA!</h2>
               <div className="flex items-center  w-full bg-[#F9F9FA] gap-12 rounded-lg pt-12">
-                <div className="flex items-center justify-center w-[50%] ">
+                <div className="flex items-center justify-center w-full md:w-[50%] ">
                   <img src="https://birbank.az/file/saving_az_8471a2bfb9.png" className='flex w-60 object-cover' />
                 </div>
-                <div className="flex items-center justify-center bg-white p-8">
-                  <img src="https://birbank.az/file/yigim_hesab_qr_kod_6b9875820e.jpg" className='flex object-cover w-60' />
+                <div className="hidden items-center justify-center bg-white p-8 md:flex">
+                  <img src="https://birbank.az/file/yigim_hesab_qr_kod_6b9875820e.jpg" className=' object-cover w-60 ' />
                 </div>
               </div>
             </div>
           </div>
           <div className="flex flex-col items-center justify-center gap-3 w-full">
-            <div className="flex items-start w-[75%]">
-              <h2 className='text-[32px] font-semibold text-[#333333] leading-10'>Bilmək faydalıdır</h2>
+            <div className="flex items-start w-[95%] sm:w-[75%] md:w-[95%] lg:w-[75%]">
+              <h2 className='text-[24px] font-semibold text-[#333333] leading-10 md:text-[32px]'>Bilmək faydalıdır</h2>
             </div>
             <div className="flex flex-col w-full gap-10 items-center justify-center p-6 mb-20 bg-[#F9F9FA]">
               <div className="inline-flex items-center justify-center w-fit">
                 {
                   category.map((item, id) => (
-                    <span onClick={() => setSelectedCategory(item.type)} className={`cursor-pointer py-2 ${selectedCategory === item.type ? "text-white bg-[#25282B] rounded-lg" : "text-[#9496AC]   bg-white"}  inline-flex w-fit text-[16px] px-4 font-normal`}>{item.type}</span>
+                    <span onClick={() => setSelectedCategory(item.type)} className={`cursor-pointer py-2 ${selectedCategory === item.type ? "text-white bg-[#25282B] rounded-lg" : "text-[#9496AC]   bg-white"}  inline-flex w-fit text-[14px] px-4 font-normal md:text-[16px]`}>{item.type}</span>
                   ))
                 }
               </div>
               <div className="flex flex-col w-full items-center justify-center">
                 {
                   filteredDescData.map((item, index) => (
-                    <div key={index} className="w-[75%]">
+                    <div key={index} className="w-[95%] sm:w-[75%] md:w-[95%] lg:w-[75%]">
 
                       {selectedCategory === "Yığım hesabı nədir" ? (
 
@@ -221,7 +227,7 @@ const YigimHesabi = () => {
                         <div className="flex flex-col w-full items-center justify-center">
 
                           {item.desc.map((fil, faqIndex) => (
-                            <div key={faqIndex} className="w-[80%]">
+                            <div key={faqIndex} className=" lg:w-[80%]">
 
                               <div
                                 onClick={() => toggleFaq(faqIndex)}
@@ -262,18 +268,18 @@ const YigimHesabi = () => {
                 }
                 {
                   selectedCategory === 'Necə etməli' && (
-                    <>
-                      <div className="flex  items-center justify gap-1 w-[75%]">
-                        <div className="flex items-center justify-between w-full">
+                    <>                    <>
+                      <div className="hidden  items-start justify-center gap-1 w-full  md:flex lg:items-center">
+                        <div className="flex items-center justify-between md:w-[90%] lg:w-[80%]">
                           <div className="flex items-center justify-center w-[50%]">
-                            <img src= {howToDoData[selectedNum-1].imgUrl} className='w-67 object-cover'  />
+                            <img src={howToDoData[selectedNum - 1].imgUrl} className='w-67 object-cover' />
                           </div>
                           <div className="flex flex-col gap-6  w-[60%]">
                             <h2 className='text-[#2e3131] font-semibold text-[28px] align-end'>Birbank-da yığım hesabını necə aça bilərsən?</h2>
                             <div className="flex flex-col gap-4 items-start justify-start w-full">
                               {
                                 howToDoData.map((item, id) => (
-                                  <div onClick={()=> setSelectedNum(item.id)} key={id} className={`flex items-center w-full gap-4 px-6 py-4 rounded-lg ${item.id === selectedNum ? "bg-[#ff0039]" : "bg-white "} cursor-pointer`}>
+                                  <div onClick={() => setSelectedNum(item.id)} key={id} className={`flex items-center w-full gap-4 px-6 py-4 rounded-lg ${item.id === selectedNum ? "bg-[#ff0039]" : "bg-white "} cursor-pointer`}>
                                     <span className={` font-semibold text-[24px] ${item.id === selectedNum ? "bg-white" : " bg-[#f8f8f8]"}  text-[#ec3342] rounded-full px-3 flex items-center justify-center`}>{item.id}</span>
                                     <p className={`text-[18px] ${item.id === selectedNum ? "text-white" : "text-[#2e3131]"}  font-normal`}> {item.desc}</p>
                                   </div>
@@ -284,6 +290,46 @@ const YigimHesabi = () => {
                         </div>
                       </div>
                     </>
+                      <>
+                        <div className="flex flex-col items-center w-full gap-4 md:hidden">
+                          <div className="flex flex-col gap-3 items-center w-full">
+                            <h2 className='text-[#2e3131] font-semibold text-[20px] text-center w-full'>Birbank-da yığım hesabını necə aça bilərsən?</h2>
+                            <div className="flex flex-col gap-1 items-center justify-center">
+                              <p className='text-[14px] text-[#25282b] font-normal'>{progressNum}/7</p>
+                              <div className="flex relative  border-b-5 border-b-[#d4d6db] w-21 mx-50 rounded-xl">
+                                <span className={`absolute border-b-5 border-b-[#ff0039] z-4 w-${progress} rounded-xl`}></span>
+                              </div>
+                            </div>
+                            <div className="flex items-center justify-center gap-12 w-full">
+                              <MdKeyboardArrowLeft className={`w-12 h-12 items-center justify-center flex rounded-full ${disableBtn === 'left' ? "bg-[#f0f0f0] text-[#a9abaf]" : "bg-[#ff0039] text-white"} `}
+                                onClick={() => {
+                                  if (progressNum > 1) {
+                                    setProgressNum((prev) => prev - 1);
+                                    setProgress((prev) => Math.max(prev - 3, 3));
+                                    setDisableBtn('left')
+                                  }
+                                  if(progressNum != 1 && progressNum!=7){
+                                    setDisableBtn("")
+                                  }
+                                }} />
+                              <img src={howToDoData[progressNum - 1].imgUrl} className='w-50 object-cover' />
+                              <MdKeyboardArrowRight className={`w-12 h-12 items-center justify-center flex rounded-full ${disableBtn === 'right' ? "bg-[#f0f0f0] text-[#a9abaf]" : "bg-[#ff0039] text-white"} `}
+                                onClick={() => {
+                                  if (progressNum < 7) {
+                                    setProgressNum((prev) => prev + 1);
+                                    setProgress((prev) => Math.min(prev + 3, 21));
+                                    setDisableBtn('right')
+                                  }
+                                   if(progressNum != 1 && progressNum!=7){
+                                    setDisableBtn("")
+                                  }
+                                }} />
+                            </div>
+                          </div>
+                        </div>
+                      </>
+                    </>
+
                   )
                 }
               </div>
@@ -292,7 +338,7 @@ const YigimHesabi = () => {
         </div>
       </>
       <Footer />
-    </>
+    </div>
   )
 }
 

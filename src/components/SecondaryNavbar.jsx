@@ -59,7 +59,7 @@ const SecondaryNavbar = () => {
                       <Link className='text-[14px] text-[#9496ac] font-medium'>Depozit</Link>
                       <Link to='/yigim-hesabi' className='text-[14px] text-[#9496ac] font-medium' reloadDocument>Yığım hesabı</Link>
                       <Link  className='text-[14px] text-[#9496ac] font-medium' reloadDocument>Müddətsiz depozit</Link>
-                      <Link to='/avans' className='text-[14px] text-[#9496ac] font-medium' reloadDocument>Depozit seyfləri</Link>
+                      <Link to='/depozit-seyfleri' className='text-[14px] text-[#9496ac] font-medium' reloadDocument>Depozit seyfləri</Link>
                     </>
                   )
                   }

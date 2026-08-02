@@ -25,8 +25,7 @@ const BlogsContent = () => {
           <div className="flex flex-col w-full">
             <h2 className='text-[24px] font-bold text-[#25282b] my-4'>Bloq</h2>
             <div className="flex items-center  gap-2 my-3">
-              <Link className='text-[14px] p-3.75ext-[#6D7478]' to="/" reloadDocument>Ana Səhifə</Link>
-              <Link className=' text-[#25282b] text-[14px] p-3.75 pl-0' to="/ninja">Bloq</Link>
+<Link className='text-[14px] p-3.75 text-[#6D7478]' to="/">Ana Səhifə   »</Link>              <Link className=' text-[#25282b] text-[14px] p-3.75 pl-0' to="/ninja">Bloq</Link>
             </div>
           </div>
           <div  className="flex flex-col  justify-between h-full w-full overflow-hidden rounded-[10px] sm:flex-col md:flex-row">

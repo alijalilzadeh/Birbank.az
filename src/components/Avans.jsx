@@ -81,7 +81,7 @@ const Avans = () => {
           <div className="flex flex-col w-[95%] sm:w-[75%] md:w-[95%] lg:w-[75%]">
             <div className="flex flex-col w-full ">
               <div className="flex gap-2 my-3">
-                <Link className='text-[14px] p-3.75 text-[#6D7478]' to="/">Ana Səhifə</Link>
+                <Link className='text-[14px] p-3.75 text-[#6D7478]' to="/">Ana Səhifə   »</Link>
                 <Link className=' text-[#25282b] text-[14px] p-3.75 pl-0' to="/ninja">Avans</Link>
               </div>
               <div className="flex flex-col justify-between w-full bg-[linear-gradient(98.65deg,#7D0018_0%,#CA154A_100%)] rounded-[10px] relative overflow-hidden sm:flex-col lg:flex-row">

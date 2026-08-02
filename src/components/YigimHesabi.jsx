@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import Navbar from './Navbar'
 import SecondaryNavbar from './SecondaryNavbar'
 import { Link } from 'react-router-dom'
@@ -77,14 +77,6 @@ const YigimHesabi = () => {
           answer: "Xeyr, yığım hesabına bağlı ayrıca kart təqdim olunmur. Bu hesab klassik hesab-kart məhsulu deyil, çevik əmanət forması kimi fəaliyyət göstərir. Hesaba vəsait əlavə etmək və ya çıxarmaq üçün Birbank tətbiqi, hesablararası köçürmə, filial və ya terminallardan istifadə edilir. Əgər kart vasitəsilə əməliyyat aparmaq istəyirsinizsə, mövcud debet və ya kredit kartlarınızı istifadə edərək Yığım Hesabına köçürmə edə bilərsiniz."
         },
       ]
-    },
-    {
-      type: 'Yığım hesabı nədir',
-      desc: [
-        {
-
-        }
-      ]
     }
   ]
   const howToDoData = [
@@ -138,24 +130,24 @@ const YigimHesabi = () => {
       setActiveIndex(index)
     }
   }
-  useEffect(()=> {
-    if(progressNum === 1){
+  useEffect(() => {
+    if (progressNum === 1) {
       setDisableBtn('left')
     }
-    else if(progressNum === 7){
+    else if (progressNum === 7) {
       setDisableBtn('right')
     }
-  },[progressNum])
+  }, [progressNum])
 
   const widthClass = [
-  "w-3",
-  "w-6",
-  "w-9",
-  "w-12",
-  "w-15",
-  "w-18",
-  "w-21",
-];
+    "w-3",
+    "w-6",
+    "w-9",
+    "w-12",
+    "w-15",
+    "w-18",
+    "w-21",
+  ];
   return (
     <div className='w-full min-h-screen overflow-x-hidden'>
       <Navbar />
@@ -165,7 +157,7 @@ const YigimHesabi = () => {
           <div className="flex flex-col w-[95%] sm:w-[75%] md:w-[95%] lg:w-[75%]">
             <div className="flex flex-col w-full">
               <div className="flex gap-2 my-3">
-                <Link className='text-[14px] p-3.75 text-[#6D7478]' to="/">Ana Səhifə</Link>
+                <Link className='text-[14px] p-3.75 text-[#6D7478]' to="/">Ana Səhifə   »</Link>
                 <Link className=' text-[#25282b] text-[14px] p-3.75 pl-0' to="/ninja">
                   Yığım hesabı</Link>
               </div>
@@ -313,24 +305,24 @@ const YigimHesabi = () => {
                             <div className="flex flex-col gap-1 items-center justify-center">
                               <p className='text-[14px] text-[#25282b] font-normal'>{progressNum}/7</p>
                               <div className="flex relative  border-b-5 border-b-[#d4d6db] w-21 mx-50 rounded-xl">
-                                <span  className={`absolute border-b-5 border-b-[#ff0039] z-7 ${widthClass[progressNum - 1]} rounded-xl`}></span>
+                                <span className={`absolute border-b-5 border-b-[#ff0039] z-7 ${widthClass[progressNum - 1]} rounded-xl`}></span>
                               </div>
                             </div>
                             <div className="flex items-center justify-center gap-12 w-full">
                               <MdKeyboardArrowLeft className={`w-12 h-12 items-center justify-center flex rounded-full ${disableBtn === 'left' ? "bg-[#f0f0f0] text-[#a9abaf]" : "bg-[#ff0039] text-white"} `}
                                 onClick={() => {
-                                  if(progressNum != 1 && progressNum!=7){
+                                  if (progressNum != 1 && progressNum != 7) {
                                     setDisableBtn("")
                                   }
                                   if (progressNum > 1) {
                                     setProgressNum((prev) => prev - 1);
                                   }
-                                  
+
                                 }} />
                               <img src={howToDoData[progressNum - 1].imgUrl} className='w-50 object-cover' />
                               <MdKeyboardArrowRight className={`w-12 h-12 items-center justify-center flex rounded-full ${disableBtn === 'right' ? "bg-[#f0f0f0] text-[#a9abaf]" : "bg-[#ff0039] text-white"} `}
                                 onClick={() => {
-                                  if(progressNum != 1 && progressNum!=7){
+                                  if (progressNum != 1 && progressNum != 7) {
                                     setDisableBtn("")
                                   }
                                   if (progressNum < 7) {

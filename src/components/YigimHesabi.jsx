@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState,useEffect } from 'react'
 import Navbar from './Navbar'
 import SecondaryNavbar from './SecondaryNavbar'
 import { Link } from 'react-router-dom'
@@ -128,10 +128,8 @@ const YigimHesabi = () => {
   const filteredDescData = descrData.filter((item) => item.type === selectedCategory)
   const [activeIndex, setActiveIndex] = useState(null);
   const [selectedNum, setSelectedNum] = useState(1)
-  const [progress, setProgress] = useState(3)// bu nece etmeli hissesinde progresi teyind edir meselen birinci sekilde 13% dolur 2-ci sekilde 26% ve s. 
   const [progressNum, setProgressNum] = useState(1)
   const [disableBtn, setDisableBtn] = useState('left')
-  console.log(progress)
   const toggleFaq = (index) => {
     if (activeIndex === index) {
       setActiveIndex(null)
@@ -140,6 +138,24 @@ const YigimHesabi = () => {
       setActiveIndex(index)
     }
   }
+  useEffect(()=> {
+    if(progressNum === 1){
+      setDisableBtn('left')
+    }
+    else if(progressNum === 7){
+      setDisableBtn('right')
+    }
+  },[progressNum])
+
+  const widthClass = [
+  "w-3",
+  "w-6",
+  "w-9",
+  "w-12",
+  "w-15",
+  "w-18",
+  "w-21",
+];
   return (
     <div className='w-full min-h-screen overflow-x-hidden'>
       <Navbar />
@@ -297,31 +313,28 @@ const YigimHesabi = () => {
                             <div className="flex flex-col gap-1 items-center justify-center">
                               <p className='text-[14px] text-[#25282b] font-normal'>{progressNum}/7</p>
                               <div className="flex relative  border-b-5 border-b-[#d4d6db] w-21 mx-50 rounded-xl">
-                                <span className={`absolute border-b-5 border-b-[#ff0039] z-4 w-${progress} rounded-xl`}></span>
+                                <span  className={`absolute border-b-5 border-b-[#ff0039] z-7 ${widthClass[progressNum - 1]} rounded-xl`}></span>
                               </div>
                             </div>
                             <div className="flex items-center justify-center gap-12 w-full">
                               <MdKeyboardArrowLeft className={`w-12 h-12 items-center justify-center flex rounded-full ${disableBtn === 'left' ? "bg-[#f0f0f0] text-[#a9abaf]" : "bg-[#ff0039] text-white"} `}
                                 onClick={() => {
-                                  if (progressNum > 1) {
-                                    setProgressNum((prev) => prev - 1);
-                                    setProgress((prev) => Math.max(prev - 3, 3));
-                                    setDisableBtn('left')
-                                  }
                                   if(progressNum != 1 && progressNum!=7){
                                     setDisableBtn("")
                                   }
+                                  if (progressNum > 1) {
+                                    setProgressNum((prev) => prev - 1);
+                                  }
+                                  
                                 }} />
                               <img src={howToDoData[progressNum - 1].imgUrl} className='w-50 object-cover' />
                               <MdKeyboardArrowRight className={`w-12 h-12 items-center justify-center flex rounded-full ${disableBtn === 'right' ? "bg-[#f0f0f0] text-[#a9abaf]" : "bg-[#ff0039] text-white"} `}
                                 onClick={() => {
+                                  if(progressNum != 1 && progressNum!=7){
+                                    setDisableBtn("")
+                                  }
                                   if (progressNum < 7) {
                                     setProgressNum((prev) => prev + 1);
-                                    setProgress((prev) => Math.min(prev + 3, 21));
-                                    setDisableBtn('right')
-                                  }
-                                   if(progressNum != 1 && progressNum!=7){
-                                    setDisableBtn("")
                                   }
                                 }} />
                             </div>

@@ -30,7 +30,7 @@ const Footer = () => {
               </div>
 
               <div className="flex flex-col justify-start items-center lg:items-start gap-3">
-                <Link className="text-white text-[16px] hover:underline">Partnyorlar</Link>
+                <Link to='/partners' className="text-white text-[16px] hover:underline" reloadDocument>Partnyorlar</Link>
                 <Link to='/sigortalar' className="text-white text-[16px] hover:underline" reloadDocument>Sığortalar</Link>
                 <Link to='/tariffs' className="text-white text-[16px] hover:underline" reloadDocument>Tariflər</Link>
                 <Link to='/how-to' className="text-white text-[16px] hover:underline" reloadDocument>Birbank profilini sil</Link>

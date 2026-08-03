@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import BirPay from '../assets/EcoSystem/BirPay.png'
 import { BsCameraVideoFill } from 'react-icons/bs'
 import { LuMailOpen } from "react-icons/lu";
+import { Helmet } from 'react-helmet-async';
 import BirBankMainScreen from '../assets/EcoSystem/BirBankMainScreen.svg'
 import BirBankBiznes from '../assets/EcoSystem/BirBankBiznes.svg'
 import BirBankInvest from '../assets/EcoSystem/BirBankInvest.svg'
@@ -17,6 +18,13 @@ import '../index.css'
 const EcoSystemContent = () => {
   return (
     <>
+      <Helmet>
+        <title>Qafqazın ilk tam inteqrasiyalı rəqəmsal platforması</title>
+        <meta
+          name="description"
+          content="Ana səhifənin təsviri"
+        />
+      </Helmet>
       <div className="flex flex-col items-center justify-center w-full selection:bg-[#B3D4FC]">
         <div className="flex flex-col w-[95%] sm:w-[75%] md:w-[95%] lg:w-[75%]">
           <div className="flex flex-col w-full">

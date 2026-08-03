@@ -20,6 +20,7 @@ import KartinEynilesdirilmesi from '../assets/Cards/kartin-eynilesdirilmesi.svg'
 import BirBankVector from '../assets/Cards/birbank-vector.svg'
 import BirBankNewIcon from '../assets/Cards/birbank-new-icon.svg'
 import { IoIosArrowDown } from "react-icons/io";
+import { Helmet } from 'react-helmet-async';
 const CardsBlock = () => {
   const faqData = [
     {
@@ -57,6 +58,13 @@ const CardsBlock = () => {
 
   return (
     <>
+      <Helmet>
+        <title>Online kart sifarişi, debet və kredit kart | Birbank</title>
+        <meta
+          name="description"
+          content="Ana səhifənin təsviri"
+        />
+      </Helmet>
       <div className={`flex  items-center justify-center w-full  selection:bg-[#B3D4FC] mb-24`}>
         <div className="flex flex-col w-[95%] sm:w-[65%] md:w-[95%] lg:w-[75%]">
           <div className="flex flex-col w-full">

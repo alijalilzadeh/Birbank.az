@@ -4,7 +4,7 @@ import PartnerData from '../APIDatas/partnersData.json'
 import { CiSearch } from "react-icons/ci";
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 import { FaFilter } from "react-icons/fa";
-
+import { Helmet } from 'react-helmet-async';
 const PartnersContent = () => {
   const [partners, setPartners] = useState(
     PartnerData.pageProps.initialState.partners.partnersData
@@ -73,6 +73,13 @@ const PartnersContent = () => {
   }, [filteredCategory]);// her defe filter olunanda ve ya olunmayanda arrayin olcusun qaytarir
   return (
     <>
+      <Helmet>
+        <title>Birbank | Partnyorlar</title>
+        <meta
+          name="description"
+          content="Ana səhifənin təsviri"
+        />
+      </Helmet>
       <div className="flex flex-col items-center justify-center w-full selection:bg-[#B3D4FC] ">
         <div className="flex flex-col w-[95%] sm:w-[75%] md:w-[95%] lg:w-[75%] h-full gap-6 relative items-center justify-center">
           <div className="flex flex-col w-full h-full">
@@ -527,7 +534,7 @@ const PartnersContent = () => {
                 </div>
               </div>
               <div className="flex flex-col gap-2 w-full items-center justify bg-white rounded-t-2xl px-4 pt-3 pb-4 shadow-[0_-4px_10px_0_rgba(0,0,0,0.102)]">
-                <span onClick={()=> setResponsiveFilter(false)} className='flex items-center justify-center w-full px-4 py-3 rounded-xl bg-[#ef3342] text-[15px] font-medium text-white cursor-pointer '>Bağla</span>
+                <span onClick={() => setResponsiveFilter(false)} className='flex items-center justify-center w-full px-4 py-3 rounded-xl bg-[#ef3342] text-[15px] font-medium text-white cursor-pointer '>Bağla</span>
                 <span onClick={() => { setSelectedInstallments([]); setSelectedBNPL([]); setSelectedCashbackes([]) }} className='flex items-center justify-center w-full px-4 py-3 rounded-xl bg-[#F3F3F5] text-[15px] font-medium text-[#6b7280] cursor-pointer transition duration-200 hover:bg-[#6B7280] hover:text-white'>Sıfırla</span>
 
               </div>

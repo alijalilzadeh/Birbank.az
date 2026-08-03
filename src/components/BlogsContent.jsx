@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import blogData from '../APIDatas/blogData.json'
 import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
 import { useState } from 'react';
+import { Helmet } from 'react-helmet-async';
 import '../input.css'
 const BlogsContent = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -20,6 +21,13 @@ const BlogsContent = () => {
 
   return (
     <>
+    <Helmet>
+            <title>Birbank | Bloqlar</title>
+            <meta
+              name="description"
+              content="Ana səhifənin təsviri"
+            />
+          </Helmet>
       <div className="flex flex-col items-center justify-center w-full selection:bg-[#B3D4FC]">
         <div className="flex flex-col w-[95%] sm:w-[75%] md:w-[95%] lg:w-[75%]">
           <div className="flex flex-col w-full">

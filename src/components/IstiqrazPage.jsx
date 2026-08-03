@@ -6,7 +6,7 @@ import { useState } from 'react'
 import EmissiyaPDF from '../assets/Istiqraz/emissiya_prospekti.pdf'
 import { IoDocumentTextOutline } from "react-icons/io5";
 import { IoIosArrowDown } from "react-icons/io";
-
+import { Helmet } from 'react-helmet-async'
 import bondSafety from '../assets/Istiqraz/safeIstiqraz.svg';
 import bondNoTax from '../assets/Istiqraz/bond_no_tax.svg';
 import bondLiquidity from '../assets/Istiqraz/bond_liquidity.svg';
@@ -14,8 +14,6 @@ import bondProfitable from '../assets/Istiqraz/bond_profitable.svg';
 import bondAdditionalCost from '../assets/Istiqraz/bond_additional_costs.svg';
 const IstiqrazPage = () => {
   const [grayBtn, setGrayBtn] = useState("Transh")
-
-
   const [currency, setCurrency] = useState("AZN");
   const [buttonStatus, setButtonStatus] = useState(false);
   const [purchaseVolume, setPurchaseVolume] = useState(100);
@@ -64,6 +62,13 @@ const IstiqrazPage = () => {
   }
   return (
     <>
+      <Helmet>
+        <title>İstiqraz ilə sərfəli investisiya imkanları əldə edin</title>
+        <meta
+          name="description"
+          content="Ana səhifənin təsviri"
+        />
+      </Helmet>
       <div className="flex  items-center justify-center w-full selection:bg-[#B3D4FC]">
         <div className="flex flex-col justify-center w-[95%] sm:w-[75%] md:w-[95%] lg:w-[75%] gap-7">
           <div className="flex flex-col justify-center  gap-7">

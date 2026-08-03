@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { useState } from 'react'
 import { IoIosArrowDown } from "react-icons/io";
 import { GoArrowRight } from "react-icons/go";
+import { Helmet } from 'react-helmet-async';
 import newsData from '../ApIDatas/newsData.json'
 import currencyRateBg from '../assets/CurrencyRates/currencyBg.svg'
 import MoneyTransfersBg from '../assets/Pul-Kocurmeleri/money_transfers-bg.svg'
@@ -46,11 +47,18 @@ const PulKocurmeleriPage = () => {
   }
   return (
     <>
+      <Helmet>
+        <title>Xaricdən pul köçürmək üçün rahat və sürətli üsullar təklif olunur</title>
+        <meta
+          name="description"
+          content="Ana səhifənin təsviri"
+        />
+      </Helmet>
       <div className="flex  items-center justify-center w-full selection:bg-[#B3D4FC]">
         <div className="flex flex-col justify-center w-[95%] sm:w-[65%] md:w-[95%] lg:w-[75%] gap-7">
           <div className="flex flex-col justify-center  gap-7">
             <div className="flex gap-2 items-center">
-              <Link className='text-[14px] p-3.75 text-[#6D7478]' to="/" reloadDocument>Ana Səhifə</Link>              
+              <Link className='text-[14px] p-3.75 text-[#6D7478]' to="/" reloadDocument>Ana Səhifə</Link>
               <Link to='/pul-kocurmeleri' className='text-[14px] text-[#25282b] font-normal py-3.75'>Pul köçürmələri</Link>
             </div>
             <div className="flex flex-col gap-4 sm:gap-6 sm:flex-col md:flex-col md:gap-6 lg:flex-row lg:gap-0 items-center justify-between w-full relative rounded-[10px] bg-[linear-gradient(98.65deg,rgb(236,50,66)_0%,rgb(153,0,0)_100%)]">

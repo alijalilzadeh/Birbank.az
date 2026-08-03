@@ -5,6 +5,7 @@ import ninjaCardImg from '../assets/Ninja/ninjaCard.png'
 import { CgAsterisk } from "react-icons/cg";
 import { IoIosArrowDown } from "react-icons/io";
 import { IoInformationCircleOutline } from "react-icons/io5";
+import { Helmet } from 'react-helmet-async';
 const NinjaComponents = () => {
 
   const faqData = [
@@ -93,11 +94,18 @@ const NinjaComponents = () => {
 
   return (
     <>
+      <Helmet>
+        <title>Taksit kartı ilə ödənişlərini aylara böldür, "Ninja" ilə ödə</title>
+        <meta
+          name="description"
+          content="Ana səhifənin təsviri"
+        />
+      </Helmet>
       <div className="flex flex-col items-center justify-center w-full selection:bg-[#B3D4FC]">
         <div className="flex flex-col w-[95%] sm:w-[75%] md:w-[95%] lg:w-[75%]">
           <div className="flex flex-col w-full">
             <div className="flex gap-2 my-3">
-              <Link className='text-[14px] p-3.75 text-[#6D7478]' to="/" reloadDocument>Ana Səhifə</Link>              
+              <Link className='text-[14px] p-3.75 text-[#6D7478]' to="/" reloadDocument>Ana Səhifə</Link>
               <Link className=' text-[#25282b] text-[14px] p-3.75 pl-0' to="/ninja">Ninja təklifi</Link>
             </div>
           </div>

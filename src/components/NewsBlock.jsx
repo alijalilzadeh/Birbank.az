@@ -1,11 +1,19 @@
 import React from 'react'
 import { useState, useEffect, useMemo } from 'react'
 import { Link } from 'react-router-dom'
+import { Helmet } from 'react-helmet-async'
 import newsData from '../ApIDatas/newsData.json'
 const NewsBlock = () => {
 
   return (
     <>
+      <Helmet>
+        <title>Birbank | Xəbərlər</title>
+        <meta
+          name="description"
+          content="Ana səhifənin təsviri"
+        />
+      </Helmet>
       <div className="flex items-center justify-center w-full selection:bg-[#B3D4FC] mb-24">
         <div className="flex flex-col w-[95%] sm:w-[75%] md:w-[95%] lg:w-[75%]">
           <h2 className='my-3 text-[24px] font-bold text-[#25282b]'>{newsData.pageProps.messages.news.title}</h2>

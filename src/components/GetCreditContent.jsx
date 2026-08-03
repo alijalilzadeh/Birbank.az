@@ -2,6 +2,7 @@ import React from 'react'
 import CreditGuy from '../assets/Credit/Credit_guy.png'
 import { useState, useEffect, useRef } from 'react';
 import { IoIosArrowDown } from "react-icons/io";
+import { Helmet } from 'react-helmet-async';
 const getCreditContent = () => {
   const [prefix, setPrefix] = useState('055');
   const [phoneNumber, setPhoneNumber] = useState('392 49 31');
@@ -78,7 +79,7 @@ const getCreditContent = () => {
   const descData = [
     {
       category: 'Şərtlər',
-      p : [
+      p: [
         { desc: '- Krediti Kapital Bank və ya digər bankdan əmək haqqı/təqaüd alan şəxslər əldə edə bilər' },
         { desc: '- Minimal yaş 18 olmalıdır, maksimal yaş isə kreditin son ödəniş tarixinədək 70 yaşı keçməməlidir' },
         { desc: '- Son iş yerində staj minimum 3 ay olmalıdır. Təqaüdçü müştərilər üzrə staj tələbi mövcud deyil' },
@@ -92,13 +93,13 @@ const getCreditContent = () => {
     },
     {
       category: 'Əlavə məlumatlar',
-      p : [
+      p: [
         { desc: '- Nağd pul krediti, gündəlik və ya gözlənilməz maliyyə ehtiyaclarını qarşılamaq üçün çevik və etibarlı bir həll təqdim edir. Müxtəlif kredit məbləği və geri ödəniş müddəti seçimləri ilə bu məhsul büdcənə uyğun planlı maliyyə idarəsi imkanı yaradır. Kreditə müraciət prosesi sadə və sürətli olmaqla yanaşı, rəsmi gəliri olan şəxslər üçün əlverişli şərtlərlə təqdim olunur. Təqaüdçülərdən zamin və ya iş stajı tələbi qoyulmadan kredit verilməsi isə bu məhsulu daha da əlçatan edir. Əgər sən də maliyyə ehtiyaclarını rahatlıqla qarşılamaq və ödəmə prosesini öz imkanlarınıza uyğun şəkildə həyata keçirmək istəyirsənsə, Birbank tətbiqindən və ya sənə ən yaxın Birbank filialından faydalana bilərsiniz.' },
       ]
     }
   ]
   const [category, setCategory] = useState('Tez-tez verilən suallar');
-  const filteredData =  descData.find((it) => it.category === category)
+  const filteredData = descData.find((it) => it.category === category)
   const toggleFaq = (index) => {
     if (activeIndex === index) {
       setActiveIndex(null)
@@ -109,6 +110,13 @@ const getCreditContent = () => {
   }
   return (
     <>
+      <Helmet>
+        <title>Nağd pul krediti | Birbank </title>
+        <meta
+          name="description"
+          content="Ana səhifənin təsviri"
+        />
+      </Helmet>
       <div className="flex items-center justify-center w-full selection:bg-[#B3D4FC]">
         <div className="flex flex-col items-center justify-center w-[95%] sm:w-[95%] lg:w-[75%]">
           <div className="flex flex-col-reverse sm:flex-col-reverse md:flex-col w-full">
@@ -241,10 +249,10 @@ const getCreditContent = () => {
                 <div className="flex flex-col items-start w-full gap-6">
                   {
 
-                    filteredData.p.map((item,id)=> (
+                    filteredData.p.map((item, id) => (
                       <p className='text-[16px] font-light text-[#25282b]' key={id}>{item.desc}</p>
                     ))
-                    
+
                   }
                 </div>
               )

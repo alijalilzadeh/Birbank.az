@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import faqBanner from '../assets/FAQ/faqBanner.svg'
 import { IoIosArrowDown } from "react-icons/io";
-
+import { Helmet } from 'react-helmet-async';
 const FAQContent = () => {
   const faqData = [
     {
@@ -126,6 +126,13 @@ const FAQContent = () => {
   }
   return (
     <>
+      <Helmet>
+        <title>FAQ | Birbank</title>
+        <meta
+          name="description"
+          content="Ana səhifənin təsviri"
+        />
+      </Helmet>
       <div className="flex flex-col items-center justify-center w-full selection:bg-[#B3D4FC]">
         <div className="flex flex-col w-[90%] sm:w-[75%] md:w-[95%] lg:w-[75%] h-full">
           <div className="flex flex-col w-full h-full">
@@ -158,15 +165,15 @@ const FAQContent = () => {
                 filteredDescription.map((item, index) => (
                   <div key={index} className="flex flex-col w-full items-center justify-center ">
                     {item.description.map((fil, index) => (
-                      <>                      
-                      <div onClick={() => toggleFaq(index)} className="flex border-b-2 border-[#E9EAEC] w-full px-3 py-4 justify-between cursor-pointer">
+                      <>
+                        <div onClick={() => toggleFaq(index)} className="flex border-b-2 border-[#E9EAEC] w-full px-3 py-4 justify-between cursor-pointer">
 
-                        <p className='text-[16px] text-[#222222]  font-normal w-full'>
-                          {fil.question}
-                        </p>
+                          <p className='text-[16px] text-[#222222]  font-normal w-full'>
+                            {fil.question}
+                          </p>
 
-                        <IoIosArrowDown className={`text-[16px] text-[#222222] transition duration-100 transform ${activeIndex === index ? "rotate-180" : ""}`} />
-                      </div>
+                          <IoIosArrowDown className={`text-[16px] text-[#222222] transition duration-100 transform ${activeIndex === index ? "rotate-180" : ""}`} />
+                        </div>
 
                         <div className={`overflow-hidden w-full flex items-center justify-center transition-all duration-300 ${activeIndex === index ? "max-h-75" : "max-h-0"}`} >
                           <p className='w-full px-4 pt-6 pb-5 text-[14px] font-normal text-[#222222] bg-[#F3F3F5]'>

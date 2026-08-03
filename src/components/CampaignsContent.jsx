@@ -4,6 +4,7 @@ import expiredCampaign from '../APIDatas/expiredCampaign.json'
 import activeCampaign from '../APIDatas/activeCampaigns.json'
 import partnerData from '../APIDatas/partnersData.json'
 import { FaCalendarAlt } from "react-icons/fa";
+import { Helmet } from 'react-helmet-async'
 const CampaignsContent = () => {
   const [dateStatus, setDateStatus] = useState(true)
   const campaignsGroup = dateStatus ? activeCampaign.pageProps.initialState.campaigns.campaignsGroup : expiredCampaign.pageProps.initialState.campaigns.campaignsGroup
@@ -13,6 +14,13 @@ const CampaignsContent = () => {
 
   return (
     <>
+      <Helmet>
+        <title>Birbank | Kampaniyalar</title>
+        <meta
+          name="description"
+          content="Ana səhifənin təsviri"
+        />
+      </Helmet>
       <div className="flex flex-col items-center justify-center w-full selection:bg-[#B3D4FC]">
         <div className="flex flex-col w-[95%] sm:w-[75%] md:w-[95%] lg:w-[75%] h-full gap-6">
           <div className="flex flex-col w-full h-full">
@@ -35,7 +43,7 @@ const CampaignsContent = () => {
                       setCampaignType(item.attributes.name);
                       setFilterOrder(item.attributes.order);
                     }
-                  }}  className={`px-5 py-2.5 font-bold text-[14px] ${campaignType === item.attributes.name ? "bg-[#52575c] text-white" : "text-[#25282b] bg-[#e7e8ea] hover:bg-[#CACCD0] "} rounded-md cursor-pointer transition duration-300 `}>
+                  }} className={`px-5 py-2.5 font-bold text-[14px] ${campaignType === item.attributes.name ? "bg-[#52575c] text-white" : "text-[#25282b] bg-[#e7e8ea] hover:bg-[#CACCD0] "} rounded-md cursor-pointer transition duration-300 `}>
                     {item.attributes.name}
                   </span>
                 ))

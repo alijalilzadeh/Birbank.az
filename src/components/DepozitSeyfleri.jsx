@@ -4,6 +4,7 @@ import Navbar from './Navbar'
 import SecondaryNavbar from './SecondaryNavbar'
 import Footer from './Footer'
 import { Link } from 'react-router-dom'
+import { Helmet } from "react-helmet-async";
 import { IoIosArrowDown } from "react-icons/io";
 const DepozitSeyfleri = () => {
   const category = [
@@ -151,6 +152,14 @@ const DepozitSeyfleri = () => {
     }
   }
   return (
+    <>
+     <Helmet>
+        <title>Depozit seyfləri xidmətimizlə əşyalarınızı qoruyun və gəlirləri hesablayın</title>
+        <meta
+          name="description"
+          content="Ana səhifənin təsviri"
+        />
+      </Helmet>
     <div className='w-full min-h-screen overflow-x-hidden'>
       <Navbar />
       <SecondaryNavbar />
@@ -317,6 +326,7 @@ const DepozitSeyfleri = () => {
       </>
       <Footer />
     </div>
+    </>
   )
 }
 

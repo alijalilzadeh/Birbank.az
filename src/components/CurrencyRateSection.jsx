@@ -4,7 +4,7 @@ import newsData from '../ApIDatas/newsData.json'
 import currencyRateBg from '../assets/CurrencyRates/currencyBg.svg'
 import { useState } from 'react'
 import { IoIosArrowDown } from "react-icons/io";
-
+import { Helmet } from 'react-helmet-async'
 const CurrecyRateSection = () => {
   const faqData = [
     {
@@ -41,6 +41,13 @@ const CurrecyRateSection = () => {
   }
   return (
     <>
+      <Helmet>
+        <title>Valyuta məzənnəsi bu gün – USD, EUR, RUB kursu | Birbank </title>
+        <meta
+          name="description"
+          content="Ana səhifənin təsviri"
+        />
+      </Helmet>
       <div className="flex  items-center justify-center w-full selection:bg-[#B3D4FC]">
         <div className="flex flex-col justify-center w-[75%] gap-7 mb-15">
           <div className="flex flex-col justify-center  gap-7">

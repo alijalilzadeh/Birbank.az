@@ -3,16 +3,23 @@ import { Link } from 'react-router-dom'
 import TarifBanner from '../assets/Tariffs/tariffs_banner.png'
 import { useState } from 'react'
 import { LiaFileDownloadSolid } from "react-icons/lia";
-
+import { Helmet } from 'react-helmet-async';
 const TariffsContent = () => {
   const [tariffStatus, setTariffStatus] = useState("tarif");
   return (
     <>
+      <Helmet>
+        <title>Tariflər | Birbank</title>
+        <meta
+          name="description"
+          content="Ana səhifənin təsviri"
+        />
+      </Helmet>
       <div className="flex flex-col items-center justify-center w-full selection:bg-[#B3D4FC]">
         <div className="flex flex-col w-[95%] sm:w-[75%] md:w-[95%]  lg:w-[75%] h-full">
           <div className="flex flex-col w-full h-full">
             <div className="flex gap-2 my-3">
-              <Link className='text-[14px] p-3.75 text-[#6D7478]' to="/" reloadDocument>Ana Səhifə</Link>              
+              <Link className='text-[14px] p-3.75 text-[#6D7478]' to="/" reloadDocument>Ana Səhifə</Link>
               <Link className=' text-[#25282b] text-[14px] p-3.75 pl-0' to="/ninja">Tariflər</Link>
             </div>
           </div>

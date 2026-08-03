@@ -13,8 +13,7 @@ import CrashInsurance from '../assets/Sigortalar/CrashInsurance.png'
 import CreditLifeInsurance from '../assets/Sigortalar/CreditLifeInsurance.png'
 import { HiMiniArrowLongRight } from "react-icons/hi2";
 import { IoIosArrowDown } from "react-icons/io";
-
-
+import { Helmet } from 'react-helmet-async'
 const SigortalarContent = () => {
   const faqData = [
     {
@@ -68,6 +67,13 @@ const SigortalarContent = () => {
 
   return (
     <>
+      <Helmet>
+        <title>Sığorta yoxla və online sığorta əldə et | Birbank</title>
+        <meta
+          name="description"
+          content="Ana səhifənin təsviri"
+        />
+      </Helmet>
       <div className="flex flex-col items-center justify-center w-full selection:bg-[#B3D4FC]">
         <div className="flex flex-col w-[95%] sm:w-[75%] md:w-[95%] lg:w-[75%] h-full">
           <div className="flex flex-col w-full h-full">

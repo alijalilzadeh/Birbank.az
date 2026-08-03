@@ -72,7 +72,6 @@ const Avans = () => {
   }
   return (
 
-
     <div className='w-full min-h-screen overflow-x-hidden'>
       <Navbar />
       <SecondaryNavbar />

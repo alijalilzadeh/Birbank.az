@@ -152,7 +152,7 @@ const DepozitSeyfleri = () => {
     }
   }
   return (
-    <>
+    <div className='w-full min-h-screen overflow-x-hidden'>
      <Helmet>
         <title>Depozit seyfləri xidmətimizlə əşyalarınızı qoruyun və gəlirləri hesablayın</title>
         <meta
@@ -286,13 +286,13 @@ const DepozitSeyfleri = () => {
                 selectedCategory === 'Tez-tez verilən suallar' && (
                   <div className="flex flex-col w-full items-center justify-center">
                     {FAQdata.map((fil, faqIndex) => (
-                      <div key={faqIndex} className=" lg:w-[80%]">
+                      <div key={faqIndex} className=" w-[95%] sm:w-[80%] lg:w-[60%]">
 
                         <div
                           onClick={() => toggleFaq(faqIndex)}
                           className="flex border-b-2 border-[#E9EAEC] w-full px-3 py-4 justify-between cursor-pointer"
                         >
-                          <p className="text-[16px] text-[#222222] font-normal w-full">
+                          <p className="text-[16px] text-[#222222] font-normal w-[90%] lg:w-full">
                             {fil.question}
                           </p>
 
@@ -326,7 +326,7 @@ const DepozitSeyfleri = () => {
       </>
       <Footer />
     </div>
-    </>
+    </div>
   )
 }
 

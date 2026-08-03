@@ -30,7 +30,7 @@ const DesignedLinks = () => {
             <div className="flex transition-transform duration-500 ease-in-out" style={{ transform: `translateX(-${currentIndex * 100}%)`, }}>
               {campaigns.map((item, index) => (
                 <div key={index} className="min-w-full h-fit flex flex-col items-start md:flex-row md:items-center lg:flex-row  lg:justify-between relative gap-6  lg:px-6">
-                  <SlArrowLeft onClick={prevSlide} className="absolute            left-0 top-1/2  -translate-y-1/2   z-10   bg-white   text-[34px]  p-2 rounded-lg text-[#D4D6DB] cursor-pointer" />
+                  <SlArrowLeft onClick={prevSlide} className="absolute left-0 top-1/2  -translate-y-1/2   z-10   bg-white   text-[34px]  p-2 rounded-lg text-[#D4D6DB] cursor-pointer" />
 
                   <div className="flex flex-col justify-between w-full md:w-[60%] md:pl-15.5 md:pt-18 lg:w-[40%] gap-6">
                     <h2 className="text-[32px] md:text-[48px] font-medium sm:font-medium md:font-bold text-[#25282b] leading-tight">

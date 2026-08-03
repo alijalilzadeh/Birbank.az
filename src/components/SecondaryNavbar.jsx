@@ -51,7 +51,7 @@ const SecondaryNavbar = () => {
                   {dropdown === 'Kreditler' ? (
                     <>
                       <Link to='/kredit-sifarisi' className='text-[14px] text-[#9496ac] font-medium' reloadDocument>Nağd pul krediti</Link>
-                      <Link className='text-[14px] text-[#9496ac] font-medium' reloadDocument>Əmanət təminatlı kredit</Link>
+                      <Link to='/emanet-teminatli-kredit' className='text-[14px] text-[#9496ac] font-medium' reloadDocument>Əmanət təminatlı kredit</Link>
                       <Link to='/avans' className='text-[14px] text-[#9496ac] font-medium' reloadDocument>Avans</Link>
                     </>
                   ) : (

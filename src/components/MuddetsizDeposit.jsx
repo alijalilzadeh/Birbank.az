@@ -166,19 +166,19 @@ const MuddetsizDeposit = () => {
                   <>
                     <div className="flex flex-col items-center justify-center gap-1 w-full sm:w-[75%] md:w-full lg:w-[75%]">
                       <div className="flex flex-col gap-4 w-full items-center justify-center">
-                        <div className={`flex w-full justify-start rounded-sm`}>
-                          <span className='w-[50%] text-[#25282b] text-[12px] md:text-[16px] font-light text-start'>Depozit müddəti - Minimum 12 ay (avtomatik uzadılır)</span>
-                          <span className='w-[50%] text-[#25282b] text-[12px] md:text-[16px] font-light text-start'>Faiz ödənişi - Əmanət məbləği çıxarıldığı zaman</span>
+                        <div className={`flex flex-col gap-3 w-full justify-start rounded-sm lg:flex-row`}>
+                          <span className='w-full lg:w-[50%] text-[#25282b] text-[12px] md:text-[16px] font-light text-start'>Depozit müddəti - Minimum 12 ay (avtomatik uzadılır)</span>
+                          <span className='w-full lg:w-[50%] text-[#25282b] text-[12px] md:text-[16px] font-light text-start'>Faiz ödənişi - Əmanət məbləği çıxarıldığı zaman</span>
                         </div>
 
-                        <div className={`flex w-full justify-start rounded-sm `}>
-                          <span className='w-[50%] text-[#25282b] text-[12px] md:text-[16px] font-light text-start'>Açılma müddəti 30 təqvim gününə qədər olan müqavilələr üzrə faiz ödənilmir</span>
-                          <span className='w-[50%] text-[#25282b] text-[12px] md:text-[16px] font-light text-start'>Vergi Məcəlləsinin 102.1.22-ci maddəsinə əsasən 2023-cü ilin fevral ayının 1-dən etibarən Fiziki şəxslər üzrə depozit faizlərindən 10% vergi tutulacaqdır.</span>
+                        <div className={`flex flex-col gap-3 w-full justify-start rounded-sm lg:flex-row`}>
+                          <span className='w-full lg:w-[50%] text-[#25282b] text-[12px] md:text-[16px] font-light text-start'>Açılma müddəti 30 təqvim gününə qədər olan müqavilələr üzrə faiz ödənilmir</span>
+                          <span className='w-full lg:w-[50%] text-[#25282b] text-[12px] md:text-[16px] font-light text-start'>Vergi Məcəlləsinin 102.1.22-ci maddəsinə əsasən 2023-cü ilin fevral ayının 1-dən etibarən Fiziki şəxslər üzrə depozit faizlərindən 10% vergi tutulacaqdır.</span>
                         </div>
 
-                        <div className={`flex w-full justify-start rounded-sm`}>
-                          <span className='w-[50%] text-[#25282b] text-[12px] md:text-[16px] font-light text-start'>Depozit məbləği - Minimum 100 AZN/USD</span>
-                          <span className='w-[50%] text-[#25282b] text-[12px] md:text-[16px] font-light text-start'></span>
+                        <div className={`flex flex-col gap-3 w-full justify-start rounded-sm lg:flex-row`}>
+                          <span className='w-full lg:w-[50%] text-[#25282b] text-[12px] md:text-[16px] font-light text-start'>Depozit məbləği - Minimum 100 AZN/USD</span>
+                          <span className='w-full lg:w-[50%] text-[#25282b] text-[12px] md:text-[16px] font-light text-start'></span>
                         </div>
                       </div>
                       <div className="flex gap-3 items-start w-full mt-6 pl-4">

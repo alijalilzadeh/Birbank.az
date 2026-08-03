@@ -24,6 +24,7 @@ import YigimHesabi from './components/YigimHesabi'
 import Avans from './components/Avans'
 import DepozitSeyfleri from './components/DepozitSeyfleri'
 import MuddetsizDeposit from './components/MuddetsizDeposit'
+import EmanetTeminatliKredit from './components/EmanetTeminatliKredit'
 function App() {
   return (
     <Routes>
@@ -51,6 +52,7 @@ function App() {
       <Route path='/avans' element={<Avans />} />
       <Route path='/depozit-seyfleri' element={<DepozitSeyfleri />} />
       <Route path='/muddetsiz-depozit' element={<MuddetsizDeposit />} />
+      <Route path='/emanet-teminatli-kredit' element={<EmanetTeminatliKredit />} />
     </Routes>
   )
 }

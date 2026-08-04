@@ -69,22 +69,43 @@ const Navbar = () => {
             <NavLink to='https://private.birbank.az/' className={' text-[#52575c] text-[16px] text-center font-semibold p-3 border-b-2 w-full  border-transparent hover:border-[#EC3342] '} reloadDocument>Private</NavLink>
           </div>
 
-          <div className="flex flex-col items-start border-b-2 border-b-[#ebebf1] pb-4 justify-start gap-6 w-full">
-            <NavLink to="/cards/all" className={'text-[18px] border-b-2 border-transparent hover:border-[#EC3342] text-[#52575c] font-semibold'} reloadDocument>Kartlar</NavLink>
-            <NavLink onMouseEnter={() => { setLinkStatus(true); setDropdown('Kreditler') }} to='/kreditler' className={'flex justify-between items-center w-full text-[18px] border-b-2 border-transparent hover:border-[#EC3342] text-[#52575c] font-semibold'} reloadDocument>
-              <span>Kreditlər</span>
-              <MdOutlineKeyboardArrowRight size={20} />
-            </NavLink>
-            <NavLink onMouseEnter={() => { setLinkStatus(true); setDropdown('Emanetler') }} className={'flex justify-between items-center w-full text-[18px] border-b-2 border-transparent hover:border-[#EC3342] text-[#52575c] font-semibold'} reloadDocument>
-              <span>Əmanətlər</span>
-              <MdOutlineKeyboardArrowRight size={20} />
-
-            </NavLink>
-            <NavLink to='/istiqraz' className={'text-[18px] border-b-2 border-transparent hover:border-[#EC3342] text-[#52575c] font-semibold'} reloadDocument>İstiqraz</NavLink>
-            <NavLink to='/pul-kocurmeleri' className={'text-[18px] border-b-2 border-transparent hover:border-[#EC3342] text-[#52575c] font-semibold'} reloadDocument>Pul köçürmələri</NavLink>
-            <NavLink to='/partners' className={'text-[18px] border-b-2 border-transparent hover:border-[#EC3342] text-[#52575c] font-semibold'} reloadDocument>Partnyorlar</NavLink>
-            <NavLink to='/campaigns' className={'text-[18px] border-b-2 border-transparent hover:border-[#EC3342] text-[#52575c] font-semibold'} reloadDocument>Kampaniyalar</NavLink>
-            <NavLink to='/news' className={'text-[18px] border-b-2 border-transparent hover:border-[#EC3342] text-[#52575c] font-semibold'} reloadDocument>Xəbərlər</NavLink>
+          <div className="flex flex-col items-start border-b-2 border-b-[#ebebf1] pb-4 justify-start  w-full">
+            <NavLink to="/cards/all" className={'text-[18px] pb-6 border-b-2 border-transparent hover:border-[#EC3342] text-[#52575c] font-semibold'} reloadDocument>Kartlar</NavLink>
+            <div onMouseEnter={() => { setDropdown('Kreditler') }} className="flex pb-6 items-center justify-between w-full">
+              <NavLink className={'w-[50%] text-[18px] border-b-2 border-transparent hover:border-[#EC3342] text-[#52575c] font-semibold'} reloadDocument>
+                Kreditlər
+              </NavLink>
+              <MdOutlineKeyboardArrowRight size={20} className={`${dropdown === 'Kreditler' ? "rotate-90" : "rotate-0"}`} />
+            </div>
+            {dropdown === 'Kreditler' && (
+              <div className='flex flex-col gap-2 w-full items-start justify-start pl-5 pb-6'>
+                <Link to='/kredit-sifarisi' className='text-[14px] text-black font-light ' reloadDocument>Nağd pul krediti</Link>
+                <Link to='/emanet-teminatli-kredit' className='text-[14px] text-black font-light ' reloadDocument>Əmanət təminatlı kredit</Link>
+                <Link to='/avans' className='text-[14px] text-black font-light ' reloadDocument>Avans</Link>
+              </div>
+            )
+            }
+            <div onMouseEnter={() => { setDropdown('Emanetler') }} className="flex  pb-6 items-center justify-between w-full">
+              <NavLink className={'w-[50%] text-[18px] border-b-2 border-transparent hover:border-[#EC3342] text-[#52575c] font-semibold'} reloadDocument>
+                Əmanətlər
+              </NavLink>
+              <MdOutlineKeyboardArrowRight size={20} className={`${dropdown === 'Emanetler' ? "rotate-90" : "rotate-0"}`} />
+            </div>
+            {
+              dropdown === 'Emanetler' && (
+                <div className='flex flex-col gap-2 w-full items-start justify-start pl-5 pb-6'>
+                  <Link className='text-[14px] text-black font-light '>Depozit</Link>
+                  <Link to='/yigim-hesabi' className='text-[14px] text-black font-light ' reloadDocument>Yığım hesabı</Link>
+                  <Link to='/muddetsiz-depozit' className='text-[14px] text-black font-light ' reloadDocument>Müddətsiz depozit</Link>
+                  <Link to='/depozit-seyfleri' className='text-[14px] text-black font-light ' reloadDocument>Depozit seyfləri</Link>
+                </div>
+              )
+            }
+            <NavLink to='/istiqraz' className={'text-[18px] border-b-2 pb-6 border-transparent hover:border-[#EC3342] text-[#52575c] font-semibold'} reloadDocument>İstiqraz</NavLink>
+            <NavLink to='/pul-kocurmeleri' className={'text-[18px] border-b-2 pb-6 border-transparent hover:border-[#EC3342] text-[#52575c] font-semibold'} reloadDocument>Pul köçürmələri</NavLink>
+            <NavLink to='/partners' className={'text-[18px] border-b-2 pb-6 border-transparent hover:border-[#EC3342] text-[#52575c] font-semibold'} reloadDocument>Partnyorlar</NavLink>
+            <NavLink to='/campaigns' className={'text-[18px] border-b-2 pb-6 border-transparent hover:border-[#EC3342] text-[#52575c] font-semibold'} reloadDocument>Kampaniyalar</NavLink>
+            <NavLink to='/news' className={'text-[18px] border-b-2 pb-6 border-transparent hover:border-[#EC3342] text-[#52575c] font-semibold'} reloadDocument>Xəbərlər</NavLink>
           </div>
 
           <div className="flex items-center justify-between w-full my-4">

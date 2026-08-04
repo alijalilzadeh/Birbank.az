@@ -149,7 +149,7 @@ const Services = () => {
             {newsData?.pageProps?.initialState?.home?.services?.map((item, index) => (
               <Link
                 to={item.link.href}
-                key={index}
+                key={index} reloadDocument
                 className="group overflow-hidden relative col-span-3 row-span-2 w-full flex flex-col   bg-[#F3F3F5] rounded-xl px-5.75 py-4 sm:flex-col sm:items-start md:flex-col md:items-start lg:flex-row lg:justify-between lg:items-center"
               >
                 <div className="flex flex-col gap-2 w-full sm:w-full lg:w-[50%]">

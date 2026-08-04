@@ -4138,7 +4138,7 @@
                         "link": {
                             "id": 60,
                             "text": "/",
-                            "href": "https://birbank.az/faq"
+                            "href": "http://localhost:5173/faq"
                         },
                         "image": {
                             "data": {

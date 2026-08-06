@@ -188,28 +188,28 @@ const CarCredit = () => {
               <div className="flex flex-col h-full gap-4 w-full px-4 pt-12 sm:px-4 sm:pt-12 sm:w-full lg:py-12 lg:px-18 lg:w-[70%] ">
                 <h2 className='text-[32px] font-semibold text-white leading-10'>Avtomobil krediti</h2>
                 <p className='text-[16px] font-normal text-white'>Arzuladığınız avtomobili Kapital Bank-ın təqdim etdiyi avto kredit ilə əldə edin.</p>
-                <div className="flex flex-col  gap-3 sm:gap-3  lg:gap-1">
-                  <div className="flex items-center justify-between gap-4">
-                    <div className="flex flex-col  gap-3 sm:gap-3  lg:gap-1">
+                <div className="flex flex-col items-start justify-start  gap-3 sm:gap-3  lg:gap-1  lg:justify-center">
+                  <div className="flex flex-col items-start justify-between gap-4 lg:flex-row">
+                    <div className="flex flex-col  gap-3 sm:gap-3 items-start lg:gap-1">
                       <span className='font-semibold text-[18px] text-white'>10%-dən</span>
                       <span className='font-normal text-[14px] text-white'>İlkin ödəniş</span>
                     </div>
-                    <div className="flex flex-col  gap-3 sm:gap-3  lg:gap-1">
+                    <div className="flex flex-col  gap-3 sm:gap-3 items-start lg:gap-1">
                       <span className='font-semibold text-[18px] text-white'>min. 12 ay - maks. 59 ay</span>
                       <span className='font-normal text-[14px] text-white'>Kreditin müddəti</span>
                     </div>
-                    <div className="flex flex-col  gap-3 sm:gap-3  lg:gap-1">
+                    <div className="flex flex-col  gap-3 sm:gap-3 items-start lg:gap-1">
                       <span className='font-semibold text-[18px] text-white'>12%-dən</span>
                       <span className='font-normal text-[14px] text-white'>İllik faiz</span>
                     </div>
                   </div>
-                  <div className="flex items-center  gap-20">
-                    <div className="flex flex-col ">
+                  <div className="flex flex-col items-start gap-5 lg:gap-20 lg:flex-row ">
+                    <div className="flex flex-col items-start ">
                       <span className='font-semibold text-[18px] text-white'>Annuitet</span>
                       <span className='font-normal text-[14px] text-white'>Ödəniş növü</span>
 
                     </div>
-                    <div className="flex flex-col ">
+                    <div className="flex flex-col items-start">
                       <span className='font-semibold text-[18px] text-white'>min. 5 000 AZN – mаks. 200 000 AZN</span>
                       <span className='font-normal text-[14px] text-white'>Kreditin məbləği</span>
                     </div>
@@ -291,10 +291,10 @@ const CarCredit = () => {
             <h2 className='text-[30px] text-[#222222] font-semibold mt-10 -mb-5 text-start flex items-start'>Məlumatlar</h2>
           </div>
           <div className="flex flex-col gap-5 items-center justify-center w-full my-15 bg-[#F9F9FA] py-6">
-            <div className="inline-flex w-fit items-center justify-center bg-[#F3F3F5] rounded-[5px]  overflow-hidden">
+            <div className="inline-flex  whitespace-wrap w-fit overflow-x-auto bg-[#f3f3f5] rounded-sm md:overflow-x-hidden">
               {
                 CarCreditInfo.map((item, id) => (
-                  <span onClick={() => setSelectedFaq(item.category)} key={id} className={`cursor-pointer p-2 ${selectedFaq === item.category ? "text-white bg-[#52575C] rounded-[5px]" : "text-black   bg-[#F3F3F5] hover:bg-[#A0A4A8] rounded-[5px]"} transition duration-200 text-[16px] px-5 font-semibold `}> {item.category}</span>
+                  <span onClick={() => setSelectedFaq(item.category)} key={id} className={`text-center self-center cursor-pointer  ${selectedFaq === item.category ? "text-white bg-[#52575C] rounded-[5px]" : "text-black   bg-[#F3F3F5] hover:bg-[#A0A4A8] rounded-[5px]"} transition duration-200 text-[14px] md:text-[16px] px-1.5 py-1 lg:px-5 lg:p-2 font-semibold `}> {item.category}</span>
                 ))
               }
             </div>

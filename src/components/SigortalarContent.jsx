@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
+import '../index.css'
 import InsuranceImg from '../assets/Sigortalar/insurances_banner.png'
 import OptimalKasko from '../assets/Sigortalar/OptimalKasko.png'
 import Phising from '../assets/Sigortalar/Phising.png'
@@ -99,7 +100,7 @@ const SigortalarContent = () => {
             <div className=" flex justify-between rounded-xl bg-[#F9F9FA] px-6 pt-6 pb-9 w-full relative h-full">
               <div className="flex flex-col gap-8 justify-between w-[50%]">
                 <div className="flex flex-col w-full">
-                  <h2 className='text-[24px] text-[#222222] font-medium mb-4 leading-7'>Optimal kasko</h2>
+                  <h2 className='text-[24px] text-[#222222] font-medium mb-4 leading-7 w-full'>Optimal kasko</h2>
                   <p className='text-[14px] font-light text-[#222222]'>Optimal Kasko sığortası PAŞA Sığorta şirkətinin Kapital Bank müştəriləri üçün təqdim etdiyi sığorta məhsuludur.</p>
                 </div>
                 <Link className="flex gap-1 items-center ">
@@ -107,7 +108,7 @@ const SigortalarContent = () => {
                   <HiMiniArrowLongRight className='text-red-600 flex items-center justify-center align-center' />
                 </Link>
               </div>
-              <img src={OptimalKasko} className='object-contain absolute bottom-0 right-5 w-60 ' />
+              <img src={OptimalKasko} className='object-cover absolute bottom-0 right-0 sm:right-5 w-60' />
             </div>
 
             <div className=" flex justify-between rounded-xl bg-[#F9F9FA] px-6 pt-6 pb-9 w-full relative h-full">

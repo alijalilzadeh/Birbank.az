@@ -49,24 +49,24 @@ const CurrecyRateSection = () => {
         />
       </Helmet>
       <div className="flex  items-center justify-center w-full selection:bg-[#B3D4FC]">
-        <div className="flex flex-col justify-center w-[75%] gap-7 mb-15">
+        <div className="flex flex-col justify-center  gap-7 mb-15 w-[95%] sm:w-[75%] md:w-[95%] lg:w-[75%]">
           <div className="flex flex-col justify-center  gap-7">
             <h2 className='text-[24px] text-[#25282b] font-bold self-start'>{newsData.pageProps.messages.home.exchangeRate.exchangeRates}</h2>
             <div className="flex gap-2 items-center">
-              <Link to='/' className='text-[14px] text-[#6d7478] font-[400] p-[15px]'>Ana Səhifə</Link>
+              <Link to='/' className='text-[14px] text-[#6d7478] font-normal p-3.75'>Ana Səhifə</Link>
               <Link to='/currency-rates' className='text-[14px] text-[#25282b] font-normal py-3.75'>Valyuta Məzənnəsi</Link>
             </div>
-            <div className="flex items-center justify-between w-full relative rounded-[10px] bg-[linear-gradient(98.65deg,rgb(236,50,66)_0%,rgb(153,0,0)_100%)]">
-              <div className="flex flex-col gap-3 px-18 py-24 w-[60%]">
-                <h2 className='text-[32px] text-white font-semibold'>Valyuta məzənnəsi</h2>
+            <div className="flex flex-col items-center justify-between w-full relative rounded-[10px] bg-[linear-gradient(98.65deg,rgb(236,50,66)_0%,rgb(153,0,0)_100%)] lg:flex-row">
+              <div className="flex flex-col gap-3 w-full px-4 py-12 sm:px-4 sm:py-12 lg:px-18 lg:py-24 lg:w-[60%]">
+                <h2 className='text-[30px] lg:text-[32px] text-white font-semibold'>Valyuta məzənnəsi</h2>
                 <p className='text-[16px] text-white font-normal'>Azərbaycan Respublikasının Mərkəzi Bankı tərəfindən müəyyən edilən rəsmi gündəlik məzənnələr əsasında təqdim olunan ən son valyuta məzənnələri ilə tanış ola bilərsiniz. Daha ətraflı məlumat əldə etmək və sərfəli valyuta mübadiləsi imkanlarından yararlanmaq üçün sizə ən yaxın filialımıza müraciət etməyiniz tövsiyə olunur.</p>
               </div>
-              <img src={currencyRateBg} className='absolute bottom-0 right-10 w-100 h-75 object-contain ' />
+              <img src={currencyRateBg} className='lg:absolute bottom-0 right-10 w-100 h-75 object-contain ' />
             </div>
           </div>
           <div className="flex flex-col gap-8 w-full mt-12 mb-8 items-center justify-center">
             <h2 className='text-left self-start text-[30px] text-[#222222] font-semibold'>Tez-tez verilən suallar</h2>
-            <div className="flex flex-col   w-[80%]">
+            <div className="flex flex-col  w-[95%] sm:w-[80%]  ">
               {
                 faqData.map((item, index) => {
                   return (

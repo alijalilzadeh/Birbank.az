@@ -255,7 +255,7 @@ const YigimHesabi = () => {
 
                               <div
                                 className={`overflow-hidden w-full flex items-center justify-center transition-all duration-300 ${activeIndex === faqIndex
-                                  ? "max-h-75"
+                                  ? "max-h-150"
                                   : "max-h-0"
                                   }`}
                               >

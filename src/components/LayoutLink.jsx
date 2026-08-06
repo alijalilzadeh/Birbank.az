@@ -30,7 +30,7 @@ const LayoutLink = () => {
                   <h2 className='text-left text-[24px]  sm:text-[42px] text-[#25282b] font-medium'>Depozit</h2>
                   <p className='text-[12px] sm:text-[14px] text-[#25282b] font-normal'>İstər filialda, istərsə də onlayn depozit yerləşdir, qazancını çoxalt</p>
                 </div>
-                <Link className='flex items-center  py-3 rounded-[10px] gap-1'>
+                <Link to='/muddetsiz-depozit' className='flex items-center  py-3 rounded-[10px] gap-1' reloadDocument>
                   <span className='text-[16px] text-[#EC3342] font-semibold'>Sifariş et</span>
                   <GoArrowRight className='text-[24px]  text-[#EC3342] ' />
                 </Link>

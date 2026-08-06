@@ -15,7 +15,7 @@ const Footer = () => {
         <div className="w-[95%] sm:w-[95%] md:w-[95%] lg:w-[75%] flex flex-col ">
           <div className="flex flex-col items-center  py-10 justify-between gap-12 border-b-2 border-b-[#3B3F43] sm:flex-col sm:items-center md:items-center md:flex-col lg:flex-row lg:items-start">
             <div>
-              <Link to="/">
+              <Link to="/" reloadDocument>
                 <img src={BirbankLogo} className="w-65 sm:w-65 lg:w-55" />
               </Link>
             </div>

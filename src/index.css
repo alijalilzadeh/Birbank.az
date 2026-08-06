@@ -5,6 +5,9 @@
 html {
   scroll-behavior: smooth;
 }
+body{
+  margin-top: 85px;
+}
 
 .hide-scrollbar::-webkit-scrollbar {
   display: none;

@@ -53,7 +53,9 @@ const Navbar = () => {
       </div>
       <div className={`flex flex-col items-center justify-center w-full  bg-white border-b-2 border-b-[#ebebf1] fixed top-0 left-0 z-40 lg:hidden`}>
         <div className="flex items-center justify-between w-[95%] sm:w-[75%] md:w-[95%] p-4">
-          <img src={BirbankLogo} className='w-30 object-cover' />
+          <Link to='/' reloadDocument>
+            <img src={BirbankLogo} className='w-30 object-cover' />
+          </Link>
           <div onClick={() => setBtnStatus(!btnStatus)} className={`flex flex-col items-center justify-center gap-1.5 p-1.25  bg-[#ec3342] rounded-sm`}>
             <div className={`flex items-center justify-center w-5.5 border-b-3 border-b-white transition duration-500 transform ${btnStatus ? "rotate-45 translate-y-2" : 'rotate-0 translate-y-0'}`}></div>
             <div className={`flex items-center justify-center w-5.5 border-b-3 border-b-white transition duration-500  ${btnStatus ? "opacity-0" : "opacity-100"}`}></div>
@@ -72,7 +74,7 @@ const Navbar = () => {
           <div className="flex flex-col items-start border-b-2 border-b-[#ebebf1] pb-4 justify-start  w-full">
             <NavLink to="/cards/all" className={'text-[18px] pb-6 border-b-2 border-transparent hover:border-[#EC3342] text-[#52575c] font-semibold'} reloadDocument>Kartlar</NavLink>
             <div onMouseEnter={() => { setDropdown('Kreditler') }} className="flex pb-6 items-center justify-between w-full">
-              <NavLink className={'w-[50%] text-[18px] border-b-2 border-transparent hover:border-[#EC3342] text-[#52575c] font-semibold'} reloadDocument>
+              <NavLink to='/kreditler' className={'w-[50%] text-[18px] border-b-2 border-transparent hover:border-[#EC3342] text-[#52575c] font-semibold'} reloadDocument>
                 Kreditlər
               </NavLink>
               <MdOutlineKeyboardArrowRight size={20} className={`${dropdown === 'Kreditler' ? "rotate-90" : "rotate-0"}`} />
@@ -86,15 +88,15 @@ const Navbar = () => {
             )
             }
             <div onMouseEnter={() => { setDropdown('Emanetler') }} className="flex  pb-6 items-center justify-between w-full">
-              <NavLink className={'w-[50%] text-[18px] border-b-2 border-transparent hover:border-[#EC3342] text-[#52575c] font-semibold'} reloadDocument>
+              <div className={'w-[50%] text-[18px] border-b-2 border-transparent hover:border-[#EC3342] text-[#52575c] font-semibold'} reloadDocument>
                 Əmanətlər
-              </NavLink>
+              </div>
               <MdOutlineKeyboardArrowRight size={20} className={`${dropdown === 'Emanetler' ? "rotate-90" : "rotate-0"}`} />
             </div>
             {
               dropdown === 'Emanetler' && (
                 <div className='flex flex-col gap-2 w-full items-start justify-start pl-5 pb-6'>
-                  <Link className='text-[14px] text-black font-light '>Depozit</Link>
+                  <Link className='text-[14px] text-black font-light ' reloadDocument>Depozit</Link>
                   <Link to='/yigim-hesabi' className='text-[14px] text-black font-light ' reloadDocument>Yığım hesabı</Link>
                   <Link to='/muddetsiz-depozit' className='text-[14px] text-black font-light ' reloadDocument>Müddətsiz depozit</Link>
                   <Link to='/depozit-seyfleri' className='text-[14px] text-black font-light ' reloadDocument>Depozit seyfləri</Link>

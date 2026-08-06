@@ -154,7 +154,7 @@ const MuddetsizDeposit = () => {
               <h2 className='text-[24px] font-semibold mt-12 mb-7.5 text-[#333333] leading-10 md:text-[30px]'>Bilmək faydalıdır</h2>
             </div>
             <div className="flex flex-col w-full gap-5 items-center justify-center p-4 sm:p-4 md:p-6 mb-20 bg-[#F9F9FA]">
-              <div className="inline-flex items-center justify-center w-fit ">
+              <div className="inline-flex items-center justify-center whitespace-nowrap w-fit overflow-x-auto md:overflow-x-hidden">
                 {
                   category.map((item, id) => (
                     <span onClick={() => setSelectedCategory(item.type)} className={`cursor-pointer py-2 ${selectedCategory === item.type ? "text-white bg-[#25282B] rounded-lg" : "text-[#9496AC]   bg-white"}  inline-flex w-fit text-[14px] px-4 font-normal md:text-[16px]`}>{item.type}</span>
@@ -235,7 +235,7 @@ const MuddetsizDeposit = () => {
 
                         <div
                           className={`overflow-hidden w-full flex items-center justify-center transition-all duration-300 ${activeIndex === faqIndex
-                            ? "max-h-75"
+                            ? "max-h-150"
                             : "max-h-0"
                             }`}
                         >

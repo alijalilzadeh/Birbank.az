@@ -75,10 +75,10 @@ const CalculateBenefit = () => {
         <div className="flex flex-col gap-8 w-full sm:w-[75%] md:w-[95%] lg:w-[75%]">
           <div className="flex flex-col items-start  justify-between p-4 gap-2 sm:flex-col md:flex-row  sm:items-start sm:gap-5 lg:items-center lg:p-0 w-full">
             <h2 className=' text-[30px] text-[#222222] font-semibold'>Faydasını hesabla</h2>
-            <div className="inline-flex w-fit  bg-[#F3F3F5] items-center justify-center overflow-hidden rounded-lg">
+            <div className="inline-flex w-fit  bg-[#F3F3F5] items-center justify-center overflow-hidden rounded-lg sm:overflow-x-hidden">
               {
                 calc.map((item) => (
-                  <span onClick={() => setCalculation(item.p)} className={`text-[14px] sm:text-[14px] md:text-[16px] px-6 py-3 ${item.p === calculation ? "text-white  bg-[#25282B] " : "bg-[#F3F3F5] text-[#9498ac]"} cursor-pointer  font-normal rounded-lg`}>{item.p}</span>
+                  <span onClick={() => setCalculation(item.p)} className={`text-[14px] sm:text-[14px] md:text-[16px]  ${item.p === calculation ? "text-white  bg-[#25282B] " : "bg-[#F3F3F5] text-[#9498ac]"} cursor-pointer  font-normal rounded-lg p-3 sm:px-6 sm:py-3`}>{item.p}</span>
 
                 ))
               }

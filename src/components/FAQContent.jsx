@@ -152,11 +152,12 @@ const FAQContent = () => {
               <img src={faqBanner} className=' object-cover flex w-90 sm:w-100  bottom-0 right-10 self-center sm:self-end lg:self-auto lg:absolute' alt="BirPay" />
             </div>
           </div>
-          <div className="flex flex-col gap-5 items-center justify-center w-full my-15">
-            <div className="flex items-center justify-center bg-[#F3F3F5] rounded-lg  overflow-hidden">
+          <div className="flex flex-col gap-5 items-center w-full over  my-15">
+            
+            <div className="inline-flex w-full  bg-[#F3F3F5] rounded-lg overflow-x-auto whitespace-wrap sm:overflow-x-hidden  lg:w-fit ">
               {
                 faqData.map((item, id) => (
-                  <span onClick={() => setSelectedFaq(item.category)} key={id} className={`cursor-pointer  ${selectedFaq === item.category ? "text-white bg-[#25282B] rounded-lg" : "text-[#9496AC]   bg-[#F3F3F5]"}  inline-flex w-fit leading-5 text-[16px] text-center py-0.5 flex-wrap px-1.5 sm:px-1.5 sm:py-0.5 sm:flex-wrap md:flex-nowrap  md:py-2 `}> {item.category}</span>
+                  <span onClick={() => setSelectedFaq(item.category)} key={id} className={`cursor-pointer text-center self-center   ${selectedFaq === item.category ? "text-white bg-[#25282B] rounded-lg" : "text-[#9496AC]   bg-[#F3F3F5]"}  inline-flex w-fit leading-5 text-[16px] text-center py-0.5 flex-wrap px-1.5 sm:px-1.5 sm:py-0.5 sm:flex-wrap md:flex-nowrap  md:py-2 `}> {item.category}</span>
                 ))
               }
             </div>

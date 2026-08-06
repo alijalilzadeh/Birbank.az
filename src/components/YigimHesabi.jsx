@@ -165,18 +165,18 @@ const YigimHesabi = () => {
             <div className="flex flex-col justify-between w-full bg-linear-to-r from-[#EC3242] to-[#EC3242] rounded-[10px] relative overflow-hidden lg:flex-row">
               <div className="flex flex-col w-full gap-10 px-4 pt-12 lg:py-12 lg:px-18 lg:w-[70%]">
                 <h2 className='text-[30px] font-semibold text-white leading-10 lg:text-[32px]'>Pulunu Birbank-la yığ, istəyəndə götür və faiz gəlirlərini itirmə!</h2>
-                <div className="flex items-center justify-between">
-                  <div className="flex flex-col ">
+                <div className="flex items-center flex-wrap justify-between lg:flex-nowrap">
+                  <div className="flex flex-col self-start">
                     <span className='text-[18px] text-white font-semibold'>0 AZN/USD-dan</span>
                     <p className='text-[14px] font-normal text-white'>Minimum məbləğ</p>
                   </div>
 
-                  <div className="flex flex-col ">
+                  <div className="flex flex-col self-start">
                     <span className='text-[18px] text-white font-semibold'>Sərbəst</span>
                     <p className='text-[14px] font-normal text-white'>Müddət</p>
                   </div>
 
-                  <div className="flex flex-col ">
+                  <div className="flex flex-col self-start">
                     <span className='text-[18px] text-white font-semibold'>AZN - 7%, USD - 2.5%</span>
                     <p className='text-[14px] font-normal text-white'>Faiz dərəcəsi(illik)</p>
                   </div>
@@ -215,7 +215,7 @@ const YigimHesabi = () => {
                   filteredDescData.map((item, index) => (
                     <div key={index} className="w-[95%] sm:w-[75%] md:w-[95%] lg:w-[75%]">
 
-                      {selectedCategory === "Yığım hesabı nədir" ? (
+                      {selectedCategory === 'Yığım hesabı nədir' ? (
 
                         <div className="flex flex-col gap-2">
                           <h2 className="text-[24px] font-bold text-[#222222]">

@@ -229,13 +229,10 @@ const IstiqrazPage = () => {
                   </div>
                 ) : (
                   faqData.map((item, index) => (
-                    <div key={index} className="flex flex-col w-full items-center justify-center ">
+                    <div key={index} className="flex flex-col w-full sm:w-full md:w-[90%] lg:w-[60%] items-center justify-center ">
 
-                      <div
-                        onClick={() => toggleFaq(index)}
-                        className="flex border-b border-[#E9EAEC] w-full sm:w-full md:w-[90%] lg:w-[60%] px-3 py-4 items-center justify-between cursor-pointer"
-                      >
-                        <p className='text-[16px] text-[#222222] font-normal'>
+                      <div onClick={() => toggleFaq(index)} className="flex border-b border-[#E9EAEC] w-full px-3 py-4 items-center justify-between cursor-pointer" >
+                        <p className='text-[16px] text-[#222222] w-full font-normal'>
                           {item.question}
                         </p>
 
@@ -246,10 +243,10 @@ const IstiqrazPage = () => {
                       </div>
 
                       <div
-                        className={`overflow-hidden flex items-center justify-center transition-all duration-300 ${activeIndex === index ? "max-h-75" : "max-h-0"
+                        className={`overflow-hidden w-full flex items-center justify-center transition-all duration-300 ${activeIndex === index ? "max-h-75" : "max-h-0"
                           }`}
                       >
-                        <p className='w-[60%] px-8 py-10 text-[16px] font-extralight text-[#222222] bg-[#F3F3F5]'>
+                        <p className='w-full px-8 py-10  text-[16px] font-extralight text-[#222222] bg-[#F3F3F5]'>
                           {item.answer}
                         </p>
                       </div>

@@ -11,7 +11,7 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 const Navbar = () => {
   const [scrollY, setScrollY] = useState(0);
   const [btnStatus, setBtnStatus] = useState(false)
-  const [dropdown, setDropdown] = useState('Kreditler')
+  const [dropdown, setDropdown] = useState('')
 
   useEffect(() => {
     const handleScroll = () => {

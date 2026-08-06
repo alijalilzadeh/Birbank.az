@@ -5,9 +5,7 @@
 html {
   scroll-behavior: smooth;
 }
-body{
-  margin-top: 85px;
-}
+/* */
 
 .hide-scrollbar::-webkit-scrollbar {
   display: none;
@@ -16,4 +14,16 @@ body{
 .hide-scrollbar {
   scrollbar-width: none;
   -ms-overflow-style: none;
+}
+
+@media (min-width: 372px) and (max-width: 1024px) {
+  body {
+    margin-top: 85px;
+  }
+}
+
+@media (min-width: 1025px) {
+  body {
+    margin-top: 0;
+  }
 }

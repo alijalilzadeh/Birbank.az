@@ -2,7 +2,7 @@ import React from 'react'
 import { useState, useEffect, useMemo } from 'react'
 import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet-async'
-import newsData from '../ApIDatas/newsData.json'
+import newsData from '../APIDatas/newsData.json'
 const NewsBlock = () => {
 
   return (

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import newsData from '../ApIDatas/newsData.json'
+import newsData from '../APIDatas/newsData.json'
 import { Link } from 'react-router-dom'
 import ninjaCardImg from '../assets/Ninja/ninjaCard.png'
 import { CgAsterisk } from "react-icons/cg";

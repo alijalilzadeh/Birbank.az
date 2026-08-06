@@ -1,11 +1,11 @@
 import React from 'react'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import newsData from '../ApIDatas/newsData.json'
+import newsData from '../APIDatas/newsData.json'
 import { GiConfirmed } from "react-icons/gi";
 import NewCardBanner from '../assets/Cards/new_cards_banner.png'
 import BirBankStar from '../assets/Cards/birbank-star.avif'
-import BirbankCashback from '../assets/Cards/Birbank-cashback.avif'
+import BirbankCashback from '../assets/Cards/BirBank-cashback.avif'
 import BirbankPlatinumMiles from '../assets/Cards/Birbank-platinum-miles.avif'
 import BirbankPlatinum from '../assets/Cards/Birbank-platinum.avif'
 import BirbankMiles from '../assets/Cards/Birbank-miles.avif'

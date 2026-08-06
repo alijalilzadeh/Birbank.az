@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { IoIosArrowDown } from "react-icons/io";
 import { GoArrowRight } from "react-icons/go";
 import { Helmet } from 'react-helmet-async';
-import newsData from '../ApIDatas/newsData.json'
+import newsData from '../APIDatas/newsData.json'
 import currencyRateBg from '../assets/CurrencyRates/currencyBg.svg'
 import MoneyTransfersBg from '../assets/Pul-Kocurmeleri/money_transfers-bg.svg'
 import ZolotayaKorona from '../assets/Pul-Kocurmeleri/zolotoya_korona.svg'

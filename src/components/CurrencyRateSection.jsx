@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import newsData from '../ApIDatas/newsData.json'
+import newsData from '../APIDatas/newsData.json'
 import currencyRateBg from '../assets/CurrencyRates/currencyBg.svg'
 import { useState } from 'react'
 import { IoIosArrowDown } from "react-icons/io";

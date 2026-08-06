@@ -1,5 +1,5 @@
 import React from 'react'
-import newsData from '../ApIDatas/newsData.json'
+import newsData from '../APIDatas/newsData.json'
 import { Link } from 'react-router-dom';
 import { GoArrowRight } from "react-icons/go";
 const HomeNews = () => {
